@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospedagem — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Onde ficar em Alegrete: hotéis, pousadas e camping com contato e localização no mapa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_stay">Hospedagem</span></div>
+      <h1 data-i18n="stay_h">Hotéis, pousadas e camping</h1>
+      <p class="lead" data-i18n="stay_lead">Do conforto no centro às pousadas de campo: onde descansar depois de um dia de Pampa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="stay_pre">Onde ficar</span>
+        <h2 data-i18n="stay_h">Hotéis, pousadas e camping</h2>
+        <p data-i18n="stay_p">Opções para todos os bolsos e estilos — do executivo ao turismo rural e ao motorhome.</p>
+      </div>
+      <div class="filter-bar" id="stayFilter"></div>
+      <div class="grid grid-3" id="stayList"></div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" data-i18n="stay_map_h">No mapa</span>
+        <h2 data-i18n="stay_map_h">No mapa</h2>
+      </div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'stayList', mapId: 'map', filterId: 'stayFilter',
+        categories: ['hotel', 'pousada', 'camping']
+      });
+    });
+  </script>
+</body>
+</html>

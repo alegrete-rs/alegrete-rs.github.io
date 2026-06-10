@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como Chegar & Transporte — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Como chegar a Alegrete: aeroportos, ônibus para Porto Alegre, Buenos Aires e Montevidéu, rodovias e distâncias." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_getting">Como Chegar</span></div>
+      <h1 data-i18n="getting_h">Como chegar a Alegrete</h1>
+      <p class="lead" data-i18n="getting_lead">Como chegar e como sair: rodovias, ônibus, aeroportos e as distâncias que conectam Alegrete ao mundo.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal"><span class="eyebrow" data-i18n="getting_pre">Logística</span><h2 data-i18n="getting_h">Como chegar a Alegrete</h2></div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico"><i data-lucide="plane"></i></span><div><h4 data-i18n="getting_air_h">De avião</h4><p data-i18n="getting_air_p"></p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="car"></i></span><div><h4 data-i18n="getting_road_h">De carro</h4><p data-i18n="getting_road_p"></p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico"><i data-lucide="bus"></i></span><div><h4 data-i18n="getting_bus_h">De ônibus</h4><p data-i18n="getting_bus_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal"><span class="eyebrow" data-i18n="getting_air_t">Aeroportos próximos</span><h2 data-i18n="getting_air_t">Aeroportos próximos</h2></div>
+      <div class="grid grid-3">
+        <div class="card reveal"><div class="card-body"><span class="chip">~12 km</span><h3>Gaudêncio Machado Ramos</h3><p>Alegrete · BR-290, km 592</p></div></div>
+        <div class="card reveal" data-delay="60"><div class="card-body"><span class="chip">~150 km</span><h3>Aeroporto de Uruguaiana</h3><p>Rubem Berta (URG)</p></div></div>
+        <div class="card reveal" data-delay="120"><div class="card-body"><span class="chip">~218 km</span><h3>Aeroporto de Santa Maria</h3><p>Santa Maria (RIA)</p></div></div>
+        <div class="card reveal"><div class="card-body"><span class="chip">~280 km</span><h3>Sepé Tiaraju</h3><p>Santo Ângelo (GEL)</p></div></div>
+        <div class="card reveal" data-delay="60"><div class="card-body"><span class="chip">~490 km</span><h3>Salgado Filho</h3><p>Porto Alegre (POA)</p></div></div>
+        <div class="card reveal" data-delay="120"><div class="card-body"><span class="chip terra">Hub</span><h3>Uruguaiana</h3><p>Conexões para Buenos Aires e Montevidéu</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start;">
+      <div class="reveal">
+        <div class="section-head"><span class="eyebrow" data-i18n="getting_dist_h">Distâncias a partir de Alegrete</span><h2 data-i18n="getting_dist_h">Distâncias a partir de Alegrete</h2></div>
+        <table class="dist-table">
+          <thead><tr><th data-i18n="getting_dist_dest">Destino</th><th data-i18n="getting_dist_km">Distância</th></tr></thead>
+          <tbody id="distBody"></tbody>
+        </table>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div class="section-head"><span class="eyebrow" data-i18n="getting_map_h">Alegrete no mapa</span><h2 data-i18n="getting_map_h">Alegrete no mapa</h2></div>
+        <div class="map-shell"><div id="map" class="leaflet-map" style="height:420px"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    function flag(p) { return p === 'AR' ? '🇦🇷' : p === 'UY' ? '🇺🇾' : '🇧🇷'; }
+    function renderDistances() {
+      fetch('data/distancias.json').then(r => r.json()).then(list => {
+        const body = document.getElementById('distBody');
+        if (!body) return;
+        body.innerHTML = list.map(d => `<tr><td>${flag(d.pais)} ${d.destino}</td><td>${d.km} km</td></tr>`).join('');
+      });
+    }
+    document.addEventListener('core-ready', function () {
+      renderDistances();
+      if (window.L && document.getElementById('map')) {
+        const map = L.map('map', { scrollWheelZoom: false }).setView([-29.7831, -55.7919], 12);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 19
+        }).addTo(map);
+        const icon = L.divIcon({ className: '', html: '<div class="pin" style="background:#b5482b"></div>', iconSize: [26,26], iconAnchor: [13,26], popupAnchor: [0,-24] });
+        L.marker([-29.7831, -55.7919], { icon }).addTo(map).bindPopup('<b>Alegrete</b><br>Fronteira Oeste · RS');
+        setTimeout(() => map.invalidateSize(), 120);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natureza & Rios — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Natureza em Alegrete: Rio Ibirapuitã, APA do Ibirapuitã, pesca, caiaque, stand up paddle e trilhas ecológicas do Pampa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_nature">Natureza</span></div>
+      <h1 data-i18n="nature_h">Natureza & rios</h1>
+      <p class="lead" data-i18n="nature_lead">O Pampa em estado puro: rios para pescar e remar, a única reserva federal do bioma e trilhas que cruzam a Campanha.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="nature_pre">Ar livre</span>
+        <h2 data-i18n="nature_h">Natureza & rios</h2>
+        <p data-i18n="nature_p">Campos, banhados, matas de galeria e céus enormes — o Pampa convida a desacelerar.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="feature reveal"><span class="ico"><i data-lucide="waves"></i></span><div><h4 data-i18n="nature_river_h">Rio Ibirapuitã</h4><p data-i18n="nature_river_p"></p></div></div>
+        <div class="feature reveal" data-delay="60"><span class="ico"><i data-lucide="trees"></i></span><div><h4 data-i18n="nature_apa_h">APA do Ibirapuitã</h4><p data-i18n="nature_apa_p"></p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="footprints"></i></span><div><h4 data-i18n="nature_trail_h">Trilhas & Caminho do Pampa</h4><p data-i18n="nature_trail_p"></p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="bird"></i></span><div><h4 data-i18n="nature_birds_h">Observação de aves</h4><p data-i18n="nature_birds_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="nature_places_h">Rios, reservas e trilhas</span>
+        <h2 data-i18n="nature_places_h">Rios, reservas e trilhas</h2>
+      </div>
+      <div class="filter-bar" id="natFilter"></div>
+      <div class="grid grid-3" id="natList"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal"><span class="eyebrow" data-i18n="food_map_h">No mapa</span><h2 data-i18n="food_map_h">No mapa</h2></div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'natList', mapId: 'map', filterId: 'natFilter',
+        categories: ['rio', 'reserva', 'trilha']
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "pampa-grill",
+    "categoria": "restaurante",
+    "nome": "Pampa Grill",
+    "descricao": {
+      "pt": "Churrascaria tradicional no centro, com cortes gaúchos e buffet farto.",
+      "es": "Parrillada tradicional en el centro, con cortes gauchos y buffet abundante.",
+      "en": "Traditional steakhouse downtown, with gaúcho cuts and a generous buffet."
+    },
+    "endereco": "Rua Gaspar Martins, 289 - Centro",
+    "telefone": "+55 55 3421-4718",
+    "lat": -29.7836, "lng": -55.7905,
+    "tags": ["churrasco", "centro"],
+    "confirmado": true
+  },
+  {
+    "id": "churrascaria-tradicao",
+    "categoria": "restaurante",
+    "nome": "Restaurante e Churrascaria Tradição",
+    "descricao": {
+      "pt": "Casa de carnes campeira com forte presença local e cardápio gaúcho.",
+      "es": "Casa de carnes campera con fuerte presencia local y menú gaucho.",
+      "en": "Frontier grill house with a strong local following and gaúcho menu."
+    },
+    "endereco": "Rua Vasco Alves, 74",
+    "telefone": "+55 55 2026-0638",
+    "instagram": "@restaurantetradicaoalegrete",
+    "lat": -29.7849, "lng": -55.7892,
+    "tags": ["churrasco"],
+    "confirmado": true
+  },
+  {
+    "id": "churrascaria-prodocimo",
+    "categoria": "restaurante",
+    "nome": "Restaurante e Churrascaria Prodócimo",
+    "descricao": {
+      "pt": "Churrasco e pratos do dia ao lado do Clube Casino, no centro.",
+      "es": "Asado y platos del día junto al Club Casino, en el centro.",
+      "en": "Barbecue and daily dishes next to the Casino Club, downtown."
+    },
+    "endereco": "Rua General Vitorino, 117 - Centro",
+    "telefone": "+55 51 99691-8098",
+    "lat": -29.7828, "lng": -55.7918,
+    "tags": ["churrasco", "centro"],
+    "confirmado": true
+  },
+  {
+    "id": "q-brasa",
+    "categoria": "restaurante",
+    "nome": "Q Brasa Culinária Gaúcha",
+    "descricao": {
+      "pt": "Culinária gaúcha na brasa, com ambiente para famílias.",
+      "es": "Cocina gaucha a la brasa, con ambiente para familias.",
+      "en": "Gaúcho cuisine over embers, in a family-friendly setting."
+    },
+    "endereco": "Rua Bento Manoel, 700",
+    "telefone": "+55 55 98454-8648",
+    "lat": -29.7861, "lng": -55.7869,
+    "tags": ["churrasco"],
+    "confirmado": true
+  },
+  {
+    "id": "cantina-italiana",
+    "categoria": "restaurante",
+    "nome": "Cantina Italiana",
+    "descricao": {
+      "pt": "Massas e pratos italianos no coração de Alegrete.",
+      "es": "Pastas y platos italianos en el corazón de Alegrete.",
+      "en": "Pasta and Italian dishes in the heart of Alegrete."
+    },
+    "endereco": "Centro",
+    "lat": -29.7822, "lng": -55.7896,
+    "tags": ["italiana"],
+    "confirmado": false
+  },
+  {
+    "id": "capri-restaurante",
+    "categoria": "restaurante",
+    "nome": "Capri Restaurante",
+    "descricao": {
+      "pt": "Restaurante de cozinha variada, opção para o almoço executivo.",
+      "es": "Restaurante de cocina variada, opción para el almuerzo ejecutivo.",
+      "en": "Varied-cuisine restaurant, a solid lunch option."
+    },
+    "endereco": "Centro",
+    "lat": -29.7841, "lng": -55.7929,
+    "tags": ["almoço"],
+    "confirmado": false
+  },
+  {
+    "id": "casa-do-frango",
+    "categoria": "restaurante",
+    "nome": "Casa do Frango",
+    "descricao": {
+      "pt": "Especialidades de frango assado e pratos para levar.",
+      "es": "Especialidades de pollo asado y platos para llevar.",
+      "en": "Roast chicken specialties and takeaway dishes."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7805, "lng": -55.7888,
+    "tags": ["frango"],
+    "confirmado": false
+  },
+  {
+    "id": "brazao-pizzaria",
+    "categoria": "restaurante",
+    "nome": "Brazão Pizzaria",
+    "descricao": {
+      "pt": "Pizzas no forno e ambiente descontraído para a noite.",
+      "es": "Pizzas al horno y ambiente relajado para la noche.",
+      "en": "Oven-baked pizzas and a relaxed evening vibe."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7799, "lng": -55.7912,
+    "tags": ["pizza"],
+    "confirmado": false
+  },
+  {
+    "id": "busanello",
+    "categoria": "bar",
+    "nome": "Busanello Choperia e Churrascaria",
+    "descricao": {
+      "pt": "Choperia e churrasco, ponto de encontro para o happy hour.",
+      "es": "Cervecería y asado, punto de encuentro para el after office.",
+      "en": "Brewpub and barbecue, a go-to spot for happy hour."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7818, "lng": -55.7935,
+    "tags": ["chopp", "happy hour"],
+    "confirmado": false
+  },
+  {
+    "id": "dom-lagar",
+    "categoria": "bar",
+    "nome": "Dom Lagar Choperia",
+    "descricao": {
+      "pt": "Choperia, pizzaria e churrascaria reunidas num só lugar.",
+      "es": "Cervecería, pizzería y parrilla reunidas en un solo lugar.",
+      "en": "Brewpub, pizzeria and grill all in one place."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7852, "lng": -55.7945,
+    "tags": ["chopp", "pizza"],
+    "confirmado": false
+  },
+  {
+    "id": "bocao-lanches",
+    "categoria": "bar",
+    "nome": "Bocão Lanches",
+    "descricao": {
+      "pt": "Lancheria clássica para um lanche tarde da noite.",
+      "es": "Lanchería clásica para un bocado a altas horas.",
+      "en": "Classic snack bar for a late-night bite."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7791, "lng": -55.7901,
+    "tags": ["lanches"],
+    "confirmado": false
+  },
+  {
+    "id": "butiquim-cafe",
+    "categoria": "cafe",
+    "nome": "Butiquim Café",
+    "descricao": {
+      "pt": "Café aconchegante para um espresso, doces e conversa.",
+      "es": "Café acogedor para un espresso, dulces y charla.",
+      "en": "Cozy café for espresso, sweets and conversation."
+    },
+    "endereco": "Centro",
+    "lat": -29.7831, "lng": -55.7924,
+    "tags": ["café", "doces"],
+    "confirmado": false
+  },
+
+  {
+    "id": "hotel-cavera",
+    "categoria": "hotel",
+    "nome": "Hotel Caverá",
+    "descricao": {
+      "pt": "Hotel com mais de 60 apartamentos e suítes com hidromassagem.",
+      "es": "Hotel con más de 60 apartamentos y suites con hidromasaje.",
+      "en": "Hotel with 60+ rooms and suites featuring hydromassage."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://hotelcavera.com.br/",
+    "lat": -29.7840, "lng": -55.7882,
+    "tags": ["conforto", "centro"],
+    "confirmado": true
+  },
+  {
+    "id": "hotel-alvorada",
+    "categoria": "hotel",
+    "nome": "Hotel Alvorada",
+    "descricao": {
+      "pt": "Hospedagem no coração da cidade, próxima às principais atrações.",
+      "es": "Alojamiento en el corazón de la ciudad, cerca de las atracciones.",
+      "en": "Lodging in the heart of the city, close to the main attractions."
+    },
+    "endereco": "Centro",
+    "website": "https://hotelalvoradaalegrete.com/",
+    "lat": -29.7826, "lng": -55.7909,
+    "tags": ["centro"],
+    "confirmado": true
+  },
+  {
+    "id": "hotel-alegrete",
+    "categoria": "hotel",
+    "nome": "Hotel Alegrete",
+    "descricao": {
+      "pt": "Hotel tradicional da cidade, prático para quem vem a negócios.",
+      "es": "Hotel tradicional de la ciudad, práctico para viajes de negocios.",
+      "en": "A traditional city hotel, handy for business travelers."
+    },
+    "endereco": "Centro",
+    "lat": -29.7820, "lng": -55.7917,
+    "tags": ["negócios"],
+    "confirmado": false
+  },
+  {
+    "id": "pousada-sao-jorge",
+    "categoria": "pousada",
+    "nome": "Hotel Pousada São Jorge",
+    "descricao": {
+      "pt": "Pousada simples e bem localizada no centro.",
+      "es": "Posada sencilla y bien ubicada en el centro.",
+      "en": "Simple, well-located inn downtown."
+    },
+    "endereco": "Centro",
+    "lat": -29.7845, "lng": -55.7901,
+    "tags": ["econômico"],
+    "confirmado": false
+  },
+  {
+    "id": "pousada-mercosul",
+    "categoria": "pousada",
+    "nome": "Pousada Mercosul",
+    "descricao": {
+      "pt": "Opção econômica para estadias curtas em Alegrete.",
+      "es": "Opción económica para estadías cortas en Alegrete.",
+      "en": "Budget option for short stays in Alegrete."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7812, "lng": -55.7889,
+    "tags": ["econômico"],
+    "confirmado": false
+  },
+  {
+    "id": "rambo-hotel",
+    "categoria": "hotel",
+    "nome": "Rambo Hotel",
+    "descricao": {
+      "pt": "Hotel popular entre visitantes, com boa relação custo-benefício.",
+      "es": "Hotel popular entre visitantes, con buena relación calidad-precio.",
+      "en": "Popular hotel among visitors, with good value for money."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7808, "lng": -55.7923,
+    "tags": ["custo-benefício"],
+    "confirmado": false
+  },
+  {
+    "id": "pousada-flores",
+    "categoria": "pousada",
+    "nome": "Pousada Flores",
+    "descricao": {
+      "pt": "Pousada acolhedora no centro, com diárias acessíveis.",
+      "es": "Posada acogedora en el centro, con tarifas accesibles.",
+      "en": "Welcoming inn downtown, with affordable rates."
+    },
+    "endereco": "Centro",
+    "lat": -29.7837, "lng": -55.7935,
+    "tags": ["econômico", "centro"],
+    "confirmado": false
+  },
+  {
+    "id": "camping-ibirapuita",
+    "categoria": "camping",
+    "nome": "Camping & Motorhome — Orla do Ibirapuitã",
+    "descricao": {
+      "pt": "Área para camping e motorhome junto ao rio, em contato com a natureza.",
+      "es": "Área para camping y autocaravana junto al río, en plena naturaleza.",
+      "en": "Camping and motorhome area by the river, surrounded by nature."
+    },
+    "endereco": "Orla do Rio Ibirapuitã - Alegrete",
+    "lat": -29.7765, "lng": -55.7836,
+    "tags": ["natureza", "rio"],
+    "confirmado": false
+  },
+
+  {
+    "id": "meia-maratona",
+    "categoria": "esporte",
+    "nome": "Meia Maratona da Independência",
+    "descricao": {
+      "pt": "Prova de rua tradicional da cidade, reunindo corredores da região.",
+      "es": "Carrera de calle tradicional de la ciudad, reúne corredores de la región.",
+      "en": "The city's traditional road race, gathering runners from the region."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@meiamaratonaalegrete",
+    "lat": -29.7833, "lng": -55.7900,
+    "tags": ["corrida", "evento"],
+    "confirmado": true
+  },
+  {
+    "id": "circuito-conesul",
+    "categoria": "esporte",
+    "nome": "Circuito de Corridas Conesul — Etapa Alegrete",
+    "descricao": {
+      "pt": "Etapa alegretense de um circuito regional de corridas de rua.",
+      "es": "Etapa de Alegrete de un circuito regional de carreras de calle.",
+      "en": "Alegrete stage of a regional road-running circuit."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7847, "lng": -55.7915,
+    "tags": ["corrida"],
+    "confirmado": false
+  },
+  {
+    "id": "padel-alegrete",
+    "categoria": "quadra",
+    "nome": "Arena de Padel",
+    "descricao": {
+      "pt": "Quadras de padel — esporte em franca expansão na cidade.",
+      "es": "Canchas de pádel — deporte en plena expansión en la ciudad.",
+      "en": "Padel courts — a fast-growing sport in town."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7878, "lng": -55.7861,
+    "tags": ["padel"],
+    "confirmado": false
+  },
+  {
+    "id": "society-alegrete",
+    "categoria": "quadra",
+    "nome": "Quadras de Futebol Society",
+    "descricao": {
+      "pt": "Campos society para a pelada entre amigos, com aluguel por hora.",
+      "es": "Canchas de fútbol society para el partido entre amigos, alquiler por hora.",
+      "en": "Football (society) pitches for a game with friends, rented by the hour."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7889, "lng": -55.7904,
+    "tags": ["futebol", "society"],
+    "confirmado": false
+  },
+  {
+    "id": "hipica-alegrete",
+    "categoria": "esporte",
+    "nome": "Temporada Hípica de Alegrete",
+    "descricao": {
+      "pt": "Provas e corridas de cavalos que celebram a tradição equestre local.",
+      "es": "Pruebas y carreras de caballos que celebran la tradición ecuestre local.",
+      "en": "Horse races and contests celebrating the local equestrian tradition."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7905, "lng": -55.7820,
+    "tags": ["hipismo", "cavalo"],
+    "confirmado": false
+  },
+
+  {
+    "id": "rio-ibirapuita",
+    "categoria": "rio",
+    "nome": "Rio Ibirapuitã",
+    "descricao": {
+      "pt": "O rio que abraça Alegrete: pesca, caiaque, stand up paddle e barco.",
+      "es": "El río que abraza Alegrete: pesca, kayak, stand up paddle y barco.",
+      "en": "The river embracing Alegrete: fishing, kayaking, SUP and boating."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7720, "lng": -55.7810,
+    "tags": ["pesca", "caiaque", "sup"],
+    "confirmado": true
+  },
+  {
+    "id": "rio-ibicui",
+    "categoria": "rio",
+    "nome": "Rio Ibicuí",
+    "descricao": {
+      "pt": "Importante rio da região, procurado por pescadores e ribeirinhos.",
+      "es": "Importante río de la región, buscado por pescadores y ribereños.",
+      "en": "A major regional river, sought out by anglers and riverside folk."
+    },
+    "endereco": "Região de Alegrete - RS",
+    "lat": -29.4100, "lng": -56.0000,
+    "tags": ["pesca"],
+    "confirmado": false
+  },
+  {
+    "id": "apa-ibirapuita",
+    "categoria": "reserva",
+    "nome": "APA do Ibirapuitã",
+    "descricao": {
+      "pt": "Cerca de 317 mil ha — a única Área de Proteção Ambiental federal do bioma Pampa.",
+      "es": "Cerca de 317 mil ha — la única Área de Protección Ambiental federal del bioma Pampa.",
+      "en": "About 317,000 ha — the only federal Environmental Protection Area in the Pampa biome."
+    },
+    "endereco": "Alegrete / Sant'Ana do Livramento / Quaraí / Rosário do Sul",
+    "lat": -30.1000, "lng": -55.6500,
+    "tags": ["pampa", "conservação"],
+    "confirmado": true
+  },
+  {
+    "id": "rebio-ibirapuita",
+    "categoria": "reserva",
+    "nome": "Reserva Biológica do Ibirapuitã",
+    "descricao": {
+      "pt": "Unidade de conservação às margens do rio, no sudoeste do estado.",
+      "es": "Unidad de conservación a orillas del río, en el suroeste del estado.",
+      "en": "A conservation unit on the river's banks, in the state's southwest."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.9000, "lng": -55.7000,
+    "tags": ["conservação"],
+    "confirmado": false
+  },
+  {
+    "id": "caminho-do-pampa",
+    "categoria": "trilha",
+    "nome": "Caminho do Pampa",
+    "descricao": {
+      "pt": "Trilha de longo curso pela APA, dezenas de km mapeados para o turismo sustentável.",
+      "es": "Sendero de largo recorrido por la APA, decenas de km mapeados para turismo sostenible.",
+      "en": "Long-distance trail through the EPA, dozens of km mapped for sustainable tourism."
+    },
+    "endereco": "APA do Ibirapuitã",
+    "lat": -30.0500, "lng": -55.6000,
+    "tags": ["trilha", "trekking"],
+    "confirmado": true
+  },
+  {
+    "id": "cascata-no-pampa",
+    "categoria": "trilha",
+    "nome": "Cascata no Pampa",
+    "descricao": {
+      "pt": "Trilha rural até uma cascata, ideal para um dia de ecoturismo.",
+      "es": "Sendero rural hasta una cascada, ideal para un día de ecoturismo.",
+      "en": "Rural trail to a waterfall, perfect for a day of ecotourism."
+    },
+    "endereco": "Zona rural de Alegrete",
+    "lat": -29.9500, "lng": -55.6500,
+    "tags": ["cascata", "ecoturismo"],
+    "confirmado": false
+  },
+
+  {
+    "id": "freeshop-rivera",
+    "categoria": "freeshop",
+    "nome": "Free Shops de Rivera (Uruguai)",
+    "descricao": {
+      "pt": "Dezenas de free shops na fronteira com Sant'Ana do Livramento: vinhos, perfumes e eletrônicos.",
+      "es": "Decenas de free shops en la frontera con Sant'Ana do Livramento: vinos, perfumes y electrónicos.",
+      "en": "Dozens of free shops on the Sant'Ana do Livramento border: wines, perfumes and electronics."
+    },
+    "endereco": "Rivera, Uruguai (fronteira com Sant'Ana do Livramento)",
+    "lat": -30.9024, "lng": -55.5503,
+    "tags": ["compras", "uruguai"],
+    "confirmado": true
+  },
+  {
+    "id": "freeshop-uruguaiana",
+    "categoria": "freeshop",
+    "nome": "Free Shops Uruguaiana / Paso de los Libres",
+    "descricao": {
+      "pt": "Fronteira com a Argentina (Paso de los Libres), com free shops e comércio movimentado.",
+      "es": "Frontera con Argentina (Paso de los Libres), con free shops y comercio activo.",
+      "en": "Border with Argentina (Paso de los Libres), with free shops and lively trade."
+    },
+    "endereco": "Uruguaiana - RS / Paso de los Libres - AR",
+    "lat": -29.7547, "lng": -57.0883,
+    "tags": ["compras", "argentina"],
+    "confirmado": true
+  },
+  {
+    "id": "freeshop-artigas",
+    "categoria": "freeshop",
+    "nome": "Free Shops de Artigas (Uruguai)",
+    "descricao": {
+      "pt": "Cidade-gêmea de Quaraí, alternativa mais tranquila para compras na fronteira.",
+      "es": "Ciudad gemela de Quaraí, alternativa más tranquila para compras en la frontera.",
+      "en": "Twin city of Quaraí, a calmer alternative for border shopping."
+    },
+    "endereco": "Artigas, Uruguai (fronteira com Quaraí)",
+    "lat": -30.4007, "lng": -56.4640,
+    "tags": ["compras", "uruguai"],
+    "confirmado": false
+  },
+  {
+    "id": "freeshop-salto",
+    "categoria": "freeshop",
+    "nome": "Free Shops de Salto (Uruguai)",
+    "descricao": {
+      "pt": "Combine compras com as famosas termas de Salto, no rio Uruguai.",
+      "es": "Combine las compras con las famosas termas de Salto, sobre el río Uruguay.",
+      "en": "Pair shopping with the famous Salto hot springs on the Uruguay River."
+    },
+    "endereco": "Salto, Uruguai",
+    "lat": -31.3833, "lng": -57.9667,
+    "tags": ["compras", "termas"],
+    "confirmado": false
+  },
+
+  {
+    "id": "vinicola-almaden",
+    "categoria": "vinicola",
+    "nome": "Vinícola Almadén (Grupo Miolo)",
+    "descricao": {
+      "pt": "O maior vinhedo do Brasil (450 ha) com museu, deck panorâmico, degustações e o Trem do Pampa.",
+      "es": "El mayor viñedo de Brasil (450 ha) con museo, deck panorámico, degustaciones y el Tren de la Pampa.",
+      "en": "Brazil's largest vineyard (450 ha) with a museum, panoramic deck, tastings and the Pampa Train."
+    },
+    "endereco": "Sant'Ana do Livramento - RS",
+    "lat": -30.9500, "lng": -55.5300,
+    "tags": ["vinho", "enoturismo"],
+    "confirmado": true
+  },
+  {
+    "id": "vinicola-guatambu",
+    "categoria": "vinicola",
+    "nome": "Vinícola Guatambu",
+    "descricao": {
+      "pt": "Uma das mais elegantes da rota, em Dom Pedrito, com tours, degustação e piquenique.",
+      "es": "Una de las más elegantes de la ruta, en Dom Pedrito, con tours, degustación y picnic.",
+      "en": "One of the route's most elegant wineries, in Dom Pedrito, with tours, tastings and picnics."
+    },
+    "endereco": "Dom Pedrito - RS",
+    "lat": -30.9828, "lng": -54.6731,
+    "tags": ["vinho", "enoturismo"],
+    "confirmado": true
+  },
+  {
+    "id": "termas-salto",
+    "categoria": "atracao",
+    "nome": "Termas de Salto (Uruguai)",
+    "descricao": {
+      "pt": "Complexos termais às margens do rio Uruguai, ótimos para relaxar em família.",
+      "es": "Complejos termales a orillas del río Uruguay, ideales para relajarse en familia.",
+      "en": "Hot-spring complexes by the Uruguay River, great for family relaxation."
+    },
+    "endereco": "Salto, Uruguai",
+    "lat": -31.3833, "lng": -57.9667,
+    "tags": ["termas", "uruguai"],
+    "confirmado": false
+  },
+  {
+    "id": "montevideu",
+    "categoria": "atracao",
+    "nome": "Montevidéu (Uruguai)",
+    "descricao": {
+      "pt": "A capital uruguaia, de rambla, praias e história rio-platense.",
+      "es": "La capital uruguaya, de rambla, playas e historia rioplatense.",
+      "en": "Uruguay's capital, of rambla promenades, beaches and River Plate history."
+    },
+    "endereco": "Montevidéu, Uruguai",
+    "lat": -34.9011, "lng": -56.1645,
+    "tags": ["capital", "uruguai"],
+    "confirmado": false
+  },
+  {
+    "id": "buenos-aires",
+    "categoria": "atracao",
+    "nome": "Buenos Aires (Argentina)",
+    "descricao": {
+      "pt": "A vibrante capital argentina, conectada pela fronteira de Uruguaiana.",
+      "es": "La vibrante capital argentina, conectada por la frontera de Uruguaiana.",
+      "en": "Argentina's vibrant capital, connected via the Uruguaiana border."
+    },
+    "endereco": "Buenos Aires, Argentina",
+    "lat": -34.6037, "lng": -58.3816,
+    "tags": ["capital", "argentina"],
+    "confirmado": false
+  },
+  {
+    "id": "corrientes",
+    "categoria": "atracao",
+    "nome": "Corrientes (Argentina)",
+    "descricao": {
+      "pt": "Cidade argentina vizinha, de cultura litorânea e carnaval famoso.",
+      "es": "Ciudad argentina vecina, de cultura litoraleña y carnaval famoso.",
+      "en": "Neighboring Argentine city, known for its riverside culture and famous carnival."
+    },
+    "endereco": "Corrientes, Argentina",
+    "lat": -27.4692, "lng": -58.8306,
+    "tags": ["argentina"],
+    "confirmado": false
+  },
+
+  {
+    "id": "ponte-borges",
+    "categoria": "cultura",
+    "nome": "Ponte Borges de Medeiros",
+    "descricao": {
+      "pt": "Cartão-postal de Alegrete e palco da batalha de 1923, sobre o Ibirapuitã.",
+      "es": "Postal de Alegrete y escenario de la batalla de 1923, sobre el Ibirapuitã.",
+      "en": "Alegrete's postcard and scene of the 1923 battle, over the Ibirapuitã."
+    },
+    "endereco": "Rio Ibirapuitã - Alegrete",
+    "lat": -29.7758, "lng": -55.7848,
+    "tags": ["monumento", "história"],
+    "confirmado": true
+  },
+  {
+    "id": "igreja-matriz",
+    "categoria": "cultura",
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "descricao": {
+      "pt": "Templo em estilo gótico de 1919, marco arquitetônico do centro.",
+      "es": "Templo de estilo gótico de 1919, hito arquitectónico del centro.",
+      "en": "A 1919 Gothic-style church, an architectural landmark downtown."
+    },
+    "endereco": "Praça Getúlio Vargas - Centro",
+    "lat": -29.7832, "lng": -55.7912,
+    "tags": ["igreja", "arquitetura"],
+    "confirmado": true
+  },
+  {
+    "id": "estacao-ferroviaria",
+    "categoria": "cultura",
+    "nome": "Estação Ferroviária",
+    "descricao": {
+      "pt": "Estação centenária que abriga a Maria Fumaça, memória dos trilhos do Pampa.",
+      "es": "Estación centenaria que alberga la locomotora a vapor, memoria de los rieles del Pampa.",
+      "en": "Century-old station home to the steam engine, a memory of the Pampa rails."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7889, "lng": -55.7958,
+    "tags": ["ferrovia", "história"],
+    "confirmado": false
+  },
+  {
+    "id": "museu-oswaldo-aranha",
+    "categoria": "cultura",
+    "nome": "Museu Oswaldo Aranha",
+    "descricao": {
+      "pt": "Acervo do diplomata alegretense que presidiu a Assembleia Geral da ONU.",
+      "es": "Acervo del diplomático de Alegrete que presidió la Asamblea General de la ONU.",
+      "en": "Collection of the Alegrete-born diplomat who chaired the UN General Assembly."
+    },
+    "endereco": "Centro - Alegrete",
+    "lat": -29.7825, "lng": -55.7901,
+    "tags": ["museu", "história"],
+    "confirmado": false
+  }
+]

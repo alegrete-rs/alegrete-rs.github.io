@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esportes & Lazer — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Esportes em Alegrete: corridas, padel, caiaque, quadras de futebol society e hipismo, com localização no mapa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_sports">Esportes</span></div>
+      <h1 data-i18n="sports_h">Esportes & lazer</h1>
+      <p class="lead" data-i18n="sports_lead">Corridas pelo Pampa, padel, caiaque no Ibirapuitã, hipismo e quadras para a pelada de sempre.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="sports_pre">Mexa-se</span>
+        <h2 data-i18n="sports_h">Esportes & lazer</h2>
+        <p data-i18n="sports_p">Uma cidade ativa o ano inteiro: do asfalto às águas, do campo às quadras.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="feature reveal"><span class="ico"><i data-lucide="footprints"></i></span><div><h4 data-i18n="sports_run_h">Corridas de rua</h4><p data-i18n="sports_run_p"></p></div></div>
+        <div class="feature reveal" data-delay="60"><span class="ico"><i data-lucide="volleyball"></i></span><div><h4 data-i18n="sports_padel_h">Padel & quadras</h4><p data-i18n="sports_padel_p"></p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="waves"></i></span><div><h4 data-i18n="sports_water_h">Esportes náuticos</h4><p data-i18n="sports_water_p"></p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="medal"></i></span><div><h4 data-i18n="sports_horse_h">Hipismo & provas campeiras</h4><p data-i18n="sports_horse_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="sports_places_h">Quadras e espaços esportivos</span>
+        <h2 data-i18n="sports_places_h">Quadras e espaços esportivos</h2>
+      </div>
+      <div class="filter-bar" id="sportFilter"></div>
+      <div class="grid grid-3" id="sportList"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal"><span class="eyebrow" data-i18n="food_map_h">No mapa</span><h2 data-i18n="food_map_h">No mapa</h2></div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'sportList', mapId: 'map', filterId: 'sportFilter',
+        categories: ['esporte', 'quadra']
+      });
+    });
+  </script>
+</body>
+</html>

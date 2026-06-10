@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabores & Gastronomia — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Onde comer em Alegrete: churrasco, linguiça campeira, restaurantes, bares e cafés com contato e localização no mapa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_food">Sabores</span></div>
+      <h1 data-i18n="food_places_h">Restaurantes, bares e cafés</h1>
+      <p class="lead" data-i18n="food_lead">A capital da linguiça campeira: churrasco no fogo de chão, charque, queijos artesanais e o melhor da cozinha do Pampa.</p>
+    </div>
+  </section>
+
+  <!-- Typical food -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="food_typ_pre">Sabores da terra</span>
+        <h2 data-i18n="food_typ_h">O que provar em Alegrete</h2>
+        <p data-i18n="food_typ_p">A cozinha alegretense é puro Pampa: carne, fogo, fartura e o mate sempre por perto.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="feature reveal"><span class="ico"><i data-lucide="flame"></i></span><div><h4 data-i18n="food_t1_h">Churrasco de chão</h4><p data-i18n="food_t1_p"></p></div></div>
+        <div class="feature reveal" data-delay="60"><span class="ico"><i data-lucide="link"></i></span><div><h4 data-i18n="food_t2_h">Linguiça campeira</h4><p data-i18n="food_t2_p"></p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="beef"></i></span><div><h4 data-i18n="food_t3_h">Charque & feijão</h4><p data-i18n="food_t3_p"></p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="cup-soda"></i></span><div><h4 data-i18n="food_t4_h">Doces & mate</h4><p data-i18n="food_t4_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Where to eat -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="food_places_pre">Onde comer</span>
+        <h2 data-i18n="food_places_h">Restaurantes, bares e cafés</h2>
+        <p data-i18n="food_places_p">Uma seleção de endereços com contato e localização.</p>
+      </div>
+      <div class="filter-bar" id="foodFilter"></div>
+      <div class="grid grid-3" id="foodList"></div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" data-i18n="food_map_h">No mapa</span>
+        <h2 data-i18n="food_map_h">No mapa</h2>
+      </div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'foodList',
+        mapId: 'map',
+        filterId: 'foodFilter',
+        categories: ['restaurante', 'bar', 'cafe']
+      });
+    });
+  </script>
+</body>
+</html>

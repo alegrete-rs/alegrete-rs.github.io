@@ -1,0 +1,108 @@
+[
+  {
+    "id": "carnaval",
+    "nome": "Carnaval de Alegrete",
+    "mes": 2,
+    "quando": { "pt": "Fevereiro", "es": "Febrero", "en": "February" },
+    "local": "Av. Tiaraju / Centro",
+    "descricao": {
+      "pt": "Desfiles e festa de rua que aquecem o verão alegretense.",
+      "es": "Desfiles y fiesta callejera que animan el verano de Alegrete.",
+      "en": "Parades and street parties that heat up Alegrete's summer."
+    },
+    "confirmado": false
+  },
+  {
+    "id": "efipan",
+    "nome": "EFIPAN",
+    "mes": 1,
+    "quando": { "pt": "Janeiro (verão)", "es": "Enero (verano)", "en": "January (summer)" },
+    "local": "Alegrete - RS",
+    "descricao": {
+      "pt": "Encontro de Futebol Infantil Pan-Americano, considerado pela FIFA o maior do gênero — já revelou craques como Neymar e Ronaldinho Gaúcho.",
+      "es": "Encuentro de Fútbol Infantil Panamericano, considerado por la FIFA el mayor de su tipo — reveló cracks como Neymar y Ronaldinho Gaúcho.",
+      "en": "Pan-American Youth Football Meeting, regarded by FIFA as the largest of its kind — it has revealed stars like Neymar and Ronaldinho Gaúcho."
+    },
+    "confirmado": false
+  },
+  {
+    "id": "festival-linguica",
+    "nome": "Festival Estadual da Linguiça Campeira",
+    "mes": 4,
+    "quando": { "pt": "Abril", "es": "Abril", "en": "April" },
+    "local": "Parque Dr. Lauro Dornelles",
+    "instagram": "@festivaldalinguicaalegrete",
+    "descricao": {
+      "pt": "A celebração da Capital Estadual da Linguiça Campeira: gastronomia, shows, concursos e a agroindústria do Pampa. Entrada gratuita.",
+      "es": "La celebración de la Capital Estadual del Chorizo Campero: gastronomía, shows, concursos y la agroindustria de la Pampa. Entrada gratuita.",
+      "en": "A celebration of the State Capital of Campfire Sausage: food, concerts, contests and the Pampa agro-industry. Free admission."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "campereada",
+    "nome": "Campereada Internacional",
+    "mes": 7,
+    "quando": { "pt": "Inverno", "es": "Invierno", "en": "Winter" },
+    "local": "Alegrete - RS",
+    "descricao": {
+      "pt": "Realizada desde 1979, reúne as autênticas provas campeiras da região e o melhor da gastronomia gaúcha.",
+      "es": "Realizada desde 1979, reúne las auténticas pruebas camperas de la región y lo mejor de la gastronomía gaucha.",
+      "en": "Held since 1979, it gathers the region's authentic rodeo-skill contests and the best of gaúcho cuisine."
+    },
+    "confirmado": false
+  },
+  {
+    "id": "semana-farroupilha",
+    "nome": "Semana Farroupilha & Desfile de 20 de Setembro",
+    "mes": 9,
+    "quando": { "pt": "Setembro", "es": "Septiembre", "en": "September" },
+    "local": "Centro de Alegrete",
+    "descricao": {
+      "pt": "Alegrete promove o maior Desfile de Cavaleiros do Brasil (desde 1954), com forte participação dos 16 CTGs locais.",
+      "es": "Alegrete realiza el mayor Desfile de Jinetes de Brasil (desde 1954), con fuerte participación de los 16 CTG locales.",
+      "en": "Alegrete hosts Brazil's largest Horsemen's Parade (since 1954), with strong participation from its 16 local CTGs."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "meia-maratona-evt",
+    "nome": "Meia Maratona da Independência",
+    "mes": 9,
+    "quando": { "pt": "Setembro", "es": "Septiembre", "en": "September" },
+    "local": "Alegrete - RS",
+    "instagram": "@meiamaratonaalegrete",
+    "descricao": {
+      "pt": "Prova de rua que une esporte e celebração cívica, reunindo corredores de toda a região.",
+      "es": "Carrera de calle que une deporte y celebración cívica, reuniendo corredores de toda la región.",
+      "en": "A road race blending sport and civic celebration, gathering runners from across the region."
+    },
+    "confirmado": false
+  },
+  {
+    "id": "festa-arroz-milho",
+    "nome": "Festa do Arroz e do Milho (distritos rurais)",
+    "mes": 3,
+    "quando": { "pt": "Verão/Outono", "es": "Verano/Otoño", "en": "Summer/Autumn" },
+    "local": "Distritos rurais de Alegrete",
+    "descricao": {
+      "pt": "Festas dos distritos que celebram a colheita do arroz e do milho, com comida típica e tradição.",
+      "es": "Fiestas de los distritos que celebran la cosecha del arroz y el maíz, con comida típica y tradición.",
+      "en": "District festivals celebrating the rice and corn harvest, with typical food and tradition."
+    },
+    "confirmado": false
+  },
+  {
+    "id": "temporada-hipica",
+    "nome": "Temporada Hípica",
+    "mes": 11,
+    "quando": { "pt": "Primavera", "es": "Primavera", "en": "Spring" },
+    "local": "Prado / Alegrete - RS",
+    "descricao": {
+      "pt": "Corridas e provas equestres que celebram a paixão alegretense pelo cavalo.",
+      "es": "Carreras y pruebas ecuestres que celebran la pasión de Alegrete por el caballo.",
+      "en": "Horse races and equestrian contests celebrating Alegrete's passion for the horse."
+    },
+    "confirmado": false
+  }
+]

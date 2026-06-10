@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore a Região — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Ao redor de Alegrete: vinícolas da Campanha Gaúcha, termas e cidades do Uruguai e da Argentina, com localização no mapa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_region">Região</span></div>
+      <h1 data-i18n="region_h">Explore a região</h1>
+      <p class="lead" data-i18n="region_lead">Do enoturismo da Campanha às termas do Uruguai e às cidades históricas da Argentina — tudo ao alcance de Alegrete.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="region_pre">Além de Alegrete</span>
+        <h2 data-i18n="region_h">Explore a região</h2>
+        <p data-i18n="region_p">Roteiros de um dia ou de fim de semana partindo do Baita Chão.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico"><i data-lucide="grape"></i></span><div><h4 data-i18n="region_wine_h">Vinícolas da Campanha Gaúcha</h4><p data-i18n="region_wine_p"></p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="waves"></i></span><div><h4 data-i18n="region_uy_h">Uruguai</h4><p data-i18n="region_uy_p"></p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico"><i data-lucide="landmark"></i></span><div><h4 data-i18n="region_ar_h">Argentina</h4><p data-i18n="region_ar_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="region_places_h">Destinos da região</span>
+        <h2 data-i18n="region_places_h">Destinos da região</h2>
+      </div>
+      <div class="filter-bar" id="regFilter"></div>
+      <div class="grid grid-3" id="regList"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal"><span class="eyebrow" data-i18n="food_map_h">No mapa</span><h2 data-i18n="food_map_h">No mapa</h2></div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'regList', mapId: 'map', filterId: 'regFilter',
+        categories: ['vinicola', 'atracao']
+      });
+    });
+  </script>
+</body>
+</html>

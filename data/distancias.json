@@ -1,0 +1,12 @@
+[
+  { "destino": "Uruguaiana", "km": 144, "pais": "BR" },
+  { "destino": "Paso de los Libres", "km": 150, "pais": "AR" },
+  { "destino": "Sant'Ana do Livramento", "km": 207, "pais": "BR" },
+  { "destino": "Rivera", "km": 209, "pais": "UY" },
+  { "destino": "Santa Maria", "km": 218, "pais": "BR" },
+  { "destino": "Dom Pedrito", "km": 215, "pais": "BR" },
+  { "destino": "Salto", "km": 335, "pais": "UY" },
+  { "destino": "Porto Alegre", "km": 490, "pais": "BR" },
+  { "destino": "Montevidéu", "km": 712, "pais": "UY" },
+  { "destino": "Buenos Aires", "km": 820, "pais": "AR" }
+]

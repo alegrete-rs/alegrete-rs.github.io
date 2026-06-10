@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compras na Fronteira — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Free shops da fronteira a partir de Alegrete: Rivera, Uruguaiana, Paso de los Libres, Artigas e Salto. Dicas, cota e documentos." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_shopping">Fronteira</span></div>
+      <h1 data-i18n="shop_h">Free shops da fronteira</h1>
+      <p class="lead" data-i18n="shop_lead">Na tríplice fronteira do Mercosul: free shops, perfumes, vinhos e eletrônicos a poucos quilômetros de Alegrete.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="shop_pre">Compras sem impostos</span>
+        <h2 data-i18n="shop_h">Free shops da fronteira</h2>
+        <p data-i18n="shop_p">Alegrete é base perfeita para um bate-volta às cidades-gêmeas do Uruguai e da Argentina.</p>
+      </div>
+      <div class="filter-bar" id="shopFilter"></div>
+      <div class="grid grid-3" id="shopList"></div>
+    </div>
+  </section>
+
+  <section class="section section--green">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="color:var(--gold-2)" data-i18n="shop_tips_h">Antes de cruzar a fronteira</span>
+        <h2 data-i18n="shop_tips_h">Antes de cruzar a fronteira</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico" style="background:rgba(255,255,255,0.12);color:var(--gold-2)"><i data-lucide="id-card"></i></span><div><h4 style="color:#fff" data-i18n="shop_tip1_h">Documento</h4><p style="color:rgba(243,236,220,0.82)" data-i18n="shop_tip1_p"></p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico" style="background:rgba(255,255,255,0.12);color:var(--gold-2)"><i data-lucide="badge-dollar-sign"></i></span><div><h4 style="color:#fff" data-i18n="shop_tip2_h">Cota de compras</h4><p style="color:rgba(243,236,220,0.82)" data-i18n="shop_tip2_p"></p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico" style="background:rgba(255,255,255,0.12);color:var(--gold-2)"><i data-lucide="banknote"></i></span><div><h4 style="color:#fff" data-i18n="shop_tip3_h">Moeda & câmbio</h4><p style="color:rgba(243,236,220,0.82)" data-i18n="shop_tip3_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal"><span class="eyebrow" data-i18n="shop_dest_h">Para onde ir</span><h2 data-i18n="shop_dest_h">Para onde ir</h2></div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'shopList', mapId: 'map', filterId: 'shopFilter',
+        categories: ['freeshop']
+      });
+    });
+  </script>
+</body>
+</html>

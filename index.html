@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alegrete — O Baita Chão | Portal da cidade mais gaúcha do RS</title>
+  <meta name="description" content="Portal de Alegrete-RS: história, gastronomia, hospedagem, esportes, natureza, eventos, compras na fronteira e como chegar. A cidade mais gaúcha do Rio Grande do Sul." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <span class="eyebrow reveal" data-i18n="home_hero_pre">Fronteira Oeste · Pampa Gaúcho</span>
+      <h1 class="reveal" data-delay="80" style="margin-top:18px;">
+        Alegrete
+      </h1>
+      <p class="hero-quote italic-note reveal" data-delay="140" style="margin:2px 0 0;color:var(--terra)">o Baita Chão</p>
+      <p class="lead reveal" data-delay="220" data-i18n="home_hero_lead" style="margin-top:22px;">
+        A “cidade mais gaúcha” do Rio Grande do Sul e o maior município em extensão territorial do estado.
+      </p>
+      <div class="hero-actions reveal" data-delay="300">
+        <a class="btn btn-primary" href="#explorar"><i data-lucide="compass"></i><span data-i18n="home_cta_explore">Descobrir Alegrete</span></a>
+        <a class="btn btn-ghost" href="eventos.html"><i data-lucide="calendar-days"></i><span data-i18n="home_cta_events">Ver agenda de eventos</span></a>
+      </div>
+
+      <div class="grid grid-4 reveal" data-delay="360" style="margin-top:56px;">
+        <div class="stat"><div class="num">1º</div><div class="lbl" data-i18n="home_stat_terr">Maior município do RS em território</div></div>
+        <div class="stat"><div class="num">~73&thinsp;mil</div><div class="lbl" data-i18n="home_stat_pop">habitantes orgulhosos</div></div>
+        <div class="stat"><div class="num">#1</div><div class="lbl" data-i18n="home_stat_pib">Maior PIB agropecuário do RS</div></div>
+        <div class="stat"><div class="num">1626</div><div class="lbl" data-i18n="home_stat_year">Origens ligadas às missões jesuíticas</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section--paper2">
+    <div class="wrap split">
+      <div class="reveal">
+        <span class="eyebrow" data-i18n="home_about_pre">Bem-vindo ao Baita Chão</span>
+        <h2 style="font-size:clamp(2rem,4.4vw,3rem);margin:14px 0 18px;" data-i18n="home_about_h">Onde o Pampa vira identidade</h2>
+        <div class="prose">
+          <p data-i18n="home_about_p1">Às margens do Rio Ibirapuitã, Alegrete guarda a alma do Rio Grande do Sul.</p>
+          <p data-i18n="home_about_p2">Hoje, a cidade une a força do campo à tecnologia.</p>
+        </div>
+      </div>
+      <div class="reveal" data-delay="160">
+        <div class="imgframe">
+          <div class="ph"><i data-lucide="image" style="width:34px;height:34px"></i><span>Pampa · Rio Ibirapuitã</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore grid -->
+  <section class="section" id="explorar">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" data-i18n="home_explore_pre">Por onde começar</span>
+        <h2 data-i18n="home_explore_h">Explore Alegrete</h2>
+        <p data-i18n="home_explore_p">Dez caminhos para conhecer a cidade e a região — escolha o seu.</p>
+      </div>
+      <div class="grid grid-3" id="exploreGrid">
+        <a class="explore-card reveal" href="historia.html">
+          <i data-lucide="landmark" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_history">História</h3>
+          <p data-i18n="exp_history_d">Farrapos, missões e a 3ª Capital da República.</p>
+          <span class="arrow" data-i18n="home_explore_h">Explorar</span>
+        </a>
+        <a class="explore-card v-terra reveal" data-delay="60" href="gastronomia.html">
+          <i data-lucide="utensils-crossed" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_food">Sabores</h3>
+          <p data-i18n="exp_food_d">Churrasco, linguiça campeira e os melhores endereços.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-gold reveal" data-delay="120" href="hospedagem.html">
+          <i data-lucide="bed-double" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_stay">Hospedagem</h3>
+          <p data-i18n="exp_stay_d">Hotéis, pousadas e camping para todos os estilos.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-terra reveal" href="esportes.html">
+          <i data-lucide="medal" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_sports">Esportes</h3>
+          <p data-i18n="exp_sports_d">Corridas, padel, caiaque, quadras e hipismo.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card reveal" data-delay="60" href="natureza.html">
+          <i data-lucide="trees" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_nature">Natureza</h3>
+          <p data-i18n="exp_nature_d">Rios, reservas do Pampa e trilhas ecológicas.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-ink reveal" data-delay="120" href="eventos.html">
+          <i data-lucide="calendar-days" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_events">Eventos</h3>
+          <p data-i18n="exp_events_d">Festival da Linguiça, Campereada e Semana Farroupilha.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-terra reveal" href="compras.html">
+          <i data-lucide="shopping-bag" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_shopping">Fronteira</h3>
+          <p data-i18n="exp_shopping_d">Free shops de Rivera, Uruguaiana e Artigas.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-gold reveal" data-delay="60" href="regiao.html">
+          <i data-lucide="map" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_region">Região</h3>
+          <p data-i18n="exp_region_d">Uruguai, Argentina e as vinícolas da Campanha.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card reveal" data-delay="120" href="como-chegar.html">
+          <i data-lucide="route" style="width:30px;height:30px"></i>
+          <h3 data-i18n="nav_getting">Como Chegar</h3>
+          <p data-i18n="exp_getting_d">Ônibus, aeroportos, rodovias e distâncias.</p>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events preview -->
+  <section class="section section--green">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="color:var(--gold-2)" data-i18n="home_events_pre">O ano inteiro em festa</span>
+        <h2 data-i18n="home_events_h">Eventos que movem a cidade</h2>
+        <p data-i18n="home_events_p">Tradição, sabor e esporte marcam o calendário alegretense.</p>
+      </div>
+      <div class="grid grid-3" id="eventsPreview"></div>
+      <div class="center" style="margin-top:36px;">
+        <a class="btn btn-light" href="eventos.html"><i data-lucide="calendar-days"></i><span data-i18n="home_events_cta">Calendário completo</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Useful links -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow" data-i18n="home_links_pre">Atalhos úteis</span>
+        <h2 data-i18n="home_links_h">Perfis e canais para acompanhar</h2>
+        <p data-i18n="home_links_p">Fontes oficiais e perfis locais com informação atualizada do dia a dia.</p>
+      </div>
+      <div class="grid grid-3" id="linksGrid"></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    function renderHomeDynamic() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const pick = (o) => (o && (o[lang] || o.pt)) || '';
+
+      fetch('data/eventos.json').then(r => r.json()).then(list => {
+        const featured = ['festival-linguica', 'semana-farroupilha', 'campereada'];
+        const items = list.filter(e => featured.includes(e.id));
+        const el = document.getElementById('eventsPreview');
+        if (!el) return;
+        el.innerHTML = items.map((e, i) => `
+          <article class="card reveal" data-delay="${i*70}" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.14)">
+            <div class="card-body">
+              <span class="chip gold">${pick(e.quando)}</span>
+              <h3 style="color:#fff">${e.nome}</h3>
+              <p style="color:rgba(243,236,220,0.82)">${pick(e.descricao)}</p>
+            </div>
+          </article>`).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      });
+
+      fetch('data/links.json').then(r => r.json()).then(list => {
+        const el = document.getElementById('linksGrid');
+        if (!el) return;
+        el.innerHTML = list.map((l, i) => `
+          <a class="card reveal" data-delay="${(i%3)*70}" href="${l.url}" target="_blank" rel="noopener">
+            <div class="card-body" style="flex-direction:row;align-items:flex-start;gap:14px">
+              <span class="feature" style="display:block"><span class="ico"><i data-lucide="${l.icon || 'link'}"></i></span></span>
+              <span>
+                <h3 style="font-size:1.1rem">${l.titulo}</h3>
+                <p style="margin:4px 0 8px">${pick(l.desc)}</p>
+                ${l.instagram ? `<span class="chip terra">${l.instagram}</span>` : `<span class="chip">${l.url.replace('https://','').replace(/\/+$/,'')}</span>`}
+              </span>
+            </div>
+          </a>`).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      });
+    }
+    document.addEventListener('core-ready', renderHomeDynamic);
+    document.addEventListener('langchange', renderHomeDynamic);
+  </script>
+</body>
+</html>

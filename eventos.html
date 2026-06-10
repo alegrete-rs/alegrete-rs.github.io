@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos & Festas — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Calendário de eventos de Alegrete: Festival da Linguiça, Campereada, Semana Farroupilha, desfile de 20 de setembro, EFIPAN e mais." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_events">Eventos</span></div>
+      <h1 data-i18n="events_h">Grandes eventos do ano</h1>
+      <p class="lead" data-i18n="events_lead">Tradição, sabor e esporte o ano inteiro — o calendário que faz Alegrete pulsar.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:880px;">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="events_pre">Agenda</span>
+        <h2 data-i18n="events_h">Grandes eventos do ano</h2>
+        <p data-i18n="events_p">As datas que reúnem moradores e visitantes em torno da cultura gaúcha.</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+      <p class="muted reveal" style="margin-top:24px;font-size:0.9rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="events_note">Datas podem variar a cada edição — confirme nos canais oficiais.</span></p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    function renderTimeline() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const pick = (o) => (o && (o[lang] || o.pt)) || '';
+      fetch('data/eventos.json').then(r => r.json()).then(list => {
+        list.sort((a, b) => a.mes - b.mes);
+        const el = document.getElementById('timeline');
+        if (!el) return;
+        el.innerHTML = list.map((e, i) => `
+          <div class="tl-item reveal" data-delay="${(i%4)*60}">
+            <div class="tl-when">${pick(e.quando)}<small>${e.local || ''}</small></div>
+            <div class="tl-body">
+              <h3>${e.nome}</h3>
+              <p style="margin:0">${pick(e.descricao)}</p>
+              ${e.instagram ? `<a class="chip terra" style="margin-top:10px" href="https://instagram.com/${e.instagram.replace('@','')}" target="_blank" rel="noopener">${e.instagram}</a>` : ''}
+              ${e.confirmado === false ? `<span class="badge-unconfirmed" style="margin-top:10px"><i data-lucide="alert-circle" style="width:12px;height:12px"></i>${window.t('to_confirm','A confirmar')}</span>` : ''}
+            </div>
+          </div>`).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      });
+    }
+    document.addEventListener('core-ready', renderTimeline);
+    document.addEventListener('langchange', renderTimeline);
+  </script>
+</body>
+</html>

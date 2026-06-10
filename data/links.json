@@ -1,0 +1,72 @@
+[
+  {
+    "id": "prefeitura",
+    "titulo": "Prefeitura de Alegrete",
+    "desc": {
+      "pt": "Portal oficial do município: notícias, serviços e turismo.",
+      "es": "Portal oficial del municipio: noticias, servicios y turismo.",
+      "en": "Official city portal: news, services and tourism."
+    },
+    "url": "https://www.alegrete.rs.gov.br/",
+    "instagram": "@prefeitura_de_alegrete",
+    "icon": "landmark"
+  },
+  {
+    "id": "secel",
+    "titulo": "Educação, Cultura, Esporte e Lazer",
+    "desc": {
+      "pt": "Secretaria que organiza eventos culturais e esportivos da cidade.",
+      "es": "Secretaría que organiza los eventos culturales y deportivos de la ciudad.",
+      "en": "The department running the city's cultural and sports events."
+    },
+    "url": "https://www.instagram.com/secelalegrete/",
+    "instagram": "@secelalegrete",
+    "icon": "drama"
+  },
+  {
+    "id": "festival-linguica-link",
+    "titulo": "Festival da Linguiça Campeira",
+    "desc": {
+      "pt": "Perfil oficial do maior festival gastronômico de Alegrete.",
+      "es": "Perfil oficial del mayor festival gastronómico de Alegrete.",
+      "en": "Official profile of Alegrete's biggest food festival."
+    },
+    "url": "https://www.instagram.com/festivaldalinguicaalegrete/",
+    "instagram": "@festivaldalinguicaalegrete",
+    "icon": "flame"
+  },
+  {
+    "id": "meia-maratona-link",
+    "titulo": "Meia Maratona da Independência",
+    "desc": {
+      "pt": "Inscrições e novidades da principal corrida de rua local.",
+      "es": "Inscripciones y novedades de la principal carrera de calle local.",
+      "en": "Registration and news for the main local road race."
+    },
+    "url": "https://www.instagram.com/meiamaratonaalegrete/",
+    "instagram": "@meiamaratonaalegrete",
+    "icon": "footprints"
+  },
+  {
+    "id": "vinhos-campanha",
+    "titulo": "Vinhos da Campanha Gaúcha",
+    "desc": {
+      "pt": "Rota oficial do enoturismo das vinícolas da região.",
+      "es": "Ruta oficial del enoturismo de las bodegas de la región.",
+      "en": "Official wine-tourism route of the region's wineries."
+    },
+    "url": "https://www.vinhosdacampanha.com.br/enoturismo/",
+    "icon": "grape"
+  },
+  {
+    "id": "turismo-rs",
+    "titulo": "Turismo RS",
+    "desc": {
+      "pt": "Portal de turismo do Estado do Rio Grande do Sul.",
+      "es": "Portal de turismo del Estado de Rio Grande do Sul.",
+      "en": "Tourism portal of the State of Rio Grande do Sul."
+    },
+    "url": "https://www.turismo.rs.gov.br/",
+    "icon": "compass"
+  }
+]

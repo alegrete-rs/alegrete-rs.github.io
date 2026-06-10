@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>História & Cultura — Alegrete | O Baita Chão</title>
+  <meta name="description" content="História de Alegrete: missões jesuíticas, Revolução Farroupilha, a 3ª Capital da República, Mário Quintana, Oswaldo Aranha, monumentos e museus." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_history">História</span></div>
+      <h1 data-i18n="hist_h1">Berço da história farroupilha</h1>
+      <p class="lead" data-i18n="hist_lead">Das missões jesuíticas à Revolução Farroupilha: a história de um povo que reergueu sua cidade mais de uma vez.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div class="reveal prose">
+        <p data-i18n="hist_p1">As origens de Alegrete datam de 1626.</p>
+        <p data-i18n="hist_p2">A história da cidade é marcada pela resiliência.</p>
+        <div class="callout">
+          <h4><i data-lucide="flag"></i> <span data-i18n="hist_capital_h">A 3ª Capital da República</span></h4>
+          <p data-i18n="hist_capital_p" style="margin:0"></p>
+        </div>
+      </div>
+      <div class="reveal" data-delay="140">
+        <div class="imgframe"><div class="ph"><i data-lucide="landmark" style="width:34px;height:34px"></i><span>Ponte Borges de Medeiros</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div class="feature reveal"><span class="ico"><i data-lucide="feather"></i></span><div><h4 data-i18n="hist_people_h">Berço de gente ilustre</h4><p data-i18n="hist_people_p"></p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="landmark"></i></span><div><h4 data-i18n="hist_mon_h">Monumentos e arquitetura</h4><p data-i18n="hist_mon_p"></p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="building-2"></i></span><div><h4 data-i18n="hist_museum_h">Museus e cultura</h4><p data-i18n="hist_museum_p"></p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="shield"></i></span><div><h4 data-i18n="hist_mil_h">Tradição militar</h4><p data-i18n="hist_mil_p"></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid-3" id="cultList"></div>
+      <div class="map-shell reveal" style="margin-top:36px;"><div id="map" class="leaflet-map"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({ listId: 'cultList', mapId: 'map', categories: ['cultura'] });
+    });
+  </script>
+</body>
+</html>

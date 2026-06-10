@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alegrete - O Baita Chão</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Ubuntu', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            light: '#e8f5e9', // Verde muito claro (fundo)
+                            DEFAULT: '#4caf50', // Verde médio (principal)
+                            dark: '#2e7d32', // Verde escuro (textos e destaques)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #1a202c; /* Texto quase preto para melhor legibilidade */
+            overflow-x: hidden;
+        }
+
+        /* Animações CSS Customizadas */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            will-change: opacity, transform;
+        }
+
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Hover nas Imagens/Cards */
+        .hover-scale {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .hover-scale:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(46, 125, 50, 0.2);
+        }
+
+        /* Placeholder de Imagem */
+        .img-placeholder {
+            background-color: #f0fdf4; /* tom de verde bem leve */
+            border: 2px dashed #bbf7d0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #15803d;
+            font-style: italic;
+            position: relative;
+            overflow: hidden;
+        }
+        .img-placeholder::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.4) 50%, transparent 60%);
+            background-size: 200% 200%;
+            animation: shimmer 3s infinite linear;
+        }
+        @keyframes shimmer {
+            0% { background-position: -100% -100%; }
+            100% { background-position: 100% 100%; }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header / Nav -->
+    <header class="fixed w-full bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                    <i data-lucide="map-pin" class="text-brand-dark w-8 h-8"></i>
+                    <span class="font-bold text-2xl text-brand-dark tracking-tight">Alegrete</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#historia" class="text-gray-800 hover:text-brand-dark font-medium transition-colors">História</a>
+                    <a href="#inovacao" class="text-gray-800 hover:text-brand-dark font-medium transition-colors">Inovação</a>
+                    <a href="#turismo" class="text-gray-800 hover:text-brand-dark font-medium transition-colors">Turismo</a>
+                    <a href="#eventos" class="text-gray-800 hover:text-brand-dark font-medium transition-colors">Eventos</a>
+                    <a href="#guia" class="text-gray-800 hover:text-brand-dark font-medium transition-colors">Guia Útil</a>
+                </nav>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-800 hover:text-brand-dark focus:outline-none">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#historia" class="block px-3 py-2 text-gray-800 font-medium hover:bg-brand-light hover:text-brand-dark rounded-md">História</a>
+                <a href="#inovacao" class="block px-3 py-2 text-gray-800 font-medium hover:bg-brand-light hover:text-brand-dark rounded-md">Inovação</a>
+                <a href="#turismo" class="block px-3 py-2 text-gray-800 font-medium hover:bg-brand-light hover:text-brand-dark rounded-md">Turismo</a>
+                <a href="#eventos" class="block px-3 py-2 text-gray-800 font-medium hover:bg-brand-light hover:text-brand-dark rounded-md">Eventos</a>
+                <a href="#guia" class="block px-3 py-2 text-gray-800 font-medium hover:bg-brand-light hover:text-brand-dark rounded-md">Guia Útil</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-light bg-opacity-40 relative overflow-hidden">
+        <!-- Decorational Blobs -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-green-300 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center fade-in-up">
+                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                    <span class="block">Bem-vindo ao</span>
+                    <span class="block text-brand-dark">"Baita Chão"</span>
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-gray-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl leading-relaxed">
+                    A "cidade mais gaúcha" do Rio Grande do Sul. O maior município em extensão territorial da região sul, combinando tradição, agronegócio forte e um ecossistema de inovação crescente no coração do Pampa.
+                </p>
+                <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                    <div class="rounded-md shadow">
+                        <a href="#historia" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-dark hover:bg-brand focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-dark transition-colors">
+                            Descobrir Alegrete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Localização Info Cards -->
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 fade-in-up">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col items-center text-center hover-scale">
+                    <div class="p-3 bg-brand-light rounded-full text-brand-dark mb-4">
+                        <i data-lucide="map" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Localização</h3>
+                    <p class="mt-2 text-sm text-gray-600">Fronteira Oeste, Pampa Gaúcho. A 490km de Porto Alegre, no corredor do Mercosul (BR-290).</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col items-center text-center hover-scale">
+                    <div class="p-3 bg-brand-light rounded-full text-brand-dark mb-4">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">População</h3>
+                    <p class="mt-2 text-sm text-gray-600">Aproximadamente 73 mil habitantes orgulhosos de sua cultura e hospitalidade.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col items-center text-center hover-scale">
+                    <div class="p-3 bg-brand-light rounded-full text-brand-dark mb-4">
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">Economia</h3>
+                    <p class="mt-2 text-sm text-gray-600">Maior PIB agropecuário do RS. Líder em bovinos, 2º em ovinos e gigante na soja e arroz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between gap-12">
+                <div class="lg:w-1/2 fade-in-up">
+                    <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl mb-6">
+                        Berço da História Farroupilha
+                    </h2>
+                    <div class="space-y-6 text-gray-700 leading-relaxed">
+                        <p>
+                            As origens de Alegrete datam de <strong>1626</strong>, ligadas às missões Jesuíticas espanholas. O território original pertencia à missão de Yapeju antes de ser conquistado para a coroa portuguesa em 1801.
+                        </p>
+                        <p>
+                            A história da cidade é marcada por resiliência. Após a primeira povoação (1812) ser queimada por seguidores de José Artigas (episódio da <em>"Capela Queimada"</em>), a população fugiu e reergueu o atual município às margens do Rio Ibirapuitã.
+                        </p>
+                        <div class="bg-brand-light p-6 rounded-xl border-l-4 border-brand-dark">
+                            <h4 class="font-bold text-gray-900 flex items-center gap-2 mb-2">
+                                <i data-lucide="flag" class="w-5 h-5 text-brand-dark"></i> A 3ª Capital da República
+                            </h4>
+                            <p class="text-sm">
+                                Durante a Revolução Farroupilha (1835-1845), Alegrete tornou-se a Terceira Capital da República Riograndense, sediando a <strong>primeira Constituinte Republicana do Brasil</strong> em 1842.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 lg:mt-0 lg:w-1/2 fade-in-up" style="transition-delay: 200ms;">
+                    <!-- Placeholder para Imagem Histórica -->
+                    <div class="img-placeholder w-full h-[400px] rounded-2xl shadow-lg">
+                        <div class="text-center">
+                            <i data-lucide="image" class="w-12 h-12 mx-auto mb-2 opacity-50"></i>
+                            <span>[Inserir Imagem Histórica de Alegrete]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inovação -->
+    <section id="inovacao" class="py-20 bg-gray-50 border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up">
+                <span class="text-brand font-semibold tracking-wider uppercase text-sm">Do Agro ao Hub</span>
+                <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Ecossistema de Inovação
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
+                    Alegrete une sua força no campo com tecnologia, criando um ambiente fértil para startups e educação do futuro.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover-scale border border-gray-100 fade-in-up">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-brand-dark mb-6">
+                        <i data-lucide="microscope" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Ambientes Tecnológicos</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li><strong class="text-gray-800">PAMPATEC:</strong> Parque Científico da UNIPAMPA com Incubadora e FABLAB.</li>
+                        <li><strong class="text-gray-800">IFFAR:</strong> Incubadora de Base Tecnológica e Laboratório IF Maker.</li>
+                        <li><strong class="text-gray-800">CITA:</strong> Centro de Agrotecnologia focado em soluções para o agronegócio.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover-scale border border-gray-100 fade-in-up" style="transition-delay: 100ms;">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-brand-dark mb-6">
+                        <i data-lucide="rocket" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Programas & Eventos</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>Seminário Cidade Inovadora, Ideathon Alegrete e Salão Agrotec.</li>
+                        <li><strong class="text-gray-800">Startup Pampa:</strong> Gerou 25 novos CNPJs e acelerou 200 projetos.</li>
+                        <li>Plataforma <strong class="text-gray-800">"SOU I"</strong>: Conecta estudantes a demandas reais de empresas.</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover-scale border border-gray-100 fade-in-up" style="transition-delay: 200ms;">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-brand-dark mb-6">
+                        <i data-lucide="wifi" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Cidade Conectada</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li><strong class="text-gray-800">Baita Tur:</strong> QR Codes e Libras nos monumentos turísticos.</li>
+                        <li>Paradas de ônibus com energia solar e tomadas USB.</li>
+                        <li>Wi-Fi gratuito em praças e estações de recarga para carros elétricos.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-12 w-full fade-in-up" style="transition-delay: 300ms;">
+                <!-- Placeholder Inovação -->
+                <div class="img-placeholder w-full h-[300px] rounded-2xl shadow-sm">
+                    <div class="text-center">
+                        <i data-lucide="image" class="w-10 h-10 mx-auto mb-2 opacity-50"></i>
+                        <span>[Inserir Imagem do Parque Pampatec ou Parada Tecnológica]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Turismo -->
+    <section id="turismo" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">
+                    Turismo e Cultura
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
+                    Do patrimônio histórico às belezas naturais do Pampa Gaúcho.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <!-- Coluna 1 -->
+                <div class="space-y-8 fade-in-up">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 mt-1">
+                            <i data-lucide="landmark" class="w-6 h-6 text-brand-dark"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Monumentos e Arquitetura</h4>
+                            <p class="mt-2 text-gray-600">Visite a histórica <strong>Ponte Borges de Medeiros</strong> (palco da batalha de 1923), a belíssima <strong>Igreja Matriz</strong> (1919, estilo gótico), a centenária <strong>Estação Ferroviária</strong> (com sua Maria Fumaça) e o monumento <strong>Negrinho Triunfante</strong> do escultor Vasco Prado.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 mt-1">
+                            <i data-lucide="book-open" class="w-6 h-6 text-brand-dark"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Museus e Cultura</h4>
+                            <p class="mt-2 text-gray-600">O <strong>Museu Oswaldo Aranha</strong> guarda o acervo do famoso diplomata. Conheça a cultura regional no <strong>Museu do Gaúcho</strong> (Ícaro Ferreira) e visite o Centro Cultural Adão Ortiz Houayek.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna 2 -->
+                <div class="space-y-8 fade-in-up" style="transition-delay: 200ms;">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 mt-1">
+                            <i data-lucide="tree-pine" class="w-6 h-6 text-brand-dark"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Turismo Rural e Ecoturismo</h4>
+                            <p class="mt-2 text-gray-600">Aproveite as estâncias centenárias (Fazenda do Sobrado, Estância Sá Brito). Pratique cicloturismo, passeios de caiaque no Rio Ibirapuitã, observação de aves e explore trilhas como a <em>Cascata no Pampa</em>.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 mt-1">
+                            <i data-lucide="shield" class="w-6 h-6 text-brand-dark"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Turismo Militar</h4>
+                            <p class="mt-2 text-gray-600">Alegrete possui o maior contingente militar do país sem General. Oferece visitação a equipamentos de combate, Temporada Hípica e a Meia Maratona da Independência.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Galeria de Imagens (Placeholders) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-16 fade-in-up">
+                <div class="img-placeholder h-48 rounded-lg hover-scale cursor-pointer">
+                    <div class="text-center p-2"><span class="text-sm">[Img: Ponte Borges]</span></div>
+                </div>
+                <div class="img-placeholder h-48 rounded-lg hover-scale cursor-pointer">
+                    <div class="text-center p-2"><span class="text-sm">[Img: Igreja Matriz]</span></div>
+                </div>
+                <div class="img-placeholder h-48 rounded-lg hover-scale cursor-pointer">
+                    <div class="text-center p-2"><span class="text-sm">[Img: Museu Oswaldo Aranha]</span></div>
+                </div>
+                <div class="img-placeholder h-48 rounded-lg hover-scale cursor-pointer">
+                    <div class="text-center p-2"><span class="text-sm">[Img: Estância Rural]</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos -->
+    <section id="eventos" class="py-20 bg-brand-light bg-opacity-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">
+                    Grandes Eventos Oficiais
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
+                    Tradição e esporte que movimentam a cidade o ano inteiro.
+                </p>
+            </div>
+
+            <div class="grid gap-8 lg:grid-cols-2">
+                <!-- Card Evento 1 -->
+                <div class="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-sm hover-scale border border-gray-100 fade-in-up">
+                    <div class="md:w-2/5 img-placeholder min-h-[200px] border-none rounded-none">
+                        <span class="text-sm">[Img: EFIPAN / Futebol]</span>
+                    </div>
+                    <div class="p-6 md:w-3/5 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">EFIPAN</h3>
+                        <p class="text-gray-600 text-sm">O Encontro de Futebol Infantil Pan-Americano é considerado pela FIFA o maior do gênero. Já revelou craques mundiais como Neymar e Ronaldinho Gaúcho.</p>
+                    </div>
+                </div>
+
+                <!-- Card Evento 2 -->
+                <div class="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-sm hover-scale border border-gray-100 fade-in-up" style="transition-delay: 100ms;">
+                    <div class="md:w-2/5 img-placeholder min-h-[200px] border-none rounded-none">
+                        <span class="text-sm">[Img: Desfile 20 de Setembro]</span>
+                    </div>
+                    <div class="p-6 md:w-3/5 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Setembro Farroupilha</h3>
+                        <p class="text-gray-600 text-sm">Alegrete promove o <strong>maior Desfile de Cavaleiros do Brasil</strong> no dia 20 de setembro (desde 1954), com forte participação de 16 CTGs locais.</p>
+                    </div>
+                </div>
+
+                <!-- Card Evento 3 -->
+                <div class="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-sm hover-scale border border-gray-100 fade-in-up">
+                    <div class="md:w-2/5 img-placeholder min-h-[200px] border-none rounded-none">
+                        <span class="text-sm">[Img: Festival da Linguiça]</span>
+                    </div>
+                    <div class="p-6 md:w-3/5 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Festival da Linguiça</h3>
+                        <p class="text-gray-600 text-sm">Capital Estadual da Linguiça Tradicional Campeira (produzindo mais de 500 ton/ano). Um evento saboroso e vitrine para a agroindústria.</p>
+                    </div>
+                </div>
+
+                <!-- Card Evento 4 -->
+                <div class="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-sm hover-scale border border-gray-100 fade-in-up" style="transition-delay: 100ms;">
+                    <div class="md:w-2/5 img-placeholder min-h-[200px] border-none rounded-none">
+                        <span class="text-sm">[Img: Campereada]</span>
+                    </div>
+                    <div class="p-6 md:w-3/5 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Campereada Internacional</h3>
+                        <p class="text-gray-600 text-sm">Realizada desde 1979, reúne as autênticas provas campeiras da região e o melhor da gastronomia gaúcha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guia Útil -->
+    <section id="guia" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-dark rounded-3xl overflow-hidden shadow-xl fade-in-up">
+                <div class="px-6 py-12 sm:px-12 lg:flex lg:items-center lg:p-16">
+                    <div class="lg:w-1/2 lg:pr-8">
+                        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                            Planeje sua Visita
+                        </h2>
+                        <div class="mt-8 space-y-6 text-brand-light">
+                            <div>
+                                <h4 class="text-xl font-bold text-white flex items-center gap-2 mb-2">
+                                    <i data-lucide="utensils" class="w-5 h-5"></i> Gastronomia
+                                </h4>
+                                <p class="text-sm">Não saia sem provar o autêntico churrasco gaúcho, a famosa linguiça campeira, queijos artesanais, charque e azeite de oliva da região.</p>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-white flex items-center gap-2 mb-2">
+                                    <i data-lucide="bed" class="w-5 h-5"></i> Hospedagem
+                                </h4>
+                                <p class="text-sm">Opções variadas desde hotéis no centro (Hotel Alegrete, Caverá) até aconchegantes pousadas e áreas para camping e motor home na área rural.</p>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-white flex items-center gap-2 mb-2">
+                                    <i data-lucide="plane" class="w-5 h-5"></i> Como Chegar
+                                </h4>
+                                <p class="text-sm">
+                                    <strong>Rodovias:</strong> BR-290, RS-566 e RS-377.<br>
+                                    <strong>Avião:</strong> Aeroporto Gaudêncio Machado Ramos (a 10km do centro).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-12 lg:mt-0 lg:w-1/2">
+                        <div class="bg-white rounded-2xl p-6 shadow-inner text-gray-800">
+                            <h4 class="font-bold text-lg border-b pb-2 mb-4 text-brand-dark">Distâncias Importantes</h4>
+                            <ul class="space-y-3">
+                                <li class="flex justify-between items-center">
+                                    <span>Uruguaiana</span>
+                                    <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm">144 km</span>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Santa Maria</span>
+                                    <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm">218 km</span>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Porto Alegre</span>
+                                    <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm">490 km</span>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Montevideo (URU)</span>
+                                    <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm">712 km</span>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Buenos Aires (ARG)</span>
+                                    <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm">820 km</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6 img-placeholder h-32 rounded-lg">
+                                <span class="text-xs">[Inserir Mapa de Localização]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+                <i data-lucide="map-pin" class="text-brand w-6 h-6"></i>
+                <span class="font-bold text-xl tracking-tight">Alegrete</span>
+            </div>
+            <p class="text-gray-400 text-sm text-center md:text-left">
+                Informações extraídas do material "Alegrete - O Baita Chão" e "Alegrete Cidade Inovadora".
+            </p>
+            <div class="mt-4 md:mt-0 flex gap-4 text-brand">
+                <i data-lucide="instagram" class="w-5 h-5 hover:text-white cursor-pointer transition-colors"></i>
+                <i data-lucide="facebook" class="w-5 h-5 hover:text-white cursor-pointer transition-colors"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Inicializar ícones
+        lucide.createIcons();
+
+        // Menu Mobile Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Fechar menu mobile ao clicar em um link
+        const mobileLinks = menu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Efeito de fundo no Navbar ao rolar
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add('shadow-lg');
+                navbar.classList.replace('bg-white', 'bg-white/95');
+                navbar.classList.add('backdrop-blur-sm');
+            } else {
+                navbar.classList.remove('shadow-lg');
+                navbar.classList.replace('bg-white/95', 'bg-white');
+                navbar.classList.remove('backdrop-blur-sm');
+            }
+        });
+
+        // Animação Fade-In no Scroll
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in-up').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>

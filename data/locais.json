@@ -10,8 +10,12 @@
     },
     "endereco": "Rua Gaspar Martins, 289 - Centro",
     "telefone": "+55 55 3421-4718",
-    "lat": -29.7836, "lng": -55.7905,
-    "tags": ["churrasco", "centro"],
+    "lat": -29.7836,
+    "lng": -55.7905,
+    "tags": [
+      "churrasco",
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -26,8 +30,11 @@
     "endereco": "Rua Vasco Alves, 74",
     "telefone": "+55 55 2026-0638",
     "instagram": "@restaurantetradicaoalegrete",
-    "lat": -29.7849, "lng": -55.7892,
-    "tags": ["churrasco"],
+    "lat": -29.7849,
+    "lng": -55.7892,
+    "tags": [
+      "churrasco"
+    ],
     "confirmado": true
   },
   {
@@ -41,8 +48,12 @@
     },
     "endereco": "Rua General Vitorino, 117 - Centro",
     "telefone": "+55 51 99691-8098",
-    "lat": -29.7828, "lng": -55.7918,
-    "tags": ["churrasco", "centro"],
+    "lat": -29.7828,
+    "lng": -55.7918,
+    "tags": [
+      "churrasco",
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -56,8 +67,11 @@
     },
     "endereco": "Rua Bento Manoel, 700",
     "telefone": "+55 55 98454-8648",
-    "lat": -29.7861, "lng": -55.7869,
-    "tags": ["churrasco"],
+    "lat": -29.7861,
+    "lng": -55.7869,
+    "tags": [
+      "churrasco"
+    ],
     "confirmado": true
   },
   {
@@ -70,8 +84,11 @@
       "en": "Pasta and Italian dishes in the heart of Alegrete."
     },
     "endereco": "Centro",
-    "lat": -29.7822, "lng": -55.7896,
-    "tags": ["italiana"],
+    "lat": -29.7822,
+    "lng": -55.7896,
+    "tags": [
+      "italiana"
+    ],
     "confirmado": false
   },
   {
@@ -84,8 +101,11 @@
       "en": "Varied-cuisine restaurant, a solid lunch option."
     },
     "endereco": "Centro",
-    "lat": -29.7841, "lng": -55.7929,
-    "tags": ["almoço"],
+    "lat": -29.7841,
+    "lng": -55.7929,
+    "tags": [
+      "almoço"
+    ],
     "confirmado": false
   },
   {
@@ -98,8 +118,11 @@
       "en": "Roast chicken specialties and takeaway dishes."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7805, "lng": -55.7888,
-    "tags": ["frango"],
+    "lat": -29.7805,
+    "lng": -55.7888,
+    "tags": [
+      "frango"
+    ],
     "confirmado": false
   },
   {
@@ -112,8 +135,11 @@
       "en": "Oven-baked pizzas and a relaxed evening vibe."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7799, "lng": -55.7912,
-    "tags": ["pizza"],
+    "lat": -29.7799,
+    "lng": -55.7912,
+    "tags": [
+      "pizza"
+    ],
     "confirmado": false
   },
   {
@@ -126,8 +152,12 @@
       "en": "Brewpub and barbecue, a go-to spot for happy hour."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7818, "lng": -55.7935,
-    "tags": ["chopp", "happy hour"],
+    "lat": -29.7818,
+    "lng": -55.7935,
+    "tags": [
+      "chopp",
+      "happy hour"
+    ],
     "confirmado": false
   },
   {
@@ -140,8 +170,12 @@
       "en": "Brewpub, pizzeria and grill all in one place."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7852, "lng": -55.7945,
-    "tags": ["chopp", "pizza"],
+    "lat": -29.7852,
+    "lng": -55.7945,
+    "tags": [
+      "chopp",
+      "pizza"
+    ],
     "confirmado": false
   },
   {
@@ -154,8 +188,11 @@
       "en": "Classic snack bar for a late-night bite."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7791, "lng": -55.7901,
-    "tags": ["lanches"],
+    "lat": -29.7791,
+    "lng": -55.7901,
+    "tags": [
+      "lanches"
+    ],
     "confirmado": false
   },
   {
@@ -168,8 +205,12 @@
       "en": "Cozy café for espresso, sweets and conversation."
     },
     "endereco": "Centro",
-    "lat": -29.7831, "lng": -55.7924,
-    "tags": ["café", "doces"],
+    "lat": -29.7831,
+    "lng": -55.7924,
+    "tags": [
+      "café",
+      "doces"
+    ],
     "confirmado": false
   },
   {
@@ -183,7 +224,11 @@
     },
     "endereco": "Alegrete - RS",
     "instagram": "@_delicatti",
-    "tags": ["café", "doces", "brunch"],
+    "tags": [
+      "café",
+      "doces",
+      "brunch"
+    ],
     "confirmado": true
   },
   {
@@ -197,7 +242,10 @@
     },
     "endereco": "Alegrete - RS",
     "instagram": "@browniedacarolalegrete",
-    "tags": ["doces", "sobremesas"],
+    "tags": [
+      "doces",
+      "sobremesas"
+    ],
     "confirmado": true
   },
   {
@@ -210,7 +258,9 @@
       "en": "Café for an espresso, snacks and a downtown break."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["café"],
+    "tags": [
+      "café"
+    ],
     "confirmado": false
   },
   {
@@ -223,7 +273,10 @@
       "en": "Coffee, ice cream and sweets — a sweet stop for hot Pampa days."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["café", "sorvete"],
+    "tags": [
+      "café",
+      "sorvete"
+    ],
     "confirmado": false
   },
   {
@@ -236,10 +289,12 @@
       "en": "Confectionery and café with chocolates, sweets and specialty coffee."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["café", "doces"],
+    "tags": [
+      "café",
+      "doces"
+    ],
     "confirmado": false
   },
-
   {
     "id": "hotel-cavera",
     "categoria": "hotel",
@@ -251,8 +306,12 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://hotelcavera.com.br/",
-    "lat": -29.7840, "lng": -55.7882,
-    "tags": ["conforto", "centro"],
+    "lat": -29.784,
+    "lng": -55.7882,
+    "tags": [
+      "conforto",
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -266,8 +325,11 @@
     },
     "endereco": "Centro",
     "website": "https://hotelalvoradaalegrete.com/",
-    "lat": -29.7826, "lng": -55.7909,
-    "tags": ["centro"],
+    "lat": -29.7826,
+    "lng": -55.7909,
+    "tags": [
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -280,8 +342,11 @@
       "en": "A traditional city hotel, handy for business travelers."
     },
     "endereco": "Centro",
-    "lat": -29.7820, "lng": -55.7917,
-    "tags": ["negócios"],
+    "lat": -29.782,
+    "lng": -55.7917,
+    "tags": [
+      "negócios"
+    ],
     "confirmado": false
   },
   {
@@ -294,8 +359,11 @@
       "en": "Simple, well-located inn downtown."
     },
     "endereco": "Centro",
-    "lat": -29.7845, "lng": -55.7901,
-    "tags": ["econômico"],
+    "lat": -29.7845,
+    "lng": -55.7901,
+    "tags": [
+      "econômico"
+    ],
     "confirmado": false
   },
   {
@@ -308,8 +376,11 @@
       "en": "Budget option for short stays in Alegrete."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7812, "lng": -55.7889,
-    "tags": ["econômico"],
+    "lat": -29.7812,
+    "lng": -55.7889,
+    "tags": [
+      "econômico"
+    ],
     "confirmado": false
   },
   {
@@ -322,8 +393,11 @@
       "en": "Popular hotel among visitors, with good value for money."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7808, "lng": -55.7923,
-    "tags": ["custo-benefício"],
+    "lat": -29.7808,
+    "lng": -55.7923,
+    "tags": [
+      "custo-benefício"
+    ],
     "confirmado": false
   },
   {
@@ -336,8 +410,12 @@
       "en": "Welcoming inn downtown, with affordable rates."
     },
     "endereco": "Centro",
-    "lat": -29.7837, "lng": -55.7935,
-    "tags": ["econômico", "centro"],
+    "lat": -29.7837,
+    "lng": -55.7935,
+    "tags": [
+      "econômico",
+      "centro"
+    ],
     "confirmado": false
   },
   {
@@ -350,11 +428,14 @@
       "en": "Camping and motorhome area by the river, surrounded by nature."
     },
     "endereco": "Orla do Rio Ibirapuitã - Alegrete",
-    "lat": -29.7765, "lng": -55.7836,
-    "tags": ["natureza", "rio"],
+    "lat": -29.7765,
+    "lng": -55.7836,
+    "tags": [
+      "natureza",
+      "rio"
+    ],
     "confirmado": false
   },
-
   {
     "id": "meia-maratona",
     "categoria": "esporte",
@@ -366,8 +447,12 @@
     },
     "endereco": "Alegrete - RS",
     "instagram": "@meiamaratonaalegrete",
-    "lat": -29.7833, "lng": -55.7900,
-    "tags": ["corrida", "evento"],
+    "lat": -29.7833,
+    "lng": -55.79,
+    "tags": [
+      "corrida",
+      "evento"
+    ],
     "confirmado": true
   },
   {
@@ -380,8 +465,11 @@
       "en": "Alegrete stage of a regional road-running circuit."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7847, "lng": -55.7915,
-    "tags": ["corrida"],
+    "lat": -29.7847,
+    "lng": -55.7915,
+    "tags": [
+      "corrida"
+    ],
     "confirmado": false
   },
   {
@@ -394,8 +482,11 @@
       "en": "Padel courts — a fast-growing sport in town."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7878, "lng": -55.7861,
-    "tags": ["padel"],
+    "lat": -29.7878,
+    "lng": -55.7861,
+    "tags": [
+      "padel"
+    ],
     "confirmado": false
   },
   {
@@ -408,8 +499,12 @@
       "en": "Football (society) pitches for a game with friends, rented by the hour."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7889, "lng": -55.7904,
-    "tags": ["futebol", "society"],
+    "lat": -29.7889,
+    "lng": -55.7904,
+    "tags": [
+      "futebol",
+      "society"
+    ],
     "confirmado": false
   },
   {
@@ -422,11 +517,14 @@
       "en": "Horse races and contests celebrating the local equestrian tradition."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7905, "lng": -55.7820,
-    "tags": ["hipismo", "cavalo"],
+    "lat": -29.7905,
+    "lng": -55.782,
+    "tags": [
+      "hipismo",
+      "cavalo"
+    ],
     "confirmado": false
   },
-
   {
     "id": "rio-ibirapuita",
     "categoria": "rio",
@@ -437,8 +535,13 @@
       "en": "The river embracing Alegrete: fishing, kayaking, SUP and boating."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7720, "lng": -55.7810,
-    "tags": ["pesca", "caiaque", "sup"],
+    "lat": -29.772,
+    "lng": -55.781,
+    "tags": [
+      "pesca",
+      "caiaque",
+      "sup"
+    ],
     "confirmado": true
   },
   {
@@ -451,8 +554,11 @@
       "en": "A major regional river, sought out by anglers and riverside folk."
     },
     "endereco": "Região de Alegrete - RS",
-    "lat": -29.4100, "lng": -56.0000,
-    "tags": ["pesca"],
+    "lat": -29.41,
+    "lng": -56.0,
+    "tags": [
+      "pesca"
+    ],
     "confirmado": false
   },
   {
@@ -465,8 +571,12 @@
       "en": "About 317,000 ha — the only federal Environmental Protection Area in the Pampa biome."
     },
     "endereco": "Alegrete / Sant'Ana do Livramento / Quaraí / Rosário do Sul",
-    "lat": -30.1000, "lng": -55.6500,
-    "tags": ["pampa", "conservação"],
+    "lat": -30.1,
+    "lng": -55.65,
+    "tags": [
+      "pampa",
+      "conservação"
+    ],
     "confirmado": true
   },
   {
@@ -479,8 +589,11 @@
       "en": "A conservation unit on the river's banks, in the state's southwest."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.9000, "lng": -55.7000,
-    "tags": ["conservação"],
+    "lat": -29.9,
+    "lng": -55.7,
+    "tags": [
+      "conservação"
+    ],
     "confirmado": false
   },
   {
@@ -493,8 +606,12 @@
       "en": "A roughly 170 km long-distance trail through the Ibirapuitã EPA, part of Brazil's Long-Distance Trails Network — with sections for hikers and cyclists and sustainable rural tourism."
     },
     "endereco": "APA do Ibirapuitã",
-    "lat": -30.0500, "lng": -55.6000,
-    "tags": ["trilha", "trekking"],
+    "lat": -30.05,
+    "lng": -55.6,
+    "tags": [
+      "trilha",
+      "trekking"
+    ],
     "confirmado": true
   },
   {
@@ -507,8 +624,12 @@
       "en": "Rural trail to a waterfall, perfect for a day of ecotourism."
     },
     "endereco": "Zona rural de Alegrete",
-    "lat": -29.9500, "lng": -55.6500,
-    "tags": ["cascata", "ecoturismo"],
+    "lat": -29.95,
+    "lng": -55.65,
+    "tags": [
+      "cascata",
+      "ecoturismo"
+    ],
     "confirmado": false
   },
   {
@@ -521,8 +642,13 @@
       "en": "A roughly 4 km rural-tourism route through native fields and crystal-clear streams, up to an old fort that staged Federalist Revolution clashes."
     },
     "endereco": "Zona rural de Alegrete",
-    "lat": -29.8500, "lng": -55.6000,
-    "tags": ["trilha", "turismo rural", "história"],
+    "lat": -29.85,
+    "lng": -55.6,
+    "tags": [
+      "trilha",
+      "turismo rural",
+      "história"
+    ],
     "confirmado": false
   },
   {
@@ -535,11 +661,14 @@
       "en": "A hike through Rincão do Paraíso in rural Alegrete: open Pampa landscapes, native wildlife and the quiet of the countryside."
     },
     "endereco": "Zona rural de Alegrete",
-    "lat": -29.9000, "lng": -55.5800,
-    "tags": ["trilha", "ecoturismo"],
+    "lat": -29.9,
+    "lng": -55.58,
+    "tags": [
+      "trilha",
+      "ecoturismo"
+    ],
     "confirmado": false
   },
-
   {
     "id": "freeshop-rivera",
     "categoria": "freeshop",
@@ -550,8 +679,12 @@
       "en": "Dozens of free shops on the Sant'Ana do Livramento border: wines, perfumes and electronics."
     },
     "endereco": "Rivera, Uruguai (fronteira com Sant'Ana do Livramento)",
-    "lat": -30.9024, "lng": -55.5503,
-    "tags": ["compras", "uruguai"],
+    "lat": -30.9024,
+    "lng": -55.5503,
+    "tags": [
+      "compras",
+      "uruguai"
+    ],
     "confirmado": true
   },
   {
@@ -564,8 +697,12 @@
       "en": "Border with Argentina (Paso de los Libres), with free shops and lively trade."
     },
     "endereco": "Uruguaiana - RS / Paso de los Libres - AR",
-    "lat": -29.7547, "lng": -57.0883,
-    "tags": ["compras", "argentina"],
+    "lat": -29.7547,
+    "lng": -57.0883,
+    "tags": [
+      "compras",
+      "argentina"
+    ],
     "confirmado": true
   },
   {
@@ -578,8 +715,12 @@
       "en": "Twin city of Quaraí, a calmer alternative for border shopping."
     },
     "endereco": "Artigas, Uruguai (fronteira com Quaraí)",
-    "lat": -30.4007, "lng": -56.4640,
-    "tags": ["compras", "uruguai"],
+    "lat": -30.4007,
+    "lng": -56.464,
+    "tags": [
+      "compras",
+      "uruguai"
+    ],
     "confirmado": false
   },
   {
@@ -592,11 +733,14 @@
       "en": "Pair shopping with the famous Salto hot springs on the Uruguay River."
     },
     "endereco": "Salto, Uruguai",
-    "lat": -31.3833, "lng": -57.9667,
-    "tags": ["compras", "termas"],
+    "lat": -31.3833,
+    "lng": -57.9667,
+    "tags": [
+      "compras",
+      "termas"
+    ],
     "confirmado": false
   },
-
   {
     "id": "vinicola-almaden",
     "categoria": "vinicola",
@@ -607,8 +751,12 @@
       "en": "Brazil's largest vineyard (450 ha) with a museum, panoramic deck, tastings and the Pampa Train."
     },
     "endereco": "Sant'Ana do Livramento - RS",
-    "lat": -30.9500, "lng": -55.5300,
-    "tags": ["vinho", "enoturismo"],
+    "lat": -30.95,
+    "lng": -55.53,
+    "tags": [
+      "vinho",
+      "enoturismo"
+    ],
     "confirmado": true
   },
   {
@@ -621,8 +769,12 @@
       "en": "One of the route's most elegant wineries, in Dom Pedrito, with tours, tastings and picnics."
     },
     "endereco": "Dom Pedrito - RS",
-    "lat": -30.9828, "lng": -54.6731,
-    "tags": ["vinho", "enoturismo"],
+    "lat": -30.9828,
+    "lng": -54.6731,
+    "tags": [
+      "vinho",
+      "enoturismo"
+    ],
     "confirmado": true
   },
   {
@@ -635,8 +787,12 @@
       "en": "Hot-spring complexes by the Uruguay River, great for family relaxation."
     },
     "endereco": "Salto, Uruguai",
-    "lat": -31.3833, "lng": -57.9667,
-    "tags": ["termas", "uruguai"],
+    "lat": -31.3833,
+    "lng": -57.9667,
+    "tags": [
+      "termas",
+      "uruguai"
+    ],
     "confirmado": false
   },
   {
@@ -649,8 +805,12 @@
       "en": "Uruguay's capital, of rambla promenades, beaches and River Plate history."
     },
     "endereco": "Montevidéu, Uruguai",
-    "lat": -34.9011, "lng": -56.1645,
-    "tags": ["capital", "uruguai"],
+    "lat": -34.9011,
+    "lng": -56.1645,
+    "tags": [
+      "capital",
+      "uruguai"
+    ],
     "confirmado": false
   },
   {
@@ -663,8 +823,12 @@
       "en": "Argentina's vibrant capital, connected via the Uruguaiana border."
     },
     "endereco": "Buenos Aires, Argentina",
-    "lat": -34.6037, "lng": -58.3816,
-    "tags": ["capital", "argentina"],
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "tags": [
+      "capital",
+      "argentina"
+    ],
     "confirmado": false
   },
   {
@@ -677,8 +841,11 @@
       "en": "Neighboring Argentine city, known for its riverside culture and famous carnival."
     },
     "endereco": "Corrientes, Argentina",
-    "lat": -27.4692, "lng": -58.8306,
-    "tags": ["argentina"],
+    "lat": -27.4692,
+    "lng": -58.8306,
+    "tags": [
+      "argentina"
+    ],
     "confirmado": false
   },
   {
@@ -691,8 +858,12 @@
       "en": "One of Argentina's largest thermal parks, in Entre Ríos: hot-water pools, spa and family facilities."
     },
     "endereco": "Federación, Entre Ríos - Argentina",
-    "lat": -30.9846, "lng": -57.9120,
-    "tags": ["termas", "argentina"],
+    "lat": -30.9846,
+    "lng": -57.912,
+    "tags": [
+      "termas",
+      "argentina"
+    ],
     "confirmado": true
   },
   {
@@ -705,8 +876,12 @@
       "en": "Uruguay's most famous hot springs, south of Salto: dozens of thermal pools, hotels and a water park."
     },
     "endereco": "Termas del Daymán, Salto - Uruguai",
-    "lat": -31.4583, "lng": -57.8917,
-    "tags": ["termas", "uruguai"],
+    "lat": -31.4583,
+    "lng": -57.8917,
+    "tags": [
+      "termas",
+      "uruguai"
+    ],
     "confirmado": true
   },
   {
@@ -721,8 +896,13 @@
     "endereco": "ERS-149, Recanto Maestro - Restinga Sêca - RS",
     "telefone": "+55 55 3302-4474",
     "website": "https://resorttermasromanas.com",
-    "lat": -29.7060, "lng": -53.4300,
-    "tags": ["termas", "spa", "rs"],
+    "lat": -29.706,
+    "lng": -53.43,
+    "tags": [
+      "termas",
+      "spa",
+      "rs"
+    ],
     "confirmado": true
   },
   {
@@ -735,8 +915,13 @@
       "en": "The Uruguay River below the Salto Grande dam (Bella Unión, Salto and Argentina) is a world reference for sport fishing of golden dorado, surubí and boga — catch and release."
     },
     "endereco": "Rio Uruguai — Bella Unión (UY) / Monte Caseros (AR)",
-    "lat": -30.2622, "lng": -57.6228,
-    "tags": ["pesca", "dourado", "argentina"],
+    "lat": -30.2622,
+    "lng": -57.6228,
+    "tags": [
+      "pesca",
+      "dourado",
+      "argentina"
+    ],
     "confirmado": false
   },
   {
@@ -749,11 +934,15 @@
       "en": "Kayak crossing at the Brazil–Uruguay–Argentina triple border: starting from Quaraí/Barra do Quaraí, paddlers descend to the Zero Mark and the historic Iron Bridge, where the Quaraí and Uruguay rivers meet."
     },
     "endereco": "Quaraí / Barra do Quaraí - RS (Tríplice Fronteira)",
-    "lat": -30.2050, "lng": -57.5550,
-    "tags": ["caiaque", "fronteira", "aventura"],
+    "lat": -30.205,
+    "lng": -57.555,
+    "tags": [
+      "caiaque",
+      "fronteira",
+      "aventura"
+    ],
     "confirmado": false
   },
-
   {
     "id": "ponte-borges",
     "categoria": "cultura",
@@ -765,8 +954,12 @@
     },
     "endereco": "Rio Ibirapuitã - Alegrete",
     "foto": "assets/img/ponte-ibirapuita.jpg",
-    "lat": -29.7758, "lng": -55.7848,
-    "tags": ["monumento", "história"],
+    "lat": -29.7758,
+    "lng": -55.7848,
+    "tags": [
+      "monumento",
+      "história"
+    ],
     "confirmado": true
   },
   {
@@ -780,8 +973,12 @@
     },
     "endereco": "Praça Getúlio Vargas - Centro",
     "foto": "assets/img/igreja-matriz.jpg",
-    "lat": -29.7832, "lng": -55.7912,
-    "tags": ["igreja", "arquitetura"],
+    "lat": -29.7832,
+    "lng": -55.7912,
+    "tags": [
+      "igreja",
+      "arquitetura"
+    ],
     "confirmado": true
   },
   {
@@ -795,8 +992,12 @@
     },
     "endereco": "Alegrete - RS",
     "foto": "assets/img/estacao-ferroviaria.jpg",
-    "lat": -29.7889, "lng": -55.7958,
-    "tags": ["ferrovia", "história"],
+    "lat": -29.7889,
+    "lng": -55.7958,
+    "tags": [
+      "ferrovia",
+      "história"
+    ],
     "confirmado": false
   },
   {
@@ -809,11 +1010,14 @@
       "en": "Collection of the Alegrete-born diplomat who chaired the UN General Assembly."
     },
     "endereco": "Centro - Alegrete",
-    "lat": -29.7825, "lng": -55.7901,
-    "tags": ["museu", "história"],
+    "lat": -29.7825,
+    "lng": -55.7901,
+    "tags": [
+      "museu",
+      "história"
+    ],
     "confirmado": false
   },
-
   {
     "id": "santa-casa-alegrete",
     "categoria": "hospital",
@@ -824,8 +1028,14 @@
       "en": "General hospital and regional health reference. Features an excellent neonatal ICU and a high-risk pregnancy clinic, plus an emergency room and several specialties."
     },
     "endereco": "Centro - Alegrete - RS",
-    "lat": -29.7849, "lng": -55.7884,
-    "tags": ["hospital", "emergência", "referência", "uti neonatal"],
+    "lat": -29.7849,
+    "lng": -55.7884,
+    "tags": [
+      "hospital",
+      "emergência",
+      "referência",
+      "uti neonatal"
+    ],
     "confirmado": false
   },
   {
@@ -838,8 +1048,13 @@
       "en": "Municipal urgent and emergency care — the entry point for acute cases that do not require hospital admission."
     },
     "endereco": "Alegrete - RS",
-    "lat": -29.7869, "lng": -55.7906,
-    "tags": ["urgência", "emergência", "24h"],
+    "lat": -29.7869,
+    "lng": -55.7906,
+    "tags": [
+      "urgência",
+      "emergência",
+      "24h"
+    ],
     "confirmado": false
   },
   {
@@ -852,7 +1067,10 @@
       "en": "Clinic dedicated to monitoring high-risk pregnancies, strengthening the town's maternal and child health network."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["materno-infantil", "gestantes"],
+    "tags": [
+      "materno-infantil",
+      "gestantes"
+    ],
     "confirmado": false
   },
   {
@@ -865,7 +1083,9 @@
       "en": "Public mental health care, with multidisciplinary support and therapeutic activities."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["saúde mental"],
+    "tags": [
+      "saúde mental"
+    ],
     "confirmado": false
   },
   {
@@ -878,7 +1098,10 @@
       "en": "Primary Care unit (Family Health Strategy) serving the neighborhood: appointments, vaccines and follow-up."
     },
     "endereco": "Bairro Promorar - Alegrete",
-    "tags": ["atenção primária", "esf"],
+    "tags": [
+      "atenção primária",
+      "esf"
+    ],
     "confirmado": false
   },
   {
@@ -891,7 +1114,10 @@
       "en": "Primary Care unit (Family Health Strategy) offering appointments, vaccines and family health follow-up."
     },
     "endereco": "Bairro Vera Cruz - Alegrete",
-    "tags": ["atenção primária", "esf"],
+    "tags": [
+      "atenção primária",
+      "esf"
+    ],
     "confirmado": false
   },
   {
@@ -904,7 +1130,10 @@
       "en": "Primary Care unit (Family Health Strategy) serving residents of the area."
     },
     "endereco": "Bairro Cidade Alta - Alegrete",
-    "tags": ["atenção primária", "esf"],
+    "tags": [
+      "atenção primária",
+      "esf"
+    ],
     "confirmado": false
   },
   {
@@ -917,10 +1146,12 @@
       "en": "Primary Care unit (Family Health Strategy) with a family health team and basic services."
     },
     "endereco": "Bairro Honório Lemes - Alegrete",
-    "tags": ["atenção primária", "esf"],
+    "tags": [
+      "atenção primária",
+      "esf"
+    ],
     "confirmado": false
   },
-
   {
     "id": "unipampa-alegrete",
     "categoria": "universidade",
@@ -932,8 +1163,13 @@
     },
     "endereco": "Av. Tiarajú, 810 - Ibirapuitã - Alegrete",
     "website": "https://unipampa.edu.br/alegrete/",
-    "lat": -29.7935, "lng": -55.7775,
-    "tags": ["federal", "engenharias", "computação"],
+    "lat": -29.7935,
+    "lng": -55.7775,
+    "tags": [
+      "federal",
+      "engenharias",
+      "computação"
+    ],
     "confirmado": false
   },
   {
@@ -947,7 +1183,11 @@
     },
     "endereco": "RS-377, Km 27 - Passo Novo - Alegrete",
     "website": "https://www.iffarroupilha.edu.br/",
-    "tags": ["federal", "técnico", "agropecuária"],
+    "tags": [
+      "federal",
+      "técnico",
+      "agropecuária"
+    ],
     "confirmado": false
   },
   {
@@ -961,7 +1201,10 @@
     },
     "endereco": "Centro - Alegrete - RS",
     "website": "https://urcamp.edu.br/",
-    "tags": ["comunitária", "graduação"],
+    "tags": [
+      "comunitária",
+      "graduação"
+    ],
     "confirmado": false
   },
   {
@@ -974,7 +1217,11 @@
       "en": "Innovation hub connecting university, companies and government, supporting startups and the region's technological development."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["inovação", "startups", "tecnologia"],
+    "tags": [
+      "inovação",
+      "startups",
+      "tecnologia"
+    ],
     "confirmado": false
   },
   {
@@ -987,14 +1234,18 @@
       "en": "Student housing that supports out-of-town university students, strengthening retention and academic life in Alegrete."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["moradia", "universitários"],
+    "tags": [
+      "moradia",
+      "universitários"
+    ],
     "confirmado": false
   },
-
   {
     "id": "parque-lauro-dornelles",
     "categoria": "evento_local",
-    "categorias": ["natureza"],
+    "categorias": [
+      "natureza"
+    ],
     "nome": "Parque Dr. Lauro Dornelles",
     "descricao": {
       "pt": "Principal parque urbano e palco dos grandes eventos da cidade — Festival da Linguiça, Exposição Agropecuária e feiras — reunindo natureza, lazer e cultura num só lugar.",
@@ -1002,8 +1253,14 @@
       "en": "The main urban park and stage for the city's biggest events — the Sausage Festival, the Agricultural Fair and expos — blending nature, leisure and culture in one place."
     },
     "endereco": "Av. Tiarajú, 1685 - Alegrete",
-    "lat": -29.7889, "lng": -55.7818,
-    "tags": ["feiras", "exposições", "lazer", "natureza"],
+    "lat": -29.7889,
+    "lng": -55.7818,
+    "tags": [
+      "feiras",
+      "exposições",
+      "lazer",
+      "natureza"
+    ],
     "confirmado": false
   },
   {
@@ -1016,7 +1273,11 @@
       "en": "A traditional social club, hosting balls, graduations, dinners and cultural events throughout the year."
     },
     "endereco": "Centro - Alegrete",
-    "tags": ["clube", "bailes", "formaturas"],
+    "tags": [
+      "clube",
+      "bailes",
+      "formaturas"
+    ],
     "confirmado": false
   },
   {
@@ -1029,10 +1290,13 @@
       "en": "A venue used for fairs, gatherings and corporate or community events in town."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["corporativo", "feiras", "encontros"],
+    "tags": [
+      "corporativo",
+      "feiras",
+      "encontros"
+    ],
     "confirmado": false
   },
-
   {
     "id": "cabanas-camping-cia",
     "categoria": "camping",
@@ -1045,7 +1309,12 @@
     "endereco": "Alegrete - RS",
     "telefone": "+55 55 99211-3302",
     "instagram": "@cabanasalegrete",
-    "tags": ["cabanas", "camping", "vôlei", "churrasco"],
+    "tags": [
+      "cabanas",
+      "camping",
+      "vôlei",
+      "churrasco"
+    ],
     "confirmado": false
   },
   {
@@ -1058,7 +1327,12 @@
       "en": "A new activity in Alegrete: an equestrian school with lessons, guided horseback experiences and connection with the Pampa's nature — bookable experiences for all levels."
     },
     "endereco": "Alegrete - RS",
-    "tags": ["hipismo", "equitação", "natureza", "vivência"],
+    "tags": [
+      "hipismo",
+      "equitação",
+      "natureza",
+      "vivência"
+    ],
     "confirmado": false
   },
   {
@@ -1074,7 +1348,11 @@
     "website": "https://www.imobiliariaalegrete.com.br",
     "lat": -29.7805,
     "lng": -55.7907,
-    "tags": ["aluguel", "venda", "centro"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -1089,7 +1367,11 @@
     "endereco": "Praça Getúlio Vargas, 497, Sala C - Centro",
     "lat": -29.7844,
     "lng": -55.7912,
-    "tags": ["aluguel", "venda", "centro"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "centro"
+    ],
     "confirmado": true
   },
   {
@@ -1105,7 +1387,10 @@
     "website": "https://www.souzaimoveis.com",
     "lat": -29.7732,
     "lng": -55.7902,
-    "tags": ["aluguel", "venda"],
+    "tags": [
+      "aluguel",
+      "venda"
+    ],
     "confirmado": true
   },
   {
@@ -1121,7 +1406,11 @@
     "website": "https://imobiliariaminuano.com.br",
     "lat": -29.7832,
     "lng": -55.7822,
-    "tags": ["aluguel", "venda", "creci"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "creci"
+    ],
     "confirmado": true
   },
   {
@@ -1135,7 +1424,11 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.imobiliariarima.com.br",
-    "tags": ["aluguel", "venda", "online"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "online"
+    ],
     "confirmado": false
   },
   {
@@ -1149,7 +1442,11 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.iconealegrete.com.br",
-    "tags": ["aluguel", "venda", "administração"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "administração"
+    ],
     "confirmado": false
   },
   {
@@ -1163,7 +1460,11 @@
     },
     "endereco": "Centro - Alegrete - RS",
     "website": "https://www.evaristoimoveisrs.com.br",
-    "tags": ["aluguel", "venda", "centro"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "centro"
+    ],
     "confirmado": false
   },
   {
@@ -1177,7 +1478,11 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.contaliimoveis.com.br",
-    "tags": ["aluguel", "venda", "creci"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "creci"
+    ],
     "confirmado": false
   },
   {
@@ -1191,7 +1496,11 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.imobiliariarealizaalegrete.com.br",
-    "tags": ["aluguel", "venda", "rural"],
+    "tags": [
+      "aluguel",
+      "venda",
+      "rural"
+    ],
     "confirmado": false
   },
   {
@@ -1205,7 +1514,479 @@
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.urbano.samsulimoveis.com.br",
-    "tags": ["aluguel", "sem fiador"],
+    "tags": [
+      "aluguel",
+      "sem fiador"
+    ],
     "confirmado": false
+  },
+  {
+    "id": "agencia-estacao-alegrete",
+    "categoria": "agencia",
+    "nome": "Estação Alegrete",
+    "descricao": {
+      "pt": "Agência de viagens e turismo no centro de Alegrete, com pacotes, passagens aéreas e roteiros sob medida.",
+      "es": "Agencia de viajes y turismo en el centro de Alegrete, con paquetes, pasajes aéreos e itinerarios a medida.",
+      "en": "Travel agency in downtown Alegrete offering tour packages, flights and tailor-made itineraries."
+    },
+    "endereco": "Rua Barão do Amazonas, 338",
+    "telefone": "+55 55 99919-7722",
+    "instagram": "@estacaoalegrete",
+    "tags": [
+      "turismo",
+      "viagens"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agencia-givitur",
+    "categoria": "agencia",
+    "nome": "GiviTur",
+    "descricao": {
+      "pt": "Agência de turismo alegretense para viagens nacionais e internacionais, pacotes e excursões.",
+      "es": "Agencia de turismo de Alegrete para viajes nacionales e internacionales, paquetes y excursiones.",
+      "en": "Alegrete travel agency for domestic and international trips, packages and excursions."
+    },
+    "endereco": "Rua Luís de Freitas, 32",
+    "telefone": "+55 55 99964-1007",
+    "instagram": "@givitur",
+    "tags": [
+      "turismo",
+      "viagens"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agencia-vip-turismo",
+    "categoria": "agencia",
+    "nome": "Vip Turismo",
+    "descricao": {
+      "pt": "Agência de viagens com passagens, pacotes de lazer e atendimento personalizado em Alegrete.",
+      "es": "Agencia de viajes con pasajes, paquetes de ocio y atención personalizada en Alegrete.",
+      "en": "Travel agency with tickets, leisure packages and personalized service in Alegrete."
+    },
+    "endereco": "Rua Gaspar Martins, 404",
+    "telefone": "+55 55 99963-3471",
+    "instagram": "@vipturismoalegrete",
+    "tags": [
+      "turismo",
+      "viagens"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agencia-binatur",
+    "categoria": "agencia",
+    "nome": "BinaTur",
+    "descricao": {
+      "pt": "Agência de turismo de Alegrete: roteiros, pacotes e organização de viagens em grupo.",
+      "es": "Agencia de turismo de Alegrete: itinerarios, paquetes y organización de viajes en grupo.",
+      "en": "Alegrete travel agency: itineraries, packages and group-trip planning."
+    },
+    "telefone": "+55 55 98163-2030",
+    "instagram": "@binatur.alegrete",
+    "tags": [
+      "turismo",
+      "viagens"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agencia-mercosul-viagens",
+    "categoria": "agencia",
+    "nome": "MercoSul Viagens",
+    "descricao": {
+      "pt": "Agência de viagens com pacotes pelo Mercosul, passagens e excursões a partir de Alegrete.",
+      "es": "Agencia de viajes con paquetes por el Mercosur, pasajes y excursiones desde Alegrete.",
+      "en": "Travel agency with Mercosur packages, tickets and excursions departing from Alegrete."
+    },
+    "endereco": "Rua General Sampaio, 152",
+    "telefone": "+55 55 3422-6015",
+    "instagram": "@mercosulviagens2021",
+    "tags": [
+      "turismo",
+      "viagens"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-boi-bom",
+    "categoria": "agroindustria",
+    "nome": "Boi Bom",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Rua Francisco Pesce Padula, 407",
+    "telefone": "+55 55 3421-3461",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-campeira-alegretense",
+    "categoria": "agroindustria",
+    "nome": "Campeira Alegretense",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Rua Coronel Antônio de Freitas Vale, 392",
+    "telefone": "+55 55 99626-1903",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-madalozzo",
+    "categoria": "agroindustria",
+    "nome": "Casa de Carne Madalozzo",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Rua Simplício Jaques, 816",
+    "telefone": "+55 55 3422-6058",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-santo-antonio",
+    "categoria": "agroindustria",
+    "nome": "Casa de Carne Santo Antônio",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Ibicuí, 178 · e Av. Assis Brasil, 869",
+    "telefone": "+55 55 99621-4904",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-casa-do-frango",
+    "categoria": "agroindustria",
+    "nome": "Casa do Frango",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Rua Bento Manoel, 189",
+    "telefone": "+55 55 3422-2929",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-emporio-dutra",
+    "categoria": "agroindustria",
+    "nome": "Empório Dutra e Dutra",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Doutor Eurípedes Brasil Milano, 3393",
+    "telefone": "+55 55 3422-4629",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-fazenda-casa-carnes",
+    "categoria": "agroindustria",
+    "nome": "Fazenda Casa de Carnes",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Assis Brasil, 469",
+    "telefone": "+55 55 99948-2434",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-carnes-do-vale",
+    "categoria": "agroindustria",
+    "nome": "Mercado de Carnes do Vale",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Tiaraju, 2310",
+    "telefone": "+55 55 3426-3084",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-mercado-dutra",
+    "categoria": "agroindustria",
+    "nome": "Mercado Dutra",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Doutor Eurípedes Brasil Milano, 3393",
+    "telefone": "+55 55 3422-4629",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-qualidade-gaucha",
+    "categoria": "agroindustria",
+    "nome": "Qualidade Gaúcha",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Joaquim Pahim, 3465",
+    "telefone": "+55 55 99920-3765",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-tambara",
+    "categoria": "agroindustria",
+    "nome": "Tambara",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Avenida Ibicuí, 331 · e R. Álvaro Ignácio de Medeiros, 483",
+    "telefone": "+55 55 3422-8767",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "agro-uniao",
+    "categoria": "agroindustria",
+    "nome": "União",
+    "descricao": {
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+    },
+    "endereco": "Rua Coronel Antônio de Freitas Valle, 392",
+    "telefone": "+55 55 99626-1903",
+    "tags": [
+      "linguica",
+      "carnes"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-aconchego-dos-caranchos",
+    "categoria": "ctg",
+    "nome": "CTG Aconchego dos Caranchos",
+    "descricao": {
+      "pt": "CTG Aconchego dos Caranchos mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Aconchego dos Caranchos mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Aconchego dos Caranchos keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Avenida Major João Cezimbra Jaques, 371",
+    "telefone": "+55 55 3422-5533",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-capela-queimada",
+    "categoria": "ctg",
+    "nome": "CTG Capela Queimada",
+    "descricao": {
+      "pt": "CTG Capela Queimada mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Capela Queimada mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Capela Queimada keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Irmãos Timbaúva, s/n",
+    "telefone": "+55 55 3422-5533",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-farroupilha",
+    "categoria": "ctg",
+    "nome": "CTG Farroupilha",
+    "descricao": {
+      "pt": "CTG Farroupilha mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Farroupilha mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Farroupilha keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Avenida Eurípedes Brasil Milano, 509",
+    "telefone": "+55 55 3422-3388",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-honorio-lemes",
+    "categoria": "ctg",
+    "nome": "CTG Honório Lemes",
+    "descricao": {
+      "pt": "CTG Honório Lemes mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Honório Lemes mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Honório Lemes keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Avenida Caverá, 136",
+    "telefone": "+55 55 99932-9192",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-oswaldo-aranha",
+    "categoria": "ctg",
+    "nome": "CTG Oswaldo Aranha",
+    "descricao": {
+      "pt": "CTG Oswaldo Aranha mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Oswaldo Aranha mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Oswaldo Aranha keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rodovia Osvaldo Aranha",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "ctg-vaqueanos-da-fronteira",
+    "categoria": "ctg",
+    "nome": "CTG Vaqueanos da Fronteira",
+    "descricao": {
+      "pt": "CTG Vaqueanos da Fronteira mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Vaqueanos da Fronteira mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Vaqueanos da Fronteira keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Bento Manoel, 1405",
+    "telefone": "+55 55 99908-1909",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "dtg-juventude",
+    "categoria": "ctg",
+    "nome": "DTG Juventude",
+    "descricao": {
+      "pt": "DTG Juventude mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "DTG Juventude mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "DTG Juventude keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Irmãos Timbaúva, s/n",
+    "telefone": "+55 55 3422-5533",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "gn-ibirapuita",
+    "categoria": "ctg",
+    "nome": "GN Ibirapuitã",
+    "descricao": {
+      "pt": "GN Ibirapuitã mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GN Ibirapuitã mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GN Ibirapuitã keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Armando Grillo, 88",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "gt-os-tauras",
+    "categoria": "ctg",
+    "nome": "GT Os Tauras",
+    "descricao": {
+      "pt": "GT Os Tauras mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GT Os Tauras mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GT Os Tauras keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Constantino da Costa Leite, 210",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "gt-reponte-de-lacadores",
+    "categoria": "ctg",
+    "nome": "GT Reponte de Laçadores",
+    "descricao": {
+      "pt": "GT Reponte de Laçadores mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GT Reponte de Laçadores mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GT Reponte de Laçadores keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+    },
+    "endereco": "Rua Coronel Antonio Freitas Valle, 877",
+    "tags": [
+      "tradicao",
+      "ctg",
+      "cultura"
+    ],
+    "confirmado": true
   }
 ]

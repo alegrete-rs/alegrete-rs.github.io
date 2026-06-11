@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tradições Gaúchas & CTGs — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Centros de Tradições Gaúchas (CTGs) de Alegrete: piquetes, galpões, danças, rodeios crioulos e a cultura campeira da 3ª Capital Farroupilha, com endereços e contatos." />
+  <meta property="og:title" content="Tradições Gaúchas & CTGs — Visit Alegrete" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_tradicoes">Tradições</span></div>
+      <span class="eyebrow" data-i18n="trad_pre">Alma farroupilha</span>
+      <h1 data-i18n="trad_h">Centros de Tradições Gaúchas</h1>
+      <p class="lead" data-i18n="trad_lead">3ª Capital Farroupilha, Alegrete pulsa tradição o ano inteiro. Os CTGs e piquetes mantêm vivas as danças, a música e a lida campeira do Pampa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="trad_intro_h">Onde a tradição se encontra</span>
+        <h2 data-i18n="trad_intro_h">Onde a tradição se encontra</h2>
+        <p data-i18n="trad_intro_p">Os Centros de Tradições Gaúchas (CTGs) são o coração da cultura campeira. Nos galpões e piquetes acontecem bailes, rodeios crioulos, danças, declamação e a roda de chimarrão — sobretudo em setembro, quando a Semana Farroupilha toma a cidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="trad_list_pre">Piquetes e galpões</span>
+        <h2 data-i18n="trad_list_h">Centros de Tradições Gaúchas</h2>
+        <p data-i18n="trad_list_p">Endereços e contatos dos CTGs, DTGs e grupos tradicionalistas de Alegrete.</p>
+      </div>
+      <div class="grid grid-3" id="ctgList"></div>
+      <p class="muted reveal" style="margin-top:24px;font-size:0.9rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="trad_disclaimer">A programação de cada CTG (rodeios, bailes e festas campeiras) varia ao longo do ano — confirme datas e horários diretamente com cada entidade.</span></p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'ctgList',
+        categories: ['ctg']
+      });
+    });
+  </script>
+</body>
+</html>

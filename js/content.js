@@ -35,6 +35,10 @@
     evento_local:{ icon: 'party-popper',     color: '#7a2e4a', label: 'cat_evento_local' },
     // Moradia
     imobiliaria: { icon: 'key-round',        color: '#5c6f8a', label: 'cat_imobiliaria' },
+    // Tradição, sabores & serviços
+    ctg:         { icon: 'flag',              color: '#2f5a42', label: 'cat_ctg' },
+    agroindustria:{ icon: 'beef',             color: '#8a3b2b', label: 'cat_agroindustria' },
+    agencia:     { icon: 'plane-takeoff',     color: '#2f6f8a', label: 'cat_agencia' },
   };
 
   // A place's primary category plus any extra tags it should also appear under.
@@ -68,7 +72,8 @@
 
   function mapsLink(p) {
     if (p.lat && p.lng) return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
-    const q = encodeURIComponent(`${p.nome}, Alegrete RS`);
+    const parts = [p.nome, p.endereco, 'Alegrete RS'].filter(Boolean);
+    const q = encodeURIComponent(parts.join(', '));
     return `https://www.google.com/maps/search/?api=1&query=${q}`;
   }
 

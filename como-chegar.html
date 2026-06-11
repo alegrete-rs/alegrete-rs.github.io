@@ -14,6 +14,7 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
 </head>
 <body>
   <div id="header-slot"></div>
@@ -104,9 +105,25 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="getting_agencies_pre">Planeje com quem é daqui</span>
+        <h2 data-i18n="getting_agencies_h">Agências de turismo</h2>
+        <p data-i18n="getting_agencies_p">Agências locais ajudam a montar roteiros, reservar passagens e organizar passeios pela Fronteira Oeste e além.</p>
+      </div>
+      <div class="grid grid-3" id="agenciasList"></div>
+    </div>
+  </section>
+
   <div id="footer-slot"></div>
 
   <script>
+    document.addEventListener('core-ready', function () {
+      if (window.AlegreteContent) {
+        AlegreteContent.render({ listId: 'agenciasList', categories: ['agencia'] });
+      }
+    });
     function flag(p) { return p === 'AR' ? '🇦🇷' : p === 'UY' ? '🇺🇾' : '🇧🇷'; }
     function renderDistances() {
       fetch('data/distancias.json').then(r => r.json()).then(list => {

@@ -68,6 +68,22 @@
     </div>
   </section>
 
+  <!-- Linguiça agroindustries -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="food_agro_pre">Capital Nacional da Linguiça</span>
+        <h2 data-i18n="food_agro_h">Agroindústrias de linguiça</h2>
+        <p data-i18n="food_agro_p">Alegrete é a Capital Nacional da Linguiça Tradicional Campeira, com produção anual de mais de 500 toneladas. Conheça as agroindústrias e casas de carne que levam esse sabor adiante.</p>
+      </div>
+      <div class="grid grid-3" id="agroList"></div>
+      <div class="callout reveal" style="margin-top:26px;">
+        <h4><i data-lucide="gift"></i> <span data-i18n="food_agro_take_h">Leve sua linguiça campeira</span></h4>
+        <p data-i18n="food_agro_take_p">Levar uma linguiça de Alegrete é levar um pedaço da cultura local. Produzida de forma artesanal, ela carrega o sabor do campo e a herança dos antigos tropeiros — a lembrança perfeita da sua viagem.</p>
+      </div>
+    </div>
+  </section>
+
   <div id="footer-slot"></div>
 
   <script>
@@ -77,6 +93,10 @@
         mapId: 'map',
         filterId: 'foodFilter',
         categories: ['restaurante', 'bar', 'cafe']
+      });
+      AlegreteContent.render({
+        listId: 'agroList',
+        categories: ['agroindustria']
       });
     });
   </script>

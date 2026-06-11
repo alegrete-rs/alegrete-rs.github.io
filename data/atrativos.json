@@ -1,0 +1,275 @@
+[
+  {
+    "id": "chapeu-preto",
+    "nome": "Chapéu Preto",
+    "cat": "cultura",
+    "img": "chapeu-preto",
+    "local": "Av. Espinilho, 83",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Um dos símbolos mais reconhecidos da identidade cultural de Alegrete. Inspirado na figura tradicional do gaúcho, representa orgulho, tradição e pertencimento — um marco visual que conecta moradores e visitantes às raízes do Pampa.",
+      "es": "Uno de los símbolos más reconocidos de la identidad cultural de Alegrete. Inspirado en la figura del gaucho, representa orgullo, tradición y pertenencia.",
+      "en": "One of the most recognised symbols of Alegrete's cultural identity. Inspired by the traditional gaúcho figure, it stands for pride, tradition and belonging."
+    }
+  },
+  {
+    "id": "ponte-borges",
+    "nome": "Ponte Borges de Medeiros",
+    "cat": "natureza",
+    "img": "ponte-ibirapuita",
+    "local": "Próximo ao Parque Rui Ramos",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Sobre o Rio Ibirapuitã, é um dos cartões-postais de Alegrete. Com sua imponência e beleza, oferece uma vista privilegiada da paisagem natural e o encontro entre arquitetura e o pampa gaúcho — local ideal para contemplação e fotografia.",
+      "es": "Sobre el Río Ibirapuitã, es uno de los postales de Alegrete. Ofrece una vista privilegiada del paisaje natural y el encuentro entre arquitectura y pampa.",
+      "en": "Over the Ibirapuitã River, it is one of Alegrete's postcards, offering a privileged view of the natural landscape where architecture meets the pampa."
+    }
+  },
+  {
+    "id": "igreja-matriz",
+    "nome": "Igreja Matriz",
+    "cat": "fe",
+    "img": "igreja-matriz",
+    "local": "Praça Getúlio Vargas",
+    "visita": { "pt": "Missas: ter, qui, sex, sáb e dom", "es": "Misas: mar, jue, vie, sáb y dom", "en": "Mass: Tue, Thu, Fri, Sat, Sun" },
+    "desc": {
+      "pt": "Inaugurada em 1919, é um dos principais símbolos religiosos e históricos da cidade. Com arquitetura imponente e rica em detalhes, convida à contemplação, à fé e à tranquilidade no coração de Alegrete.",
+      "es": "Inaugurada en 1919, es uno de los principales símbolos religiosos e históricos de la ciudad, con arquitectura imponente y rica en detalles.",
+      "en": "Opened in 1919, it is one of the city's main religious and historical symbols, with imposing, richly detailed architecture."
+    }
+  },
+  {
+    "id": "museu-gaucho",
+    "nome": "Museu do Gaúcho — Ícaro Ferreira da Costa",
+    "cat": "historia",
+    "img": "museu-gaucho",
+    "local": "R. Santa Catarina, 130",
+    "visita": { "pt": "Mediante agendamento · (55) 3426-2448", "es": "Con cita previa · (55) 3426-2448", "en": "By appointment · (55) 3426-2448" },
+    "desc": {
+      "pt": "Espaço dedicado à preservação da cultura e das tradições do povo gaúcho. Reúne peças históricas, indumentárias, utensílios e registros que contam a trajetória e o modo de vida no pampa — uma verdadeira imersão na identidade regional.",
+      "es": "Espacio dedicado a preservar la cultura y las tradiciones gauchas, con piezas históricas, indumentaria y registros del modo de vida en la pampa.",
+      "en": "A space dedicated to preserving gaúcho culture and traditions, gathering historical items, garments and records of pampa life."
+    }
+  },
+  {
+    "id": "museu-oswaldo-aranha",
+    "nome": "Museu Oswaldo Aranha",
+    "cat": "historia",
+    "img": "",
+    "local": "Praça Getúlio Vargas, 123",
+    "visita": { "pt": "Agendar no CAT · visita 8h–12h", "es": "Agendar en el CAT · 8–12h", "en": "Book at CAT · 8am–12pm" },
+    "desc": {
+      "pt": "Preserva a memória de Oswaldo Aranha, uma das figuras mais marcantes da política brasileira. O acervo reúne objetos pessoais, documentos e registros que conectam Alegrete a momentos significativos do Brasil e do mundo.",
+      "es": "Preserva la memoria de Oswaldo Aranha, una de las figuras más destacadas de la política brasileña, con objetos personales y documentos.",
+      "en": "Preserves the memory of Oswaldo Aranha, a key figure in Brazilian politics, with personal objects and documents."
+    }
+  },
+  {
+    "id": "centro-cultural",
+    "nome": "Centro Cultural Adão Ortiz Houayek",
+    "cat": "cultura",
+    "img": "centro-cultural",
+    "local": "Praça Oswaldo Aranha, 100",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Importante espaço dedicado à promoção da arte, da cultura e da educação. Recebe exposições, eventos, oficinas e apresentações, valorizando os talentos locais e fortalecendo a identidade cultural da cidade.",
+      "es": "Importante espacio para la promoción del arte, la cultura y la educación, con exposiciones, eventos, talleres y presentaciones.",
+      "en": "An important space promoting art, culture and education, hosting exhibitions, events, workshops and performances."
+    }
+  },
+  {
+    "id": "cepal",
+    "nome": "CEPAL — Centro de Pesquisa e Documentação",
+    "cat": "historia",
+    "img": "cepal",
+    "local": "R. Castro Alves, 1 · (55) 3422-4585",
+    "visita": { "pt": "Referência em memória e história", "es": "Referencia en memoria e historia", "en": "Reference in memory and history" },
+    "desc": {
+      "pt": "Espaço dedicado à preservação da memória e da história do município. Seu acervo reúne documentos, fotografias e registros que retratam períodos e aspectos da formação de Alegrete — referência para pesquisadores e estudantes.",
+      "es": "Dedicado a preservar la memoria y la historia del municipio, con documentos, fotografías y registros de la formación de Alegrete.",
+      "en": "Dedicated to preserving the town's memory and history, with documents, photographs and records of Alegrete's formation."
+    }
+  },
+  {
+    "id": "praca-getulio",
+    "nome": "Praça Getúlio Vargas (Praça Central)",
+    "cat": "praca",
+    "img": "praca-getulio",
+    "local": "Centro",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Um dos principais pontos de encontro de Alegrete, reunindo história, lazer e convivência. Com áreas arborizadas e espaços para descanso, é ideal para passeios tranquilos no coração da cidade.",
+      "es": "Uno de los principales puntos de encuentro de Alegrete, con áreas arboladas y espacios de descanso en el corazón de la ciudad.",
+      "en": "One of Alegrete's main gathering spots, blending history and leisure, with leafy areas in the heart of the city."
+    }
+  },
+  {
+    "id": "mario-quintana",
+    "nome": "Estátua de Mário Quintana",
+    "cat": "cultura",
+    "img": "mario-quintana",
+    "local": "Praça Getúlio Vargas",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Homenagem ao poeta, inaugurada em 2022, mostra Quintana sentado em um banco, convidando à interação do público. O monumento se tornou símbolo cultural e turístico da cidade, valorizando sua memória e legado.",
+      "es": "Homenaje al poeta, inaugurada en 2022, muestra a Quintana sentado en un banco invitando a la interacción del público.",
+      "en": "A tribute to the poet, unveiled in 2022, showing Quintana seated on a bench inviting interaction — a cultural symbol of the city."
+    }
+  },
+  {
+    "id": "praca-osorio",
+    "nome": "Praça General Osório",
+    "cat": "praca",
+    "img": "praca-osorio",
+    "local": "Centro",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Tradicional espaço público que reúne história, convivência e lazer no coração da cidade. Com ambiente arborizado e acolhedor, convida a momentos de descanso, encontros e contemplação.",
+      "es": "Tradicional espacio público que reúne historia, convivencia y ocio, con un ambiente arbolado y acogedor.",
+      "en": "A traditional public space blending history, community and leisure, with a leafy, welcoming atmosphere."
+    }
+  },
+  {
+    "id": "negrinho",
+    "nome": "Praça Ruy Ramos — Negrinho Triunfante",
+    "cat": "praca",
+    "img": "negrinho",
+    "local": "Praça dos Patinhos · Rua Demétrio Ribeiro, 906",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Conhecida como Praça dos Patinhos, destaca-se pelo monumento Negrinho Triunfante, que valoriza a cultura e a religiosidade popular da região. Espaço agradável e familiar que une história e qualidade de vida.",
+      "es": "Conocida como Plaza dos Patinhos, destaca por el monumento Negrinho Triunfante, que valora la cultura y la religiosidad popular.",
+      "en": "Known as Praça dos Patinhos, it features the Negrinho Triunfante monument, celebrating the region's popular culture and faith."
+    }
+  },
+  {
+    "id": "obelisco",
+    "nome": "Obelisco Farroupilha",
+    "cat": "historia",
+    "img": "obelisco",
+    "local": "Av. Tiaraju, 659",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Conhecido como “Picolé do Adão”, celebra o sesquicentenário da Revolução Farroupilha. Construído na década de 1980 e inaugurado em 1985, possui 17 metros de altura e placas que destacam a história do movimento farroupilha.",
+      "es": "Conocido como “Picolé do Adão”, celebra el sesquicentenario de la Revolución Farroupilha. Tiene 17 metros de altura.",
+      "en": "Known as the “Picolé do Adão”, it marks the 150th anniversary of the Farroupilha Revolution and stands 17 metres tall."
+    }
+  },
+  {
+    "id": "parque-lauro",
+    "nome": "Parque Dr. Lauro Dornelles",
+    "cat": "natureza",
+    "img": "parque-lauro",
+    "local": "Av. Tiaraju, 1685",
+    "visita": { "pt": "Visitação das 8h às 19h", "es": "Visitas de 8 a 19h", "en": "Open 8am–7pm" },
+    "desc": {
+      "pt": "Um dos principais espaços de lazer e contato com a natureza. Com amplas áreas verdes, sombra e tranquilidade, é ideal para caminhadas, piqueniques e momentos ao ar livre — palco de grandes eventos da cidade.",
+      "es": "Uno de los principales espacios de ocio y contacto con la naturaleza, ideal para caminatas y picnics, sede de grandes eventos.",
+      "en": "A key leisure and nature space with broad green areas — ideal for walks and picnics, and home to the city's biggest events."
+    }
+  },
+  {
+    "id": "porto-aguateiros",
+    "nome": "Porto dos Aguateiros",
+    "cat": "natureza",
+    "img": "porto-aguateiros",
+    "local": "Av. Eurípedes Brasil Milano, 1971",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Espaço que resgata a tradição ligada ao abastecimento de água no município. No passado, os “aguateiros” levavam água às residências; hoje o local preserva essa memória às margens do rio, conectando visitantes às origens da cidade.",
+      "es": "Espacio que rescata la tradición del abastecimiento de agua. Hoy preserva esa memoria a orillas del río.",
+      "en": "A space recalling the town's water-carrying tradition — once delivered house to house, now preserved by the riverside."
+    }
+  },
+  {
+    "id": "maria-fumaca",
+    "nome": "Maria Fumaça",
+    "cat": "historia",
+    "img": "maria-fumaca",
+    "local": "R. Gen. Arruda, 364-436",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Símbolo que remete à história ferroviária do município. Representando as antigas locomotivas a vapor, resgata um tempo em que o trem era fundamental para a economia da região — patrimônio que conecta passado e presente.",
+      "es": "Símbolo de la historia ferroviaria del municipio, que rescata el tiempo en que el tren era fundamental para la economía.",
+      "en": "A symbol of the town's railway history, recalling the era when steam trains were vital to the regional economy."
+    }
+  },
+  {
+    "id": "estacao-ferroviaria",
+    "nome": "Estação Ferroviária",
+    "cat": "historia",
+    "img": "estacao-ferroviaria",
+    "local": "Largo João Modesto de Souza, Centro",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Marco histórico do período em que o transporte ferroviário impulsionava o desenvolvimento da região. Com arquitetura característica e grande valor cultural, preserva memórias de um tempo em que trens movimentavam a cidade.",
+      "es": "Hito histórico del periodo en que el ferrocarril impulsaba el desarrollo regional, con arquitectura característica y valor cultural.",
+      "en": "A historic landmark from when railways drove regional development, with characterful architecture and great cultural value."
+    }
+  },
+  {
+    "id": "calcadao",
+    "nome": "Calçadão",
+    "cat": "lazer",
+    "img": "calcadao",
+    "local": "Praça Getúlio Vargas",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Um dos espaços mais movimentados da cidade, reunindo comércio, serviços e convivência. Ponto de passagem obrigatório para quem deseja sentir o ritmo e a essência urbana de Alegrete.",
+      "es": "Uno de los espacios más concurridos, reuniendo comercio, servicios y convivencia — para sentir la esencia urbana de Alegrete.",
+      "en": "One of the busiest areas in town, blending shops, services and street life — the place to feel Alegrete's urban pulse."
+    }
+  },
+  {
+    "id": "estadio",
+    "nome": "Estádio Farroupilha",
+    "cat": "lazer",
+    "img": "estadio",
+    "local": "Av. Eurípedes Brasil Milano, 1-357",
+    "visita": { "pt": "Aberto em eventos", "es": "Abierto en eventos", "en": "Open during events" },
+    "desc": {
+      "pt": "Importante espaço esportivo da cidade, palco de competições e encontros. Com forte tradição no esporte, representa a paixão alegretense pelo futebol e o espírito esportivo do pampa gaúcho.",
+      "es": "Importante espacio deportivo, escenario de competiciones que representa la pasión de Alegrete por el fútbol.",
+      "en": "An important sports venue and the stage for matches, embodying Alegrete's passion for football."
+    }
+  },
+  {
+    "id": "cult-cinemas",
+    "nome": "Cult Cinemas",
+    "cat": "lazer",
+    "img": "cult-cinemas",
+    "local": "Praça Oswaldo Aranha, 199",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "Principal espaço dedicado ao cinema na cidade, com programação variada que inclui lançamentos e diferentes gêneros. Um ponto de encontro que valoriza o acesso ao cinema e complementa a vida cultural de Alegrete.",
+      "es": "Principal espacio de cine de la ciudad, con programación variada de estrenos y géneros — complementa la vida cultural.",
+      "en": "The city's main cinema, with a varied programme of releases and genres that enriches Alegrete's cultural life."
+    }
+  },
+  {
+    "id": "portico",
+    "nome": "Pórtico de Entrada",
+    "cat": "historia",
+    "img": "portico",
+    "local": "BR-290, acesso pela Av. República Riograndense",
+    "visita": { "pt": "Visitação livre", "es": "Visita libre", "en": "Free visit" },
+    "desc": {
+      "pt": "O cartão de boas-vindas da cidade, destacando a identidade e o orgulho local. Inspirado na cultura do pampa gaúcho e homenageando os Fagundes, simboliza a hospitalidade alegretense e convida os visitantes a iniciar sua experiência.",
+      "es": "La tarjeta de bienvenida de la ciudad, que destaca la identidad y el orgullo local e invita a iniciar la experiencia.",
+      "en": "The city's welcome gateway, celebrating local identity and pride and inviting visitors to begin their experience."
+    }
+  },
+  {
+    "id": "cat",
+    "nome": "CAT — Centro de Atendimento ao Turista",
+    "cat": "lazer",
+    "img": "cat",
+    "local": "Praça Getúlio Vargas, 190 · (55) 99162-0282",
+    "visita": { "pt": "Seg a sex, das 9h às 20h", "es": "Lun a vie, de 9 a 20h", "en": "Mon–Fri, 9am–8pm" },
+    "desc": {
+      "pt": "Ponto de apoio ideal para quem deseja explorar a cidade. Oferece informações sobre atrativos, eventos, roteiros e serviços turísticos, além de exposições de artesanato — um espaço acolhedor que conecta o turista às melhores vivências de Alegrete.",
+      "es": "Punto de apoyo ideal para explorar la ciudad, con información sobre atractivos, eventos, rutas y servicios turísticos.",
+      "en": "The ideal support point for exploring the city, with information on attractions, events, routes and tourist services."
+    }
+  }
+]

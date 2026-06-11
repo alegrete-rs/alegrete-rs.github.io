@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# macOS
+.DS_Store
+
+# Working files / source material (not part of the published site)
+Visit Alegrete.pdf
+links.txt
+mensagem.txt

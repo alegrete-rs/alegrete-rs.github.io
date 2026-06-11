@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alegrete — O Baita Chão | Portal da cidade mais gaúcha do RS</title>
-  <meta name="description" content="Portal de Alegrete-RS: história, gastronomia, hospedagem, esportes, natureza, eventos, compras na fronteira e como chegar. A cidade mais gaúcha do Rio Grande do Sul." />
+  <title>Visit Alegrete — A cidade mais gaúcha do Rio Grande do Sul</title>
+  <meta name="description" content="Guia oficial de turismo de Alegrete-RS: atrativos turísticos, história, gastronomia, hospedagem, eventos, natureza e como chegar. Aqui a vida é melhor." />
+  <meta property="og:title" content="Visit Alegrete — Aqui a vida é melhor" />
+  <meta property="og:description" content="Atrativos, sabores, eventos e a alma do Pampa gaúcho. 3ª Capital Farroupilha." />
+  <meta property="og:image" content="assets/img/portico.jpg" />
+  <meta property="og:type" content="website" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Archivo:wght@400;500;600;700;800&family=Cinzel:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="js/app.js" defer></script>
@@ -16,141 +20,237 @@
 <body>
   <div id="header-slot"></div>
 
-  <!-- Hero -->
+  <!-- ===== HERO ===== -->
   <section class="hero">
-    <div class="wrap hero-inner">
-      <span class="eyebrow reveal" data-i18n="home_hero_pre">Fronteira Oeste · Pampa Gaúcho</span>
-      <h1 class="reveal" data-delay="80" style="margin-top:18px;">
-        Alegrete
-      </h1>
-      <p class="hero-quote italic-note reveal" data-delay="140" style="margin:2px 0 0;color:var(--terra)">o Baita Chão</p>
-      <p class="lead reveal" data-delay="220" data-i18n="home_hero_lead" style="margin-top:22px;">
-        A “cidade mais gaúcha” do Rio Grande do Sul e o maior município em extensão territorial do estado.
+    <div class="hero-bg">
+      <img src="assets/img/portico.jpg" alt="Pórtico de entrada de Alegrete sob o céu do Pampa" fetchpriority="high" />
+    </div>
+    <div class="wrap hero-inner on-dark">
+      <span class="eyebrow reveal" data-i18n="home_hero_pre">Fronteira Oeste · Pampa Gaúcho · RS</span>
+      <h1 class="reveal" data-delay="90" style="margin-top:16px;">ALEGRETE</h1>
+      <p class="hero-quote reveal" data-delay="160" data-i18n="home_hero_quote">aqui a vida é melhor</p>
+      <p class="lead reveal" data-delay="240" data-i18n="home_hero_lead">
+        Terra de horizontes largos, história viva e cultura gaúcha pulsante — onde cada experiência vai além do que se vê à primeira vista.
       </p>
-      <div class="hero-actions reveal" data-delay="300">
-        <a class="btn btn-primary" href="#explorar"><i data-lucide="compass"></i><span data-i18n="home_cta_explore">Descobrir Alegrete</span></a>
-        <a class="btn btn-ghost" href="eventos.html"><i data-lucide="calendar-days"></i><span data-i18n="home_cta_events">Ver agenda de eventos</span></a>
-      </div>
-
-      <div class="grid grid-4 reveal" data-delay="360" style="margin-top:56px;">
-        <div class="stat"><div class="num">1º</div><div class="lbl" data-i18n="home_stat_terr">Maior município do RS em território</div></div>
-        <div class="stat"><div class="num">~73&thinsp;mil</div><div class="lbl" data-i18n="home_stat_pop">habitantes orgulhosos</div></div>
-        <div class="stat"><div class="num">#1</div><div class="lbl" data-i18n="home_stat_pib">Maior PIB agropecuário do RS</div></div>
-        <div class="stat"><div class="num">1626</div><div class="lbl" data-i18n="home_stat_year">Origens ligadas às missões jesuíticas</div></div>
+      <div class="hero-actions reveal" data-delay="320">
+        <a class="btn btn-primary" href="atrativos.html"><i data-lucide="compass"></i><span data-i18n="home_cta_explore">Descobrir os atrativos</span></a>
+        <a class="btn btn-ghost" href="#planeje"><i data-lucide="map"></i><span data-i18n="home_cta_plan">Planeje sua visita</span></a>
       </div>
     </div>
+    <a class="hero-scroll" href="#bemvindo" aria-label="Rolar para baixo">
+      <span data-i18n="home_scroll">Explorar</span>
+      <i data-lucide="chevron-down"></i>
+    </a>
   </section>
 
-  <!-- About -->
-  <section class="section section--paper2">
+  <!-- ===== WELCOME ===== -->
+  <section class="section" id="bemvindo">
     <div class="wrap split">
       <div class="reveal">
-        <span class="eyebrow" data-i18n="home_about_pre">Bem-vindo ao Baita Chão</span>
-        <h2 style="font-size:clamp(2rem,4.4vw,3rem);margin:14px 0 18px;" data-i18n="home_about_h">Onde o Pampa vira identidade</h2>
+        <svg class="flightpath" viewBox="0 0 230 34" fill="none" aria-hidden="true">
+          <path d="M2 30 Q 80 2 150 16 T 228 8" />
+          <path class="plane" d="M150 16 l 16 -8 l -5 8 l 5 8 z" />
+        </svg>
+        <span class="eyebrow" data-i18n="home_about_pre">Seja bem-vindo ao Alegrete</span>
+        <h2 style="font-size:clamp(2rem,4.6vw,3.1rem);margin:14px 0 18px;" data-i18n="home_about_h">Onde o Pampa vira identidade</h2>
         <div class="prose">
-          <p data-i18n="home_about_p1">Às margens do Rio Ibirapuitã, Alegrete guarda a alma do Rio Grande do Sul.</p>
-          <p data-i18n="home_about_p2">Hoje, a cidade une a força do campo à tecnologia.</p>
+          <p data-i18n="home_about_p1">Reconhecida como uma das cidades mais gaúchas do Rio Grande do Sul e também a 3ª Capital Farroupilha, Alegrete carrega as tradições e o orgulho do povo do Pampa.</p>
+          <p data-i18n="home_about_p2">A qualidade de vida se destaca no ritmo tranquilo do dia a dia, nos espaços ao ar livre e no contato com a natureza — enquanto a cidade surpreende com gastronomia diversa e uma vida noturna animada.</p>
+        </div>
+        <div class="grid grid-3" style="margin-top:30px;gap:16px;">
+          <div class="stat reveal"><div class="num">1º</div><div class="lbl" data-i18n="home_stat_terr">Maior município do RS em território</div></div>
+          <div class="stat reveal" data-delay="80"><div class="num">~73&thinsp;mil</div><div class="lbl" data-i18n="home_stat_pop">habitantes orgulhosos</div></div>
+          <div class="stat reveal" data-delay="160"><div class="num">3ª</div><div class="lbl" data-i18n="home_stat_capital">Capital Farroupilha do RS</div></div>
         </div>
       </div>
       <div class="reveal" data-delay="160">
         <div class="imgframe">
-          <div class="ph"><i data-lucide="image" style="width:34px;height:34px"></i><span>Pampa · Rio Ibirapuitã</span></div>
+          <img src="assets/img/ponte-ibirapuita.jpg" alt="Ponte Borges de Medeiros sobre o Rio Ibirapuitã ao entardecer" loading="lazy" />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Explore grid -->
-  <section class="section" id="explorar">
+  <!-- ===== FEATURED ATTRACTIONS ===== -->
+  <section class="section section--paper2">
     <div class="wrap">
       <div class="section-head center reveal">
-        <span class="eyebrow" data-i18n="home_explore_pre">Por onde começar</span>
+        <span class="eyebrow center" data-i18n="home_atr_pre">Cartões-postais</span>
+        <h2 data-i18n="home_atr_h">Atrativos que contam histórias</h2>
+        <p data-i18n="home_atr_p">Do folclore gaúcho às praças centenárias, os marcos que dão alma a Alegrete.</p>
+      </div>
+      <div class="atr-grid">
+        <a class="atr reveal" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-cultura" data-i18n="cat_cultura">Cultura</span><img src="assets/img/chapeu-preto.jpg" alt="Chapéu Preto" loading="lazy" /></div>
+          <div class="atr-body"><h3>Chapéu Preto</h3><p data-i18n="home_atr_chapeu">Um dos símbolos mais reconhecidos da identidade cultural alegretense, inspirado na figura do gaúcho.</p><span class="atr-loc"><i data-lucide="map-pin"></i> Av. Espinilho, 83</span></div>
+        </a>
+        <a class="atr reveal" data-delay="70" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-fe" data-i18n="cat_fe">Fé &amp; História</span><img src="assets/img/igreja-matriz.jpg" alt="Igreja Matriz de Alegrete" loading="lazy" /></div>
+          <div class="atr-body"><h3>Igreja Matriz</h3><p data-i18n="home_atr_igreja">Inaugurada em 1919, com arquitetura imponente e rica em detalhes, no coração da cidade.</p><span class="atr-loc"><i data-lucide="map-pin"></i> Praça Getúlio Vargas</span></div>
+        </a>
+        <a class="atr reveal" data-delay="140" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-natureza" data-i18n="cat_natureza">Natureza</span><img src="assets/img/ponte-ibirapuita.jpg" alt="Ponte Borges de Medeiros" loading="lazy" /></div>
+          <div class="atr-body"><h3>Ponte Borges de Medeiros</h3><p data-i18n="home_atr_ponte">Sobre o Rio Ibirapuitã, um dos cartões-postais — vista privilegiada do Pampa.</p><span class="atr-loc"><i data-lucide="map-pin"></i> Próximo ao Parque Rui Ramos</span></div>
+        </a>
+        <a class="atr reveal" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-historia" data-i18n="cat_historia">Memória</span><img src="assets/img/museu-gaucho.jpg" alt="Museu do Gaúcho" loading="lazy" /></div>
+          <div class="atr-body"><h3>Museu do Gaúcho</h3><p data-i18n="home_atr_museu">Ícaro Ferreira da Costa — imersão na cultura e nas tradições do povo gaúcho.</p><span class="atr-loc"><i data-lucide="map-pin"></i> R. Santa Catarina, 130</span></div>
+        </a>
+        <a class="atr reveal" data-delay="70" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-praca" data-i18n="cat_praca">Praça</span><img src="assets/img/praca-getulio.jpg" alt="Praça Getúlio Vargas" loading="lazy" /></div>
+          <div class="atr-body"><h3>Praça Getúlio Vargas</h3><p data-i18n="home_atr_praca">A Praça Central, coração arborizado da cidade — história, lazer e convivência.</p><span class="atr-loc"><i data-lucide="map-pin"></i> Centro</span></div>
+        </a>
+        <a class="atr reveal" data-delay="140" href="atrativos.html">
+          <div class="atr-media"><span class="cat c-historia" data-i18n="cat_historia">Memória</span><img src="assets/img/obelisco.jpg" alt="Obelisco Farroupilha" loading="lazy" /></div>
+          <div class="atr-body"><h3>Obelisco Farroupilha</h3><p data-i18n="home_atr_obelisco">O “Picolé do Adão”, com 17 metros, celebra o sesquicentenário da Revolução Farroupilha.</p><span class="atr-loc"><i data-lucide="map-pin"></i> Av. Tiaraju, 659</span></div>
+        </a>
+      </div>
+      <div class="center" style="margin-top:40px;">
+        <a class="btn btn-navy" href="atrativos.html"><i data-lucide="landmark"></i><span data-i18n="home_atr_cta">Ver todos os atrativos</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPLORE GRID ===== -->
+  <section class="section" id="planeje">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow center" data-i18n="home_explore_pre">Por onde começar</span>
         <h2 data-i18n="home_explore_h">Explore Alegrete</h2>
-        <p data-i18n="home_explore_p">Dez caminhos para conhecer a cidade e a região — escolha o seu.</p>
+        <p data-i18n="home_explore_p">Escolha um caminho — cada parada é um convite para sentir o Baita Chão.</p>
       </div>
-      <div class="grid grid-3" id="exploreGrid">
-        <a class="explore-card reveal" href="historia.html">
-          <i data-lucide="landmark" style="width:30px;height:30px"></i>
-          <h3 data-i18n="nav_history">História</h3>
-          <p data-i18n="exp_history_d">Farrapos, missões e a 3ª Capital da República.</p>
-          <span class="arrow" data-i18n="home_explore_h">Explorar</span>
+      <div class="grid grid-3">
+        <a class="explore-card v-red reveal" href="atrativos.html">
+          <img class="cover" src="assets/img/negrinho.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="landmark"></i></span>
+          <h3 data-i18n="nav_attractions">Atrativos</h3>
+          <p data-i18n="exp_attractions_d">Monumentos, museus, praças e os cartões-postais da cidade.</p>
+          <span class="arrow" data-i18n="home_explore_link">Explorar →</span>
         </a>
-        <a class="explore-card v-terra reveal" data-delay="60" href="gastronomia.html">
-          <i data-lucide="utensils-crossed" style="width:30px;height:30px"></i>
+        <a class="explore-card v-gold reveal" data-delay="60" href="gastronomia.html">
+          <img class="cover" src="assets/img/festival-linguica.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="utensils-crossed"></i></span>
           <h3 data-i18n="nav_food">Sabores</h3>
-          <p data-i18n="exp_food_d">Churrasco, linguiça campeira e os melhores endereços.</p>
+          <p data-i18n="exp_food_d">Capital da Linguiça, churrasco de chão e os melhores endereços.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card v-gold reveal" data-delay="120" href="hospedagem.html">
-          <i data-lucide="bed-double" style="width:30px;height:30px"></i>
+        <a class="explore-card v-blue reveal" data-delay="120" href="hospedagem.html">
+          <img class="cover" src="assets/img/parque-lauro.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="bed-double"></i></span>
           <h3 data-i18n="nav_stay">Hospedagem</h3>
-          <p data-i18n="exp_stay_d">Hotéis, pousadas e camping para todos os estilos.</p>
+          <p data-i18n="exp_stay_d">Hotéis, pousadas, cabanas e camping para todos os estilos.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card v-terra reveal" href="esportes.html">
-          <i data-lucide="medal" style="width:30px;height:30px"></i>
-          <h3 data-i18n="nav_sports">Esportes</h3>
-          <p data-i18n="exp_sports_d">Corridas, padel, caiaque, quadras e hipismo.</p>
-          <span class="arrow">→</span>
-        </a>
-        <a class="explore-card reveal" data-delay="60" href="natureza.html">
-          <i data-lucide="trees" style="width:30px;height:30px"></i>
+        <a class="explore-card v-green reveal" href="natureza.html">
+          <img class="cover" src="assets/img/caminho-pampa.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="trees"></i></span>
           <h3 data-i18n="nav_nature">Natureza</h3>
-          <p data-i18n="exp_nature_d">Rios, reservas do Pampa e trilhas ecológicas.</p>
+          <p data-i18n="exp_nature_d">Rios, trilhas do Pampa e o Caminho do Pampa de longo curso.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card v-ink reveal" data-delay="120" href="eventos.html">
-          <i data-lucide="calendar-days" style="width:30px;height:30px"></i>
+        <a class="explore-card v-teal reveal" data-delay="60" href="eventos.html">
+          <img class="cover" src="assets/img/campereada.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="calendar-days"></i></span>
           <h3 data-i18n="nav_events">Eventos</h3>
-          <p data-i18n="exp_events_d">Festival da Linguiça, Campereada e Semana Farroupilha.</p>
+          <p data-i18n="exp_events_d">Campereada, Festival da Linguiça, Semana Farroupilha e EFIPAN.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card v-terra reveal" href="compras.html">
-          <i data-lucide="shopping-bag" style="width:30px;height:30px"></i>
-          <h3 data-i18n="nav_shopping">Fronteira</h3>
-          <p data-i18n="exp_shopping_d">Free shops de Rivera, Uruguaiana e Artigas.</p>
+        <a class="explore-card v-red reveal" data-delay="120" href="esportes.html">
+          <img class="cover" src="assets/img/estadio.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="medal"></i></span>
+          <h3 data-i18n="nav_sports">Esportes</h3>
+          <p data-i18n="exp_sports_d">Corridas, caiaque no Pampa, hipismo e o Estádio Farroupilha.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card v-gold reveal" data-delay="60" href="regiao.html">
-          <i data-lucide="map" style="width:30px;height:30px"></i>
+        <a class="explore-card v-blue reveal" href="regiao.html">
+          <img class="cover" src="assets/img/vinhas.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="grape"></i></span>
           <h3 data-i18n="nav_region">Região</h3>
-          <p data-i18n="exp_region_d">Uruguai, Argentina e as vinícolas da Campanha.</p>
+          <p data-i18n="exp_region_d">Vinhas do Alegrete, fronteira com Uruguai e Argentina.</p>
           <span class="arrow">→</span>
         </a>
-        <a class="explore-card reveal" data-delay="120" href="como-chegar.html">
-          <i data-lucide="route" style="width:30px;height:30px"></i>
+        <a class="explore-card v-gold reveal" data-delay="60" href="historia.html">
+          <img class="cover" src="assets/img/maria-fumaca.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="book-open"></i></span>
+          <h3 data-i18n="nav_history">História</h3>
+          <p data-i18n="exp_history_d">Farrapos, ferrovia e a trajetória do Baita Chão.</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="explore-card v-teal reveal" data-delay="120" href="como-chegar.html">
+          <img class="cover" src="assets/img/calcadao.jpg" alt="" loading="lazy" />
+          <span class="tagico"><i data-lucide="route"></i></span>
           <h3 data-i18n="nav_getting">Como Chegar</h3>
-          <p data-i18n="exp_getting_d">Ônibus, aeroportos, rodovias e distâncias.</p>
+          <p data-i18n="exp_getting_d">Rodoviária, aeroporto regional, rodovias e distâncias.</p>
           <span class="arrow">→</span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Events preview -->
-  <section class="section section--green">
-    <div class="wrap">
+  <!-- ===== EAT / STAY TEASER ===== -->
+  <svg class="wave wave--up" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="#14254a" d="M0,42 C240,86 520,6 760,34 C1000,62 1220,18 1440,44 L1440,0 L0,0 Z"></path></svg>
+  <section class="section section--navy" style="padding-top:clamp(30px,5vw,60px);">
+    <div class="wrap on-dark">
       <div class="section-head center reveal">
-        <span class="eyebrow" style="color:var(--gold-2)" data-i18n="home_events_pre">O ano inteiro em festa</span>
-        <h2 data-i18n="home_events_h">Eventos que movem a cidade</h2>
-        <p data-i18n="home_events_p">Tradição, sabor e esporte marcam o calendário alegretense.</p>
+        <span class="eyebrow center" data-i18n="home_taste_pre">Hospitalidade gaúcha</span>
+        <h2 data-i18n="home_taste_h">Onde comer e onde ficar</h2>
+        <p data-i18n="home_taste_p">Da linguiça tradicional campeira às parrillas e cafés — e um descanso à altura do Pampa.</p>
       </div>
-      <div class="grid grid-3" id="eventsPreview"></div>
-      <div class="center" style="margin-top:36px;">
-        <a class="btn btn-light" href="eventos.html"><i data-lucide="calendar-days"></i><span data-i18n="home_events_cta">Calendário completo</span></a>
+      <div class="split" style="align-items:stretch;">
+        <a class="atr reveal" href="gastronomia.html" style="background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.14)">
+          <div class="atr-media" style="aspect-ratio:16/10;"><span class="cat c-lazer" data-i18n="cat_sabor">Sabores</span><img src="assets/img/festival-linguica.jpg" alt="Festival da Linguiça Tradicional Campeira" loading="lazy" /></div>
+          <div class="atr-body"><h3 style="color:#fff;font-size:1.5rem" data-i18n="home_taste_eat_h">Capital da Linguiça</h3><p style="color:rgba(225,233,248,0.82)" data-i18n="home_taste_eat_p">Parrillas, xis, cafés e a autêntica linguiça tradicional campeira — mais de 500 toneladas por ano.</p><span class="arrow" style="color:var(--gold-2);font-weight:700;margin-top:auto;padding-top:12px" data-i18n="home_taste_eat_cta">Ver gastronomia →</span></div>
+        </a>
+        <a class="atr reveal" data-delay="120" href="hospedagem.html" style="background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.14)">
+          <div class="atr-media" style="aspect-ratio:16/10;"><span class="cat c-fe" data-i18n="cat_dormir">Hospedagem</span><img src="assets/img/parque-lauro.jpg" alt="Hospedagem em Alegrete" loading="lazy" /></div>
+          <div class="atr-body"><h3 style="color:#fff;font-size:1.5rem" data-i18n="home_taste_stay_h">Para todos os estilos</h3><p style="color:rgba(225,233,248,0.82)" data-i18n="home_taste_stay_p">Hotéis no centro, pousadas, cabanas e sítios de camping em meio à natureza do Pampa.</p><span class="arrow" style="color:var(--gold-2);font-weight:700;margin-top:auto;padding-top:12px" data-i18n="home_taste_stay_cta">Ver hospedagem →</span></div>
+        </a>
       </div>
     </div>
   </section>
+  <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="#14254a" d="M0,42 C240,86 520,6 760,34 C1000,62 1220,18 1440,44 L1440,80 L0,80 Z"></path></svg>
 
-  <!-- Useful links -->
+  <!-- ===== EVENTS ===== -->
   <section class="section">
     <div class="wrap">
       <div class="section-head center reveal">
-        <span class="eyebrow" data-i18n="home_links_pre">Atalhos úteis</span>
-        <h2 data-i18n="home_links_h">Perfis e canais para acompanhar</h2>
-        <p data-i18n="home_links_p">Fontes oficiais e perfis locais com informação atualizada do dia a dia.</p>
+        <span class="eyebrow center" data-i18n="home_events_pre">O ano inteiro em festa</span>
+        <h2 data-i18n="home_events_h">Eventos que movem a cidade</h2>
+        <p data-i18n="home_events_p">Tradição, sabor, esporte e cultura marcam o calendário alegretense.</p>
       </div>
-      <div class="grid grid-3" id="linksGrid"></div>
+      <div class="atr-grid" id="eventsPreview"></div>
+      <div class="center" style="margin-top:40px;">
+        <a class="btn btn-primary" href="eventos.html"><i data-lucide="calendar-days"></i><span data-i18n="home_events_cta">Calendário completo</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT CTA ===== -->
+  <svg class="wave wave--up" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="#14254a" d="M0,42 C240,86 520,6 760,34 C1000,62 1220,18 1440,44 L1440,0 L0,0 Z"></path></svg>
+  <section class="section section--navy" style="padding-top:clamp(30px,5vw,60px);">
+    <div class="wrap on-dark">
+      <div class="section-head center reveal" style="margin-bottom:2.4rem;">
+        <svg class="flightpath center" viewBox="0 0 230 34" fill="none" aria-hidden="true" style="color:var(--gold-2)">
+          <path d="M2 30 Q 80 2 150 16 T 228 8" />
+          <path class="plane" d="M150 16 l 16 -8 l -5 8 l 5 8 z" />
+        </svg>
+        <h2 data-i18n="home_cta_h">Alegrete te espera</h2>
+        <p data-i18n="home_cta_sub">Quer saber mais? Fale com o turismo oficial e viva essa experiência.</p>
+      </div>
+      <div class="contact-band reveal">
+        <a class="contact-card" href="https://wa.me/555531201059" target="_blank" rel="noopener">
+          <span class="ico" style="background:rgba(37,211,102,0.22)"><i data-lucide="message-circle"></i></span>
+          <span><span class="lbl">WhatsApp</span><span class="val">(55) 3120-1059</span></span>
+        </a>
+        <a class="contact-card" href="https://www.instagram.com/visitalegrete" target="_blank" rel="noopener">
+          <span class="ico"><i data-lucide="instagram"></i></span>
+          <span><span class="lbl">Instagram</span><span class="val">@visitalegrete</span></span>
+        </a>
+        <a class="contact-card" href="tel:+5555991620282">
+          <span class="ico"><i data-lucide="map-pinned"></i></span>
+          <span><span class="lbl" data-i18n="home_cta_cat">Centro de Atendimento ao Turista</span><span class="val">(55) 99162-0282</span></span>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -160,37 +260,19 @@
     function renderHomeDynamic() {
       const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
       const pick = (o) => (o && (o[lang] || o.pt)) || '';
+      const catClass = { cultura:'c-cultura', tradicao:'c-cultura', esporte:'c-lazer', musica:'c-fe', natureza:'c-natureza', cultura_arte:'c-fe' };
 
       fetch('data/eventos.json').then(r => r.json()).then(list => {
-        const featured = ['festival-linguica', 'semana-farroupilha', 'campereada'];
-        const items = list.filter(e => featured.includes(e.id));
+        const featured = ['festival-linguica', 'semana-farroupilha', 'campereada', 'efipan', 'eicapampa', 'feira-livro'];
+        const order = id => { const i = featured.indexOf(id); return i === -1 ? 99 : i; };
+        const items = list.filter(e => featured.includes(e.id)).sort((a,b)=>order(a.id)-order(b.id)).slice(0,6);
+        const img = { 'festival-linguica':'festival-linguica', 'semana-farroupilha':'campereada', 'campereada':'campereada', 'efipan':'estadio', 'eicapampa':'caminho-pampa', 'feira-livro':'danca-alegre' };
         const el = document.getElementById('eventsPreview');
         if (!el) return;
         el.innerHTML = items.map((e, i) => `
-          <article class="card reveal" data-delay="${i*70}" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.14)">
-            <div class="card-body">
-              <span class="chip gold">${pick(e.quando)}</span>
-              <h3 style="color:#fff">${e.nome}</h3>
-              <p style="color:rgba(243,236,220,0.82)">${pick(e.descricao)}</p>
-            </div>
-          </article>`).join('');
-        if (window.lucide) lucide.createIcons();
-        if (window.__reobserveReveal) window.__reobserveReveal(el);
-      });
-
-      fetch('data/links.json').then(r => r.json()).then(list => {
-        const el = document.getElementById('linksGrid');
-        if (!el) return;
-        el.innerHTML = list.map((l, i) => `
-          <a class="card reveal" data-delay="${(i%3)*70}" href="${l.url}" target="_blank" rel="noopener">
-            <div class="card-body" style="flex-direction:row;align-items:flex-start;gap:14px">
-              <span class="feature" style="display:block"><span class="ico"><i data-lucide="${l.icon || 'link'}"></i></span></span>
-              <span>
-                <h3 style="font-size:1.1rem">${l.titulo}</h3>
-                <p style="margin:4px 0 8px">${pick(l.desc)}</p>
-                ${l.instagram ? `<span class="chip terra">${l.instagram}</span>` : `<span class="chip">${l.url.replace('https://','').replace(/\/+$/,'')}</span>`}
-              </span>
-            </div>
+          <a class="atr reveal" data-delay="${(i%3)*70}" href="eventos.html">
+            <div class="atr-media"><span class="cat c-lazer">${pick(e.quando)}</span><img src="assets/img/${img[e.id]||'campereada'}.jpg" alt="${e.nome}" loading="lazy"></div>
+            <div class="atr-body"><h3>${e.nome}</h3><p>${pick(e.descricao)}</p></div>
           </a>`).join('');
         if (window.lucide) lucide.createIcons();
         if (window.__reobserveReveal) window.__reobserveReveal(el);

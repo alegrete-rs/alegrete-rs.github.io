@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atrativos Turísticos — Visit Alegrete</title>
+  <meta name="description" content="Atrativos turísticos de Alegrete-RS: Chapéu Preto, Ponte Borges de Medeiros, Igreja Matriz, museus, praças centenárias, Maria Fumaça e os cartões-postais do Pampa gaúcho." />
+  <meta property="og:title" content="Atrativos Turísticos — Visit Alegrete" />
+  <meta property="og:image" content="assets/img/chapeu-preto.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&family=Cinzel:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_attractions">Atrativos</span></div>
+      <span class="eyebrow" data-i18n="atr_pre">Cartões-postais do Baita Chão</span>
+      <h1 data-i18n="atr_h">Atrativos Turísticos</h1>
+      <p class="lead" data-i18n="atr_lead">Monumentos, museus, praças centenárias e marcos que contam a história e a alma de Alegrete. Aqui, cada parada é um convite para sentir o Pampa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="filter-bar" id="atrFilter"></div>
+      <div class="atr-grid" id="atrList"></div>
+    </div>
+  </section>
+
+  <svg class="wave wave--up" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path fill="#14254a" d="M0,42 C240,86 520,6 760,34 C1000,62 1220,18 1440,44 L1440,0 L0,0 Z"></path></svg>
+  <section class="section section--navy" style="padding-top:clamp(30px,5vw,60px);">
+    <div class="wrap on-dark">
+      <div class="split">
+        <div class="reveal">
+          <span class="eyebrow" data-i18n="atr_private_pre">Experiências privadas</span>
+          <h2 style="margin:12px 0 16px;" data-i18n="atr_private_h">Vinhas, trilhas e pôr do sol</h2>
+          <p data-i18n="atr_private_p">Além dos marcos públicos, Alegrete oferece experiências sob agendamento — das trilhas com música ao vivo da Luz do Pampa ao sonho da primeira vinícola da cidade.</p>
+          <div style="margin-top:22px;display:flex;flex-direction:column;gap:16px;">
+            <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="grape"></i></span><div><h4 style="color:#fff" data-i18n="atr_vinhas_h">Vinhas do Alegrete</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_vinhas_p">A 18 km, às margens da BR-290 — 5 hectares de Chardonnay, Merlot, Tannat e Cabernet. Agende pelo @vinhasdoalegrete.</p></div></div>
+            <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="footprints"></i></span><div><h4 style="color:#fff" data-i18n="atr_luz_h">Luz do Pampa</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_luz_p">A 9 km da cidade: trilhas com música ao vivo, brinde ao pôr do sol e trilha noturna. Agende pelo @luzdopampa.</p></div></div>
+            <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="mountain"></i></span><div><h4 style="color:#fff" data-i18n="atr_caminho_h">Caminho do Pampa</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_caminho_p">Trilha de longo curso de 170 km na APA do Ibirapuitã, integrante da Rede Brasileira de Trilhas. @caminhodopampa.</p></div></div>
+          </div>
+        </div>
+        <div class="reveal" data-delay="140">
+          <div class="imgframe imgframe--tall">
+            <img src="assets/img/vinhas.jpg" alt="Vinhas do Alegrete às margens da BR-290" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    (function () {
+      var CATS = {
+        cultura:  { cls: 'c-cultura',  label: { pt:'Cultura',  es:'Cultura',  en:'Culture' } },
+        historia: { cls: 'c-historia', label: { pt:'Memória',  es:'Memoria',  en:'Heritage' } },
+        natureza: { cls: 'c-natureza', label: { pt:'Natureza', es:'Naturaleza', en:'Nature' } },
+        praca:    { cls: 'c-praca',    label: { pt:'Praça',    es:'Plaza',    en:'Square' } },
+        fe:       { cls: 'c-fe',       label: { pt:'Fé',       es:'Fe',       en:'Faith' } },
+        lazer:    { cls: 'c-lazer',    label: { pt:'Lazer',    es:'Ocio',     en:'Leisure' } }
+      };
+      var DATA = [];
+      var active = 'all';
+
+      function lang() { return (window.ALEGRETE && window.ALEGRETE.lang) || 'pt'; }
+      function pick(o) { return (o && (o[lang()] || o.pt)) || ''; }
+      function tt(k, fb) { return (window.t ? window.t(k, fb) : fb); }
+
+      function renderFilter() {
+        var el = document.getElementById('atrFilter');
+        if (!el) return;
+        var cats = ['all'].concat(Object.keys(CATS));
+        el.innerHTML = cats.map(function (c) {
+          var lbl = c === 'all' ? tt('atr_filter_all', 'Todos') : CATS[c].label[lang()];
+          return '<button data-c="' + c + '" class="' + (c === active ? 'active' : '') + '">' + lbl + '</button>';
+        }).join('');
+        el.querySelectorAll('button').forEach(function (b) {
+          b.addEventListener('click', function () { active = b.dataset.c; renderFilter(); renderList(); });
+        });
+      }
+
+      function renderList() {
+        var el = document.getElementById('atrList');
+        if (!el) return;
+        var items = DATA.filter(function (d) { return active === 'all' || d.cat === active; });
+        el.innerHTML = items.map(function (d, i) {
+          var cat = CATS[d.cat] || CATS.cultura;
+          var media = d.img
+            ? '<img src="assets/img/' + d.img + '.jpg" alt="' + d.nome + '" loading="lazy">'
+            : '<span class="ph" style="position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,0.6)"><i data-lucide="landmark"></i></span>';
+          return '' +
+            '<article class="atr reveal" data-delay="' + ((i % 3) * 60) + '">' +
+              '<div class="atr-media"><span class="cat ' + cat.cls + '">' + cat.label[lang()] + '</span>' + media + '</div>' +
+              '<div class="atr-body">' +
+                '<h3>' + d.nome + '</h3>' +
+                '<p>' + pick(d.desc) + '</p>' +
+                '<span class="atr-loc"><i data-lucide="map-pin"></i> ' + d.local + '</span>' +
+                (d.visita ? '<span class="atr-loc"><i data-lucide="clock"></i> ' + pick(d.visita) + '</span>' : '') +
+              '</div>' +
+            '</article>';
+        }).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      }
+
+      function boot() {
+        fetch('data/atrativos.json').then(function (r) { return r.json(); }).then(function (list) {
+          DATA = list;
+          renderFilter();
+          renderList();
+        });
+      }
+      document.addEventListener('core-ready', boot);
+      document.addEventListener('langchange', function () { renderFilter(); renderList(); });
+    })();
+  </script>
+</body>
+</html>

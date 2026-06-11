@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#1e3a2b"/>
-  <circle cx="44" cy="20" r="7" fill="#e0a93f"/>
-  <path d="M6 50 L24 28 L34 40 L44 26 L58 50 Z" fill="#3f7355"/>
-  <path d="M6 50 L24 28 L31 36 L20 50 Z" fill="#2f5a42"/>
-  <rect x="6" y="50" width="52" height="6" fill="#b5482b"/>
+  <rect width="64" height="64" rx="14" fill="#14254a"/>
+  <!-- multicolor brand dots -->
+  <circle cx="16" cy="17" r="4" fill="#d8442f"/>
+  <circle cx="28" cy="15" r="4" fill="#efb13a"/>
+  <circle cx="40" cy="17" r="4" fill="#2f8f5b"/>
+  <circle cx="50" cy="22" r="4" fill="#14a395"/>
+  <!-- location pin -->
+  <path d="M32 26 c-7 0 -12 5 -12 12 c0 9 12 20 12 20 c0 0 12 -11 12 -20 c0 -7 -5 -12 -12 -12 z" fill="#2f7dc4"/>
+  <circle cx="32" cy="38" r="5" fill="#fbf8f1"/>
 </svg>

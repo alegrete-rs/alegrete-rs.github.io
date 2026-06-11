@@ -1,41 +1,54 @@
 [
   {
-    "id": "carnaval",
-    "nome": "Carnaval de Alegrete",
-    "mes": 2,
-    "quando": { "pt": "Fevereiro", "es": "Febrero", "en": "February" },
-    "local": "Av. Tiaraju / Centro",
-    "descricao": {
-      "pt": "Desfiles e festa de rua que aquecem o verão alegretense.",
-      "es": "Desfiles y fiesta callejera que animan el verano de Alegrete.",
-      "en": "Parades and street parties that heat up Alegrete's summer."
-    },
-    "confirmado": false
-  },
-  {
     "id": "efipan",
     "nome": "EFIPAN",
     "mes": 1,
-    "quando": { "pt": "Janeiro (verão)", "es": "Enero (verano)", "en": "January (summer)" },
+    "quando": { "pt": "Janeiro", "es": "Enero", "en": "January" },
     "local": "Alegrete - RS",
     "descricao": {
-      "pt": "Encontro de Futebol Infantil Pan-Americano, considerado pela FIFA o maior do gênero — já revelou craques como Neymar e Ronaldinho Gaúcho.",
-      "es": "Encuentro de Fútbol Infantil Panamericano, considerado por la FIFA el mayor de su tipo — reveló cracks como Neymar y Ronaldinho Gaúcho.",
-      "en": "Pan-American Youth Football Meeting, regarded by FIFA as the largest of its kind — it has revealed stars like Neymar and Ronaldinho Gaúcho."
+      "pt": "Encontro de Futebol Infantil Pan-Americano, considerado pela FIFA o maior torneio de base do mundo — já revelou craques como Neymar, Ronaldinho Gaúcho e Alexandre Pato.",
+      "es": "Encuentro de Fútbol Infantil Panamericano, considerado por la FIFA el mayor torneo de base del mundo — reveló cracks como Neymar, Ronaldinho y Alexandre Pato.",
+      "en": "Pan-American Youth Football Meeting, regarded by FIFA as the largest youth tournament in the world — it revealed stars like Neymar, Ronaldinho and Alexandre Pato."
     },
-    "confirmado": false
+    "confirmado": true
+  },
+  {
+    "id": "carnaval",
+    "nome": "Carnaval na Venâncio & Descida dos Blocos",
+    "mes": 2,
+    "quando": { "pt": "Fevereiro", "es": "Febrero", "en": "February" },
+    "local": "Rua Venâncio Aires / Centro",
+    "descricao": {
+      "pt": "O Carnaval de rua reúne moradores e visitantes em uma celebração de alegria, música e espírito coletivo, com a tradicional Descida dos Blocos.",
+      "es": "El Carnaval callejero reúne a vecinos y visitantes en una celebración de alegría, música y espíritu colectivo, con la tradicional Bajada de los Bloques.",
+      "en": "The street Carnival brings together locals and visitors in a celebration of joy, music and collective spirit, with the traditional Bloco parade."
+    },
+    "confirmado": true
   },
   {
     "id": "festival-linguica",
-    "nome": "Festival Estadual da Linguiça Campeira",
+    "nome": "Festival Estadual da Linguiça Tradicional Campeira",
     "mes": 4,
     "quando": { "pt": "Abril", "es": "Abril", "en": "April" },
     "local": "Parque Dr. Lauro Dornelles",
-    "instagram": "@festivaldalinguicaalegrete",
     "descricao": {
-      "pt": "A celebração da Capital Estadual da Linguiça Campeira: gastronomia, shows, concursos e a agroindústria do Pampa. Entrada gratuita.",
-      "es": "La celebración de la Capital Estadual del Chorizo Campero: gastronomía, shows, concursos y la agroindustria de la Pampa. Entrada gratuita.",
-      "en": "A celebration of the State Capital of Campfire Sausage: food, concerts, contests and the Pampa agro-industry. Free admission."
+      "pt": "Alegrete é a Capital Nacional da Linguiça Tradicional Campeira, com produção anual de mais de 500 toneladas. O festival é uma grande vitrine das agroindústrias e da economia regional.",
+      "es": "Alegrete es la Capital Nacional del Chorizo Tradicional Campero, con producción anual de más de 500 toneladas. El festival es una gran vitrina de las agroindustrias y la economía regional.",
+      "en": "Alegrete is the National Capital of Traditional Campfire Sausage, producing over 500 tonnes a year. The festival is a major showcase of the region's agro-industry and economy."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "eicapampa",
+    "nome": "EICAPAMPA — Caiaques do Pampa",
+    "mes": 5,
+    "quando": { "pt": "Outono", "es": "Otoño", "en": "Autumn" },
+    "local": "Rios e arroios de Alegrete",
+    "instagram": "@eicapampa",
+    "descricao": {
+      "pt": "Alegrete é banhada por rios e arroios cinematográficos. O encontro reúne caiaqueiros de diversas regiões do país e do exterior para desfrutar paisagens únicas em família.",
+      "es": "Alegrete está bañada por ríos y arroyos cinematográficos. El encuentro reúne kayakistas de varias regiones del país y del exterior para disfrutar paisajes únicos en familia.",
+      "en": "Alegrete is bathed by cinematic rivers and streams. The meeting gathers kayakers from across Brazil and abroad to enjoy unique landscapes with the family."
     },
     "confirmado": true
   },
@@ -46,63 +59,103 @@
     "quando": { "pt": "Inverno", "es": "Invierno", "en": "Winter" },
     "local": "Alegrete - RS",
     "descricao": {
-      "pt": "Realizada desde 1979, reúne as autênticas provas campeiras da região e o melhor da gastronomia gaúcha.",
-      "es": "Realizada desde 1979, reúne las auténticas pruebas camperas de la región y lo mejor de la gastronomía gaucha.",
-      "en": "Held since 1979, it gathers the region's authentic rodeo-skill contests and the best of gaúcho cuisine."
-    },
-    "confirmado": false
-  },
-  {
-    "id": "semana-farroupilha",
-    "nome": "Semana Farroupilha & Desfile de 20 de Setembro",
-    "mes": 9,
-    "quando": { "pt": "Setembro", "es": "Septiembre", "en": "September" },
-    "local": "Centro de Alegrete",
-    "descricao": {
-      "pt": "Alegrete promove o maior Desfile de Cavaleiros do Brasil (desde 1954), com forte participação dos 16 CTGs locais.",
-      "es": "Alegrete realiza el mayor Desfile de Jinetes de Brasil (desde 1954), con fuerte participación de los 16 CTG locales.",
-      "en": "Alegrete hosts Brazil's largest Horsemen's Parade (since 1954), with strong participation from its 16 local CTGs."
+      "pt": "Realizada desde 1979, é palco de diversas provas campeiras, artísticas e culturais, com mostra de artesanato e da gastronomia gaúcha.",
+      "es": "Realizada desde 1979, es escenario de diversas pruebas camperas, artísticas y culturales, con muestra de artesanía y gastronomía gaucha.",
+      "en": "Held since 1979, it stages a range of rodeo-skill, artistic and cultural contests, with crafts and gaúcho cuisine on show."
     },
     "confirmado": true
   },
   {
-    "id": "meia-maratona-evt",
-    "nome": "Meia Maratona da Independência",
+    "id": "feira-livro",
+    "nome": "Feira do Livro de Alegrete",
+    "mes": 8,
+    "quando": { "pt": "Agosto", "es": "Agosto", "en": "August" },
+    "local": "Centro de Alegrete",
+    "instagram": "@feiradolivroalegrete",
+    "descricao": {
+      "pt": "Reúne escritores, estudantes e a comunidade com lançamentos, autógrafos, palestras e atividades culturais, incentivando a leitura e a educação.",
+      "es": "Reúne escritores, estudiantes y a la comunidad con lanzamientos, autógrafos, charlas y actividades culturales, incentivando la lectura y la educación.",
+      "en": "Brings together writers, students and the community with book launches, signings, talks and cultural activities that encourage reading and education."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "semana-farroupilha",
+    "nome": "Setembro Farroupilha & Desfile de Cavaleiros",
     "mes": 9,
     "quando": { "pt": "Setembro", "es": "Septiembre", "en": "September" },
+    "local": "Centro de Alegrete",
+    "descricao": {
+      "pt": "A Semana Farroupilha inicia em 13 de setembro com a chegada da Chama Crioula e encerra em 20 com o tradicional Desfile de Cavaleiros — realizado desde 1954 e considerado um dos maiores do Brasil.",
+      "es": "La Semana Farroupilha inicia el 13 de septiembre con la llegada de la Llama Criolla y cierra el 20 con el tradicional Desfile de Jinetes — realizado desde 1954 y uno de los mayores de Brasil.",
+      "en": "Farroupilha Week begins on Sept 13 with the arrival of the Crioula Flame and ends on the 20th with the traditional Horsemen's Parade — held since 1954 and one of Brazil's largest."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "exposicao-agropecuaria",
+    "nome": "Exposição Agropecuária",
+    "mes": 10,
+    "quando": { "pt": "Outubro", "es": "Octubre", "en": "October" },
+    "local": "Parque Dr. Lauro Dornelles",
+    "descricao": {
+      "pt": "Organizada pelo Sindicato Rural de Alegrete, é uma das mais tradicionais e importantes expoferias do setor no RS, evidenciando a força do agronegócio do município.",
+      "es": "Organizada por el Sindicato Rural de Alegrete, es una de las más tradicionales e importantes expoferias del sector en RS, evidenciando la fuerza del agronegocio del municipio.",
+      "en": "Organised by Alegrete's Rural Union, it is one of RS's most traditional and important agricultural fairs, highlighting the strength of local agribusiness."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "danca-alegre",
+    "nome": "Dança Alegre Alegrete",
+    "mes": 10,
+    "quando": { "pt": "Outubro", "es": "Octubre", "en": "October" },
     "local": "Alegrete - RS",
-    "instagram": "@meiamaratonaalegrete",
     "descricao": {
-      "pt": "Prova de rua que une esporte e celebração cívica, reunindo corredores de toda a região.",
-      "es": "Carrera de calle que une deporte y celebración cívica, reuniendo corredores de toda la región.",
-      "en": "A road race blending sport and civic celebration, gathering runners from across the region."
+      "pt": "Um dos principais eventos culturais da região, reúne artistas e companhias de todo o RS em uma grande celebração da dança, com diferentes estilos e linguagens.",
+      "es": "Uno de los principales eventos culturales de la región, reúne artistas y compañías de todo RS en una gran celebración de la danza, con diferentes estilos y lenguajes.",
+      "en": "One of the region's main cultural events, gathering artists and companies from across RS in a great celebration of dance across many styles."
     },
-    "confirmado": false
+    "confirmado": true
   },
   {
-    "id": "festa-arroz-milho",
-    "nome": "Festa do Arroz e do Milho (distritos rurais)",
-    "mes": 3,
-    "quando": { "pt": "Verão/Outono", "es": "Verano/Otoño", "en": "Summer/Autumn" },
-    "local": "Distritos rurais de Alegrete",
-    "descricao": {
-      "pt": "Festas dos distritos que celebram a colheita do arroz e do milho, com comida típica e tradição.",
-      "es": "Fiestas de los distritos que celebran la cosecha del arroz y el maíz, con comida típica y tradición.",
-      "en": "District festivals celebrating the rice and corn harvest, with typical food and tradition."
-    },
-    "confirmado": false
-  },
-  {
-    "id": "temporada-hipica",
-    "nome": "Temporada Hípica",
+    "id": "fac",
+    "nome": "Festival Alegretense da Canção (FAC)",
     "mes": 11,
-    "quando": { "pt": "Primavera", "es": "Primavera", "en": "Spring" },
-    "local": "Prado / Alegrete - RS",
+    "quando": { "pt": "Novembro", "es": "Noviembre", "en": "November" },
+    "local": "Alegrete - RS",
+    "instagram": "@fac.alegrete",
     "descricao": {
-      "pt": "Corridas e provas equestres que celebram a paixão alegretense pelo cavalo.",
-      "es": "Carreras y pruebas ecuestres que celebran la pasión de Alegrete por el caballo.",
-      "en": "Horse races and equestrian contests celebrating Alegrete's passion for the horse."
+      "pt": "Um dos principais eventos da cena musical local, valoriza a cultura e a produção artística de Alegrete, reunindo compositores e intérpretes e dando visibilidade aos talentos da região.",
+      "es": "Uno de los principales eventos de la escena musical local, valora la cultura y la producción artística de Alegrete, reuniendo compositores e intérpretes.",
+      "en": "One of the local music scene's main events, celebrating Alegrete's culture and bringing together composers and performers to spotlight regional talent."
     },
-    "confirmado": false
+    "confirmado": true
+  },
+  {
+    "id": "alegrete-summit",
+    "nome": "Alegrete Summit",
+    "mes": 11,
+    "quando": { "pt": "Novembro", "es": "Noviembre", "en": "November" },
+    "local": "Alegrete - RS",
+    "descricao": {
+      "pt": "Evento voltado à inovação, empreendedorismo e desenvolvimento regional, reunindo empresários, gestores e estudantes para compartilhar conhecimento e fomentar conexões estratégicas.",
+      "es": "Evento dedicado a la innovación, el emprendimiento y el desarrollo regional, reuniendo empresarios, gestores y estudiantes para compartir conocimiento y fomentar conexiones.",
+      "en": "An event focused on innovation, entrepreneurship and regional development, bringing together entrepreneurs, managers and students to share knowledge and forge connections."
+    },
+    "confirmado": true
+  },
+  {
+    "id": "desfile-natal",
+    "nome": "Desfile de Natal",
+    "mes": 12,
+    "quando": { "pt": "Dezembro", "es": "Diciembre", "en": "December" },
+    "local": "Centro de Alegrete",
+    "descricao": {
+      "pt": "Reúne blocos temáticos, personagens natalinos e intervenções artísticas ao longo do percurso, celebrando a magia da data e fortalecendo os vínculos comunitários.",
+      "es": "Reúne bloques temáticos, personajes navideños e intervenciones artísticas a lo largo del recorrido, celebrando la magia de la fecha.",
+      "en": "Featuring themed blocks, Christmas characters and artistic performances along the route, celebrating the magic of the season and community bonds."
+    },
+    "confirmado": true
   }
 ]

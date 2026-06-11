@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atrativos Turísticos — Visit Alegrete</title>
+  <title>Atrativos Turísticos · Visit Alegrete</title>
   <meta name="description" content="Atrativos turísticos de Alegrete-RS: Chapéu Preto, Ponte Borges de Medeiros, Igreja Matriz, museus, praças centenárias, Maria Fumaça e os cartões-postais do Pampa gaúcho." />
-  <meta property="og:title" content="Atrativos Turísticos — Visit Alegrete" />
+  <meta property="og:title" content="Atrativos Turísticos · Visit Alegrete" />
   <meta property="og:image" content="assets/img/chapeu-preto.jpg" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +41,7 @@
       <div class="section-head center reveal">
         <span class="eyebrow center" data-i18n="atr_map_h">Os atrativos no mapa</span>
         <h2 data-i18n="atr_map_h">Os atrativos no mapa</h2>
-        <p data-i18n="atr_map_p">Veja onde fica cada cartão-postal e trace a rota até ele — toque num pino para abrir a localização.</p>
+        <p data-i18n="atr_map_p">Veja onde fica cada cartão-postal e trace a rota até ele, toque num pino para abrir a localização.</p>
       </div>
       <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
     </div>
@@ -54,9 +54,9 @@
         <div class="reveal">
           <span class="eyebrow" data-i18n="atr_private_pre">Experiências privadas</span>
           <h2 style="margin:12px 0 16px;" data-i18n="atr_private_h">Vinhas, trilhas e pôr do sol</h2>
-          <p data-i18n="atr_private_p">Além dos marcos públicos, Alegrete oferece experiências sob agendamento — das trilhas com música ao vivo da Luz do Pampa ao sonho da primeira vinícola da cidade.</p>
+          <p data-i18n="atr_private_p">Além dos marcos públicos, Alegrete oferece experiências sob agendamento, das trilhas com música ao vivo da Luz do Pampa ao sonho da primeira vinícola da cidade.</p>
           <div style="margin-top:22px;display:flex;flex-direction:column;gap:16px;">
-            <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="grape"></i></span><div><h4 style="color:#fff" data-i18n="atr_vinhas_h">Vinhas do Alegrete</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_vinhas_p">A 18 km, às margens da BR-290 — 5 hectares de Chardonnay, Merlot, Tannat e Cabernet. Agende pelo @vinhasdoalegrete.</p></div></div>
+            <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="grape"></i></span><div><h4 style="color:#fff" data-i18n="atr_vinhas_h">Vinhas do Alegrete</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_vinhas_p">A 18 km, às margens da BR-290, 5 hectares de Chardonnay, Merlot, Tannat e Cabernet. Agende pelo @vinhasdoalegrete.</p></div></div>
             <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="footprints"></i></span><div><h4 style="color:#fff" data-i18n="atr_luz_h">Luz do Pampa</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_luz_p">A 9 km da cidade: trilhas com música ao vivo, brinde ao pôr do sol e trilha noturna. Agende pelo @luzdopampa.</p></div></div>
             <div class="feature"><span class="ico" style="background:rgba(255,255,255,0.12);color:#fff"><i data-lucide="mountain"></i></span><div><h4 style="color:#fff" data-i18n="atr_caminho_h">Caminho do Pampa</h4><p style="color:rgba(225,233,248,0.82)" data-i18n="atr_caminho_p">Trilha de longo curso de 170 km na APA do Ibirapuitã, integrante da Rede Brasileira de Trilhas. @caminhodopampa.</p></div></div>
           </div>
@@ -90,7 +90,7 @@
       function pick(o) { return (o && (o[lang()] || o.pt)) || ''; }
       function tt(k, fb) { return (window.t ? window.t(k, fb) : fb); }
       function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]; }); }
-      // Route by name search — accurate navigation regardless of pin precision
+      // Route by name search, accurate navigation regardless of pin precision
       function routeLink(d) {
         var q = encodeURIComponent(d.nome + ', Alegrete RS');
         return 'https://www.google.com/maps/search/?api=1&query=' + q;

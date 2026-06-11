@@ -1,5 +1,5 @@
 /* ============================================================
-   Portal Alegrete — core app: components, i18n, nav, reveal
+   Portal Alegrete - core app: components, i18n, nav, reveal
    ============================================================ */
 window.ALEGRETE = window.ALEGRETE || { lang: 'pt', t: {} };
 const SUPPORTED_LANGS = ['pt', 'es', 'en'];

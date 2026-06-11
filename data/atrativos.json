@@ -11,12 +11,12 @@
       "en": "Free visit"
     },
     "desc": {
-      "pt": "Um dos símbolos mais reconhecidos da identidade cultural de Alegrete. Inspirado na figura tradicional do gaúcho, representa orgulho, tradição e pertencimento — um marco visual que conecta moradores e visitantes às raízes do Pampa.",
+      "pt": "Um dos símbolos mais reconhecidos da identidade cultural de Alegrete. Inspirado na figura tradicional do gaúcho, representa orgulho, tradição e pertencimento, um marco visual que conecta moradores e visitantes às raízes do Pampa.",
       "es": "Uno de los símbolos más reconocidos de la identidad cultural de Alegrete. Inspirado en la figura del gaucho, representa orgullo, tradición y pertenencia.",
       "en": "One of the most recognised symbols of Alegrete's cultural identity. Inspired by the traditional gaúcho figure, it stands for pride, tradition and belonging."
     },
-    "lat": -29.7878,
-    "lng": -55.7872
+    "lat": -29.7965901,
+    "lng": -55.7562725
   },
   {
     "id": "ponte-borges",
@@ -30,12 +30,12 @@
       "en": "Free visit"
     },
     "desc": {
-      "pt": "Sobre o Rio Ibirapuitã, é um dos cartões-postais de Alegrete. Com sua imponência e beleza, oferece uma vista privilegiada da paisagem natural e o encontro entre arquitetura e o pampa gaúcho — local ideal para contemplação e fotografia.",
+      "pt": "Sobre o Rio Ibirapuitã, é um dos cartões-postais de Alegrete. Com sua imponência e beleza, oferece uma vista privilegiada da paisagem natural e o encontro entre arquitetura e o pampa gaúcho, local ideal para contemplação e fotografia.",
       "es": "Sobre el Río Ibirapuitã, es uno de los postales de Alegrete. Ofrece una vista privilegiada del paisaje natural y el encuentro entre arquitectura y pampa.",
       "en": "Over the Ibirapuitã River, it is one of Alegrete's postcards, offering a privileged view of the natural landscape where architecture meets the pampa."
     },
-    "lat": -29.7758,
-    "lng": -55.7848
+    "lat": -29.7850313,
+    "lng": -55.7745078
   },
   {
     "id": "igreja-matriz",
@@ -58,7 +58,7 @@
   },
   {
     "id": "museu-gaucho",
-    "nome": "Museu do Gaúcho — Ícaro Ferreira da Costa",
+    "nome": "Museu do Gaúcho, Ícaro Ferreira da Costa",
     "cat": "historia",
     "img": "museu-gaucho",
     "local": "R. Santa Catarina, 130",
@@ -68,12 +68,12 @@
       "en": "By appointment · (55) 3426-2448"
     },
     "desc": {
-      "pt": "Espaço dedicado à preservação da cultura e das tradições do povo gaúcho. Reúne peças históricas, indumentárias, utensílios e registros que contam a trajetória e o modo de vida no pampa — uma verdadeira imersão na identidade regional.",
+      "pt": "Espaço dedicado à preservação da cultura e das tradições do povo gaúcho. Reúne peças históricas, indumentárias, utensílios e registros que contam a trajetória e o modo de vida no pampa, uma verdadeira imersão na identidade regional.",
       "es": "Espacio dedicado a preservar la cultura y las tradiciones gauchas, con piezas históricas, indumentaria y registros del modo de vida en la pampa.",
       "en": "A space dedicated to preserving gaúcho culture and traditions, gathering historical items, garments and records of pampa life."
     },
-    "lat": -29.7846,
-    "lng": -55.7889
+    "lat": -29.7973917,
+    "lng": -55.7613229
   },
   {
     "id": "museu-oswaldo-aranha",
@@ -91,8 +91,8 @@
       "es": "Preserva la memoria de Oswaldo Aranha, una de las figuras más destacadas de la política brasileña, con objetos personales y documentos.",
       "en": "Preserves the memory of Oswaldo Aranha, a key figure in Brazilian politics, with personal objects and documents."
     },
-    "lat": -29.7825,
-    "lng": -55.7901
+    "lat": -29.7829114,
+    "lng": -55.7908937
   },
   {
     "id": "centro-cultural",
@@ -110,12 +110,12 @@
       "es": "Importante espacio para la promoción del arte, la cultura y la educación, con exposiciones, eventos, talleres y presentaciones.",
       "en": "An important space promoting art, culture and education, hosting exhibitions, events, workshops and performances."
     },
-    "lat": -29.7823,
-    "lng": -55.7908
+    "lat": -29.7793416,
+    "lng": -55.7895446
   },
   {
     "id": "cepal",
-    "nome": "CEPAL — Centro de Pesquisa e Documentação",
+    "nome": "CEPAL, Centro de Pesquisa e Documentação",
     "cat": "historia",
     "img": "cepal",
     "local": "R. Castro Alves, 1 · (55) 3422-4585",
@@ -125,7 +125,7 @@
       "en": "Reference in memory and history"
     },
     "desc": {
-      "pt": "Espaço dedicado à preservação da memória e da história do município. Seu acervo reúne documentos, fotografias e registros que retratam períodos e aspectos da formação de Alegrete — referência para pesquisadores e estudantes.",
+      "pt": "Espaço dedicado à preservação da memória e da história do município. Seu acervo reúne documentos, fotografias e registros que retratam períodos e aspectos da formação de Alegrete, referência para pesquisadores e estudantes.",
       "es": "Dedicado a preservar la memoria y la historia del municipio, con documentos, fotografías y registros de la formación de Alegrete.",
       "en": "Dedicated to preserving the town's memory and history, with documents, photographs and records of Alegrete's formation."
     },
@@ -148,8 +148,8 @@
       "es": "Uno de los principales puntos de encuentro de Alegrete, con áreas arboladas y espacios de descanso en el corazón de la ciudad.",
       "en": "One of Alegrete's main gathering spots, blending history and leisure, with leafy areas in the heart of the city."
     },
-    "lat": -29.7831,
-    "lng": -55.7915
+    "lat": -29.7838366,
+    "lng": -55.7905977
   },
   {
     "id": "mario-quintana",
@@ -165,7 +165,7 @@
     "desc": {
       "pt": "Homenagem ao poeta, inaugurada em 2022, mostra Quintana sentado em um banco, convidando à interação do público. O monumento se tornou símbolo cultural e turístico da cidade, valorizando sua memória e legado.",
       "es": "Homenaje al poeta, inaugurada en 2022, muestra a Quintana sentado en un banco invitando a la interacción del público.",
-      "en": "A tribute to the poet, unveiled in 2022, showing Quintana seated on a bench inviting interaction — a cultural symbol of the city."
+      "en": "A tribute to the poet, unveiled in 2022, showing Quintana seated on a bench inviting interaction, a cultural symbol of the city."
     },
     "lat": -29.7829,
     "lng": -55.7914
@@ -186,8 +186,8 @@
       "es": "Tradicional espacio público que reúne historia, convivencia y ocio, con un ambiente arbolado y acogedor.",
       "en": "A traditional public space blending history, community and leisure, with a leafy, welcoming atmosphere."
     },
-    "lat": -29.7812,
-    "lng": -55.7928
+    "lat": -29.7882289,
+    "lng": -55.7974896
   },
   {
     "id": "negrinho",
@@ -205,8 +205,8 @@
       "es": "Uno de los parques más arbolados de la ciudad y el paseo preferido de los alegretenses los domingos. El apodo nació del antiguo lago con patos y botes a pedal. Hoy reúne lago, césped, pérgola, parque infantil y baños, además del monumento Negrinho do Pastoreio, escultura de Vasco Prado.",
       "en": "One of the city's leafiest parks and locals' favourite Sunday outing. The nickname (\"Little Ducks Square\") comes from the old lake with ducks and paddle boats. Today it offers a lake, lawns, a pergola, a playground and restrooms, plus the Negrinho do Pastoreio sculpture by Vasco Prado, honouring the region's popular faith."
     },
-    "lat": -29.7847,
-    "lng": -55.7778
+    "lat": -29.7852132,
+    "lng": -55.7782625
   },
   {
     "id": "praca-nova",
@@ -275,7 +275,7 @@
     "desc": {
       "pt": "Em frente ao Parque Rui Ramos, às margens do rio Ibirapuitã, é o parque do esporte ao ar livre: quadras de futebol de areia, vôlei e pista para corrida e caminhada. Ótimo para a prática esportiva e o lazer em família.",
       "es": "Frente al Parque Rui Ramos, a orillas del río Ibirapuitã, es el parque del deporte al aire libre: canchas de fútbol playa, vóley y pista para correr y caminar.",
-      "en": "Facing Parque Rui Ramos by the Ibirapuitã river, this is the open-air sports park: beach football and volleyball courts plus a running and walking track — great for exercise and family leisure."
+      "en": "Facing Parque Rui Ramos by the Ibirapuitã river, this is the open-air sports park: beach football and volleyball courts plus a running and walking track, great for exercise and family leisure."
     },
     "lat": -29.7865,
     "lng": -55.7761
@@ -296,8 +296,8 @@
       "es": "Conocido como “Picolé do Adão”, celebra el sesquicentenario de la Revolución Farroupilha. Tiene 17 metros de altura.",
       "en": "Known as the “Picolé do Adão”, it marks the 150th anniversary of the Farroupilha Revolution and stands 17 metres tall."
     },
-    "lat": -29.7862,
-    "lng": -55.7872
+    "lat": -29.7879808,
+    "lng": -55.7689789
   },
   {
     "id": "parque-lauro",
@@ -311,12 +311,12 @@
       "en": "Open 8am–7pm"
     },
     "desc": {
-      "pt": "Um dos principais espaços de lazer e contato com a natureza. Com amplas áreas verdes, sombra e tranquilidade, é ideal para caminhadas, piqueniques e momentos ao ar livre — palco de grandes eventos da cidade.",
+      "pt": "Um dos principais espaços de lazer e contato com a natureza. Com amplas áreas verdes, sombra e tranquilidade, é ideal para caminhadas, piqueniques e momentos ao ar livre, palco de grandes eventos da cidade.",
       "es": "Uno de los principales espacios de ocio y contacto con la naturaleza, ideal para caminatas y picnics, sede de grandes eventos.",
-      "en": "A key leisure and nature space with broad green areas — ideal for walks and picnics, and home to the city's biggest events."
+      "en": "A key leisure and nature space with broad green areas, ideal for walks and picnics, and home to the city's biggest events."
     },
-    "lat": -29.7889,
-    "lng": -55.7818
+    "lat": -29.7910067,
+    "lng": -55.7623723
   },
   {
     "id": "porto-aguateiros",
@@ -349,7 +349,7 @@
       "en": "Free visit"
     },
     "desc": {
-      "pt": "Símbolo que remete à história ferroviária do município. Representando as antigas locomotivas a vapor, resgata um tempo em que o trem era fundamental para a economia da região — patrimônio que conecta passado e presente.",
+      "pt": "Símbolo que remete à história ferroviária do município. Representando as antigas locomotivas a vapor, resgata um tempo em que o trem era fundamental para a economia da região, patrimônio que conecta passado e presente.",
       "es": "Símbolo de la historia ferroviaria del municipio, que rescata el tiempo en que el tren era fundamental para la economía.",
       "en": "A symbol of the town's railway history, recalling the era when steam trains were vital to the regional economy."
     },
@@ -372,8 +372,8 @@
       "es": "Hito histórico del periodo en que el ferrocarril impulsaba el desarrollo regional, con arquitectura característica y valor cultural.",
       "en": "A historic landmark from when railways drove regional development, with characterful architecture and great cultural value."
     },
-    "lat": -29.7889,
-    "lng": -55.7958
+    "lat": -29.7782394,
+    "lng": -55.7886788
   },
   {
     "id": "calcadao",
@@ -388,8 +388,8 @@
     },
     "desc": {
       "pt": "Um dos espaços mais movimentados da cidade, reunindo comércio, serviços e convivência. Ponto de passagem obrigatório para quem deseja sentir o ritmo e a essência urbana de Alegrete.",
-      "es": "Uno de los espacios más concurridos, reuniendo comercio, servicios y convivencia — para sentir la esencia urbana de Alegrete.",
-      "en": "One of the busiest areas in town, blending shops, services and street life — the place to feel Alegrete's urban pulse."
+      "es": "Uno de los espacios más concurridos, reuniendo comercio, servicios y convivencia, para sentir la esencia urbana de Alegrete.",
+      "en": "One of the busiest areas in town, blending shops, services and street life, the place to feel Alegrete's urban pulse."
     },
     "lat": -29.7835,
     "lng": -55.7918
@@ -410,8 +410,8 @@
       "es": "Importante espacio deportivo, escenario de competiciones que representa la pasión de Alegrete por el fútbol.",
       "en": "An important sports venue and the stage for matches, embodying Alegrete's passion for football."
     },
-    "lat": -29.78,
-    "lng": -55.785
+    "lat": -29.7865245,
+    "lng": -55.778146
   },
   {
     "id": "cult-cinemas",
@@ -426,11 +426,11 @@
     },
     "desc": {
       "pt": "Principal espaço dedicado ao cinema na cidade, com programação variada que inclui lançamentos e diferentes gêneros. Um ponto de encontro que valoriza o acesso ao cinema e complementa a vida cultural de Alegrete.",
-      "es": "Principal espacio de cine de la ciudad, con programación variada de estrenos y géneros — complementa la vida cultural.",
+      "es": "Principal espacio de cine de la ciudad, con programación variada de estrenos y géneros, complementa la vida cultural.",
       "en": "The city's main cinema, with a varied programme of releases and genres that enriches Alegrete's cultural life."
     },
-    "lat": -29.7825,
-    "lng": -55.7908
+    "lat": -29.7793905,
+    "lng": -55.7888297
   },
   {
     "id": "portico",
@@ -453,7 +453,7 @@
   },
   {
     "id": "cat",
-    "nome": "CAT — Centro de Atendimento ao Turista",
+    "nome": "CAT, Centro de Atendimento ao Turista",
     "cat": "lazer",
     "img": "cat",
     "local": "Praça Getúlio Vargas, 190 · (55) 99162-0282",
@@ -463,7 +463,7 @@
       "en": "Mon–Fri, 9am–8pm"
     },
     "desc": {
-      "pt": "Ponto de apoio ideal para quem deseja explorar a cidade. Oferece informações sobre atrativos, eventos, roteiros e serviços turísticos, além de exposições de artesanato — um espaço acolhedor que conecta o turista às melhores vivências de Alegrete.",
+      "pt": "Ponto de apoio ideal para quem deseja explorar a cidade. Oferece informações sobre atrativos, eventos, roteiros e serviços turísticos, além de exposições de artesanato, um espaço acolhedor que conecta o turista às melhores vivências de Alegrete.",
       "es": "Punto de apoyo ideal para explorar la ciudad, con información sobre atractivos, eventos, rutas y servicios turísticos.",
       "en": "The ideal support point for exploring the city, with information on attractions, events, routes and tourist services."
     },

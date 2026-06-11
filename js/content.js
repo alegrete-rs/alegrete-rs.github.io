@@ -1,5 +1,5 @@
 /* ============================================================
-   Portal Alegrete — data-driven content: cards + Leaflet maps
+   Portal Alegrete - data-driven content: cards + Leaflet maps
    Reads data/locais.json and renders cards/markers per page.
    ============================================================ */
 (function () {
@@ -70,11 +70,21 @@
       ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
 
+  // Places outside Alegrete (regional/cross-border) keep their curated coordinates;
+  // local places are searched by name + address so Google Maps resolves the real spot.
+  const NON_LOCAL = /uruguai|uruguay|argentina|montevid|buenos aires|corrientes|federaci|daym[aá]n|\bsalto\b|rivera|artigas|uruguaiana|paso de los libres|livramento|dom pedrito|santa maria|restinga|quara[ií]|bella uni[oó]n|monte caseros|recanto maestro|entre r[ií]os/i;
+  function gmaps(query) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
   function mapsLink(p) {
-    if (p.lat && p.lng) return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
-    const parts = [p.nome, p.endereco, 'Alegrete RS'].filter(Boolean);
-    const q = encodeURIComponent(parts.join(', '));
-    return `https://www.google.com/maps/search/?api=1&query=${q}`;
+    const hay = `${p.nome || ''} ${p.endereco || ''}`;
+    if (p.nome && !NON_LOCAL.test(hay)) {
+      let q = [p.nome, p.endereco].filter(Boolean).join(', ');
+      if (!/alegrete/i.test(q)) q += ', Alegrete RS';
+      return gmaps(q);
+    }
+    if (p.lat && p.lng) return gmaps(`${p.lat},${p.lng}`);
+    return gmaps([p.nome, p.endereco].filter(Boolean).join(', '));
   }
 
   function cardHTML(p) {

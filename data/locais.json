@@ -268,9 +268,9 @@
     "categoria": "cafe",
     "nome": "Cafeteria e Sorveteria Água na Boca",
     "descricao": {
-      "pt": "Cafés, sorvetes e doces — parada doce para os dias quentes do Pampa.",
-      "es": "Cafés, helados y dulces — parada dulce para los días calurosos del Pampa.",
-      "en": "Coffee, ice cream and sweets — a sweet stop for hot Pampa days."
+      "pt": "Cafés, sorvetes e doces, parada doce para os dias quentes do Pampa.",
+      "es": "Cafés, helados y dulces, parada dulce para los días calurosos del Pampa.",
+      "en": "Coffee, ice cream and sweets, a sweet stop for hot Pampa days."
     },
     "endereco": "Alegrete - RS",
     "tags": [
@@ -282,7 +282,7 @@
   {
     "id": "rosa-chiclete",
     "categoria": "cafe",
-    "nome": "Rosa Chiclete — Bomboniere & Café",
+    "nome": "Rosa Chiclete, Bomboniere & Café",
     "descricao": {
       "pt": "Bomboniere e café com bombons, doces e cafés especiais.",
       "es": "Bombonería y café con bombones, dulces y cafés especiales.",
@@ -421,7 +421,7 @@
   {
     "id": "camping-ibirapuita",
     "categoria": "camping",
-    "nome": "Camping & Motorhome — Orla do Ibirapuitã",
+    "nome": "Camping & Motorhome, Orla do Ibirapuitã",
     "descricao": {
       "pt": "Área para camping e motorhome junto ao rio, em contato com a natureza.",
       "es": "Área para camping y autocaravana junto al río, en plena naturaleza.",
@@ -458,7 +458,7 @@
   {
     "id": "circuito-conesul",
     "categoria": "esporte",
-    "nome": "Circuito de Corridas Conesul — Etapa Alegrete",
+    "nome": "Circuito de Corridas Conesul, Etapa Alegrete",
     "descricao": {
       "pt": "Etapa alegretense de um circuito regional de corridas de rua.",
       "es": "Etapa de Alegrete de un circuito regional de carreras de calle.",
@@ -477,9 +477,9 @@
     "categoria": "quadra",
     "nome": "Arena de Padel",
     "descricao": {
-      "pt": "Quadras de padel — esporte em franca expansão na cidade.",
-      "es": "Canchas de pádel — deporte en plena expansión en la ciudad.",
-      "en": "Padel courts — a fast-growing sport in town."
+      "pt": "Quadras de padel, esporte em franca expansão na cidade.",
+      "es": "Canchas de pádel, deporte en plena expansión en la ciudad.",
+      "en": "Padel courts, a fast-growing sport in town."
     },
     "endereco": "Alegrete - RS",
     "lat": -29.7878,
@@ -566,9 +566,9 @@
     "categoria": "reserva",
     "nome": "APA do Ibirapuitã",
     "descricao": {
-      "pt": "Cerca de 317 mil ha — a única Área de Proteção Ambiental federal do bioma Pampa.",
-      "es": "Cerca de 317 mil ha — la única Área de Protección Ambiental federal del bioma Pampa.",
-      "en": "About 317,000 ha — the only federal Environmental Protection Area in the Pampa biome."
+      "pt": "Cerca de 317 mil ha, a única Área de Proteção Ambiental federal do bioma Pampa.",
+      "es": "Cerca de 317 mil ha, la única Área de Protección Ambiental federal del bioma Pampa.",
+      "en": "About 317,000 ha, the only federal Environmental Protection Area in the Pampa biome."
     },
     "endereco": "Alegrete / Sant'Ana do Livramento / Quaraí / Rosário do Sul",
     "lat": -30.1,
@@ -601,9 +601,9 @@
     "categoria": "trilha",
     "nome": "Caminho do Pampa",
     "descricao": {
-      "pt": "Trilha de longo curso de cerca de 170 km pela APA do Ibirapuitã, integrante da Rede de Trilhas de Longo Curso do Brasil — com trechos para caminhantes e ciclistas e turismo rural sustentável.",
-      "es": "Sendero de largo recorrido de unos 170 km por la APA del Ibirapuitã, parte de la Red de Senderos de Largo Recorrido de Brasil — con tramos para caminantes y ciclistas y turismo rural sostenible.",
-      "en": "A roughly 170 km long-distance trail through the Ibirapuitã EPA, part of Brazil's Long-Distance Trails Network — with sections for hikers and cyclists and sustainable rural tourism."
+      "pt": "Trilha de longo curso de cerca de 170 km pela APA do Ibirapuitã, integrante da Rede de Trilhas de Longo Curso do Brasil, com trechos para caminhantes e ciclistas e turismo rural sustentável.",
+      "es": "Sendero de largo recorrido de unos 170 km por la APA del Ibirapuitã, parte de la Red de Senderos de Largo Recorrido de Brasil, con tramos para caminantes y ciclistas y turismo rural sostenible.",
+      "en": "A roughly 170 km long-distance trail through the Ibirapuitã EPA, part of Brazil's Long-Distance Trails Network, with sections for hikers and cyclists and sustainable rural tourism."
     },
     "endereco": "APA do Ibirapuitã",
     "lat": -30.05,
@@ -654,7 +654,7 @@
   {
     "id": "trilha-rincao-paraiso",
     "categoria": "trilha",
-    "nome": "Trilha do Pampa — Rincão do Paraíso",
+    "nome": "Trilha do Pampa, Rincão do Paraíso",
     "descricao": {
       "pt": "Caminhada pelo Rincão do Paraíso, na zona rural alegretense: paisagens abertas do Pampa, fauna nativa e o silêncio do campo.",
       "es": "Caminata por el Rincão do Paraíso, en la zona rural de Alegrete: paisajes abiertos del Pampa, fauna nativa y el silencio del campo.",
@@ -908,13 +908,13 @@
   {
     "id": "pesca-dourado-uruguai",
     "categoria": "atracao",
-    "nome": "Pesca esportiva de dourado — Rio Uruguai",
+    "nome": "Pesca esportiva de dourado, Rio Uruguai",
     "descricao": {
-      "pt": "Trecho do Rio Uruguai abaixo da represa de Salto Grande (Bella Unión, Salto e Argentina) é referência mundial na pesca esportiva de dourado, surubim e boga — pesque e solte.",
-      "es": "El tramo del Río Uruguay debajo de la represa de Salto Grande (Bella Unión, Salto y Argentina) es referencia mundial en pesca deportiva de dorado, surubí y boga — captura y suelta.",
-      "en": "The Uruguay River below the Salto Grande dam (Bella Unión, Salto and Argentina) is a world reference for sport fishing of golden dorado, surubí and boga — catch and release."
+      "pt": "Trecho do Rio Uruguai abaixo da represa de Salto Grande (Bella Unión, Salto e Argentina) é referência mundial na pesca esportiva de dourado, surubim e boga, pesque e solte.",
+      "es": "El tramo del Río Uruguay debajo de la represa de Salto Grande (Bella Unión, Salto y Argentina) es referencia mundial en pesca deportiva de dorado, surubí y boga, captura y suelta.",
+      "en": "The Uruguay River below the Salto Grande dam (Bella Unión, Salto and Argentina) is a world reference for sport fishing of golden dorado, surubí and boga, catch and release."
     },
-    "endereco": "Rio Uruguai — Bella Unión (UY) / Monte Caseros (AR)",
+    "endereco": "Rio Uruguai, Bella Unión (UY) / Monte Caseros (AR)",
     "lat": -30.2622,
     "lng": -57.6228,
     "tags": [
@@ -952,10 +952,10 @@
       "es": "Postal de Alegrete y escenario de la batalla de 1923, sobre el Ibirapuitã.",
       "en": "Alegrete's postcard and scene of the 1923 battle, over the Ibirapuitã."
     },
-    "endereco": "Rio Ibirapuitã - Alegrete",
+    "endereco": "Rio Ibirapuitã, Bairro Ibirapuitã, Alegrete - RS",
     "foto": "assets/img/ponte-ibirapuita.jpg",
-    "lat": -29.7758,
-    "lng": -55.7848,
+    "lat": -29.7850313,
+    "lng": -55.7745078,
     "tags": [
       "monumento",
       "história"
@@ -973,8 +973,8 @@
     },
     "endereco": "Praça Getúlio Vargas - Centro",
     "foto": "assets/img/igreja-matriz.jpg",
-    "lat": -29.7832,
-    "lng": -55.7912,
+    "lat": -29.78345,
+    "lng": -55.79035,
     "tags": [
       "igreja",
       "arquitetura"
@@ -990,15 +990,15 @@
       "es": "Estación centenaria que alberga la locomotora a vapor, memoria de los rieles del Pampa.",
       "en": "Century-old station home to the steam engine, a memory of the Pampa rails."
     },
-    "endereco": "Alegrete - RS",
+    "endereco": "Largo João Modesto de Souza, Centro, Alegrete - RS",
     "foto": "assets/img/estacao-ferroviaria.jpg",
-    "lat": -29.7889,
-    "lng": -55.7958,
+    "lat": -29.7782394,
+    "lng": -55.7886788,
     "tags": [
       "ferrovia",
       "história"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "museu-oswaldo-aranha",
@@ -1009,14 +1009,14 @@
       "es": "Acervo del diplomático de Alegrete que presidió la Asamblea General de la ONU.",
       "en": "Collection of the Alegrete-born diplomat who chaired the UN General Assembly."
     },
-    "endereco": "Centro - Alegrete",
-    "lat": -29.7825,
-    "lng": -55.7901,
+    "endereco": "Praça Getúlio Vargas, 585, Centro, Alegrete - RS",
+    "lat": -29.7829114,
+    "lng": -55.7908937,
     "tags": [
       "museu",
       "história"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "santa-casa-alegrete",
@@ -1027,35 +1027,35 @@
       "es": "Hospital general y referencia en salud para toda la región. Cuenta con UTI neonatal de excelencia y ambulatorio para gestantes de alto riesgo, además de urgencias y diversas especialidades.",
       "en": "General hospital and regional health reference. Features an excellent neonatal ICU and a high-risk pregnancy clinic, plus an emergency room and several specialties."
     },
-    "endereco": "Centro - Alegrete - RS",
-    "lat": -29.7849,
-    "lng": -55.7884,
+    "endereco": "Rua General Sampaio, 88, Vila Nova, Alegrete - RS",
+    "lat": -29.7746964,
+    "lng": -55.7914178,
     "tags": [
       "hospital",
       "emergência",
       "referência",
       "uti neonatal"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "pronto-atendimento-alegrete",
     "categoria": "upa",
     "nome": "Pronto Atendimento Municipal (PAM)",
     "descricao": {
-      "pt": "Atendimento de urgência e emergência da rede pública municipal — porta de entrada para casos agudos que não exigem internação hospitalar.",
-      "es": "Atención de urgencia y emergencia de la red pública municipal — puerta de entrada para casos agudos que no requieren internación hospitalaria.",
-      "en": "Municipal urgent and emergency care — the entry point for acute cases that do not require hospital admission."
+      "pt": "Atendimento de urgência e emergência da rede pública municipal, porta de entrada para casos agudos que não exigem internação hospitalar.",
+      "es": "Atención de urgencia y emergencia de la red pública municipal, puerta de entrada para casos agudos que no requieren internación hospitalaria.",
+      "en": "Municipal urgent and emergency care, the entry point for acute cases that do not require hospital admission."
     },
-    "endereco": "Alegrete - RS",
-    "lat": -29.7869,
-    "lng": -55.7906,
+    "endereco": "Rua Frederico Ortiz, 66, Bairro Lara, Alegrete - RS",
+    "lat": -29.8027701,
+    "lng": -55.8045159,
     "tags": [
       "urgência",
       "emergência",
       "24h"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "ambulatorio-materno",
@@ -1076,17 +1076,19 @@
   {
     "id": "caps-alegrete",
     "categoria": "ambulatorio",
-    "nome": "CAPS — Centro de Atenção Psicossocial",
+    "nome": "CAPS, Centro de Atenção Psicossocial",
     "descricao": {
       "pt": "Atenção em saúde mental pela rede pública, com acompanhamento multiprofissional e atividades terapêuticas.",
       "es": "Atención en salud mental por la red pública, con seguimiento multiprofesional y actividades terapéuticas.",
       "en": "Public mental health care, with multidisciplinary support and therapeutic activities."
     },
-    "endereco": "Alegrete - RS",
+    "endereco": "Praça Dr. Alexandre Lisboa, Cidade Alta, Alegrete - RS",
     "tags": [
       "saúde mental"
     ],
-    "confirmado": false
+    "confirmado": true,
+    "lat": -29.7892338,
+    "lng": -55.7952586
   },
   {
     "id": "esf-promorar",
@@ -1155,74 +1157,80 @@
   {
     "id": "unipampa-alegrete",
     "categoria": "universidade",
-    "nome": "Unipampa — Campus Alegrete",
+    "nome": "Unipampa, Campus Alegrete",
     "descricao": {
-      "pt": "Campus da Universidade Federal do Pampa com cursos de Engenharia (Civil, Elétrica, Mecânica, de Software, de Telecomunicações e Agrícola) e Ciência da Computação — polo de ensino, pesquisa e extensão.",
-      "es": "Campus de la Universidad Federal del Pampa con carreras de Ingeniería (Civil, Eléctrica, Mecánica, de Software, de Telecomunicaciones y Agrícola) y Ciencia de la Computación — polo de enseñanza, investigación y extensión.",
-      "en": "Federal University of Pampa campus offering Engineering degrees (Civil, Electrical, Mechanical, Software, Telecommunications and Agricultural) and Computer Science — a hub of teaching, research and outreach."
+      "pt": "Campus da Universidade Federal do Pampa com cursos de Engenharia (Civil, Elétrica, Mecânica, de Software, de Telecomunicações e Agrícola) e Ciência da Computação, polo de ensino, pesquisa e extensão.",
+      "es": "Campus de la Universidad Federal del Pampa con carreras de Ingeniería (Civil, Eléctrica, Mecánica, de Software, de Telecomunicaciones y Agrícola) y Ciencia de la Computación, polo de enseñanza, investigación y extensión.",
+      "en": "Federal University of Pampa campus offering Engineering degrees (Civil, Electrical, Mechanical, Software, Telecommunications and Agricultural) and Computer Science, a hub of teaching, research and outreach."
     },
-    "endereco": "Av. Tiarajú, 810 - Ibirapuitã - Alegrete",
+    "endereco": "Av. Tiarajú, 810, Bairro Ibirapuitã, Alegrete - RS",
     "website": "https://unipampa.edu.br/alegrete/",
-    "lat": -29.7935,
-    "lng": -55.7775,
+    "lat": -29.795142,
+    "lng": -55.765155,
     "tags": [
       "federal",
       "engenharias",
       "computação"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "iffar-alegrete",
     "categoria": "universidade",
-    "nome": "IFFar — Instituto Federal Farroupilha (Campus Alegrete)",
+    "nome": "IFFar, Instituto Federal Farroupilha (Campus Alegrete)",
     "descricao": {
       "pt": "Campus do Instituto Federal Farroupilha com cursos técnicos, de graduação e pós, voltados às áreas agropecuária, ambiental e de informática.",
       "es": "Campus del Instituto Federal Farroupilha con cursos técnicos, de grado y posgrado, en las áreas agropecuaria, ambiental e informática.",
       "en": "Farroupilha Federal Institute campus offering technical, undergraduate and graduate courses in agriculture, environment and computing."
     },
-    "endereco": "RS-377, Km 27 - Passo Novo - Alegrete",
+    "endereco": "RS-377, Km 27, Passo Novo, Alegrete - RS",
     "website": "https://www.iffarroupilha.edu.br/",
     "tags": [
       "federal",
       "técnico",
       "agropecuária"
     ],
-    "confirmado": false
+    "confirmado": true,
+    "lat": -29.709563,
+    "lng": -55.5284969
   },
   {
     "id": "urcamp-alegrete",
     "categoria": "universidade",
-    "nome": "URCAMP — Universidade da Região da Campanha",
+    "nome": "URCAMP, Universidade da Região da Campanha",
     "descricao": {
       "pt": "Instituição comunitária com graduações e pós-graduações, tradicional na formação de profissionais da Fronteira Oeste.",
       "es": "Institución comunitaria con grados y posgrados, tradicional en la formación de profesionales de la Frontera Oeste.",
       "en": "Community university with undergraduate and graduate programs, long established in training professionals of the Western Frontier."
     },
-    "endereco": "Centro - Alegrete - RS",
+    "endereco": "Praça Getúlio Vargas, 47, Centro, Alegrete - RS",
     "website": "https://urcamp.edu.br/",
     "tags": [
       "comunitária",
       "graduação"
     ],
-    "confirmado": false
+    "confirmado": true,
+    "lat": -29.7837654,
+    "lng": -55.7916665
   },
   {
     "id": "pampatec",
     "categoria": "pesquisa",
-    "nome": "Pampatec — Parque Científico e Tecnológico",
+    "nome": "Pampatec, Parque Científico e Tecnológico",
     "descricao": {
       "pt": "Ambiente de inovação que conecta universidade, empresas e poder público, apoiando startups e o desenvolvimento tecnológico da região.",
       "es": "Entorno de innovación que conecta universidad, empresas y poder público, apoyando startups y el desarrollo tecnológico de la región.",
       "en": "Innovation hub connecting university, companies and government, supporting startups and the region's technological development."
     },
-    "endereco": "Alegrete - RS",
+    "endereco": "Av. Tiarajú, Bairro Ibirapuitã, Alegrete - RS",
     "tags": [
       "inovação",
       "startups",
       "tecnologia"
     ],
-    "confirmado": false
+    "confirmado": true,
+    "lat": -29.7937506,
+    "lng": -55.7633815
   },
   {
     "id": "casa-do-estudante-alegrete",
@@ -1248,20 +1256,20 @@
     ],
     "nome": "Parque Dr. Lauro Dornelles",
     "descricao": {
-      "pt": "Principal parque urbano e palco dos grandes eventos da cidade — Festival da Linguiça, Exposição Agropecuária e feiras — reunindo natureza, lazer e cultura num só lugar.",
-      "es": "Principal parque urbano y escenario de los grandes eventos de la ciudad — Festival del Chorizo, Exposición Agropecuaria y ferias — reuniendo naturaleza, ocio y cultura en un solo lugar.",
-      "en": "The main urban park and stage for the city's biggest events — the Sausage Festival, the Agricultural Fair and expos — blending nature, leisure and culture in one place."
+      "pt": "Principal parque urbano e palco dos grandes eventos da cidade (Festival da Linguiça, Exposição Agropecuária e feiras), reunindo natureza, lazer e cultura num só lugar.",
+      "es": "Principal parque urbano y escenario de los grandes eventos de la ciudad (Festival del Chorizo, Exposición Agropecuaria y ferias), reuniendo naturaleza, ocio y cultura en un solo lugar.",
+      "en": "The main urban park and stage for the city's biggest events (the Sausage Festival, the Agricultural Fair and expos), blending nature, leisure and culture in one place."
     },
-    "endereco": "Av. Tiarajú, 1685 - Alegrete",
-    "lat": -29.7889,
-    "lng": -55.7818,
+    "endereco": "Av. Tiarajú, 1685, Bairro Centenário, Alegrete - RS",
+    "lat": -29.7910067,
+    "lng": -55.7623723,
     "tags": [
       "feiras",
       "exposições",
       "lazer",
       "natureza"
     ],
-    "confirmado": false
+    "confirmado": true
   },
   {
     "id": "clube-caixeiral",
@@ -1302,9 +1310,9 @@
     "categoria": "camping",
     "nome": "Cabanas Pousada, Camping & Cia",
     "descricao": {
-      "pt": "Cabanas para hospedagem e área de camping em meio à natureza, com quadra de vôlei, espaço para churrasco e chimarrão — recém-reformada e ideal para descansar e reunir a família e os amigos.",
-      "es": "Cabañas para hospedaje y área de camping en plena naturaleza, con cancha de vóley, espacio para asado y mate — recién reformada e ideal para descansar y reunir a la familia y amigos.",
-      "en": "Cabins and a camping area surrounded by nature, with a volleyball court, barbecue space and chimarrão — recently renovated and perfect for resting and gathering family and friends."
+      "pt": "Cabanas para hospedagem e área de camping em meio à natureza, com quadra de vôlei, espaço para churrasco e chimarrão, recém-reformada e ideal para descansar e reunir a família e os amigos.",
+      "es": "Cabañas para hospedaje y área de camping en plena naturaleza, con cancha de vóley, espacio para asado y mate, recién reformada e ideal para descansar y reunir a la familia y amigos.",
+      "en": "Cabins and a camping area surrounded by nature, with a volleyball court, barbecue space and chimarrão, recently renovated and perfect for resting and gathering family and friends."
     },
     "endereco": "Alegrete - RS",
     "telefone": "+55 55 99211-3302",
@@ -1322,9 +1330,9 @@
     "categoria": "esporte",
     "nome": "Escola de Equitação Reencontro",
     "descricao": {
-      "pt": "Nova modalidade em Alegrete: escola de equitação com aulas, vivências guiadas a cavalo e conexão com a natureza do Pampa — experiências sob agendamento para todos os níveis.",
-      "es": "Nueva modalidad en Alegrete: escuela de equitación con clases, vivencias guiadas a caballo y conexión con la naturaleza del Pampa — experiencias con reserva para todos los niveles.",
-      "en": "A new activity in Alegrete: an equestrian school with lessons, guided horseback experiences and connection with the Pampa's nature — bookable experiences for all levels."
+      "pt": "Nova modalidade em Alegrete: escola de equitação com aulas, vivências guiadas a cavalo e conexão com a natureza do Pampa, experiências sob agendamento para todos os níveis.",
+      "es": "Nueva modalidad en Alegrete: escuela de equitación con clases, vivencias guiadas a caballo y conexión con la naturaleza del Pampa, experiencias con reserva para todos los niveles.",
+      "en": "A new activity in Alegrete: an equestrian school with lessons, guided horseback experiences and connection with the Pampa's nature, bookable experiences for all levels."
     },
     "endereco": "Alegrete - RS",
     "tags": [
@@ -1340,9 +1348,9 @@
     "categoria": "imobiliaria",
     "nome": "Imobiliária Alegrete",
     "descricao": {
-      "pt": "Tradicional imobiliária do centro, com carteira de imóveis para locação e venda — apartamentos, casas e salas comerciais em diversos bairros.",
-      "es": "Tradicional inmobiliaria del centro, con cartera de inmuebles para alquiler y venta — apartamentos, casas y locales comerciales en varios barrios.",
-      "en": "A long-established downtown agency with rentals and sales — apartments, houses and commercial spaces across several districts."
+      "pt": "Tradicional imobiliária do centro, com carteira de imóveis para locação e venda, apartamentos, casas e salas comerciais em diversos bairros.",
+      "es": "Tradicional inmobiliaria del centro, con cartera de inmuebles para alquiler y venta, apartamentos, casas y locales comerciales en varios barrios.",
+      "en": "A long-established downtown agency with rentals and sales, apartments, houses and commercial spaces across several districts."
     },
     "endereco": "Av. Freitas Vale, 14 - Centro",
     "website": "https://www.imobiliariaalegrete.com.br",
@@ -1381,7 +1389,7 @@
     "descricao": {
       "pt": "Imobiliária com imóveis urbanos para locação e venda em Alegrete, atendendo casas, apartamentos e pontos comerciais.",
       "es": "Inmobiliaria con inmuebles urbanos para alquiler y venta en Alegrete: casas, apartamentos y locales comerciales.",
-      "en": "Urban rentals and sales across Alegrete — houses, apartments and commercial units."
+      "en": "Urban rentals and sales across Alegrete, houses, apartments and commercial units."
     },
     "endereco": "Rua General Sampaio, 1429 - Centro",
     "website": "https://www.souzaimoveis.com",
@@ -1472,9 +1480,9 @@
     "categoria": "imobiliaria",
     "nome": "Contalii Imóveis",
     "descricao": {
-      "pt": "Imobiliária com CRECI, oferecendo imóveis em bairros como Centro e Cidade Alta — locação e venda.",
-      "es": "Inmobiliaria con CRECI, con inmuebles en barrios como Centro y Cidade Alta — alquiler y venta.",
-      "en": "A CRECI agency with listings in districts such as Centro and Cidade Alta — rentals and sales."
+      "pt": "Imobiliária com CRECI, oferecendo imóveis em bairros como Centro e Cidade Alta, locação e venda.",
+      "es": "Inmobiliaria con CRECI, con inmuebles en barrios como Centro y Cidade Alta, alquiler y venta.",
+      "en": "A CRECI agency with listings in districts such as Centro and Cidade Alta, rentals and sales."
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.contaliimoveis.com.br",
@@ -1508,9 +1516,9 @@
     "categoria": "imobiliaria",
     "nome": "Samsul Imóveis",
     "descricao": {
-      "pt": "Imobiliária pioneira no aluguel sem fiador em Alegrete — alternativa prática para quem chega à cidade sem garantidor local.",
-      "es": "Inmobiliaria pionera en el alquiler sin fiador en Alegrete — alternativa práctica para quien llega sin garante local.",
-      "en": "A pioneer of no-guarantor rentals in Alegrete — a practical option for newcomers without a local guarantor."
+      "pt": "Imobiliária pioneira no aluguel sem fiador em Alegrete, alternativa prática para quem chega à cidade sem garantidor local.",
+      "es": "Inmobiliaria pionera en el alquiler sin fiador en Alegrete, alternativa práctica para quien llega sin garante local.",
+      "en": "A pioneer of no-guarantor rentals in Alegrete, a practical option for newcomers without a local guarantor."
     },
     "endereco": "Alegrete - RS",
     "website": "https://www.urbano.samsulimoveis.com.br",
@@ -1614,9 +1622,9 @@
     "categoria": "agroindustria",
     "nome": "Boi Bom",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Rua Francisco Pesce Padula, 407",
     "telefone": "+55 55 3421-3461",
@@ -1631,9 +1639,9 @@
     "categoria": "agroindustria",
     "nome": "Campeira Alegretense",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Rua Coronel Antônio de Freitas Vale, 392",
     "telefone": "+55 55 99626-1903",
@@ -1648,9 +1656,9 @@
     "categoria": "agroindustria",
     "nome": "Casa de Carne Madalozzo",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Rua Simplício Jaques, 816",
     "telefone": "+55 55 3422-6058",
@@ -1665,9 +1673,9 @@
     "categoria": "agroindustria",
     "nome": "Casa de Carne Santo Antônio",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Ibicuí, 178 · e Av. Assis Brasil, 869",
     "telefone": "+55 55 99621-4904",
@@ -1682,9 +1690,9 @@
     "categoria": "agroindustria",
     "nome": "Casa do Frango",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Rua Bento Manoel, 189",
     "telefone": "+55 55 3422-2929",
@@ -1699,9 +1707,9 @@
     "categoria": "agroindustria",
     "nome": "Empório Dutra e Dutra",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Doutor Eurípedes Brasil Milano, 3393",
     "telefone": "+55 55 3422-4629",
@@ -1716,9 +1724,9 @@
     "categoria": "agroindustria",
     "nome": "Fazenda Casa de Carnes",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Assis Brasil, 469",
     "telefone": "+55 55 99948-2434",
@@ -1733,9 +1741,9 @@
     "categoria": "agroindustria",
     "nome": "Mercado de Carnes do Vale",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Tiaraju, 2310",
     "telefone": "+55 55 3426-3084",
@@ -1750,9 +1758,9 @@
     "categoria": "agroindustria",
     "nome": "Mercado Dutra",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Doutor Eurípedes Brasil Milano, 3393",
     "telefone": "+55 55 3422-4629",
@@ -1767,9 +1775,9 @@
     "categoria": "agroindustria",
     "nome": "Qualidade Gaúcha",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Joaquim Pahim, 3465",
     "telefone": "+55 55 99920-3765",
@@ -1784,9 +1792,9 @@
     "categoria": "agroindustria",
     "nome": "Tambara",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Avenida Ibicuí, 331 · e R. Álvaro Ignácio de Medeiros, 483",
     "telefone": "+55 55 3422-8767",
@@ -1801,9 +1809,9 @@
     "categoria": "agroindustria",
     "nome": "União",
     "descricao": {
-      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira — patrimônio do sabor gaúcho.",
-      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera — patrimonio del sabor gaucho.",
-      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage — a hallmark of gaúcho flavor."
+      "pt": "Agroindústria e casa de carnes de Alegrete, produtora da tradicional linguiça campeira, patrimônio do sabor gaúcho.",
+      "es": "Agroindustria y casa de carnes de Alegrete, productora de la tradicional linguiça campera, patrimonio del sabor gaucho.",
+      "en": "Alegrete meat producer crafting the traditional 'linguiça campeira' country sausage, a hallmark of gaúcho flavor."
     },
     "endereco": "Rua Coronel Antônio de Freitas Valle, 392",
     "telefone": "+55 55 99626-1903",
@@ -1818,9 +1826,9 @@
     "categoria": "ctg",
     "nome": "CTG Aconchego dos Caranchos",
     "descricao": {
-      "pt": "CTG Aconchego dos Caranchos mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Aconchego dos Caranchos mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Aconchego dos Caranchos keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Aconchego dos Caranchos mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Aconchego dos Caranchos mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Aconchego dos Caranchos keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Avenida Major João Cezimbra Jaques, 371",
     "telefone": "+55 55 3422-5533",
@@ -1836,9 +1844,9 @@
     "categoria": "ctg",
     "nome": "CTG Capela Queimada",
     "descricao": {
-      "pt": "CTG Capela Queimada mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Capela Queimada mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Capela Queimada keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Capela Queimada mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Capela Queimada mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Capela Queimada keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Irmãos Timbaúva, s/n",
     "telefone": "+55 55 3422-5533",
@@ -1854,9 +1862,9 @@
     "categoria": "ctg",
     "nome": "CTG Farroupilha",
     "descricao": {
-      "pt": "CTG Farroupilha mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Farroupilha mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Farroupilha keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Farroupilha mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Farroupilha mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Farroupilha keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Avenida Eurípedes Brasil Milano, 509",
     "telefone": "+55 55 3422-3388",
@@ -1872,9 +1880,9 @@
     "categoria": "ctg",
     "nome": "CTG Honório Lemes",
     "descricao": {
-      "pt": "CTG Honório Lemes mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Honório Lemes mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Honório Lemes keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Honório Lemes mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Honório Lemes mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Honório Lemes keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Avenida Caverá, 136",
     "telefone": "+55 55 99932-9192",
@@ -1890,9 +1898,9 @@
     "categoria": "ctg",
     "nome": "CTG Oswaldo Aranha",
     "descricao": {
-      "pt": "CTG Oswaldo Aranha mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Oswaldo Aranha mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Oswaldo Aranha keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Oswaldo Aranha mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Oswaldo Aranha mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Oswaldo Aranha keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rodovia Osvaldo Aranha",
     "tags": [
@@ -1907,9 +1915,9 @@
     "categoria": "ctg",
     "nome": "CTG Vaqueanos da Fronteira",
     "descricao": {
-      "pt": "CTG Vaqueanos da Fronteira mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "CTG Vaqueanos da Fronteira mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "CTG Vaqueanos da Fronteira keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "CTG Vaqueanos da Fronteira mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "CTG Vaqueanos da Fronteira mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "CTG Vaqueanos da Fronteira keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Bento Manoel, 1405",
     "telefone": "+55 55 99908-1909",
@@ -1925,9 +1933,9 @@
     "categoria": "ctg",
     "nome": "DTG Juventude",
     "descricao": {
-      "pt": "DTG Juventude mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "DTG Juventude mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "DTG Juventude keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "DTG Juventude mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "DTG Juventude mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "DTG Juventude keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Irmãos Timbaúva, s/n",
     "telefone": "+55 55 3422-5533",
@@ -1943,9 +1951,9 @@
     "categoria": "ctg",
     "nome": "GN Ibirapuitã",
     "descricao": {
-      "pt": "GN Ibirapuitã mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "GN Ibirapuitã mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "GN Ibirapuitã keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "GN Ibirapuitã mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GN Ibirapuitã mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GN Ibirapuitã keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Armando Grillo, 88",
     "tags": [
@@ -1960,9 +1968,9 @@
     "categoria": "ctg",
     "nome": "GT Os Tauras",
     "descricao": {
-      "pt": "GT Os Tauras mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "GT Os Tauras mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "GT Os Tauras keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "GT Os Tauras mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GT Os Tauras mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GT Os Tauras keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Constantino da Costa Leite, 210",
     "tags": [
@@ -1977,9 +1985,9 @@
     "categoria": "ctg",
     "nome": "GT Reponte de Laçadores",
     "descricao": {
-      "pt": "GT Reponte de Laçadores mantém viva a cultura campeira de Alegrete — danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
-      "es": "GT Reponte de Laçadores mantiene viva la cultura campera de Alegrete — danzas, jineteadas, mate y la tradición farroupilha.",
-      "en": "GT Reponte de Laçadores keeps Alegrete's gaúcho heritage alive — folk dances, rodeos, chimarrão and Farroupilha tradition."
+      "pt": "GT Reponte de Laçadores mantém viva a cultura campeira de Alegrete, danças, rodeios crioulos, chimarrão e a tradição farroupilha.",
+      "es": "GT Reponte de Laçadores mantiene viva la cultura campera de Alegrete, danzas, jineteadas, mate y la tradición farroupilha.",
+      "en": "GT Reponte de Laçadores keeps Alegrete's gaúcho heritage alive, folk dances, rodeos, chimarrão and Farroupilha tradition."
     },
     "endereco": "Rua Coronel Antonio Freitas Valle, 877",
     "tags": [

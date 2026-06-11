@@ -6,9 +6,9 @@
     "quando": { "pt": "Janeiro", "es": "Enero", "en": "January" },
     "local": "Alegrete - RS",
     "descricao": {
-      "pt": "Encontro de Futebol Infantil Pan-Americano, considerado pela FIFA o maior torneio de base do mundo — já revelou craques como Neymar, Ronaldinho Gaúcho e Alexandre Pato.",
-      "es": "Encuentro de Fútbol Infantil Panamericano, considerado por la FIFA el mayor torneo de base del mundo — reveló cracks como Neymar, Ronaldinho y Alexandre Pato.",
-      "en": "Pan-American Youth Football Meeting, regarded by FIFA as the largest youth tournament in the world — it revealed stars like Neymar, Ronaldinho and Alexandre Pato."
+      "pt": "Encontro de Futebol Infantil Pan-Americano, considerado pela FIFA o maior torneio de base do mundo, já revelou craques como Neymar, Ronaldinho Gaúcho e Alexandre Pato.",
+      "es": "Encuentro de Fútbol Infantil Panamericano, considerado por la FIFA el mayor torneo de base del mundo, reveló cracks como Neymar, Ronaldinho y Alexandre Pato.",
+      "en": "Pan-American Youth Football Meeting, regarded by FIFA as the largest youth tournament in the world, it revealed stars like Neymar, Ronaldinho and Alexandre Pato."
     },
     "confirmado": true
   },
@@ -40,7 +40,7 @@
   },
   {
     "id": "eicapampa",
-    "nome": "EICAPAMPA — Caiaques do Pampa",
+    "nome": "EICAPAMPA, Caiaques do Pampa",
     "mes": 5,
     "quando": { "pt": "Outono", "es": "Otoño", "en": "Autumn" },
     "local": "Rios e arroios de Alegrete",
@@ -86,9 +86,9 @@
     "quando": { "pt": "Setembro", "es": "Septiembre", "en": "September" },
     "local": "Centro de Alegrete",
     "descricao": {
-      "pt": "A Semana Farroupilha inicia em 13 de setembro com a chegada da Chama Crioula e encerra em 20 com o tradicional Desfile de Cavaleiros — realizado desde 1954 e considerado um dos maiores do Brasil.",
-      "es": "La Semana Farroupilha inicia el 13 de septiembre con la llegada de la Llama Criolla y cierra el 20 con el tradicional Desfile de Jinetes — realizado desde 1954 y uno de los mayores de Brasil.",
-      "en": "Farroupilha Week begins on Sept 13 with the arrival of the Crioula Flame and ends on the 20th with the traditional Horsemen's Parade — held since 1954 and one of Brazil's largest."
+      "pt": "A Semana Farroupilha inicia em 13 de setembro com a chegada da Chama Crioula e encerra em 20 com o tradicional Desfile de Cavaleiros, realizado desde 1954 e considerado um dos maiores do Brasil.",
+      "es": "La Semana Farroupilha inicia el 13 de septiembre con la llegada de la Llama Criolla y cierra el 20 con el tradicional Desfile de Jinetes, realizado desde 1954 y uno de los mayores de Brasil.",
+      "en": "Farroupilha Week begins on Sept 13 with the arrival of the Crioula Flame and ends on the 20th with the traditional Horsemen's Parade, held since 1954 and one of Brazil's largest."
     },
     "confirmado": true
   },

@@ -60,7 +60,7 @@
       </div>
       <div class="grid grid-3">
         <a class="card card-link reveal" href="https://www.rodoviariaalegrete.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip terra">Terminal</span><h3>Rodoviária de Alegrete</h3><p>Passagens, horários e encomendas · (55) 3422-2262.</p><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_buy_ticket">Comprar passagem</span></span></div></a>
-        <a class="card card-link reveal" data-delay="60" href="https://planalto.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip">RS · interestadual</span><h3>Planalto Transportes</h3><p>Porto Alegre, Santa Maria, Uruguaiana e São Paulo.</p><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_official_site">Site oficial</span></span></div></a>
+        <a class="card card-link reveal" data-delay="60" href="https://planalto.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip">RS · interestadual</span><h3>Planalto Transportes</h3><p>Porto Alegre, Santa Maria, Uruguaiana e São Paulo.</p><span class="chip gold" style="margin:4px 0 10px"><i data-lucide="badge-percent" style="width:13px;height:13px;vertical-align:-2px"></i> <span data-i18n="getting_disc_chip">Desconto: professor, estudante e militar</span></span><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_official_site">Site oficial</span></span></div></a>
         <a class="card card-link reveal" data-delay="120" href="https://www.viacaoouroeprata.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip">RS · longa distância</span><h3>Viação Ouro e Prata</h3><p>Linhas pelo RS e conexões de longa distância.</p><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_official_site">Site oficial</span></span></div></a>
         <a class="card card-link reveal" href="https://www.saopedrobus.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip">RS · regional</span><h3>Expresso São Pedro</h3><p>Fronteira Oeste, Santa Maria e Missões.</p><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_official_site">Site oficial</span></span></div></a>
         <a class="card card-link reveal" data-delay="60" href="https://viacaosaojoao.com.br/" target="_blank" rel="noopener"><div class="card-body"><span class="chip">RS · regional</span><h3>Viação São João</h3><p>Ligações regionais na Fronteira Oeste.</p><span class="row" style="color:var(--terra)"><i data-lucide="globe"></i> <span data-i18n="getting_official_site">Site oficial</span></span></div></a>
@@ -85,6 +85,25 @@
     </div>
   </section>
 
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="getting_mob_pre">Mobilidade na cidade</span>
+        <h2 data-i18n="getting_mob_h">Como se locomover em Alegrete</h2>
+        <p data-i18n="getting_mob_p">Em Alegrete, o deslocamento urbano é feito principalmente por táxi, rádio-táxi e transporte coletivo. Apps como Uber e 99 têm cobertura limitada ou indisponível — prefira os serviços locais abaixo.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico"><i data-lucide="car-taxi-front"></i></span><div><h4 data-i18n="getting_mob_taxi_h">Táxi & rádio-táxi</h4><p data-i18n="getting_mob_taxi_p">Pontos de táxi no centro, na rodoviária e nos principais bairros. O rádio-táxi atende por telefone e WhatsApp para corridas na cidade e ao aeroporto.</p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="smartphone"></i></span><div><h4 data-i18n="getting_mob_app_h">Aplicativos</h4><p data-i18n="getting_mob_app_p">A oferta de apps de transporte (Uber/99) é intermitente. Há aplicativos e cooperativas de táxi locais — confirme a disponibilidade na chegada, na rodoviária ou no CAT.</p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico"><i data-lucide="bus-front"></i></span><div><h4 data-i18n="getting_mob_bus_h">Transporte coletivo</h4><p data-i18n="getting_mob_bus_p">Linhas urbanas conectam os bairros ao centro. Consulte itinerários e horários no terminal urbano.</p></div></div>
+      </div>
+      <div class="callout reveal" style="margin-top:26px;">
+        <h4><i data-lucide="badge-percent"></i> Planalto Transportes</h4>
+        <p data-i18n="getting_mob_disc">Dica: a Planalto Transportes oferece desconto para professores, estudantes e militares em linhas selecionadas — apresente a documentação ao comprar a passagem.</p>
+      </div>
+    </div>
+  </section>
+
   <div id="footer-slot"></div>
 
   <script>
@@ -105,7 +124,11 @@
         }).addTo(map);
         const icon = L.divIcon({ className: '', html: '<div class="pin" style="background:#b5482b"></div>', iconSize: [26,26], iconAnchor: [13,26], popupAnchor: [0,-24] });
         L.marker([-29.7831, -55.7919], { icon }).addTo(map).bindPopup('<b>Alegrete</b><br>Fronteira Oeste · RS');
-        setTimeout(() => map.invalidateSize(), 120);
+        const rodIcon = L.divIcon({ className: '', html: '<div class="pin" style="background:#c98a2a"><span><i data-lucide="bus" style="width:13px;height:13px"></i></span></div>', iconSize: [26,26], iconAnchor: [13,26], popupAnchor: [0,-24] });
+        const rodName = window.t ? window.t('getting_pin_rodoviaria', 'Estação Rodoviária de Alegrete') : 'Estação Rodoviária de Alegrete';
+        const rodRoute = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Rodoviária de Alegrete RS');
+        L.marker([-29.7889, -55.7848], { icon: rodIcon }).addTo(map).bindPopup('<b>' + rodName + '</b><br>Praça Osvaldo Aranha, 20 · Canudos<br><a href="' + rodRoute + '" target="_blank" rel="noopener">' + (window.t ? window.t('see_route','Ver rota') : 'Ver rota') + '</a>');
+        setTimeout(() => { if (window.lucide) lucide.createIcons(); map.invalidateSize(); }, 120);
       }
     });
   </script>

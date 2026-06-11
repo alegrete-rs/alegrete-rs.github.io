@@ -809,5 +809,224 @@
     "lat": -29.7825, "lng": -55.7901,
     "tags": ["museu", "história"],
     "confirmado": false
+  },
+
+  {
+    "id": "santa-casa-alegrete",
+    "categoria": "hospital",
+    "nome": "Santa Casa de Caridade de Alegrete",
+    "descricao": {
+      "pt": "Hospital geral e referência em saúde para toda a região. Conta com UTI neonatal de excelência e ambulatório voltado a gestantes de alto risco, além de pronto-socorro e diversas especialidades.",
+      "es": "Hospital general y referencia en salud para toda la región. Cuenta con UTI neonatal de excelencia y ambulatorio para gestantes de alto riesgo, además de urgencias y diversas especialidades.",
+      "en": "General hospital and regional health reference. Features an excellent neonatal ICU and a high-risk pregnancy clinic, plus an emergency room and several specialties."
+    },
+    "endereco": "Centro - Alegrete - RS",
+    "lat": -29.7849, "lng": -55.7884,
+    "tags": ["hospital", "emergência", "referência", "uti neonatal"],
+    "confirmado": false
+  },
+  {
+    "id": "pronto-atendimento-alegrete",
+    "categoria": "upa",
+    "nome": "Pronto Atendimento Municipal (PAM)",
+    "descricao": {
+      "pt": "Atendimento de urgência e emergência da rede pública municipal — porta de entrada para casos agudos que não exigem internação hospitalar.",
+      "es": "Atención de urgencia y emergencia de la red pública municipal — puerta de entrada para casos agudos que no requieren internación hospitalaria.",
+      "en": "Municipal urgent and emergency care — the entry point for acute cases that do not require hospital admission."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7869, "lng": -55.7906,
+    "tags": ["urgência", "emergência", "24h"],
+    "confirmado": false
+  },
+  {
+    "id": "ambulatorio-materno",
+    "categoria": "ambulatorio",
+    "nome": "Ambulatório de Gestação de Alto Risco",
+    "descricao": {
+      "pt": "Ambulatório voltado ao acompanhamento de gestantes de alto risco, reforçando a rede materno-infantil do município.",
+      "es": "Ambulatorio dedicado al seguimiento de gestantes de alto riesgo, reforzando la red materno-infantil del municipio.",
+      "en": "Clinic dedicated to monitoring high-risk pregnancies, strengthening the town's maternal and child health network."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["materno-infantil", "gestantes"],
+    "confirmado": false
+  },
+  {
+    "id": "caps-alegrete",
+    "categoria": "ambulatorio",
+    "nome": "CAPS — Centro de Atenção Psicossocial",
+    "descricao": {
+      "pt": "Atenção em saúde mental pela rede pública, com acompanhamento multiprofissional e atividades terapêuticas.",
+      "es": "Atención en salud mental por la red pública, con seguimiento multiprofesional y actividades terapéuticas.",
+      "en": "Public mental health care, with multidisciplinary support and therapeutic activities."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["saúde mental"],
+    "confirmado": false
+  },
+  {
+    "id": "esf-promorar",
+    "categoria": "posto",
+    "nome": "ESF / UBS Promorar",
+    "descricao": {
+      "pt": "Unidade de Atenção Primária (Estratégia Saúde da Família) que atende o bairro e adjacências: consultas, vacinas e acompanhamento.",
+      "es": "Unidad de Atención Primaria (Estrategia Salud de la Familia) que atiende el barrio y alrededores: consultas, vacunas y seguimiento.",
+      "en": "Primary Care unit (Family Health Strategy) serving the neighborhood: appointments, vaccines and follow-up."
+    },
+    "endereco": "Bairro Promorar - Alegrete",
+    "tags": ["atenção primária", "esf"],
+    "confirmado": false
+  },
+  {
+    "id": "esf-vera-cruz",
+    "categoria": "posto",
+    "nome": "ESF / UBS Vera Cruz",
+    "descricao": {
+      "pt": "Unidade de Atenção Primária (Estratégia Saúde da Família) com consultas, vacinas e acompanhamento de saúde da família.",
+      "es": "Unidad de Atención Primaria (Estrategia Salud de la Familia) con consultas, vacunas y seguimiento de salud familiar.",
+      "en": "Primary Care unit (Family Health Strategy) offering appointments, vaccines and family health follow-up."
+    },
+    "endereco": "Bairro Vera Cruz - Alegrete",
+    "tags": ["atenção primária", "esf"],
+    "confirmado": false
+  },
+  {
+    "id": "esf-cidade-alta",
+    "categoria": "posto",
+    "nome": "ESF / UBS Cidade Alta",
+    "descricao": {
+      "pt": "Unidade de Atenção Primária (Estratégia Saúde da Família) de referência para os moradores da região.",
+      "es": "Unidad de Atención Primaria (Estrategia Salud de la Familia) de referencia para los vecinos de la región.",
+      "en": "Primary Care unit (Family Health Strategy) serving residents of the area."
+    },
+    "endereco": "Bairro Cidade Alta - Alegrete",
+    "tags": ["atenção primária", "esf"],
+    "confirmado": false
+  },
+  {
+    "id": "esf-honorio-lemes",
+    "categoria": "posto",
+    "nome": "ESF / UBS Honório Lemes",
+    "descricao": {
+      "pt": "Unidade de Atenção Primária (Estratégia Saúde da Família) com equipe de saúde da família e serviços básicos.",
+      "es": "Unidad de Atención Primaria (Estrategia Salud de la Familia) con equipo de salud familiar y servicios básicos.",
+      "en": "Primary Care unit (Family Health Strategy) with a family health team and basic services."
+    },
+    "endereco": "Bairro Honório Lemes - Alegrete",
+    "tags": ["atenção primária", "esf"],
+    "confirmado": false
+  },
+
+  {
+    "id": "unipampa-alegrete",
+    "categoria": "universidade",
+    "nome": "Unipampa — Campus Alegrete",
+    "descricao": {
+      "pt": "Campus da Universidade Federal do Pampa com cursos de Engenharia (Civil, Elétrica, Mecânica, de Software, de Telecomunicações e Agrícola) e Ciência da Computação — polo de ensino, pesquisa e extensão.",
+      "es": "Campus de la Universidad Federal del Pampa con carreras de Ingeniería (Civil, Eléctrica, Mecánica, de Software, de Telecomunicaciones y Agrícola) y Ciencia de la Computación — polo de enseñanza, investigación y extensión.",
+      "en": "Federal University of Pampa campus offering Engineering degrees (Civil, Electrical, Mechanical, Software, Telecommunications and Agricultural) and Computer Science — a hub of teaching, research and outreach."
+    },
+    "endereco": "Av. Tiarajú, 810 - Ibirapuitã - Alegrete",
+    "website": "https://unipampa.edu.br/alegrete/",
+    "lat": -29.7935, "lng": -55.7775,
+    "tags": ["federal", "engenharias", "computação"],
+    "confirmado": false
+  },
+  {
+    "id": "iffar-alegrete",
+    "categoria": "universidade",
+    "nome": "IFFar — Instituto Federal Farroupilha (Campus Alegrete)",
+    "descricao": {
+      "pt": "Campus do Instituto Federal Farroupilha com cursos técnicos, de graduação e pós, voltados às áreas agropecuária, ambiental e de informática.",
+      "es": "Campus del Instituto Federal Farroupilha con cursos técnicos, de grado y posgrado, en las áreas agropecuaria, ambiental e informática.",
+      "en": "Farroupilha Federal Institute campus offering technical, undergraduate and graduate courses in agriculture, environment and computing."
+    },
+    "endereco": "RS-377, Km 27 - Passo Novo - Alegrete",
+    "website": "https://www.iffarroupilha.edu.br/",
+    "tags": ["federal", "técnico", "agropecuária"],
+    "confirmado": false
+  },
+  {
+    "id": "urcamp-alegrete",
+    "categoria": "universidade",
+    "nome": "URCAMP — Universidade da Região da Campanha",
+    "descricao": {
+      "pt": "Instituição comunitária com graduações e pós-graduações, tradicional na formação de profissionais da Fronteira Oeste.",
+      "es": "Institución comunitaria con grados y posgrados, tradicional en la formación de profesionales de la Frontera Oeste.",
+      "en": "Community university with undergraduate and graduate programs, long established in training professionals of the Western Frontier."
+    },
+    "endereco": "Centro - Alegrete - RS",
+    "website": "https://urcamp.edu.br/",
+    "tags": ["comunitária", "graduação"],
+    "confirmado": false
+  },
+  {
+    "id": "pampatec",
+    "categoria": "pesquisa",
+    "nome": "Pampatec — Parque Científico e Tecnológico",
+    "descricao": {
+      "pt": "Ambiente de inovação que conecta universidade, empresas e poder público, apoiando startups e o desenvolvimento tecnológico da região.",
+      "es": "Entorno de innovación que conecta universidad, empresas y poder público, apoyando startups y el desarrollo tecnológico de la región.",
+      "en": "Innovation hub connecting university, companies and government, supporting startups and the region's technological development."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["inovação", "startups", "tecnologia"],
+    "confirmado": false
+  },
+  {
+    "id": "casa-do-estudante-alegrete",
+    "categoria": "estudante",
+    "nome": "Casa do Estudante Universitário",
+    "descricao": {
+      "pt": "Moradia estudantil que apoia universitários de fora da cidade, fortalecendo a permanência e a vida acadêmica em Alegrete.",
+      "es": "Residencia estudantil que apoya a universitarios de fuera de la ciudad, fortaleciendo la permanencia y la vida académica en Alegrete.",
+      "en": "Student housing that supports out-of-town university students, strengthening retention and academic life in Alegrete."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["moradia", "universitários"],
+    "confirmado": false
+  },
+
+  {
+    "id": "parque-lauro-dornelles",
+    "categoria": "evento_local",
+    "categorias": ["natureza"],
+    "nome": "Parque Dr. Lauro Dornelles",
+    "descricao": {
+      "pt": "Principal parque urbano e palco dos grandes eventos da cidade — Festival da Linguiça, Exposição Agropecuária e feiras — reunindo natureza, lazer e cultura num só lugar.",
+      "es": "Principal parque urbano y escenario de los grandes eventos de la ciudad — Festival del Chorizo, Exposición Agropecuaria y ferias — reuniendo naturaleza, ocio y cultura en un solo lugar.",
+      "en": "The main urban park and stage for the city's biggest events — the Sausage Festival, the Agricultural Fair and expos — blending nature, leisure and culture in one place."
+    },
+    "endereco": "Av. Tiarajú, 1685 - Alegrete",
+    "lat": -29.7889, "lng": -55.7818,
+    "tags": ["feiras", "exposições", "lazer", "natureza"],
+    "confirmado": false
+  },
+  {
+    "id": "clube-caixeiral",
+    "categoria": "evento_local",
+    "nome": "Clube Caixeiral Alegretense",
+    "descricao": {
+      "pt": "Tradicional clube social da cidade, palco de bailes, formaturas, jantares e eventos culturais ao longo do ano.",
+      "es": "Tradicional club social de la ciudad, escenario de bailes, graduaciones, cenas y eventos culturales durante el año.",
+      "en": "A traditional social club, hosting balls, graduations, dinners and cultural events throughout the year."
+    },
+    "endereco": "Centro - Alegrete",
+    "tags": ["clube", "bailes", "formaturas"],
+    "confirmado": false
+  },
+  {
+    "id": "sicredi-eventos",
+    "categoria": "evento_local",
+    "nome": "Espaço de Eventos Sicredi",
+    "descricao": {
+      "pt": "Espaço utilizado para feiras, encontros e eventos corporativos e comunitários na cidade.",
+      "es": "Espacio utilizado para ferias, encuentros y eventos corporativos y comunitarios en la ciudad.",
+      "en": "A venue used for fairs, gatherings and corporate or community events in town."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["corporativo", "feiras", "encontros"],
+    "confirmado": false
   }
 ]

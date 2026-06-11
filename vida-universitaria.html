@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universidades & Vida Universitária — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Estudar em Alegrete: Unipampa, Instituto Federal Farroupilha, URCAMP, o parque tecnológico Pampatec e a Casa do Estudante — campi e espaços no mapa." />
+  <meta property="og:title" content="Estudar em Alegrete — Visit Alegrete" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_uni">Universidades</span></div>
+      <span class="eyebrow" data-i18n="uni_pre">Vida universitária</span>
+      <h1 data-i18n="uni_h">Estudar em Alegrete</h1>
+      <p class="lead" data-i18n="uni_lead">Universidades, instituto federal, parque tecnológico e moradia estudantil — a cidade que forma e acolhe quem vem estudar no Pampa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start;">
+      <div class="reveal">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="uni_pre">Vida universitária</span>
+          <h2 data-i18n="uni_intro_h">Uma cidade universitária no coração do Pampa</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="uni_intro_p">Alegrete reúne ensino superior público e comunitário: a Unipampa, com suas engenharias e a computação, o Instituto Federal Farroupilha, a URCAMP e o parque científico e tecnológico Pampatec. Para quem vem de fora, há ainda a Casa do Estudante e uma cidade que acolhe estudantes, professores e servidores.</p>
+        </div>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="uni_map_h">Campi e espaços no mapa</span>
+          <h2 data-i18n="uni_map_h">Campi e espaços no mapa</h2>
+          <p data-i18n="uni_map_p">Toque num cartão ou pino para ver o endereço e o site oficial.</p>
+        </div>
+        <div class="map-shell"><div id="map" class="leaflet-map" style="height:420px"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="uni_pre">Vida universitária</span>
+        <h2 data-i18n="uni_h">Estudar em Alegrete</h2>
+      </div>
+      <div class="filter-bar" id="uniFilter"></div>
+      <div class="grid grid-3" id="uniList"></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'uniList', mapId: 'map', filterId: 'uniFilter',
+        categories: ['universidade', 'pesquisa', 'estudante']
+      });
+    });
+  </script>
+</body>
+</html>

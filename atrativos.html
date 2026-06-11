@@ -11,8 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700;800&family=Cinzel:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="js/app.js" defer></script>
 </head>
 <body>
@@ -31,6 +33,17 @@
     <div class="wrap">
       <div class="filter-bar" id="atrFilter"></div>
       <div class="atr-grid" id="atrList"></div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow center" data-i18n="atr_map_h">Os atrativos no mapa</span>
+        <h2 data-i18n="atr_map_h">Os atrativos no mapa</h2>
+        <p data-i18n="atr_map_p">Veja onde fica cada cartão-postal e trace a rota até ele — toque num pino para abrir a localização.</p>
+      </div>
+      <div class="map-shell reveal"><div id="map" class="leaflet-map"></div></div>
     </div>
   </section>
 
@@ -62,19 +75,26 @@
   <script>
     (function () {
       var CATS = {
-        cultura:  { cls: 'c-cultura',  label: { pt:'Cultura',  es:'Cultura',  en:'Culture' } },
-        historia: { cls: 'c-historia', label: { pt:'Memória',  es:'Memoria',  en:'Heritage' } },
-        natureza: { cls: 'c-natureza', label: { pt:'Natureza', es:'Naturaleza', en:'Nature' } },
-        praca:    { cls: 'c-praca',    label: { pt:'Praça',    es:'Plaza',    en:'Square' } },
-        fe:       { cls: 'c-fe',       label: { pt:'Fé',       es:'Fe',       en:'Faith' } },
-        lazer:    { cls: 'c-lazer',    label: { pt:'Lazer',    es:'Ocio',     en:'Leisure' } }
+        cultura:  { cls: 'c-cultura',  color: '#2f5a42', label: { pt:'Cultura',  es:'Cultura',  en:'Culture' } },
+        historia: { cls: 'c-historia', color: '#8a5a2b', label: { pt:'Memória',  es:'Memoria',  en:'Heritage' } },
+        natureza: { cls: 'c-natureza', color: '#2f6f8a', label: { pt:'Natureza', es:'Naturaleza', en:'Nature' } },
+        praca:    { cls: 'c-praca',    color: '#3f7355', label: { pt:'Praça',    es:'Plaza',    en:'Square' } },
+        fe:       { cls: 'c-fe',       color: '#7a2e4a', label: { pt:'Fé',       es:'Fe',       en:'Faith' } },
+        lazer:    { cls: 'c-lazer',    color: '#c98a2a', label: { pt:'Lazer',    es:'Ocio',     en:'Leisure' } }
       };
       var DATA = [];
       var active = 'all';
+      var mapRef = null;
 
       function lang() { return (window.ALEGRETE && window.ALEGRETE.lang) || 'pt'; }
       function pick(o) { return (o && (o[lang()] || o.pt)) || ''; }
       function tt(k, fb) { return (window.t ? window.t(k, fb) : fb); }
+      function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]; }); }
+      // Route by name search — accurate navigation regardless of pin precision
+      function routeLink(d) {
+        var q = encodeURIComponent(d.nome + ', Alegrete RS');
+        return 'https://www.google.com/maps/search/?api=1&query=' + q;
+      }
 
       function renderFilter() {
         var el = document.getElementById('atrFilter');
@@ -106,6 +126,7 @@
                 '<p>' + pick(d.desc) + '</p>' +
                 '<span class="atr-loc"><i data-lucide="map-pin"></i> ' + d.local + '</span>' +
                 (d.visita ? '<span class="atr-loc"><i data-lucide="clock"></i> ' + pick(d.visita) + '</span>' : '') +
+                '<a class="atr-loc" href="' + routeLink(d) + '" target="_blank" rel="noopener"><i data-lucide="navigation"></i> ' + tt('see_route', 'Ver rota') + '</a>' +
               '</div>' +
             '</article>';
         }).join('');
@@ -113,11 +134,34 @@
         if (window.__reobserveReveal) window.__reobserveReveal(el);
       }
 
+      function buildMap() {
+        if (!window.L || !document.getElementById('map')) return;
+        mapRef = L.map('map', { scrollWheelZoom: false }).setView([-29.7831, -55.7919], 14);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 19
+        }).addTo(mapRef);
+        var pts = [];
+        DATA.filter(function (d) { return d.lat && d.lng; }).forEach(function (d) {
+          var cat = CATS[d.cat] || CATS.cultura;
+          var icon = L.divIcon({
+            className: '',
+            html: '<div class="pin" style="background:' + cat.color + '"><span><i data-lucide="map-pin" style="width:13px;height:13px"></i></span></div>',
+            iconSize: [26, 26], iconAnchor: [13, 26], popupAnchor: [0, -24]
+          });
+          var m = L.marker([d.lat, d.lng], { icon: icon }).addTo(mapRef);
+          m.bindPopup('<b>' + esc(d.nome) + '</b><br>' + esc(d.local) + '<br><a href="' + routeLink(d) + '" target="_blank" rel="noopener">' + tt('see_route', 'Ver rota') + '</a>');
+          pts.push([d.lat, d.lng]);
+        });
+        if (pts.length > 1) mapRef.fitBounds(pts, { padding: [40, 40], maxZoom: 15 });
+        setTimeout(function () { if (window.lucide) lucide.createIcons(); mapRef.invalidateSize(); }, 150);
+      }
+
       function boot() {
         fetch('data/atrativos.json').then(function (r) { return r.json(); }).then(function (list) {
           DATA = list;
           renderFilter();
           renderList();
+          buildMap();
         });
       }
       document.addEventListener('core-ready', boot);

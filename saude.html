@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saúde — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Rede de saúde de Alegrete: hospital de referência (Santa Casa), pronto atendimento, ambulatórios e postos de saúde (ESF/UBS) no mapa, com telefones de emergência." />
+  <meta property="og:title" content="Saúde em Alegrete — Visit Alegrete" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_health">Saúde</span></div>
+      <span class="eyebrow" data-i18n="saude_pre">Rede de saúde</span>
+      <h1 data-i18n="saude_h">Saúde em Alegrete</h1>
+      <p class="lead" data-i18n="saude_lead">Hospital de referência, pronto atendimento, ambulatórios e a rede de postos de saúde — porque quem visita (ou pensa em morar aqui) também valoriza o cuidado.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start;">
+      <div class="reveal">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="saude_pre">Rede de saúde</span>
+          <h2 data-i18n="saude_intro_h">Cuidado que faz a diferença</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="saude_intro_p">Alegrete é referência regional em saúde. A Santa Casa atende toda a Fronteira Oeste, com UTI neonatal de excelência e um ambulatório voltado a gestantes de alto risco. Some-se a isso o pronto atendimento municipal e uma ampla rede de Atenção Primária (ESF/UBS) espalhada pelos bairros.</p>
+        </div>
+        <div class="callout reveal" style="margin-top:26px;">
+          <h4><i data-lucide="phone-call"></i> <span data-i18n="saude_emergency_h">Telefones de emergência</span></h4>
+          <p style="margin-bottom:10px;" data-i18n="saude_emergency_p">Em caso de emergência, ligue gratuitamente:</p>
+          <div style="display:flex;flex-wrap:wrap;gap:10px;">
+            <a class="chip terra" href="tel:192"><span data-i18n="saude_emerg_samu">SAMU (Urgência médica)</span> · 192</a>
+            <a class="chip" href="tel:193"><span data-i18n="saude_emerg_bombeiros">Bombeiros</span> · 193</a>
+            <a class="chip" href="tel:190"><span data-i18n="saude_emerg_policia">Polícia (emergência)</span> · 190</a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="saude_map_h">Unidades de saúde no mapa</span>
+          <h2 data-i18n="saude_map_h">Unidades de saúde no mapa</h2>
+          <p data-i18n="saude_map_p">Toque num cartão ou pino para ver o endereço e traçar a rota.</p>
+        </div>
+        <div class="map-shell"><div id="map" class="leaflet-map" style="height:420px"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="saude_pre">Rede de saúde</span>
+        <h2 data-i18n="saude_h">Saúde em Alegrete</h2>
+      </div>
+      <div class="filter-bar" id="saudeFilter"></div>
+      <div class="grid grid-3" id="saudeList"></div>
+      <p class="muted reveal" style="margin-top:24px;font-size:0.9rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="saude_disclaimer">Esta página está em complementação. Endereços, telefones e a localização exata das unidades devem ser confirmados junto à Secretaria Municipal de Saúde de Alegrete. Itens marcados como “A confirmar” ainda estão em verificação.</span></p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'saudeList', mapId: 'map', filterId: 'saudeFilter',
+        categories: ['hospital', 'upa', 'ambulatorio', 'posto']
+      });
+    });
+  </script>
+</body>
+</html>

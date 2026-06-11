@@ -22,7 +22,28 @@
     vinicola:    { icon: 'grape',            color: '#7a2e4a', label: 'cat_vinicola' },
     atracao:     { icon: 'camera',           color: '#c98a2a', label: 'cat_atracao' },
     cultura:     { icon: 'landmark',         color: '#2f5a42', label: 'cat_cultura' },
+    // Saúde
+    hospital:    { icon: 'hospital',         color: '#b5482b', label: 'cat_hospital' },
+    upa:         { icon: 'ambulance',        color: '#c0392b', label: 'cat_upa' },
+    posto:       { icon: 'stethoscope',      color: '#2f7dc4', label: 'cat_posto' },
+    ambulatorio: { icon: 'heart-pulse',      color: '#7a2e4a', label: 'cat_ambulatorio' },
+    // Vida universitária
+    universidade:{ icon: 'graduation-cap',   color: '#2f5a42', label: 'cat_universidade' },
+    pesquisa:    { icon: 'flask-conical',    color: '#3f7355', label: 'cat_pesquisa' },
+    estudante:   { icon: 'book-open',        color: '#c98a2a', label: 'cat_estudante' },
+    // Locais de eventos
+    evento_local:{ icon: 'party-popper',     color: '#7a2e4a', label: 'cat_evento_local' },
   };
+
+  // A place's primary category plus any extra tags it should also appear under.
+  // `categorias` (array) is optional and backwards-compatible with single `categoria`.
+  function placeCats(p) {
+    const extra = Array.isArray(p.categorias) ? p.categorias : [];
+    return p.categoria ? [p.categoria].concat(extra) : extra;
+  }
+  function inCats(p, cats) {
+    return placeCats(p).some((c) => cats.includes(c));
+  }
 
   let _places = null;
   async function getPlaces() {
@@ -189,7 +210,7 @@
       // opts: { listId, mapId, categories:[], filter:bool }
       const all = await getPlaces();
       const cats = opts.categories || null;
-      let items = cats ? all.filter((p) => cats.includes(p.categoria)) : all.slice();
+      let items = cats ? all.filter((p) => inCats(p, cats)) : all.slice();
 
       const list = opts.listId ? document.getElementById(opts.listId) : null;
       let mapRef = null;
@@ -214,8 +235,8 @@
               bar.querySelectorAll('button').forEach((x) => x.classList.remove('active'));
               b.classList.add('active');
               const c = b.dataset.cat;
-              items = c === '*' ? (cats ? all.filter((p) => cats.includes(p.categoria)) : all.slice())
-                                : all.filter((p) => p.categoria === c);
+              items = c === '*' ? (cats ? all.filter((p) => inCats(p, cats)) : all.slice())
+                                : all.filter((p) => inCats(p, [c]));
               draw();
             })
           );

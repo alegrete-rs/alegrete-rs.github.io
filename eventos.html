@@ -9,9 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
 </head>
 <body>
   <div id="header-slot"></div>
@@ -33,6 +36,18 @@
       </div>
       <div class="timeline" id="timeline"></div>
       <p class="muted reveal" style="margin-top:24px;font-size:0.9rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="events_note">Datas podem variar a cada edição — confirme nos canais oficiais.</span></p>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow center" data-i18n="events_venues_pre">Onde acontecem</span>
+        <h2 data-i18n="events_venues_h">Os palcos dos eventos</h2>
+        <p data-i18n="events_venues_p">Os principais espaços que recebem festivais, feiras e celebrações em Alegrete — muitos com múltiplos usos, como o Parque Lauro Dornelles, que também é natureza e lazer.</p>
+      </div>
+      <div class="grid grid-3" id="venuesList"></div>
+      <div class="map-shell reveal" style="margin-top:30px;"><div id="map" class="leaflet-map"></div></div>
     </div>
   </section>
 
@@ -62,6 +77,11 @@
     }
     document.addEventListener('core-ready', renderTimeline);
     document.addEventListener('langchange', renderTimeline);
+    document.addEventListener('core-ready', function () {
+      if (window.AlegreteContent) {
+        AlegreteContent.render({ listId: 'venuesList', mapId: 'map', categories: ['evento_local'] });
+      }
+    });
   </script>
 </body>
 </html>

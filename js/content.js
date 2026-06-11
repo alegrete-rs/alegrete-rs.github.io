@@ -33,6 +33,8 @@
     estudante:   { icon: 'book-open',        color: '#c98a2a', label: 'cat_estudante' },
     // Locais de eventos
     evento_local:{ icon: 'party-popper',     color: '#7a2e4a', label: 'cat_evento_local' },
+    // Moradia
+    imobiliaria: { icon: 'key-round',        color: '#5c6f8a', label: 'cat_imobiliaria' },
   };
 
   // A place's primary category plus any extra tags it should also appear under.

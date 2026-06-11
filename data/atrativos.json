@@ -191,22 +191,94 @@
   },
   {
     "id": "negrinho",
-    "nome": "Praça Ruy Ramos — Negrinho Triunfante",
+    "nome": "Praça dos Patinhos (Parque Rui Ramos)",
     "cat": "praca",
-    "img": "negrinho",
-    "local": "Praça dos Patinhos · Rua Demétrio Ribeiro, 906",
+    "img": "praca-patinhos",
+    "local": "Av. Eurípedes Brasil Milano · Centro",
     "visita": {
       "pt": "Visitação livre",
       "es": "Visita libre",
       "en": "Free visit"
     },
     "desc": {
-      "pt": "Conhecida como Praça dos Patinhos, destaca-se pelo monumento Negrinho Triunfante, que valoriza a cultura e a religiosidade popular da região. Espaço agradável e familiar que une história e qualidade de vida.",
-      "es": "Conocida como Plaza dos Patinhos, destaca por el monumento Negrinho Triunfante, que valora la cultura y la religiosidad popular.",
-      "en": "Known as Praça dos Patinhos, it features the Negrinho Triunfante monument, celebrating the region's popular culture and faith."
+      "pt": "Um dos parques mais arborizados da cidade e o passeio preferido dos alegretenses nas tardes de domingo. O apelido nasceu do antigo lago com patos e pedalinhos. Hoje reúne lago, gramados, pergolado, parquinho infantil e banheiros públicos, além do monumento Negrinho do Pastoreio, escultura de Vasco Prado que celebra a religiosidade popular da região.",
+      "es": "Uno de los parques más arbolados de la ciudad y el paseo preferido de los alegretenses los domingos. El apodo nació del antiguo lago con patos y botes a pedal. Hoy reúne lago, césped, pérgola, parque infantil y baños, además del monumento Negrinho do Pastoreio, escultura de Vasco Prado.",
+      "en": "One of the city's leafiest parks and locals' favourite Sunday outing. The nickname (\"Little Ducks Square\") comes from the old lake with ducks and paddle boats. Today it offers a lake, lawns, a pergola, a playground and restrooms, plus the Negrinho do Pastoreio sculpture by Vasco Prado, honouring the region's popular faith."
     },
-    "lat": -29.7805,
-    "lng": -55.7889
+    "lat": -29.7847,
+    "lng": -55.7778
+  },
+  {
+    "id": "praca-nova",
+    "nome": "Praça Nova (Praça da Juventude)",
+    "cat": "praca",
+    "local": "Bairro Nova Brasília · Av. Caverá",
+    "visita": {
+      "pt": "Visitação livre",
+      "es": "Visita libre",
+      "en": "Free visit"
+    },
+    "desc": {
+      "pt": "Coração do bairro Nova Brasília, a popular “Praça Nova” é ponto de encontro da comunidade da zona leste. Recebeu uma Praça da Juventude com equipamentos de esporte e lazer, iluminação em LED e novos brinquedos, e dá nome à escola de samba Imperatriz da Praça Nova.",
+      "es": "Corazón del barrio Nova Brasília, la popular “Praça Nova” es punto de encuentro de la zona este. Recibió una Praça da Juventude con equipos deportivos, juegos y luminación LED, y da nombre a la escuela de samba Imperatriz da Praça Nova.",
+      "en": "The heart of the Nova Brasília district, the popular “Praça Nova” is a gathering spot for the east side. It gained a Praça da Juventude with sports and play equipment and LED lighting, and lends its name to the Imperatriz da Praça Nova samba school."
+    },
+    "lat": -29.8009,
+    "lng": -55.7633
+  },
+  {
+    "id": "praca-novo-cavera",
+    "nome": "Praça do Novo Caverá",
+    "cat": "praca",
+    "local": "Bairro Caverá · Av. Caverá",
+    "visita": {
+      "pt": "Visitação livre",
+      "es": "Visita libre",
+      "en": "Free visit"
+    },
+    "desc": {
+      "pt": "Praça de bairro na região da Avenida Caverá, espaço de convivência e lazer para a vizinhança. Faz parte do conjunto de praças que receberam investimentos municipais em esporte e lazer, com área para caminhada e encontros ao ar livre.",
+      "es": "Plaza de barrio en la zona de la Avenida Caverá, espacio de convivencia y ocio para los vecinos. Forma parte del conjunto de plazas que recibieron inversiones municipales en deporte y ocio.",
+      "en": "A neighbourhood square along Avenida Caverá, a community and leisure space for the area. It is one of the squares that received municipal investment in sport and recreation, with room for walking and open-air gatherings."
+    },
+    "lat": -29.7945,
+    "lng": -55.7679
+  },
+  {
+    "id": "praca-bebedouro",
+    "nome": "Praça do Bebedouro",
+    "cat": "praca",
+    "local": "Bairro Saudade · Av. Marechal Rondon",
+    "visita": {
+      "pt": "Visitação livre",
+      "es": "Visita libre",
+      "en": "Free visit"
+    },
+    "desc": {
+      "pt": "Praça tradicional da zona sul de Alegrete, no bairro Saudade. Cercada de árvores e bancos, é referência de lazer para os moradores e ponto de passagem ao longo da Avenida Marechal Rondon.",
+      "es": "Plaza tradicional de la zona sur de Alegrete, en el barrio Saudade. Rodeada de árboles y bancos, es referencia de ocio para los vecinos a lo largo de la Avenida Marechal Rondon.",
+      "en": "A traditional square in southern Alegrete, in the Saudade district. Lined with trees and benches, it is a neighbourhood leisure landmark along Avenida Marechal Rondon."
+    },
+    "lat": -29.8006,
+    "lng": -55.8039
+  },
+  {
+    "id": "parque-nehyta",
+    "nome": "Parque Nehyta Ramos",
+    "cat": "lazer",
+    "local": "Av. Eurípedes Brasil Milano · à beira do Ibirapuitã",
+    "visita": {
+      "pt": "Visitação livre",
+      "es": "Visita libre",
+      "en": "Free visit"
+    },
+    "desc": {
+      "pt": "Em frente ao Parque Rui Ramos, às margens do rio Ibirapuitã, é o parque do esporte ao ar livre: quadras de futebol de areia, vôlei e pista para corrida e caminhada. Ótimo para a prática esportiva e o lazer em família.",
+      "es": "Frente al Parque Rui Ramos, a orillas del río Ibirapuitã, es el parque del deporte al aire libre: canchas de fútbol playa, vóley y pista para correr y caminar.",
+      "en": "Facing Parque Rui Ramos by the Ibirapuitã river, this is the open-air sports park: beach football and volleyball courts plus a running and walking track — great for exercise and family leisure."
+    },
+    "lat": -29.7865,
+    "lng": -55.7761
   },
   {
     "id": "obelisco",
@@ -248,22 +320,22 @@
   },
   {
     "id": "porto-aguateiros",
-    "nome": "Porto dos Aguateiros",
+    "nome": "Parque dos Aguateiros (Porto dos Aguateiros)",
     "cat": "natureza",
     "img": "porto-aguateiros",
-    "local": "Av. Eurípedes Brasil Milano, 1971",
+    "local": "Av. Eurípedes Brasil Milano · à beira do Ibirapuitã",
     "visita": {
       "pt": "Visitação livre",
       "es": "Visita libre",
       "en": "Free visit"
     },
     "desc": {
-      "pt": "Espaço que resgata a tradição ligada ao abastecimento de água no município. No passado, os “aguateiros” levavam água às residências; hoje o local preserva essa memória às margens do rio, conectando visitantes às origens da cidade.",
-      "es": "Espacio que rescata la tradición del abastecimiento de agua. Hoy preserva esa memoria a orillas del río.",
-      "en": "A space recalling the town's water-carrying tradition — once delivered house to house, now preserved by the riverside."
+      "pt": "Parque municipal de extensa área verde e árvores nativas às margens do rio Ibirapuitã, com lago e ilhas. O nome resgata a tradição dos “aguateiros”, que no passado levavam água às residências. Hoje é espaço de lazer, caminhada e educação ambiental, abrigando a Sala Verde Porto dos Aguateiros.",
+      "es": "Parque municipal de extensa área verde y árboles nativos a orillas del río Ibirapuitã, con lago e islas. El nombre rescata la tradición de los “aguateiros”. Hoy es espacio de ocio, caminata y educación ambiental.",
+      "en": "A municipal park of broad green space and native trees by the Ibirapuitã river, with a lake and islands. Its name recalls the old water-carriers (\"aguateiros\"). Today it is a space for leisure, walking and environmental education, home to the Sala Verde Porto dos Aguateiros."
     },
-    "lat": -29.777,
-    "lng": -55.786
+    "lat": -29.7905,
+    "lng": -55.7924
   },
   {
     "id": "maria-fumaca",

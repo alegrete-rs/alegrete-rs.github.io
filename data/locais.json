@@ -1060,5 +1060,152 @@
     "endereco": "Alegrete - RS",
     "tags": ["hipismo", "equitação", "natureza", "vivência"],
     "confirmado": false
+  },
+  {
+    "id": "imob-alegrete",
+    "categoria": "imobiliaria",
+    "nome": "Imobiliária Alegrete",
+    "descricao": {
+      "pt": "Tradicional imobiliária do centro, com carteira de imóveis para locação e venda — apartamentos, casas e salas comerciais em diversos bairros.",
+      "es": "Tradicional inmobiliaria del centro, con cartera de inmuebles para alquiler y venta — apartamentos, casas y locales comerciales en varios barrios.",
+      "en": "A long-established downtown agency with rentals and sales — apartments, houses and commercial spaces across several districts."
+    },
+    "endereco": "Av. Freitas Vale, 14 - Centro",
+    "website": "https://www.imobiliariaalegrete.com.br",
+    "lat": -29.7805,
+    "lng": -55.7907,
+    "tags": ["aluguel", "venda", "centro"],
+    "confirmado": true
+  },
+  {
+    "id": "imob-schuck",
+    "categoria": "imobiliaria",
+    "nome": "Imobiliária Schuck",
+    "descricao": {
+      "pt": "Imobiliária no coração da cidade, na Praça Getúlio Vargas, especializada em corretagem de locação e venda de imóveis residenciais e comerciais.",
+      "es": "Inmobiliaria en el corazón de la ciudad, en la Praça Getúlio Vargas, especializada en alquiler y venta de inmuebles residenciales y comerciales.",
+      "en": "An agency right on the central Praça Getúlio Vargas, handling rentals and sales of homes and commercial properties."
+    },
+    "endereco": "Praça Getúlio Vargas, 497, Sala C - Centro",
+    "lat": -29.7844,
+    "lng": -55.7912,
+    "tags": ["aluguel", "venda", "centro"],
+    "confirmado": true
+  },
+  {
+    "id": "imob-souza",
+    "categoria": "imobiliaria",
+    "nome": "Souza Imóveis",
+    "descricao": {
+      "pt": "Imobiliária com imóveis urbanos para locação e venda em Alegrete, atendendo casas, apartamentos e pontos comerciais.",
+      "es": "Inmobiliaria con inmuebles urbanos para alquiler y venta en Alegrete: casas, apartamentos y locales comerciales.",
+      "en": "Urban rentals and sales across Alegrete — houses, apartments and commercial units."
+    },
+    "endereco": "Rua General Sampaio, 1429 - Centro",
+    "website": "https://www.souzaimoveis.com",
+    "lat": -29.7732,
+    "lng": -55.7902,
+    "tags": ["aluguel", "venda"],
+    "confirmado": true
+  },
+  {
+    "id": "imob-minuano",
+    "categoria": "imobiliaria",
+    "nome": "Imobiliária Minuano",
+    "descricao": {
+      "pt": "Imobiliária com CRECI registrado, oferecendo locação e venda de imóveis residenciais e comerciais na cidade.",
+      "es": "Inmobiliaria con CRECI registrado, ofreciendo alquiler y venta de inmuebles residenciales y comerciales.",
+      "en": "A CRECI-registered agency offering rentals and sales of residential and commercial properties."
+    },
+    "endereco": "Rua David Canabarro, 186 - Centro",
+    "website": "https://imobiliariaminuano.com.br",
+    "lat": -29.7832,
+    "lng": -55.7822,
+    "tags": ["aluguel", "venda", "creci"],
+    "confirmado": true
+  },
+  {
+    "id": "imob-rima",
+    "categoria": "imobiliaria",
+    "nome": "Imobiliária Rima",
+    "descricao": {
+      "pt": "Imobiliária com imóveis para venda e locação em Alegrete e região, com busca on-line por bairro e tipo de imóvel.",
+      "es": "Inmobiliaria con inmuebles para venta y alquiler en Alegrete y región, con búsqueda on-line por barrio y tipo.",
+      "en": "Sales and rentals in Alegrete and the region, with an online search by district and property type."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.imobiliariarima.com.br",
+    "tags": ["aluguel", "venda", "online"],
+    "confirmado": false
+  },
+  {
+    "id": "imob-icone",
+    "categoria": "imobiliaria",
+    "nome": "Ícone Assessoria Imobiliária",
+    "descricao": {
+      "pt": "Assessoria imobiliária em Alegrete com foco em locação, venda e administração de imóveis.",
+      "es": "Asesoría inmobiliaria en Alegrete con foco en alquiler, venta y administración de inmuebles.",
+      "en": "A real-estate advisory in Alegrete focused on rentals, sales and property management."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.iconealegrete.com.br",
+    "tags": ["aluguel", "venda", "administração"],
+    "confirmado": false
+  },
+  {
+    "id": "imob-evaristo",
+    "categoria": "imobiliaria",
+    "nome": "Evaristo Imóveis",
+    "descricao": {
+      "pt": "Imobiliária no centro de Alegrete, com imóveis residenciais e comerciais para locação e venda.",
+      "es": "Inmobiliaria en el centro de Alegrete, con inmuebles residenciales y comerciales para alquiler y venta.",
+      "en": "A downtown agency with residential and commercial properties to rent and buy."
+    },
+    "endereco": "Centro - Alegrete - RS",
+    "website": "https://www.evaristoimoveisrs.com.br",
+    "tags": ["aluguel", "venda", "centro"],
+    "confirmado": false
+  },
+  {
+    "id": "imob-contalii",
+    "categoria": "imobiliaria",
+    "nome": "Contalii Imóveis",
+    "descricao": {
+      "pt": "Imobiliária com CRECI, oferecendo imóveis em bairros como Centro e Cidade Alta — locação e venda.",
+      "es": "Inmobiliaria con CRECI, con inmuebles en barrios como Centro y Cidade Alta — alquiler y venta.",
+      "en": "A CRECI agency with listings in districts such as Centro and Cidade Alta — rentals and sales."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.contaliimoveis.com.br",
+    "tags": ["aluguel", "venda", "creci"],
+    "confirmado": false
+  },
+  {
+    "id": "imob-realiza",
+    "categoria": "imobiliaria",
+    "nome": "Imobiliária Realiza",
+    "descricao": {
+      "pt": "Imóveis urbanos e rurais para locação e venda em Alegrete e região.",
+      "es": "Inmuebles urbanos y rurales para alquiler y venta en Alegrete y región.",
+      "en": "Urban and rural properties for rent and sale in Alegrete and the region."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.imobiliariarealizaalegrete.com.br",
+    "tags": ["aluguel", "venda", "rural"],
+    "confirmado": false
+  },
+  {
+    "id": "imob-samsul",
+    "categoria": "imobiliaria",
+    "nome": "Samsul Imóveis",
+    "descricao": {
+      "pt": "Imobiliária pioneira no aluguel sem fiador em Alegrete — alternativa prática para quem chega à cidade sem garantidor local.",
+      "es": "Inmobiliaria pionera en el alquiler sin fiador en Alegrete — alternativa práctica para quien llega sin garante local.",
+      "en": "A pioneer of no-guarantor rentals in Alegrete — a practical option for newcomers without a local guarantor."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.urbano.samsulimoveis.com.br",
+    "tags": ["aluguel", "sem fiador"],
+    "confirmado": false
   }
 ]

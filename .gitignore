@@ -58,6 +58,7 @@ dkms.conf
 .DS_Store
 
 # Working files / source material (not part of the published site)
+*.txt
 Visit Alegrete.pdf
 links.txt
 mensagem.txt

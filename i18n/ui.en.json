@@ -12,7 +12,6 @@
   "nav_getting": "Getting here",
   "nav_health": "Health",
   "nav_uni": "Universities",
-
   "footer_tagline": "The most gaúcho city in Rio Grande do Sul — 3rd Farroupilha Capital. Here, every place tells a story.",
   "footer_explore": "Explore",
   "footer_plan": "Plan",
@@ -22,7 +21,6 @@
   "footer_tourism": "Tourism: +55 55 3120-1059",
   "footer_madeby": "City of Alegrete · Sedetur",
   "footer_disclaimer": "Content from the official Visit Alegrete guide — please confirm opening hours before visiting.",
-
   "cat_restaurante": "Restaurant",
   "cat_bar": "Bar & Brewpub",
   "cat_cafe": "Café",
@@ -52,29 +50,24 @@
   "cat_pesquisa": "Science & Tech",
   "cat_estudante": "Student housing",
   "cat_evento_local": "Event venue",
-
   "site_visit": "Official site",
   "see_route": "Get directions",
   "to_confirm": "To confirm",
   "filter_all": "All",
   "press_read": "Read article",
-
   "home_hero_pre": "Western Frontier · Gaúcho Pampa · RS",
   "home_hero_quote": "here, life is better",
   "home_hero_lead": "A land of wide horizons, living history and pulsing gaúcho culture — where every experience goes beyond what you see at first glance.",
   "home_cta_explore": "Discover the attractions",
   "home_cta_plan": "Plan your visit",
   "home_scroll": "Explore",
-
   "home_stat_terr": "Largest municipality in RS by area",
   "home_stat_pop": "proud residents",
   "home_stat_capital": "3rd Farroupilha Capital of RS",
-
   "home_about_pre": "Welcome to Alegrete",
   "home_about_h": "Where the Pampa becomes identity",
   "home_about_p1": "Recognized as one of the most gaúcho cities in Rio Grande do Sul and the 3rd Farroupilha Capital, Alegrete carries the traditions and pride of the Pampa people.",
   "home_about_p2": "Quality of life shines through the gentle rhythm of daily life, the open-air spaces and the contact with nature — while the city surprises with diverse cuisine and a lively nightlife.",
-
   "home_atr_pre": "Postcards",
   "home_atr_h": "Attractions that tell stories",
   "home_atr_p": "From gaúcho folklore to century-old squares, the landmarks that give Alegrete its soul.",
@@ -85,12 +78,10 @@
   "home_atr_praca": "The Central Square, the city's leafy heart — history, leisure and community.",
   "home_atr_obelisco": "The “Picolé do Adão”, 17 metres tall, marks 150 years of the Farroupilha Revolution.",
   "home_atr_cta": "See all attractions",
-
   "home_explore_pre": "Where to begin",
   "home_explore_h": "Explore Alegrete",
   "home_explore_p": "Pick a path — every stop is an invitation to feel the Baita Chão.",
   "home_explore_link": "Explore →",
-
   "exp_attractions_d": "Monuments, museums, squares and the city's postcards.",
   "exp_history_d": "Farrapos, railway and the journey of the Baita Chão.",
   "exp_food_d": "Sausage Capital, open-fire barbecue and the best tables.",
@@ -103,7 +94,6 @@
   "exp_getting_d": "Bus station, regional airport, highways and distances.",
   "exp_health_d": "Reference hospital, urgent care and health posts on the map.",
   "exp_uni_d": "Unipampa, IFFar, URCAMP, Pampatec and the Student House.",
-
   "home_taste_pre": "Gaúcho hospitality",
   "home_taste_h": "Where to eat and where to stay",
   "home_taste_p": "From traditional campfire sausage to parrillas and cafés — and a rest worthy of the Pampa.",
@@ -113,20 +103,16 @@
   "home_taste_stay_h": "For every style",
   "home_taste_stay_p": "Downtown hotels, inns, cabins and camping sites surrounded by Pampa nature.",
   "home_taste_stay_cta": "See where to stay →",
-
   "home_events_pre": "A festive year",
   "home_events_h": "Events that move the city",
   "home_events_p": "Tradition, flavor, sport and culture fill Alegrete's calendar.",
   "home_events_cta": "Full calendar",
-
   "home_cta_h": "Alegrete awaits you",
   "home_cta_sub": "Want to know more? Reach out to official tourism and live this experience.",
   "home_cta_cat": "Tourist Information Center",
-
   "home_links_pre": "Handy shortcuts",
   "home_links_h": "Profiles and channels to follow",
   "home_links_p": "Official sources and local profiles with up-to-date, day-to-day information.",
-
   "atr_pre": "Postcards of the Baita Chão",
   "atr_h": "Tourist Attractions",
   "atr_lead": "Monuments, museums, century-old squares and landmarks that tell the history and soul of Alegrete. Here, every stop is an invitation to feel the Pampa.",
@@ -140,7 +126,6 @@
   "atr_luz_p": "9 km from town: trails with live music, a sunset toast and night hikes. Book via @luzdopampa.",
   "atr_caminho_h": "Caminho do Pampa",
   "atr_caminho_p": "A 170 km long-distance trail in the Ibirapuitã EPA, part of the Brazilian Trails Network. @caminhodopampa.",
-
   "hist_lead": "From the Jesuit missions to the Farroupilha Revolution: the story of a people who rebuilt their city more than once.",
   "hist_h1": "Cradle of Farroupilha history",
   "hist_p1": "Alegrete's origins date back to 1626, tied to the Spanish Jesuit missions. The land belonged to the Yapeyú reduction before being claimed for the Portuguese crown in 1801.",
@@ -148,14 +133,13 @@
   "hist_capital_h": "The 3rd Capital of the Republic",
   "hist_capital_p": "During the Farroupilha Revolution (1835–1845), Alegrete became the Third Capital of the Riograndense Republic and hosted Brazil's first Republican Constituent Assembly, in 1842.",
   "hist_people_h": "Birthplace of notable figures",
-  "hist_people_p": "Alegrete is the hometown of poet Mário Quintana (1906), one of the great names of Brazilian literature, and of diplomat and statesman Oswaldo Aranha. It is also known as the cradle of the Canto Alegretense and of leading figures of gaúcho traditionalism.",
+  "hist_people_p": "Alegrete is the hometown of poet Mário Quintana (1906), one of the great names of Brazilian literature, and of diplomat and statesman Oswaldo Aranha. It is also known as the cradle of the Canto Alegretense — by Antônio Augusto “Nico” Fagundes — and of leading figures of gaúcho traditionalism.",
   "hist_mon_h": "Monuments and architecture",
-  "hist_mon_p": "Discover the historic Borges de Medeiros Bridge (scene of the 1923 battle), the Gothic-style Mother Church (1919), the century-old Railway Station with its steam engine, and the Negrinho Triunfante monument by sculptor Vasco Prado.",
+  "hist_mon_p": "Discover the historic Borges de Medeiros Bridge (scene of the 1923 battle), the Gothic-style Mother Church (1919), the century-old Railway Station with its steam engine, and the Negrinho do Pastoreio monument by sculptor Vasco Prado.",
   "hist_museum_h": "Museums and culture",
   "hist_museum_p": "The Oswaldo Aranha Museum holds the famous diplomat's collection. Regional culture also lives on at the Gaúcho Museum and the city's cultural centers, alongside the 16 CTGs that keep tradition alive.",
   "hist_mil_h": "Military tradition",
   "hist_mil_p": "Alegrete hosts one of the country's largest military contingents, with visits to combat equipment, an equestrian season and parades that reinforce the city's frontier vocation.",
-
   "food_lead": "The capital of campfire sausage: open-fire barbecue, charque, artisan cheeses and the best of Pampa cuisine.",
   "food_typ_pre": "Flavors of the land",
   "food_typ_h": "What to taste in Alegrete",
@@ -172,13 +156,11 @@
   "food_places_h": "Restaurants, bars and cafés",
   "food_places_p": "A selection of addresses with contact and location. Tap a card to call, follow on Instagram or get directions.",
   "food_map_h": "On the map",
-
   "stay_lead": "From downtown comfort to country inns: where to rest after a day in the Pampa.",
   "stay_pre": "Where to stay",
   "stay_h": "Hotels, inns and camping",
   "stay_p": "Options for every budget and style — from business hotels to rural tourism and motorhomes.",
   "stay_map_h": "On the map",
-
   "sports_lead": "Runs across the Pampa, padel, kayaking on the Ibirapuitã, horse riding and courts for the usual pickup game.",
   "sports_pre": "Get moving",
   "sports_h": "Sports & leisure",
@@ -196,7 +178,6 @@
   "sports_press_h": "Featured activities in recent years",
   "sports_press_p": "Packed road races, kayaking across the Pampa and frontier horse contests — reports from the Alegrete Tudo portal.",
   "sports_press_src": "Articles published by the Alegrete Tudo portal · tap to read the full story.",
-
   "nature_lead": "The Pampa at its purest: rivers to fish and paddle, the biome's only federal reserve and trails crossing the Campanha.",
   "nature_pre": "Outdoors",
   "nature_h": "Nature & rivers",
@@ -210,7 +191,6 @@
   "nature_birds_h": "Birdwatching",
   "nature_birds_p": "The grasslands and wetlands are a paradise for birdwatchers, rich in Pampa bird species.",
   "nature_places_h": "Rivers, reserves and trails",
-
   "events_lead": "Tradition, flavor and sport all year long — the calendar that makes Alegrete pulse.",
   "events_pre": "What's on",
   "events_h": "The year's great events",
@@ -219,7 +199,6 @@
   "events_venues_pre": "Where they happen",
   "events_venues_h": "The event venues",
   "events_venues_p": "The main spaces hosting festivals, fairs and celebrations in Alegrete — many multi-purpose, like Parque Lauro Dornelles, which is also nature and leisure.",
-
   "shop_lead": "On the Mercosur triple frontier: free shops, perfumes, wines and electronics just kilometers from Alegrete.",
   "shop_pre": "Duty-free shopping",
   "shop_h": "Border free shops",
@@ -232,7 +211,6 @@
   "shop_tip3_h": "Currency & exchange",
   "shop_tip3_p": "Free shops usually accept reais, US dollars and cards. Compare prices and the day's exchange rate.",
   "shop_dest_h": "Where to go",
-
   "region_lead": "From the Campanha wine route to Uruguay's hot springs and Argentina's historic cities — all within reach of Alegrete.",
   "region_pre": "Beyond Alegrete",
   "region_h": "Explore the region",
@@ -244,7 +222,6 @@
   "region_ar_h": "Argentina",
   "region_ar_p": "Paso de los Libres, neighboring Corrientes and vibrant Buenos Aires, all connected through the Uruguaiana border.",
   "region_places_h": "Regional destinations",
-
   "getting_lead": "How to get in and out: highways, buses, airports and the distances that connect Alegrete to the world.",
   "getting_pre": "Logistics",
   "getting_h": "Getting to Alegrete",
@@ -265,7 +242,6 @@
   "getting_dist_dest": "Destination",
   "getting_dist_km": "Distance",
   "getting_map_h": "Alegrete on the map",
-
   "getting_mob_pre": "Getting around town",
   "getting_mob_h": "How to get around Alegrete",
   "getting_mob_p": "In Alegrete, getting around town is mainly by taxi, radio-taxi and public buses. Apps like Uber and 99 have limited or no coverage — use the local services below.",
@@ -278,7 +254,6 @@
   "getting_mob_disc": "Tip: Planalto Transportes offers a discount for teachers, students and military on selected lines — show your ID when buying the ticket.",
   "getting_pin_rodoviaria": "Alegrete Bus Station",
   "getting_disc_chip": "Discount: teacher, student, military",
-
   "saude_lead": "A reference hospital, urgent care, clinics and the network of health posts — because visitors (and people thinking of moving here) value care too.",
   "saude_pre": "Health network",
   "saude_h": "Health in Alegrete",
@@ -292,7 +267,6 @@
   "saude_emerg_bombeiros": "Fire brigade",
   "saude_emerg_policia": "Police (emergency)",
   "saude_disclaimer": "This page is being completed. Addresses, phone numbers and the exact location of units should be confirmed with Alegrete's Municipal Health Department. Items marked “To confirm” are still being verified.",
-
   "uni_lead": "Universities, a federal institute, a tech park and student housing — the city that educates and welcomes those who come to study in the Pampa.",
   "uni_pre": "University life",
   "uni_h": "Studying in Alegrete",
@@ -300,7 +274,43 @@
   "uni_intro_p": "Alegrete brings together public and community higher education: Unipampa, with its engineering and computer science degrees, the Farroupilha Federal Institute, URCAMP and the Pampatec science and technology park. For those coming from elsewhere, there is also the Student House and a city that welcomes students, faculty and staff.",
   "uni_map_h": "Campuses and spaces on the map",
   "uni_map_p": "Tap a card or pin to see the address and official website.",
-
   "atr_map_h": "Attractions on the map",
-  "atr_map_p": "See where each landmark is and get directions — tap a pin to open its location."
+  "atr_map_p": "See where each landmark is and get directions — tap a pin to open its location.",
+  "footer_credits": "Praça dos Patinhos photo: Gabriel Sathler · Wikimedia Commons (CC BY 3.0).",
+  "nav_housing": "Housing",
+  "cat_imobiliaria": "Real estate",
+  "mor_pre": "Living in Alegrete",
+  "mor_h": "Housing & Real Estate",
+  "mor_lead": "Moving to the Baita Chão? We've gathered the city's real-estate agencies, a neighbourhood guide and practical renting tips for newcomers to Alegrete.",
+  "mor_intro_h": "A calm city to live in on the Pampa",
+  "mor_intro_p": "Alegrete is a mid-sized city with an affordable cost of living, calm traffic and everything close by. Whether you come to study at Unipampa or IFFar, to work or to start a new life, there are rentals and homes for sale across many districts — from apartments downtown to houses with yards in the residential areas. Below: local agencies, a quick neighbourhood guide and a step-by-step to renting.",
+  "mor_map_h": "Agencies on the map",
+  "mor_map_p": "Tap a pin or card for the address, website and route.",
+  "mor_hoods_pre": "Where to live",
+  "mor_hoods_h": "Quick neighbourhood guide",
+  "mor_hoods_p": "A general overview to start your search — confirm with the agency what fits your routine.",
+  "mor_hood_centro_h": "Downtown (Centro)",
+  "mor_hood_centro_p": "Shops, banks, squares and services on foot. More apartments and commercial spaces; ideal if you want everything nearby.",
+  "mor_hood_cidadealta_h": "Cidade Alta",
+  "mor_hood_cidadealta_p": "A traditional residential district near downtown, with houses and tree-lined streets — a quiet option for families.",
+  "mor_hood_universidade_h": "Near the universities",
+  "mor_hood_universidade_p": "Students at Unipampa or IFFar often look for homes and shared houses in the districts on the way to the campuses and in the central area.",
+  "mor_hood_vilas_h": "Residential districts",
+  "mor_hood_vilas_p": "Vila Nova, Ibirapuitã, Promorar, Macedo, Nova Brasília and others offer houses with yards and more affordable rents.",
+  "mor_tips_pre": "Step by step",
+  "mor_tips_h": "Renting tips",
+  "mor_tip_docs_h": "Documents",
+  "mor_tip_docs_p": "Have your ID (RG), CPF and proof of income ready. If you're from out of town, proof of enrolment or employment helps.",
+  "mor_tip_guarantee_h": "Guarantee: guarantor or none",
+  "mor_tip_guarantee_p": "Most contracts ask for a local guarantor (fiador). No guarantor in town? Some agencies work with rent insurance or no-guarantor rentals.",
+  "mor_tip_costs_h": "Costs beyond rent",
+  "mor_tip_costs_p": "Factor in property tax (IPTU), water, electricity and, for apartments, the condo fee. Ask what's included before signing.",
+  "mor_tip_contract_h": "Contract & CRECI",
+  "mor_tip_contract_p": "Prefer agents and agencies with a CRECI licence. Read the contract, check the term, the adjustment clause and the move-in inspection.",
+  "mor_list_pre": "Who can help",
+  "mor_list_h": "Real-estate agencies in Alegrete",
+  "mor_list_p": "Local rental and sales agencies. Tap to call, visit the website or get directions.",
+  "hist_uni_h": "A university city",
+  "hist_uni_p": "Alegrete is also a higher-education hub: home to Unipampa (Federal University of the Pampa), the Federal Institute Farroupilha (IFFar) and URCAMP, plus the Pampatec science and technology park — training professionals and drawing students from across the region.",
+  "hist_uni_link": "Meet the universities →"
 }

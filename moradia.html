@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moradia & Imobiliárias — Alegrete | O Baita Chão</title>
+  <meta name="description" content="Morar em Alegrete-RS: imobiliárias, aluguel e compra de imóveis, guia de bairros e dicas para quem está se mudando para a cidade — agências no mapa." />
+  <meta property="og:title" content="Moradia em Alegrete — Visit Alegrete" />
+  <meta property="og:image" content="assets/img/praca-getulio.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/content.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_housing">Moradia</span></div>
+      <span class="eyebrow" data-i18n="mor_pre">Morar em Alegrete</span>
+      <h1 data-i18n="mor_h">Moradia & Imobiliárias</h1>
+      <p class="lead" data-i18n="mor_lead">Vai se mudar para o Baita Chão? Reunimos imobiliárias da cidade, um guia de bairros e dicas práticas de aluguel para quem está chegando a Alegrete.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start;">
+      <div class="reveal">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="mor_pre">Morar em Alegrete</span>
+          <h2 data-i18n="mor_intro_h">Uma cidade tranquila para viver no Pampa</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="mor_intro_p">Alegrete é uma cidade de porte médio, com custo de vida acessível, trânsito calmo e tudo perto. Para quem vem estudar na Unipampa ou no IFFar, trabalhar ou começar uma vida nova, há opções de aluguel e compra em diversos bairros — de apartamentos no Centro a casas com pátio nas vilas. Abaixo, as imobiliárias locais, um guia rápido dos bairros e o passo a passo para alugar.</p>
+        </div>
+      </div>
+      <div class="reveal" data-delay="120">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="mor_map_h">Imobiliárias no mapa</span>
+          <h2 data-i18n="mor_map_h">Imobiliárias no mapa</h2>
+          <p data-i18n="mor_map_p">Toque num pino ou cartão para ver endereço, site e rota.</p>
+        </div>
+        <div class="map-shell"><div id="map" class="leaflet-map" style="height:420px"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="mor_hoods_pre">Onde morar</span>
+        <h2 data-i18n="mor_hoods_h">Guia rápido de bairros</h2>
+        <p data-i18n="mor_hoods_p">Um panorama geral para começar a busca — confirme com a imobiliária o que faz sentido para a sua rotina.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="feature reveal"><span class="ico"><i data-lucide="building"></i></span><div><h4 data-i18n="mor_hood_centro_h">Centro</h4><p data-i18n="mor_hood_centro_p">Comércio, bancos, praças e serviços a pé. Mais apartamentos e salas comerciais; ideal para quem quer tudo por perto.</p></div></div>
+        <div class="feature reveal" data-delay="60"><span class="ico"><i data-lucide="trees"></i></span><div><h4 data-i18n="mor_hood_cidadealta_h">Cidade Alta</h4><p data-i18n="mor_hood_cidadealta_p">Bairro residencial tradicional, próximo ao Centro, com casas e ruas arborizadas — opção tranquila para famílias.</p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="graduation-cap"></i></span><div><h4 data-i18n="mor_hood_universidade_h">Próximo às universidades</h4><p data-i18n="mor_hood_universidade_p">Quem estuda na Unipampa ou no IFFar costuma buscar imóveis e repúblicas nos bairros a caminho dos campi e na região central.</p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="home"></i></span><div><h4 data-i18n="mor_hood_vilas_h">Vilas e bairros residenciais</h4><p data-i18n="mor_hood_vilas_p">Vila Nova, Ibirapuitã, Promorar, Macedo, Nova Brasília e outros oferecem casas com pátio e aluguéis mais acessíveis.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="mor_tips_pre">Passo a passo</span>
+        <h2 data-i18n="mor_tips_h">Dicas para alugar</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="feature reveal"><span class="ico"><i data-lucide="file-text"></i></span><div><h4 data-i18n="mor_tip_docs_h">Documentos</h4><p data-i18n="mor_tip_docs_p">Tenha em mãos RG, CPF e comprovante de renda. Para quem vem de fora, comprovantes da nova matrícula ou do vínculo de trabalho ajudam.</p></div></div>
+        <div class="feature reveal" data-delay="60"><span class="ico"><i data-lucide="shield-check"></i></span><div><h4 data-i18n="mor_tip_guarantee_h">Garantia: fiador ou sem fiador</h4><p data-i18n="mor_tip_guarantee_p">A maioria dos contratos pede fiador local. Sem garantidor na cidade? Há imobiliárias que trabalham com seguro-fiança ou aluguel sem fiador.</p></div></div>
+        <div class="feature reveal" data-delay="120"><span class="ico"><i data-lucide="receipt"></i></span><div><h4 data-i18n="mor_tip_costs_h">Custos além do aluguel</h4><p data-i18n="mor_tip_costs_p">Considere IPTU, água, luz e, em apartamentos, o condomínio. Pergunte o que está incluso antes de fechar.</p></div></div>
+        <div class="feature reveal" data-delay="180"><span class="ico"><i data-lucide="handshake"></i></span><div><h4 data-i18n="mor_tip_contract_h">Contrato e CRECI</h4><p data-i18n="mor_tip_contract_p">Prefira corretores e imobiliárias com CRECI. Leia o contrato, confira o prazo, o reajuste e o estado do imóvel na vistoria de entrada.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="mor_list_pre">Quem pode ajudar</span>
+        <h2 data-i18n="mor_list_h">Imobiliárias em Alegrete</h2>
+        <p data-i18n="mor_list_p">Agências locais de locação e venda. Toque para ligar, visitar o site ou traçar a rota.</p>
+      </div>
+      <div class="grid grid-3" id="imobList"></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      AlegreteContent.render({
+        listId: 'imobList', mapId: 'map',
+        categories: ['imobiliaria']
+      });
+    });
+  </script>
+</body>
+</html>

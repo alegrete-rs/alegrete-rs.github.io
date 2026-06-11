@@ -12,7 +12,6 @@
   "nav_getting": "Chegar",
   "nav_health": "Saúde",
   "nav_uni": "Universidades",
-
   "footer_tagline": "A cidade mais gaúcha do Rio Grande do Sul — 3ª Capital Farroupilha. Aqui, cada lugar conta uma história.",
   "footer_explore": "Explorar",
   "footer_plan": "Planejar",
@@ -22,7 +21,6 @@
   "footer_tourism": "Turismo: (55) 3120-1059",
   "footer_madeby": "Prefeitura Municipal de Alegrete · Sedetur",
   "footer_disclaimer": "Conteúdo do guia oficial Visit Alegrete — confira horários antes de visitar.",
-
   "cat_restaurante": "Restaurante",
   "cat_bar": "Bar & Choperia",
   "cat_cafe": "Café",
@@ -52,29 +50,24 @@
   "cat_pesquisa": "Ciência & Tecnologia",
   "cat_estudante": "Moradia estudantil",
   "cat_evento_local": "Local de eventos",
-
   "site_visit": "Site oficial",
   "see_route": "Ver rota",
   "to_confirm": "A confirmar",
   "filter_all": "Todos",
   "press_read": "Ler matéria",
-
   "home_hero_pre": "Fronteira Oeste · Pampa Gaúcho · RS",
   "home_hero_quote": "aqui a vida é melhor",
   "home_hero_lead": "Terra de horizontes largos, história viva e cultura gaúcha pulsante — onde cada experiência vai além do que se vê à primeira vista.",
   "home_cta_explore": "Descobrir os atrativos",
   "home_cta_plan": "Planeje sua visita",
   "home_scroll": "Explorar",
-
   "home_stat_terr": "Maior município do RS em território",
   "home_stat_pop": "habitantes orgulhosos",
   "home_stat_capital": "Capital Farroupilha do RS",
-
   "home_about_pre": "Seja bem-vindo ao Alegrete",
   "home_about_h": "Onde o Pampa vira identidade",
   "home_about_p1": "Reconhecida como uma das cidades mais gaúchas do Rio Grande do Sul e também a 3ª Capital Farroupilha, Alegrete carrega as tradições e o orgulho do povo do Pampa.",
   "home_about_p2": "A qualidade de vida se destaca no ritmo tranquilo do dia a dia, nos espaços ao ar livre e no contato com a natureza — enquanto a cidade surpreende com gastronomia diversa e uma vida noturna animada.",
-
   "home_atr_pre": "Cartões-postais",
   "home_atr_h": "Atrativos que contam histórias",
   "home_atr_p": "Do folclore gaúcho às praças centenárias, os marcos que dão alma a Alegrete.",
@@ -85,12 +78,10 @@
   "home_atr_praca": "A Praça Central, coração arborizado da cidade — história, lazer e convivência.",
   "home_atr_obelisco": "O “Picolé do Adão”, com 17 metros, celebra o sesquicentenário da Revolução Farroupilha.",
   "home_atr_cta": "Ver todos os atrativos",
-
   "home_explore_pre": "Por onde começar",
   "home_explore_h": "Explore Alegrete",
   "home_explore_p": "Escolha um caminho — cada parada é um convite para sentir o Baita Chão.",
   "home_explore_link": "Explorar →",
-
   "exp_attractions_d": "Monumentos, museus, praças e os cartões-postais da cidade.",
   "exp_history_d": "Farrapos, ferrovia e a trajetória do Baita Chão.",
   "exp_food_d": "Capital da Linguiça, churrasco de chão e os melhores endereços.",
@@ -103,7 +94,6 @@
   "exp_getting_d": "Rodoviária, aeroporto regional, rodovias e distâncias.",
   "exp_health_d": "Hospital de referência, pronto atendimento e postos de saúde no mapa.",
   "exp_uni_d": "Unipampa, IFFar, URCAMP, Pampatec e a Casa do Estudante.",
-
   "home_taste_pre": "Hospitalidade gaúcha",
   "home_taste_h": "Onde comer e onde ficar",
   "home_taste_p": "Da linguiça tradicional campeira às parrillas e cafés — e um descanso à altura do Pampa.",
@@ -113,20 +103,16 @@
   "home_taste_stay_h": "Para todos os estilos",
   "home_taste_stay_p": "Hotéis no centro, pousadas, cabanas e sítios de camping em meio à natureza do Pampa.",
   "home_taste_stay_cta": "Ver hospedagem →",
-
   "home_events_pre": "O ano inteiro em festa",
   "home_events_h": "Eventos que movem a cidade",
   "home_events_p": "Tradição, sabor, esporte e cultura marcam o calendário alegretense.",
   "home_events_cta": "Calendário completo",
-
   "home_cta_h": "Alegrete te espera",
   "home_cta_sub": "Quer saber mais? Fale com o turismo oficial e viva essa experiência.",
   "home_cta_cat": "Centro de Atendimento ao Turista",
-
   "home_links_pre": "Atalhos úteis",
   "home_links_h": "Perfis e canais para acompanhar",
   "home_links_p": "Fontes oficiais e perfis locais com informação atualizada do dia a dia.",
-
   "atr_pre": "Cartões-postais do Baita Chão",
   "atr_h": "Atrativos Turísticos",
   "atr_lead": "Monumentos, museus, praças centenárias e marcos que contam a história e a alma de Alegrete. Aqui, cada parada é um convite para sentir o Pampa.",
@@ -140,7 +126,6 @@
   "atr_luz_p": "A 9 km da cidade: trilhas com música ao vivo, brinde ao pôr do sol e trilha noturna. Agende pelo @luzdopampa.",
   "atr_caminho_h": "Caminho do Pampa",
   "atr_caminho_p": "Trilha de longo curso de 170 km na APA do Ibirapuitã, integrante da Rede Brasileira de Trilhas. @caminhodopampa.",
-
   "hist_lead": "Das missões jesuíticas à Revolução Farroupilha: a história de um povo que reergueu sua cidade mais de uma vez.",
   "hist_h1": "Berço da história farroupilha",
   "hist_p1": "As origens de Alegrete datam de 1626, ligadas às missões jesuíticas espanholas. O território pertencia à redução de Yapeju antes de ser conquistado para a coroa portuguesa em 1801.",
@@ -148,14 +133,13 @@
   "hist_capital_h": "A 3ª Capital da República",
   "hist_capital_p": "Durante a Revolução Farroupilha (1835–1845), Alegrete tornou-se a Terceira Capital da República Riograndense e sediou a primeira Constituinte Republicana do Brasil, em 1842.",
   "hist_people_h": "Berço de gente ilustre",
-  "hist_people_p": "Alegrete é a terra natal do poeta Mário Quintana (1906), um dos maiores nomes da literatura brasileira, e do diplomata e estadista Oswaldo Aranha. É também conhecida como o berço do Canto Alegretense e de grandes nomes do tradicionalismo gaúcho.",
+  "hist_people_p": "Alegrete é a terra natal do poeta Mário Quintana (1906), um dos maiores nomes da literatura brasileira, e do diplomata e estadista Oswaldo Aranha. É também conhecida como o berço do Canto Alegretense — obra de Antônio Augusto “Nico” Fagundes — e de grandes nomes do tradicionalismo gaúcho.",
   "hist_mon_h": "Monumentos e arquitetura",
-  "hist_mon_p": "Conheça a histórica Ponte Borges de Medeiros (palco da batalha de 1923), a Igreja Matriz em estilo gótico (1919), a centenária Estação Ferroviária com sua Maria Fumaça e o monumento Negrinho Triunfante, do escultor Vasco Prado.",
+  "hist_mon_p": "Conheça a histórica Ponte Borges de Medeiros (palco da batalha de 1923), a Igreja Matriz em estilo gótico (1919), a centenária Estação Ferroviária com sua Maria Fumaça e o monumento Negrinho do Pastoreio, do escultor Vasco Prado.",
   "hist_museum_h": "Museus e cultura",
   "hist_museum_p": "O Museu Oswaldo Aranha guarda o acervo do famoso diplomata. A cultura regional vive também no Museu do Gaúcho e nos centros culturais da cidade, além dos 16 CTGs que mantêm viva a tradição.",
   "hist_mil_h": "Tradição militar",
   "hist_mil_p": "Alegrete abriga um dos maiores contingentes militares do país, com visitação a equipamentos de combate, temporada hípica e desfiles que reforçam a vocação fronteiriça da cidade.",
-
   "food_lead": "A capital da linguiça campeira: churrasco no fogo de chão, charque, queijos artesanais e o melhor da cozinha do Pampa.",
   "food_typ_pre": "Sabores da terra",
   "food_typ_h": "O que provar em Alegrete",
@@ -172,13 +156,11 @@
   "food_places_h": "Restaurantes, bares e cafés",
   "food_places_p": "Uma seleção de endereços com contato e localização. Toque num cartão para ligar, seguir no Instagram ou traçar a rota.",
   "food_map_h": "No mapa",
-
   "stay_lead": "Do conforto no centro às pousadas de campo: onde descansar depois de um dia de Pampa.",
   "stay_pre": "Onde ficar",
   "stay_h": "Hotéis, pousadas e camping",
   "stay_p": "Opções para todos os bolsos e estilos — do executivo ao turismo rural e ao motorhome.",
   "stay_map_h": "No mapa",
-
   "sports_lead": "Corridas pelo Pampa, padel, caiaque no Ibirapuitã, hipismo e quadras para a pelada de sempre.",
   "sports_pre": "Mexa-se",
   "sports_h": "Esportes & lazer",
@@ -196,7 +178,6 @@
   "sports_press_h": "Atividades em destaque nos últimos anos",
   "sports_press_p": "Corridas lotadas, caiacadas pelo Pampa e provas campeiras — reportagens do portal Alegrete Tudo.",
   "sports_press_src": "Reportagens publicadas pelo portal Alegrete Tudo · toque para ler a matéria completa.",
-
   "nature_lead": "O Pampa em estado puro: rios para pescar e remar, a única reserva federal do bioma e trilhas que cruzam a Campanha.",
   "nature_pre": "Ar livre",
   "nature_h": "Natureza & rios",
@@ -210,7 +191,6 @@
   "nature_birds_h": "Observação de aves",
   "nature_birds_p": "Os campos e banhados são um paraíso para birdwatchers, com grande diversidade de aves do Pampa.",
   "nature_places_h": "Rios, reservas e trilhas",
-
   "events_lead": "Tradição, sabor e esporte o ano inteiro — o calendário que faz Alegrete pulsar.",
   "events_pre": "Agenda",
   "events_h": "Grandes eventos do ano",
@@ -219,7 +199,6 @@
   "events_venues_pre": "Onde acontecem",
   "events_venues_h": "Os palcos dos eventos",
   "events_venues_p": "Os principais espaços que recebem festivais, feiras e celebrações em Alegrete — muitos com múltiplos usos, como o Parque Lauro Dornelles, que também é natureza e lazer.",
-
   "shop_lead": "Na tríplice fronteira do Mercosul: free shops, perfumes, vinhos e eletrônicos a poucos quilômetros de Alegrete.",
   "shop_pre": "Compras sem impostos",
   "shop_h": "Free shops da fronteira",
@@ -232,7 +211,6 @@
   "shop_tip3_h": "Moeda & câmbio",
   "shop_tip3_p": "Os free shops costumam aceitar reais, dólares e cartão. Compare preços e o câmbio do dia.",
   "shop_dest_h": "Para onde ir",
-
   "region_lead": "Do enoturismo da Campanha às termas do Uruguai e às cidades históricas da Argentina — tudo ao alcance de Alegrete.",
   "region_pre": "Além de Alegrete",
   "region_h": "Explore a região",
@@ -244,7 +222,6 @@
   "region_ar_h": "Argentina",
   "region_ar_p": "Paso de los Libres, a vizinha Corrientes e a vibrante Buenos Aires, todas conectadas pela fronteira de Uruguaiana.",
   "region_places_h": "Destinos da região",
-
   "getting_lead": "Como chegar e como sair: rodovias, ônibus, aeroportos e as distâncias que conectam Alegrete ao mundo.",
   "getting_pre": "Logística",
   "getting_h": "Como chegar a Alegrete",
@@ -265,7 +242,6 @@
   "getting_dist_dest": "Destino",
   "getting_dist_km": "Distância",
   "getting_map_h": "Alegrete no mapa",
-
   "getting_mob_pre": "Mobilidade na cidade",
   "getting_mob_h": "Como se locomover em Alegrete",
   "getting_mob_p": "Em Alegrete, o deslocamento urbano é feito principalmente por táxi, rádio-táxi e transporte coletivo. Apps como Uber e 99 têm cobertura limitada ou indisponível — prefira os serviços locais abaixo.",
@@ -278,7 +254,6 @@
   "getting_mob_disc": "Dica: a Planalto Transportes oferece desconto para professores, estudantes e militares em linhas selecionadas — apresente a documentação ao comprar a passagem.",
   "getting_pin_rodoviaria": "Estação Rodoviária de Alegrete",
   "getting_disc_chip": "Desconto: professor, estudante e militar",
-
   "saude_lead": "Hospital de referência, pronto atendimento, ambulatórios e a rede de postos de saúde — porque quem visita (ou pensa em morar aqui) também valoriza o cuidado.",
   "saude_pre": "Rede de saúde",
   "saude_h": "Saúde em Alegrete",
@@ -292,7 +267,6 @@
   "saude_emerg_bombeiros": "Bombeiros",
   "saude_emerg_policia": "Polícia (emergência)",
   "saude_disclaimer": "Esta página está em complementação. Endereços, telefones e a localização exata das unidades devem ser confirmados junto à Secretaria Municipal de Saúde de Alegrete. Itens marcados como “A confirmar” ainda estão em verificação.",
-
   "uni_lead": "Universidades, instituto federal, parque tecnológico e moradia estudantil — a cidade que forma e acolhe quem vem estudar no Pampa.",
   "uni_pre": "Vida universitária",
   "uni_h": "Estudar em Alegrete",
@@ -300,7 +274,43 @@
   "uni_intro_p": "Alegrete reúne ensino superior público e comunitário: a Unipampa, com suas engenharias e a computação, o Instituto Federal Farroupilha, a URCAMP e o parque científico e tecnológico Pampatec. Para quem vem de fora, há ainda a Casa do Estudante e uma cidade que acolhe estudantes, professores e servidores.",
   "uni_map_h": "Campi e espaços no mapa",
   "uni_map_p": "Toque num cartão ou pino para ver o endereço e o site oficial.",
-
   "atr_map_h": "Os atrativos no mapa",
-  "atr_map_p": "Veja onde fica cada cartão-postal e trace a rota até ele — toque num pino para abrir a localização."
+  "atr_map_p": "Veja onde fica cada cartão-postal e trace a rota até ele — toque num pino para abrir a localização.",
+  "footer_credits": "Foto Praça dos Patinhos: Gabriel Sathler · Wikimedia Commons (CC BY 3.0).",
+  "nav_housing": "Moradia",
+  "cat_imobiliaria": "Imobiliária",
+  "mor_pre": "Morar em Alegrete",
+  "mor_h": "Moradia & Imobiliárias",
+  "mor_lead": "Vai se mudar para o Baita Chão? Reunimos imobiliárias da cidade, um guia de bairros e dicas práticas de aluguel para quem está chegando a Alegrete.",
+  "mor_intro_h": "Uma cidade tranquila para viver no Pampa",
+  "mor_intro_p": "Alegrete é uma cidade de porte médio, com custo de vida acessível, trânsito calmo e tudo perto. Para quem vem estudar na Unipampa ou no IFFar, trabalhar ou começar uma vida nova, há opções de aluguel e compra em diversos bairros — de apartamentos no Centro a casas com pátio nas vilas. Abaixo, as imobiliárias locais, um guia rápido dos bairros e o passo a passo para alugar.",
+  "mor_map_h": "Imobiliárias no mapa",
+  "mor_map_p": "Toque num pino ou cartão para ver endereço, site e rota.",
+  "mor_hoods_pre": "Onde morar",
+  "mor_hoods_h": "Guia rápido de bairros",
+  "mor_hoods_p": "Um panorama geral para começar a busca — confirme com a imobiliária o que faz sentido para a sua rotina.",
+  "mor_hood_centro_h": "Centro",
+  "mor_hood_centro_p": "Comércio, bancos, praças e serviços a pé. Mais apartamentos e salas comerciais; ideal para quem quer tudo por perto.",
+  "mor_hood_cidadealta_h": "Cidade Alta",
+  "mor_hood_cidadealta_p": "Bairro residencial tradicional, próximo ao Centro, com casas e ruas arborizadas — opção tranquila para famílias.",
+  "mor_hood_universidade_h": "Próximo às universidades",
+  "mor_hood_universidade_p": "Quem estuda na Unipampa ou no IFFar costuma buscar imóveis e repúblicas nos bairros a caminho dos campi e na região central.",
+  "mor_hood_vilas_h": "Vilas e bairros residenciais",
+  "mor_hood_vilas_p": "Vila Nova, Ibirapuitã, Promorar, Macedo, Nova Brasília e outros oferecem casas com pátio e aluguéis mais acessíveis.",
+  "mor_tips_pre": "Passo a passo",
+  "mor_tips_h": "Dicas para alugar",
+  "mor_tip_docs_h": "Documentos",
+  "mor_tip_docs_p": "Tenha em mãos RG, CPF e comprovante de renda. Para quem vem de fora, comprovantes da nova matrícula ou do vínculo de trabalho ajudam.",
+  "mor_tip_guarantee_h": "Garantia: fiador ou sem fiador",
+  "mor_tip_guarantee_p": "A maioria dos contratos pede fiador local. Sem garantidor na cidade? Há imobiliárias que trabalham com seguro-fiança ou aluguel sem fiador.",
+  "mor_tip_costs_h": "Custos além do aluguel",
+  "mor_tip_costs_p": "Considere IPTU, água, luz e, em apartamentos, o condomínio. Pergunte o que está incluso antes de fechar.",
+  "mor_tip_contract_h": "Contrato e CRECI",
+  "mor_tip_contract_p": "Prefira corretores e imobiliárias com CRECI. Leia o contrato, confira o prazo, o reajuste e o estado do imóvel na vistoria de entrada.",
+  "mor_list_pre": "Quem pode ajudar",
+  "mor_list_h": "Imobiliárias em Alegrete",
+  "mor_list_p": "Agências locais de locação e venda. Toque para ligar, visitar o site ou traçar a rota.",
+  "hist_uni_h": "Cidade universitária",
+  "hist_uni_p": "Alegrete é também um polo de ensino superior: abriga a Unipampa (Universidade Federal do Pampa), o Instituto Federal Farroupilha (IFFar) e a URCAMP, além do parque científico e tecnológico Pampatec — formando profissionais e atraindo estudantes de toda a região.",
+  "hist_uni_link": "Conheça as universidades →"
 }

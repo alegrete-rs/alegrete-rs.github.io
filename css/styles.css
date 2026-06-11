@@ -329,6 +329,12 @@ a { color: inherit; text-decoration: none; }
 }
 .hero-scroll svg { width: 20px; height: 20px; }
 @keyframes bob { 0%,100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 7px); } }
+/* On narrow/portrait screens a landscape cover image crops heavily; lower the
+   hero and stop the Ken Burns zoom so more of the photo stays visible. */
+@media (max-width: 640px) {
+  .hero { min-height: 68vh; }
+  .hero-bg img { animation: none; transform: none; object-position: center 38%; }
+}
 
 /* Page hero (interior pages) */
 .page-hero {

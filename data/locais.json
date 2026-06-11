@@ -764,6 +764,7 @@
       "en": "Alegrete's postcard and scene of the 1923 battle, over the Ibirapuitã."
     },
     "endereco": "Rio Ibirapuitã - Alegrete",
+    "foto": "assets/img/ponte-ibirapuita.jpg",
     "lat": -29.7758, "lng": -55.7848,
     "tags": ["monumento", "história"],
     "confirmado": true
@@ -778,6 +779,7 @@
       "en": "A 1919 Gothic-style church, an architectural landmark downtown."
     },
     "endereco": "Praça Getúlio Vargas - Centro",
+    "foto": "assets/img/igreja-matriz.jpg",
     "lat": -29.7832, "lng": -55.7912,
     "tags": ["igreja", "arquitetura"],
     "confirmado": true
@@ -792,6 +794,7 @@
       "en": "Century-old station home to the steam engine, a memory of the Pampa rails."
     },
     "endereco": "Alegrete - RS",
+    "foto": "assets/img/estacao-ferroviaria.jpg",
     "lat": -29.7889, "lng": -55.7958,
     "tags": ["ferrovia", "história"],
     "confirmado": false
@@ -1027,6 +1030,35 @@
     },
     "endereco": "Alegrete - RS",
     "tags": ["corporativo", "feiras", "encontros"],
+    "confirmado": false
+  },
+
+  {
+    "id": "cabanas-camping-cia",
+    "categoria": "camping",
+    "nome": "Cabanas Pousada, Camping & Cia",
+    "descricao": {
+      "pt": "Cabanas para hospedagem e área de camping em meio à natureza, com quadra de vôlei, espaço para churrasco e chimarrão — recém-reformada e ideal para descansar e reunir a família e os amigos.",
+      "es": "Cabañas para hospedaje y área de camping en plena naturaleza, con cancha de vóley, espacio para asado y mate — recién reformada e ideal para descansar y reunir a la familia y amigos.",
+      "en": "Cabins and a camping area surrounded by nature, with a volleyball court, barbecue space and chimarrão — recently renovated and perfect for resting and gathering family and friends."
+    },
+    "endereco": "Alegrete - RS",
+    "telefone": "+55 55 99211-3302",
+    "instagram": "@cabanasalegrete",
+    "tags": ["cabanas", "camping", "vôlei", "churrasco"],
+    "confirmado": false
+  },
+  {
+    "id": "escola-equitacao-reencontro",
+    "categoria": "esporte",
+    "nome": "Escola de Equitação Reencontro",
+    "descricao": {
+      "pt": "Nova modalidade em Alegrete: escola de equitação com aulas, vivências guiadas a cavalo e conexão com a natureza do Pampa — experiências sob agendamento para todos os níveis.",
+      "es": "Nueva modalidad en Alegrete: escuela de equitación con clases, vivencias guiadas a caballo y conexión con la naturaleza del Pampa — experiencias con reserva para todos los niveles.",
+      "en": "A new activity in Alegrete: an equestrian school with lessons, guided horseback experiences and connection with the Pampa's nature — bookable experiences for all levels."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["hipismo", "equitação", "natureza", "vivência"],
     "confirmado": false
   }
 ]

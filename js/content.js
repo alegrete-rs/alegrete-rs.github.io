@@ -134,9 +134,57 @@
     return { map, markers };
   }
 
+  /* ---- Press clippings (matérias) ---- */
+  function fmtDate(iso) {
+    if (!iso) return '';
+    const d = new Date(iso + 'T00:00:00');
+    if (isNaN(d.getTime())) return '';
+    const map = { pt: 'pt-BR', es: 'es-ES', en: 'en-US' };
+    try { return d.toLocaleDateString(map[lang()] || 'pt-BR', { month: 'short', year: 'numeric' }); }
+    catch (e) { return String(d.getFullYear()); }
+  }
+
+  function materiaCardHTML(m) {
+    const media = m.foto
+      ? `<img src="${esc(m.foto)}" alt="${esc(m.titulo)}" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="ph"><i data-lucide="newspaper"></i></div>`;
+    const dateLine = [esc(m.veiculo)].concat(m.data ? [esc(fmtDate(m.data))] : []).join(' · ');
+    return `
+      <a class="card card-link reveal" href="${esc(m.url)}" target="_blank" rel="noopener">
+        <div class="card-media">${media}</div>
+        <div class="card-body">
+          <span class="chip gold">${esc(loc(m.tag))}</span>
+          <h3>${esc(m.titulo)}</h3>
+          <div class="meta">
+            <span class="row"><i data-lucide="newspaper"></i>${dateLine}</span>
+            <span class="row"><i data-lucide="external-link"></i>${window.t('press_read', 'Ler matéria')}</span>
+          </div>
+        </div>
+      </a>`;
+  }
+
   /* ---- Public API ---- */
   window.AlegreteContent = {
     CATS,
+    async renderMaterias(opts) {
+      const list = opts && opts.listId ? document.getElementById(opts.listId) : null;
+      if (!list) return null;
+      let data;
+      try {
+        const res = await fetch((opts && opts.source) || 'data/materias.json');
+        data = await res.json();
+      } catch (e) { console.error('Falha ao carregar matérias', e); return null; }
+
+      const draw = () => {
+        list.innerHTML = data.map(materiaCardHTML).join('');
+        if (window.lucide) lucide.createIcons();
+        list.querySelectorAll('.reveal').forEach((el, i) => { el.dataset.delay = String((i % 3) * 80); });
+        if (typeof window.__reobserveReveal === 'function') window.__reobserveReveal(list);
+      };
+      draw();
+      document.addEventListener('langchange', draw);
+      return data;
+    },
     async render(opts) {
       // opts: { listId, mapId, categories:[], filter:bool }
       const all = await getPlaces();

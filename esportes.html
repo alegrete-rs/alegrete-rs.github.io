@@ -46,6 +46,18 @@
   <section class="section section--paper2">
     <div class="wrap">
       <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="sports_press_pre">Na imprensa</span>
+        <h2 data-i18n="sports_press_h">Atividades em destaque nos últimos anos</h2>
+        <p data-i18n="sports_press_p">Corridas lotadas, caiacadas pelo Pampa e provas campeiras — reportagens do portal Alegrete Tudo.</p>
+      </div>
+      <div class="grid grid-3" id="pressList"></div>
+      <p class="reveal" style="margin-top:18px;text-align:center;font-size:0.85rem;color:var(--ink-soft)" data-i18n="sports_press_src">Reportagens publicadas pelo portal Alegrete Tudo · toque para ler a matéria completa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
         <span class="eyebrow" data-i18n="sports_places_h">Quadras e espaços esportivos</span>
         <h2 data-i18n="sports_places_h">Quadras e espaços esportivos</h2>
       </div>
@@ -65,6 +77,7 @@
 
   <script>
     document.addEventListener('core-ready', function () {
+      AlegreteContent.renderMaterias({ listId: 'pressList' });
       AlegreteContent.render({
         listId: 'sportList', mapId: 'map', filterId: 'sportFilter',
         categories: ['esporte', 'quadra']

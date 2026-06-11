@@ -68,5 +68,16 @@
     },
     "url": "https://www.turismo.rs.gov.br/",
     "icon": "compass"
+  },
+  {
+    "id": "wikiloc-alegrete",
+    "titulo": "Trilhas no Wikiloc — Alegrete",
+    "desc": {
+      "pt": "Catálogo colaborativo de trilhas de Alegrete com mapas e tracks GPS para caminhada e bike.",
+      "es": "Catálogo colaborativo de senderos de Alegrete con mapas y tracks GPS para caminata y bici.",
+      "en": "Crowd-sourced catalog of Alegrete trails with maps and GPS tracks for hiking and biking."
+    },
+    "url": "https://pt.wikiloc.com/trilhas/outdoor/brasil/rio-grande-do-sul/alegrete",
+    "icon": "footprints"
   }
 ]

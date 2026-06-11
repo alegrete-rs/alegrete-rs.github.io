@@ -202,6 +202,9 @@ a { color: inherit; text-decoration: none; }
   display: flex; flex-direction: column;
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(181,72,43,0.35); }
+.card-link { text-decoration: none; color: inherit; }
+.card-link h3 { transition: color .25s; }
+.card-link:hover h3 { color: var(--terra); }
 .card-media {
   height: 180px; position: relative; overflow: hidden;
   background: linear-gradient(135deg, var(--green-3), var(--green));

@@ -172,6 +172,73 @@
     "tags": ["café", "doces"],
     "confirmado": false
   },
+  {
+    "id": "delicatti",
+    "categoria": "cafe",
+    "nome": "Delicatti Cafeteria e Doceria",
+    "descricao": {
+      "pt": "Cafeteria e doceria alegretense: cafés especiais, tortas, doces finos e brunch.",
+      "es": "Cafetería y dulcería de Alegrete: cafés especiales, tortas, dulces finos y brunch.",
+      "en": "Alegrete café and patisserie: specialty coffee, cakes, fine sweets and brunch."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@_delicatti",
+    "tags": ["café", "doces", "brunch"],
+    "confirmado": true
+  },
+  {
+    "id": "brownie-da-carol",
+    "categoria": "cafe",
+    "nome": "Brownie da Carol",
+    "descricao": {
+      "pt": "Brownies, sobremesas e doces caseiros para acompanhar o café da tarde.",
+      "es": "Brownies, postres y dulces caseros para acompañar el café de la tarde.",
+      "en": "Brownies, desserts and homemade sweets to go with afternoon coffee."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@browniedacarolalegrete",
+    "tags": ["doces", "sobremesas"],
+    "confirmado": true
+  },
+  {
+    "id": "pampa-cafe",
+    "categoria": "cafe",
+    "nome": "Pampa Café",
+    "descricao": {
+      "pt": "Cafeteria para um espresso, lanches e um intervalo no centro.",
+      "es": "Cafetería para un espresso, snacks y una pausa en el centro.",
+      "en": "Café for an espresso, snacks and a downtown break."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["café"],
+    "confirmado": false
+  },
+  {
+    "id": "agua-na-boca",
+    "categoria": "cafe",
+    "nome": "Cafeteria e Sorveteria Água na Boca",
+    "descricao": {
+      "pt": "Cafés, sorvetes e doces — parada doce para os dias quentes do Pampa.",
+      "es": "Cafés, helados y dulces — parada dulce para los días calurosos del Pampa.",
+      "en": "Coffee, ice cream and sweets — a sweet stop for hot Pampa days."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["café", "sorvete"],
+    "confirmado": false
+  },
+  {
+    "id": "rosa-chiclete",
+    "categoria": "cafe",
+    "nome": "Rosa Chiclete — Bomboniere & Café",
+    "descricao": {
+      "pt": "Bomboniere e café com bombons, doces e cafés especiais.",
+      "es": "Bombonería y café con bombones, dulces y cafés especiales.",
+      "en": "Confectionery and café with chocolates, sweets and specialty coffee."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": ["café", "doces"],
+    "confirmado": false
+  },
 
   {
     "id": "hotel-cavera",
@@ -421,9 +488,9 @@
     "categoria": "trilha",
     "nome": "Caminho do Pampa",
     "descricao": {
-      "pt": "Trilha de longo curso pela APA, dezenas de km mapeados para o turismo sustentável.",
-      "es": "Sendero de largo recorrido por la APA, decenas de km mapeados para turismo sostenible.",
-      "en": "Long-distance trail through the EPA, dozens of km mapped for sustainable tourism."
+      "pt": "Trilha de longo curso de cerca de 170 km pela APA do Ibirapuitã, integrante da Rede de Trilhas de Longo Curso do Brasil — com trechos para caminhantes e ciclistas e turismo rural sustentável.",
+      "es": "Sendero de largo recorrido de unos 170 km por la APA del Ibirapuitã, parte de la Red de Senderos de Largo Recorrido de Brasil — con tramos para caminantes y ciclistas y turismo rural sostenible.",
+      "en": "A roughly 170 km long-distance trail through the Ibirapuitã EPA, part of Brazil's Long-Distance Trails Network — with sections for hikers and cyclists and sustainable rural tourism."
     },
     "endereco": "APA do Ibirapuitã",
     "lat": -30.0500, "lng": -55.6000,
@@ -442,6 +509,34 @@
     "endereco": "Zona rural de Alegrete",
     "lat": -29.9500, "lng": -55.6500,
     "tags": ["cascata", "ecoturismo"],
+    "confirmado": false
+  },
+  {
+    "id": "trilha-fortaleza",
+    "categoria": "trilha",
+    "nome": "Trilha da Fortaleza",
+    "descricao": {
+      "pt": "Rota de turismo rural de cerca de 4 km por campos nativos e arroios cristalinos, até um antigo forte que reviveu os confrontos da Revolução Federalista.",
+      "es": "Ruta de turismo rural de unos 4 km por campos nativos y arroyos cristalinos, hasta un antiguo fuerte que revivió los enfrentamientos de la Revolución Federalista.",
+      "en": "A roughly 4 km rural-tourism route through native fields and crystal-clear streams, up to an old fort that staged Federalist Revolution clashes."
+    },
+    "endereco": "Zona rural de Alegrete",
+    "lat": -29.8500, "lng": -55.6000,
+    "tags": ["trilha", "turismo rural", "história"],
+    "confirmado": false
+  },
+  {
+    "id": "trilha-rincao-paraiso",
+    "categoria": "trilha",
+    "nome": "Trilha do Pampa — Rincão do Paraíso",
+    "descricao": {
+      "pt": "Caminhada pelo Rincão do Paraíso, na zona rural alegretense: paisagens abertas do Pampa, fauna nativa e o silêncio do campo.",
+      "es": "Caminata por el Rincão do Paraíso, en la zona rural de Alegrete: paisajes abiertos del Pampa, fauna nativa y el silencio del campo.",
+      "en": "A hike through Rincão do Paraíso in rural Alegrete: open Pampa landscapes, native wildlife and the quiet of the countryside."
+    },
+    "endereco": "Zona rural de Alegrete",
+    "lat": -29.9000, "lng": -55.5800,
+    "tags": ["trilha", "ecoturismo"],
     "confirmado": false
   },
 
@@ -584,6 +679,78 @@
     "endereco": "Corrientes, Argentina",
     "lat": -27.4692, "lng": -58.8306,
     "tags": ["argentina"],
+    "confirmado": false
+  },
+  {
+    "id": "termas-federacion",
+    "categoria": "atracao",
+    "nome": "Termas de Federación (Argentina)",
+    "descricao": {
+      "pt": "Um dos maiores parques termais da Argentina, em Entre Ríos: piscinas de águas quentes, spa e estrutura para famílias.",
+      "es": "Uno de los mayores parques termales de Argentina, en Entre Ríos: piscinas de aguas calientes, spa y estructura para familias.",
+      "en": "One of Argentina's largest thermal parks, in Entre Ríos: hot-water pools, spa and family facilities."
+    },
+    "endereco": "Federación, Entre Ríos - Argentina",
+    "lat": -30.9846, "lng": -57.9120,
+    "tags": ["termas", "argentina"],
+    "confirmado": true
+  },
+  {
+    "id": "termas-dayman",
+    "categoria": "atracao",
+    "nome": "Termas del Daymán (Uruguai)",
+    "descricao": {
+      "pt": "As termas mais famosas do Uruguai, ao sul de Salto: dezenas de piscinas termais, hotéis e parque aquático.",
+      "es": "Las termas más famosas de Uruguay, al sur de Salto: decenas de piscinas termales, hoteles y parque acuático.",
+      "en": "Uruguay's most famous hot springs, south of Salto: dozens of thermal pools, hotels and a water park."
+    },
+    "endereco": "Termas del Daymán, Salto - Uruguai",
+    "lat": -31.4583, "lng": -57.8917,
+    "tags": ["termas", "uruguai"],
+    "confirmado": true
+  },
+  {
+    "id": "termas-romanas",
+    "categoria": "atracao",
+    "nome": "Resort Termas Romanas (Santa Maria/RS)",
+    "descricao": {
+      "pt": "Em Recanto Maestro, Restinga Sêca (a ~30 km de Santa Maria): único parque termal de água salgada medicinal da América Latina, com 7 piscinas, ofurôs, spa e hospedagem.",
+      "es": "En Recanto Maestro, Restinga Sêca (a ~30 km de Santa Maria): único parque termal de agua salada medicinal de América Latina, con 7 piscinas, ofurós, spa y alojamiento.",
+      "en": "In Recanto Maestro, Restinga Sêca (~30 km from Santa Maria): Latin America's only medicinal saltwater thermal park, with 7 pools, hot tubs, spa and lodging."
+    },
+    "endereco": "ERS-149, Recanto Maestro - Restinga Sêca - RS",
+    "telefone": "+55 55 3302-4474",
+    "website": "https://resorttermasromanas.com",
+    "lat": -29.7060, "lng": -53.4300,
+    "tags": ["termas", "spa", "rs"],
+    "confirmado": true
+  },
+  {
+    "id": "pesca-dourado-uruguai",
+    "categoria": "atracao",
+    "nome": "Pesca esportiva de dourado — Rio Uruguai",
+    "descricao": {
+      "pt": "Trecho do Rio Uruguai abaixo da represa de Salto Grande (Bella Unión, Salto e Argentina) é referência mundial na pesca esportiva de dourado, surubim e boga — pesque e solte.",
+      "es": "El tramo del Río Uruguay debajo de la represa de Salto Grande (Bella Unión, Salto y Argentina) es referencia mundial en pesca deportiva de dorado, surubí y boga — captura y suelta.",
+      "en": "The Uruguay River below the Salto Grande dam (Bella Unión, Salto and Argentina) is a world reference for sport fishing of golden dorado, surubí and boga — catch and release."
+    },
+    "endereco": "Rio Uruguai — Bella Unión (UY) / Monte Caseros (AR)",
+    "lat": -30.2622, "lng": -57.6228,
+    "tags": ["pesca", "dourado", "argentina"],
+    "confirmado": false
+  },
+  {
+    "id": "caiacada-triplice-fronteira",
+    "categoria": "atracao",
+    "nome": "Caiacada da Tríplice Fronteira",
+    "descricao": {
+      "pt": "Travessia de caiaque na Tríplice Fronteira Brasil–Uruguai–Argentina: a partir de Quaraí/Barra do Quaraí, os caiaqueiros descem até o Marco Zero e a histórica Ponte de Ferro, no encontro dos rios Quaraí e Uruguai.",
+      "es": "Travesía de kayak en la Triple Frontera Brasil–Uruguay–Argentina: desde Quaraí/Barra do Quaraí, los kayakistas bajan hasta el Marco Cero y el histórico Puente de Hierro, en el encuentro de los ríos Cuareim y Uruguay.",
+      "en": "Kayak crossing at the Brazil–Uruguay–Argentina triple border: starting from Quaraí/Barra do Quaraí, paddlers descend to the Zero Mark and the historic Iron Bridge, where the Quaraí and Uruguay rivers meet."
+    },
+    "endereco": "Quaraí / Barra do Quaraí - RS (Tríplice Fronteira)",
+    "lat": -30.2050, "lng": -57.5550,
+    "tags": ["caiaque", "fronteira", "aventura"],
     "confirmado": false
   },
 

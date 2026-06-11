@@ -1,0 +1,47 @@
+[
+  {
+    "id": "seis-amigos-tigre",
+    "titulo": "Seis amigos de Alegrete percorrem quase 1.000 km de barco até a Bacia do Tigre, na Argentina",
+    "veiculo": "Alegrete Tudo",
+    "data": "2026-05-02",
+    "tag": { "pt": "Expedição náutica", "es": "Expedición náutica", "en": "Nautical expedition" },
+    "foto": "https://www.alegretetudo.com.br/wp-content/uploads/2026/04/alegretetudo-screenshot-20260429-1627102-screenshot-20260429-1627102.jpg",
+    "url": "https://www.alegretetudo.com.br/seis-amigos-de-alegrete-percorrem-quase-1-000-km-de-barco-ate-a-bacia-do-tigre-na-argentina-em-expedicao-historica/"
+  },
+  {
+    "id": "corrida-dia-da-mulher",
+    "titulo": "Mesmo com chuva, a Corrida do Dia da Mulher reuniu mais de 200 atletas em Alegrete",
+    "veiculo": "Alegrete Tudo",
+    "data": "2025-03-10",
+    "tag": { "pt": "Corrida de rua", "es": "Carrera de calle", "en": "Road race" },
+    "foto": "https://www.alegretetudo.com.br/wp-content/uploads/2025/03/alegretetudo-mesmo-com-chuva-corrida-do-dia-da-mulher-reuniu-mais-de-200-atletas-em-alegrete-whatsapp-image-2025-03-10-at-08.33.16.jpeg",
+    "url": "https://www.alegretetudo.com.br/mesmo-com-chuva-a-corrida-do-dia-da-mulher-reuniu-mais-de-200-atletas-em-alegrete/"
+  },
+  {
+    "id": "corrida-natal-iluminado",
+    "titulo": "Corrida Natal Iluminado contou com 375 atletas em Alegrete",
+    "veiculo": "Alegrete Tudo",
+    "data": "2024-12-17",
+    "tag": { "pt": "Corrida de rua", "es": "Carrera de calle", "en": "Road race" },
+    "foto": "https://www.alegretetudo.com.br/wp-content/uploads/2024/12/alegretetudo-corrida-natal-iluminado-contou-com-375-atletas-em-alegrete-correr-dois-toca.jpg",
+    "url": "https://www.alegretetudo.com.br/corrida-natal-iluminado-contou-com-375-atletas-em-alegrete/"
+  },
+  {
+    "id": "caiaqueiros-500km",
+    "titulo": "Caiaqueiros criam grupo e já percorreram mais de 500 km nos rios da região",
+    "veiculo": "Alegrete Tudo",
+    "data": "2022-03-27",
+    "tag": { "pt": "Caiaque", "es": "Kayak", "en": "Kayaking" },
+    "foto": "https://www.alegretetudo.com.br/wp-content/uploads/2022/03/alegretetudo-e8adc8e2-8770-42af-bf48-5ffdbdcc291c.jpg",
+    "url": "https://www.alegretetudo.com.br/caiaqueiros-criam-grupo-e-ja-percorreram-mais-de-500-km-nos-rios-da-regiao/"
+  },
+  {
+    "id": "gp-jockey-rastro-negro",
+    "titulo": "Rastro Negro de Alegrete e a paranaense Oriana do Iguassu vencem GP no Jockey Club de Alegrete",
+    "veiculo": "Alegrete Tudo",
+    "data": "2021-05-01",
+    "tag": { "pt": "Hipismo", "es": "Hípica", "en": "Horse racing" },
+    "foto": "https://www.alegretetudo.com.br/wp-content/uploads/2021/05/rastro-negro-parceria.jpg",
+    "url": "https://www.alegretetudo.com.br/rastro-negro-de-alegrete-e-a-paranaense-oriana-do-iguassu-vencem-gp-no-jockey-club-de-alegrete/"
+  }
+]

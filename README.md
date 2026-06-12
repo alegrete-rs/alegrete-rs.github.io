@@ -1,4 +1,4 @@
-# Portal Alegrete — O Baita Chão
+# Portal Alegrete — Um baita destino
 
 Site institucional e turístico de **Alegrete-RS**, a cidade mais gaúcha do Rio
 Grande do Sul. Trilíngue (🇧🇷 PT · 🇪🇸 ES · 🇬🇧 EN), 100% estático, publicado via

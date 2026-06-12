@@ -26,7 +26,7 @@
   --ink-soft:   #45506a;
   --ink-faint:  #8a93a8;
 
-  /* Multicolor brand accents (Visit Alegrete logo) */
+  /* Multicolor brand accents (Alegrete wordmark) */
   --red:        #d8442f;
   --red-2:      #ec6244;
   --green:      #2f8f5b;
@@ -165,13 +165,13 @@ a { color: inherit; text-decoration: none; }
 }
 .brand-mark svg { width: 22px; height: 22px; }
 .wordmark { display: flex; flex-direction: column; line-height: 1; }
-.wordmark .visit {
-  font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
-  font-size: 0.84rem; color: var(--navy-soft); margin-bottom: 2px; letter-spacing: 0.01em;
-}
 .wordmark .alegrete {
   font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.32rem;
   letter-spacing: 0.04em; display: inline-flex;
+}
+.wordmark .tagline {
+  font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+  font-size: 0.8rem; color: var(--navy-soft); margin-top: 3px; letter-spacing: 0.01em;
 }
 .wordmark .alegrete span:nth-child(7n+1) { color: var(--red); }
 .wordmark .alegrete span:nth-child(7n+2) { color: var(--gold); }
@@ -180,7 +180,7 @@ a { color: inherit; text-decoration: none; }
 .wordmark .alegrete span:nth-child(7n+5) { color: var(--teal); }
 .wordmark .alegrete span:nth-child(7n+6) { color: var(--red-2); }
 .wordmark .alegrete span:nth-child(7n+7) { color: var(--navy-3); }
-.wordmark.on-dark .visit { color: rgba(225,233,248,0.85); }
+.wordmark.on-dark .tagline { color: rgba(225,233,248,0.78); }
 
 /* ---------- Header ---------- */
 .site-header {

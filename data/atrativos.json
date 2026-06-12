@@ -152,6 +152,25 @@
     "lng": -55.7905977
   },
   {
+    "id": "ukiosk",
+    "nome": "UKiosk · Quiosque da Praça",
+    "cat": "lazer",
+    "img": "praca-getulio",
+    "local": "Praça Getúlio Vargas",
+    "visita": {
+      "pt": "Aberto ao público",
+      "es": "Abierto al público",
+      "en": "Open to the public"
+    },
+    "desc": {
+      "pt": "Quiosque histórico da Praça Getúlio Vargas e um dos cartões de visita da cidade. Ponto de encontro de gerações de alegretenses, hoje serve hambúrgueres, chopp e petiscos à sombra das árvores da praça central.",
+      "es": "Quiosco histórico de la Plaza Getúlio Vargas y una de las postales de la ciudad. Punto de encuentro de generaciones de alegretenses, hoy sirve hamburguesas, cerveza y picoteo a la sombra de la plaza central.",
+      "en": "Historic kiosk on Praça Getúlio Vargas and one of the city's postcards. A meeting point for generations of locals, it now serves burgers, draft beer and bites in the shade of the central square."
+    },
+    "lat": -29.7838,
+    "lng": -55.7906
+  },
+  {
     "id": "mario-quintana",
     "nome": "Estátua de Mário Quintana",
     "cat": "cultura",

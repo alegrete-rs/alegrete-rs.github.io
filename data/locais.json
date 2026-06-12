@@ -75,57 +75,6 @@
     "confirmado": true
   },
   {
-    "id": "cantina-italiana",
-    "categoria": "restaurante",
-    "nome": "Cantina Italiana",
-    "descricao": {
-      "pt": "Massas e pratos italianos no coração de Alegrete.",
-      "es": "Pastas y platos italianos en el corazón de Alegrete.",
-      "en": "Pasta and Italian dishes in the heart of Alegrete."
-    },
-    "endereco": "Centro",
-    "lat": -29.7822,
-    "lng": -55.7896,
-    "tags": [
-      "italiana"
-    ],
-    "confirmado": false
-  },
-  {
-    "id": "capri-restaurante",
-    "categoria": "restaurante",
-    "nome": "Capri Restaurante",
-    "descricao": {
-      "pt": "Restaurante de cozinha variada, opção para o almoço executivo.",
-      "es": "Restaurante de cocina variada, opción para el almuerzo ejecutivo.",
-      "en": "Varied-cuisine restaurant, a solid lunch option."
-    },
-    "endereco": "Centro",
-    "lat": -29.7841,
-    "lng": -55.7929,
-    "tags": [
-      "almoço"
-    ],
-    "confirmado": false
-  },
-  {
-    "id": "casa-do-frango",
-    "categoria": "restaurante",
-    "nome": "Casa do Frango",
-    "descricao": {
-      "pt": "Especialidades de frango assado e pratos para levar.",
-      "es": "Especialidades de pollo asado y platos para llevar.",
-      "en": "Roast chicken specialties and takeaway dishes."
-    },
-    "endereco": "Alegrete - RS",
-    "lat": -29.7805,
-    "lng": -55.7888,
-    "tags": [
-      "frango"
-    ],
-    "confirmado": false
-  },
-  {
     "id": "brazao-pizzaria",
     "categoria": "restaurante",
     "nome": "Brazão Pizzaria",
@@ -141,6 +90,25 @@
       "pizza"
     ],
     "confirmado": false
+  },
+  {
+    "id": "ukiosk",
+    "categoria": "bar",
+    "nome": "UKiosk · Quiosque da Praça",
+    "descricao": {
+      "pt": "Quiosque histórico no coração da Praça Getúlio Vargas: hambúrgueres, chopp e petiscos num ponto de encontro símbolo da cidade.",
+      "es": "Quiosco histórico en el corazón de la Plaza Getúlio Vargas: hamburguesas, cerveza y picoteo en un punto de encuentro símbolo de la ciudad.",
+      "en": "Historic kiosk in the heart of Praça Getúlio Vargas: burgers, draft beer and bites at a beloved city-landmark hangout."
+    },
+    "endereco": "Praça Getúlio Vargas - Centro, Alegrete - RS",
+    "website": "https://www.facebook.com/people/UKiosk/100077941215274/",
+    "lat": -29.7838,
+    "lng": -55.7906,
+    "tags": [
+      "praça",
+      "lanches"
+    ],
+    "confirmado": true
   },
   {
     "id": "busanello",
@@ -163,7 +131,7 @@
   {
     "id": "dom-lagar",
     "categoria": "bar",
-    "nome": "Dom Lagar Choperia",
+    "nome": "Dom Lagarto Choperia",
     "descricao": {
       "pt": "Choperia, pizzaria e churrascaria reunidas num só lugar.",
       "es": "Cervecería, pizzería y parrilla reunidas en un solo lugar.",
@@ -313,6 +281,25 @@
       "centro"
     ],
     "confirmado": true
+  },
+  {
+    "id": "hotel-texacao-cavera",
+    "categoria": "hotel",
+    "nome": "Hotel Texacão do Caverá",
+    "descricao": {
+      "pt": "Hotel à beira da BR-290, na saída leste rumo ao Caverá. Quartos confortáveis, café da manhã, área de lazer e espaço para eventos.",
+      "es": "Hotel a la vera de la BR-290, en la salida este hacia el Caverá. Habitaciones cómodas, desayuno, área de ocio y espacio para eventos.",
+      "en": "Roadside hotel on the BR-290 by the eastern Caverá exit. Comfortable rooms, breakfast, leisure area and event space."
+    },
+    "endereco": "BR-290, km 575, Alegrete - RS",
+    "website": "https://hoteltexacao.com.br/",
+    "lat": -29.785,
+    "lng": -55.768,
+    "tags": [
+      "estrada",
+      "br-290"
+    ],
+    "confirmado": false
   },
   {
     "id": "hotel-alvorada",
@@ -1996,5 +1983,369 @@
       "cultura"
     ],
     "confirmado": true
+  },
+  {
+    "id": "quinta-aurora",
+    "categoria": "cafe",
+    "nome": "Quinta da Aurora",
+    "descricao": {
+      "pt": "Cafeteria charmosa para um café especial, brunch e confeitaria artesanal.",
+      "es": "Cafetería con encanto para un café especial, brunch y repostería artesanal.",
+      "en": "Charming café for specialty coffee, brunch and artisan pastries."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@quintadeaurora",
+    "lat": -29.7829,
+    "lng": -55.7915,
+    "tags": [
+      "café",
+      "brunch"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "quiero-cafe",
+    "categoria": "cafe",
+    "nome": "Quiero Café",
+    "descricao": {
+      "pt": "Cafeteria para um espresso, lanches e doces no dia a dia.",
+      "es": "Cafetería para un espresso, snacks y dulces en el día a día.",
+      "en": "Café for espresso, snacks and sweets any day of the week."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@quierocafealegretejp",
+    "lat": -29.7842,
+    "lng": -55.7918,
+    "tags": [
+      "café"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "padaria-rosariense",
+    "categoria": "cafe",
+    "nome": "Padaria Rosariense",
+    "descricao": {
+      "pt": "Padaria e confeitaria com pães, salgados, doces e café fresquinho.",
+      "es": "Panadería y confitería con panes, salados, dulces y café fresco.",
+      "en": "Bakery and patisserie with breads, savory snacks, sweets and fresh coffee."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@padariarosariense",
+    "lat": -29.7848,
+    "lng": -55.7896,
+    "tags": [
+      "padaria",
+      "doces"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "braseiro-parrilla",
+    "categoria": "restaurante",
+    "nome": "Braseiro Parrilla",
+    "descricao": {
+      "pt": "Parrilla com cortes na brasa e o melhor do churrasco de fronteira.",
+      "es": "Parrilla con cortes a la brasa y lo mejor del asado de frontera.",
+      "en": "Parrilla grill with flame-cooked cuts and the best of border barbecue."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@braseiroparrillaoficial",
+    "lat": -29.7822,
+    "lng": -55.7889,
+    "tags": [
+      "parrilla",
+      "churrasco"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "villa-gastronomia",
+    "categoria": "restaurante",
+    "nome": "Villa Gastronomia",
+    "descricao": {
+      "pt": "Restaurante e gastrobar com cardápio variado e ambiente para reunir os amigos.",
+      "es": "Restaurante y gastrobar con menú variado y ambiente para reunir amigos.",
+      "en": "Restaurant and gastrobar with a varied menu and a great spot to gather friends."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@villagastronomia_alegrete",
+    "lat": -29.7835,
+    "lng": -55.7888,
+    "tags": [
+      "gastrobar"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "midas88",
+    "categoria": "restaurante",
+    "nome": "Midas88 Gastrobar",
+    "descricao": {
+      "pt": "Gastrobar com pratos variados, drinks e música ao vivo.",
+      "es": "Gastrobar con platos variados, tragos y música en vivo.",
+      "en": "Gastrobar with varied dishes, drinks and live music."
+    },
+    "endereco": "Alegrete - RS",
+    "lat": -29.7826,
+    "lng": -55.7902,
+    "tags": [
+      "gastrobar",
+      "drinks"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "uk-pizza-burger",
+    "categoria": "restaurante",
+    "nome": "UK Pizza Burguer",
+    "descricao": {
+      "pt": "Pizzas e hambúrgueres artesanais para comer no local ou levar.",
+      "es": "Pizzas y hamburguesas artesanales para comer en el lugar o llevar.",
+      "en": "Artisan pizzas and burgers to eat in or take away."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@uk_pizza_burger",
+    "lat": -29.784,
+    "lng": -55.7912,
+    "tags": [
+      "pizza",
+      "hambúrguer"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "sushi-house",
+    "categoria": "restaurante",
+    "nome": "Sushi House",
+    "descricao": {
+      "pt": "Culinária japonesa com sushi, sashimi e combinados.",
+      "es": "Cocina japonesa con sushi, sashimi y combinados.",
+      "en": "Japanese cuisine with sushi, sashimi and combos."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@sushihousealegrete",
+    "lat": -29.7819,
+    "lng": -55.7908,
+    "tags": [
+      "japonesa",
+      "sushi"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "haru-sushi",
+    "categoria": "restaurante",
+    "nome": "Haru Sushi",
+    "descricao": {
+      "pt": "Sushi bar japonês com pratos quentes, temakis e combinados.",
+      "es": "Sushi bar japonés con platos calientes, temakis y combinados.",
+      "en": "Japanese sushi bar with hot dishes, temaki and combos."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@harusushibar_alegrete",
+    "lat": -29.7845,
+    "lng": -55.7889,
+    "tags": [
+      "japonesa",
+      "sushi"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "yamato-sushi",
+    "categoria": "restaurante",
+    "nome": "Yamato Sushi",
+    "descricao": {
+      "pt": "Restaurante japonês com sushi, sashimi e rodízio.",
+      "es": "Restaurante japonés con sushi, sashimi y tenedor libre.",
+      "en": "Japanese restaurant with sushi, sashimi and all-you-can-eat."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@yamatosushialegrete",
+    "lat": -29.7813,
+    "lng": -55.7899,
+    "tags": [
+      "japonesa",
+      "sushi"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "tio-bola",
+    "categoria": "bar",
+    "nome": "Tio Bola Cervejas Especiais",
+    "descricao": {
+      "pt": "Cervejaria com rótulos especiais e ambiente para apreciar boas cervejas.",
+      "es": "Cervecería con etiquetas especiales y ambiente para disfrutar buenas cervezas.",
+      "en": "Craft beer house with special labels and a great spot to enjoy good beer."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@tiobolacervejasespeciais",
+    "lat": -29.7827,
+    "lng": -55.7896,
+    "tags": [
+      "cervejaria",
+      "cerveja artesanal"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "cabanas-alegrete",
+    "categoria": "camping",
+    "nome": "Cabanas Alegrete",
+    "descricao": {
+      "pt": "Cabanas para temporada e finais de semana; reservas e contato pelo Instagram.",
+      "es": "Cabañas para temporada y fines de semana; reservas y contacto por Instagram.",
+      "en": "Cabins for seasons and weekends; booking and contact via Instagram."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@cabanasalegrete",
+    "tags": [
+      "cabanas"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "portal-das-aguas",
+    "categoria": "camping",
+    "nome": "Portal das Águas",
+    "descricao": {
+      "pt": "Espaço de lazer e hospedagem junto à água, ideal para descanso em família.",
+      "es": "Espacio de ocio y hospedaje junto al agua, ideal para descanso en familia.",
+      "en": "Leisure and lodging spot by the water, ideal for a family getaway."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@portal.das.aguas",
+    "tags": [
+      "natureza",
+      "lazer"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "circuito-mw",
+    "categoria": "esporte",
+    "nome": "Circuito de Corridas MW Performance",
+    "descricao": {
+      "pt": "Circuito de corridas de rua que reúne atletas da região em diversas etapas.",
+      "es": "Circuito de carreras de calle que reúne atletas de la región en varias etapas.",
+      "en": "Road-running circuit gathering regional athletes across several stages."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@circuitomwperformance",
+    "website": "https://www.circuitomw.com.br",
+    "tags": [
+      "corrida",
+      "evento"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "torneio-padel",
+    "categoria": "esporte",
+    "nome": "Torneio Internacional de Padel",
+    "descricao": {
+      "pt": "Torneio internacional de padel organizado pelo Match Point, reunindo duplas da fronteira.",
+      "es": "Torneo internacional de pádel organizado por Match Point, reuniendo parejas de la frontera.",
+      "en": "International padel tournament organized by Match Point, gathering pairs from the border."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@padelmatchpoint",
+    "tags": [
+      "padel",
+      "torneio"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "gruta-fatima-nova-esperanca",
+    "categoria": "atracao",
+    "nome": "Gruta Nossa Senhora de Fátima (Nova Esperança do Sul)",
+    "descricao": {
+      "pt": "Gruta e santuário de devoção a Nossa Senhora de Fátima em Nova Esperança do Sul, ponto de fé e turismo religioso na região.",
+      "es": "Gruta y santuario de devoción a Nuestra Señora de Fátima en Nova Esperança do Sul, punto de fe y turismo religioso en la región.",
+      "en": "Grotto and shrine devoted to Our Lady of Fátima in Nova Esperança do Sul, a place of faith and religious tourism in the region."
+    },
+    "endereco": "Nova Esperança do Sul - RS",
+    "lat": -29.3927409,
+    "lng": -54.7647802,
+    "tags": [
+      "gruta",
+      "fé"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "praia-areias-brancas",
+    "categoria": "atracao",
+    "nome": "Praia de Areias Brancas (Rosário do Sul)",
+    "descricao": {
+      "pt": "Praia de água doce às margens do rio Santa Maria, em Rosário do Sul, com areias claras e lazer no verão.",
+      "es": "Playa de agua dulce a orillas del río Santa Maria, en Rosário do Sul, con arenas claras y ocio en verano.",
+      "en": "Freshwater beach on the Santa Maria river in Rosário do Sul, with pale sands and summer leisure."
+    },
+    "endereco": "Rosário do Sul - RS",
+    "lat": -30.2470085,
+    "lng": -54.9154943,
+    "tags": [
+      "praia",
+      "rio"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "praia-jacaqua",
+    "categoria": "atracao",
+    "nome": "Praia do Jacaquá (São Francisco de Assis)",
+    "descricao": {
+      "pt": "Balneário de água doce em São Francisco de Assis, point de verão para banho, sol e camping às margens do rio.",
+      "es": "Balneario de agua dulce en São Francisco de Assis, punto de verano para baño, sol y camping a orillas del río.",
+      "en": "Freshwater bathing spot in São Francisco de Assis, a summer destination for swimming, sun and riverside camping."
+    },
+    "endereco": "São Francisco de Assis - RS",
+    "lat": -29.6834145,
+    "lng": -55.191725,
+    "tags": [
+      "praia",
+      "rio"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "praia-rainha-do-sol",
+    "categoria": "atracao",
+    "nome": "Praia e Camping Rainha do Sol (Manoel Viana)",
+    "descricao": {
+      "pt": "Praia e camping às margens do rio Ibicuí, em Manoel Viana, com área para barracas, banho e lazer no verão.",
+      "es": "Playa y camping a orillas del río Ibicuí, en Manoel Viana, con área para carpas, baño y ocio en verano.",
+      "en": "Beach and campground on the Ibicuí river in Manoel Viana, with tent areas, swimming and summer leisure."
+    },
+    "endereco": "Manoel Viana - RS",
+    "lat": -29.595828,
+    "lng": -55.4779199,
+    "tags": [
+      "praia",
+      "camping",
+      "rio"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "clube-tiro-parceria",
+    "categoria": "esporte",
+    "nome": "Clube de Tiro Parceria",
+    "descricao": {
+      "pt": "Clube de tiro esportivo com estande, treinamentos e provas para praticantes da modalidade.",
+      "es": "Club de tiro deportivo con polígono, entrenamientos y competencias para practicantes.",
+      "en": "Sport-shooting club with a range, training and competitions for enthusiasts."
+    },
+    "endereco": "Alegrete - RS",
+    "website": "https://www.clubedetiroparceria.com.br",
+    "tags": [
+      "tiro esportivo",
+      "clube"
+    ],
+    "confirmado": false
   }
 ]

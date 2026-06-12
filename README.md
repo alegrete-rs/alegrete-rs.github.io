@@ -90,3 +90,9 @@ Para mudar títulos de seção, menus e rótulos, edite as três versões manten
   em `css/styles.css`.
 - Dados reunidos de fontes públicas/oficiais; confirme contatos antes de divulgar.
 ```
+
+## Créditos
+
+Desenvolvido por **[AI Horizon Labs](https://ai-horizon-labs.github.io)**.
+Conteúdo parcialmente cedido pela **Secretaria Municipal de Desenvolvimento e
+Parceria**.

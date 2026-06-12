@@ -931,6 +931,66 @@
     "confirmado": false
   },
   {
+    "id": "caiaqueiros-alegrete",
+    "categoria": "esporte",
+    "nome": "Caiaqueiros do Alegrete",
+    "descricao": {
+      "pt": "Grupo local de caiaque que percorre o Rio Ibirapuitã, reúne aventureiros e promove o turismo e a preservação das águas de Alegrete.",
+      "es": "Grupo local de kayak que recorre el Río Ibirapuitã, reúne aventureros y promueve el turismo y la preservación de las aguas de Alegrete.",
+      "en": "Local kayaking group that paddles the Ibirapuitã River, bringing together adventurers and promoting tourism and the preservation of Alegrete's waters."
+    },
+    "endereco": "Rio Ibirapuitã, Alegrete - RS",
+    "website": "https://www.facebook.com/CaiaqueirosDoAlegreteRs/",
+    "lat": -29.7805,
+    "lng": -55.779,
+    "tags": [
+      "caiaque",
+      "aventura",
+      "rio"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "tropeiros-de-capincho",
+    "categoria": "esporte",
+    "nome": "Tropeiros de Capincho",
+    "descricao": {
+      "pt": "Grupo de caiaqueiros que explora os rios e arroios da região, unindo aventura, natureza e camaradagem nas águas do Pampa.",
+      "es": "Grupo de kayakistas que explora los ríos y arroyos de la región, uniendo aventura, naturaleza y camaradería en las aguas del Pampa.",
+      "en": "Kayaking group exploring the region's rivers and streams, blending adventure, nature and camaraderie across the Pampa's waters."
+    },
+    "endereco": "Alegrete - RS",
+    "instagram": "@tropeirosdecapincho",
+    "lat": -29.781,
+    "lng": -55.7805,
+    "tags": [
+      "caiaque",
+      "aventura",
+      "rio"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "caiacada-ecologica-fronteira",
+    "categoria": "atracao",
+    "nome": "Caiacada Ecológica da Fronteira",
+    "descricao": {
+      "pt": "Caiacada ecológica no Rio Santa Maria, em Rosário do Sul, que reúne mais de 100 participantes do RS e do Uruguai. Cerca de 28 km de remada que valorizam os recursos hídricos, o turismo e a integração da fronteira.",
+      "es": "Kayakada ecológica en el Río Santa Maria, en Rosário do Sul, que reúne a más de 100 participantes de RS y Uruguay. Cerca de 28 km de remo que valorizan los recursos hídricos, el turismo y la integración fronteriza.",
+      "en": "Ecological kayak event on the Santa Maria River in Rosário do Sul, gathering over 100 paddlers from Rio Grande do Sul and Uruguay. Around 28 km of paddling celebrating water resources, tourism and cross-border integration."
+    },
+    "endereco": "Rio Santa Maria, Rosário do Sul - RS (Fronteira)",
+    "website": "https://www.rosariodosul.rs.gov.br/noticia/view/617/2-caiacada-ecologica-da-fronteira-reune-mais-de-100-participantes-em-rosario-do-sul",
+    "lat": -30.2549,
+    "lng": -54.9216,
+    "tags": [
+      "caiaque",
+      "fronteira",
+      "ecologia"
+    ],
+    "confirmado": false
+  },
+  {
     "id": "ponte-borges",
     "categoria": "cultura",
     "nome": "Ponte Borges de Medeiros",

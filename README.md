@@ -96,3 +96,15 @@ Para mudar títulos de seção, menus e rótulos, edite as três versões manten
 Desenvolvido por **[AI Horizon Labs](https://ai-horizon-labs.github.io)**.
 Conteúdo parcialmente cedido pela **Secretaria Municipal de Desenvolvimento e
 Parceria**.
+
+### Créditos de imagens
+
+- Ponte férrea sobre o Rio Ibirapuitã (`assets/img/ponte-ibirapuita.jpg`):
+  foto de **olimpio_marcal**, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ponte_f%C3%A9rrea_dobre_o_rio_Ibirapuit%C3%A3_-_panoramio.jpg),
+  licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
+### Referências
+
+- [Caiaqueiros do Alegrete](https://www.facebook.com/CaiaqueirosDoAlegreteRs/)
+- [Tropeiros de Capincho](https://www.instagram.com/tropeirosdecapincho/)
+- [Caiacada Ecológica da Fronteira — Rosário do Sul](https://www.rosariodosul.rs.gov.br/noticia/view/617/2-caiacada-ecologica-da-fronteira-reune-mais-de-100-participantes-em-rosario-do-sul)

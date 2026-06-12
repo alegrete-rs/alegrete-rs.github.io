@@ -164,6 +164,8 @@ a { color: inherit; text-decoration: none; }
   flex-shrink: 0;
 }
 .brand-mark svg { width: 22px; height: 22px; }
+.footer-brand { display: inline-block; }
+.footer-logo { width: 240px; max-width: 72%; height: auto; }
 .wordmark { display: flex; flex-direction: column; line-height: 1; }
 .wordmark .alegrete {
   font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.32rem;
@@ -320,6 +322,8 @@ a { color: inherit; text-decoration: none; }
   text-shadow: 0 8px 40px rgba(0,0,0,0.4);
 }
 .hero .hero-quote { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; color: var(--gold-2); font-size: clamp(1.4rem, 3.4vw, 2.4rem); margin-top: 6px; }
+.hero-logo { line-height: 0; }
+.hero-logo img { width: min(560px, 84vw); height: auto; filter: drop-shadow(0 12px 44px rgba(0,0,0,0.5)); }
 .hero .lead { font-size: clamp(1.05rem, 2vw, 1.3rem); max-width: 600px; color: rgba(244,247,253,0.92); margin-top: 20px; text-shadow: 0 2px 18px rgba(0,0,0,0.35); }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
 .hero-scroll {
@@ -529,3 +533,21 @@ a { color: inherit; text-decoration: none; }
 .contact-card .ico svg { width: 22px; height: 22px; }
 .contact-card .lbl { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.14em; color: rgba(225,233,248,0.6); font-weight: 700; }
 .contact-card .val { font-family: 'Fraunces', serif; font-size: 1.15rem; color: #fff; }
+
+/* Tríplice Fronteira — promo band */
+.tri-grid { align-items: center; gap: 40px; }
+.tri-copy .eyebrow { color: var(--gold-2); }
+.tri-copy h2 { margin: 12px 0 16px; }
+.tri-copy p + p { margin-top: 14px; }
+.tri-actions { margin-top: 24px; }
+.tri-flags { display: inline-flex; gap: 7px; margin-bottom: 4px; font-size: 1.1rem; letter-spacing: 2px; }
+.tri-gallery { display: grid; grid-template-columns: 1.25fr 1fr; grid-template-rows: repeat(2, 1fr); gap: 14px; aspect-ratio: 1 / 1; }
+.tri-shot { border-radius: var(--radius-sm); overflow: hidden; border: 1px solid rgba(255,255,255,0.14); box-shadow: var(--shadow-lg); position: relative; }
+.tri-shot img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s ease; }
+.tri-shot:hover img { transform: scale(1.06); }
+.tri-shot--main { grid-row: span 2; }
+.tri-cap { margin-top: 20px; text-align: center; font-size: 0.8rem; font-style: italic; color: rgba(225,233,248,0.62); }
+@media (max-width: 640px) {
+  .tri-gallery { aspect-ratio: auto; grid-template-rows: 200px 200px; }
+  .tri-shot--main { grid-column: span 2; grid-row: auto; aspect-ratio: 16 / 10; }
+}

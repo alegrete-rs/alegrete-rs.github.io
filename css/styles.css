@@ -551,3 +551,63 @@ a { color: inherit; text-decoration: none; }
   .tri-gallery { aspect-ratio: auto; grid-template-rows: 200px 200px; }
   .tri-shot--main { grid-column: span 2; grid-row: auto; aspect-ratio: 16 / 10; }
 }
+
+/* ---------- Unipampa — spotlight band ---------- */
+.uni-spot { background: radial-gradient(120% 140% at 12% 0%, #14306b 0%, #0f244f 48%, #0a1937 100%); position: relative; overflow: hidden; }
+.uni-spot::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 80% at 90% 110%, rgba(0,155,67,0.22), transparent 70%); pointer-events: none; }
+.uni-grid { align-items: center; gap: 48px; position: relative; z-index: 1; }
+.uni-copy .eyebrow { color: var(--gold-2); }
+.uni-copy h2 { font-size: clamp(1.85rem, 4.4vw, 3.1rem); line-height: 1.05; margin: 12px 0 16px; color: #fff; overflow-wrap: break-word; }
+.uni-copy .lead { font-size: 1.12rem; max-width: 560px; color: rgba(225,233,248,0.9); }
+.uni-points { display: grid; gap: 16px; margin: 28px 0 30px; }
+.uni-point { display: flex; gap: 15px; align-items: flex-start; }
+.uni-point .ico { flex-shrink: 0; width: 48px; height: 48px; border-radius: 14px; background: rgba(246,199,99,0.15); color: var(--gold-2); display: grid; place-items: center; border: 1px solid rgba(246,199,99,0.28); }
+.uni-point .ico svg { width: 23px; height: 23px; }
+.uni-point h4 { font-size: 1.08rem; margin: 2px 0 3px; color: #fff; }
+.uni-point p { font-size: 0.95rem; margin: 0; color: rgba(225,233,248,0.78); }
+.uni-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+/* brand panel */
+.uni-brand { position: relative; }
+.uni-brand-card { background: #fff; border-radius: var(--radius); padding: clamp(26px, 4vw, 44px); box-shadow: var(--shadow-lg); border: 1px solid rgba(255,255,255,0.6); }
+.uni-brand-card img { width: 100%; height: auto; display: block; }
+.uni-brand-tags { position: absolute; left: 50%; bottom: -18px; transform: translateX(-50%); display: flex; gap: 10px; white-space: nowrap; }
+.uni-brand-tags .pill { background: var(--green); color: #fff; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.02em; padding: 9px 16px; border-radius: 999px; box-shadow: 0 12px 26px -12px rgba(0,83,35,0.8); display: inline-flex; align-items: center; gap: 7px; }
+.uni-brand-tags .pill svg { width: 15px; height: 15px; }
+.uni-brand-tags .pill.gold { background: var(--gold); color: #3a2a06; box-shadow: 0 12px 26px -12px rgba(168,118,15,0.8); }
+
+/* ---------- BIA — Inteligência Artificial band ---------- */
+.bia-band { background: linear-gradient(125deg, #060b1f 0%, #0d1b46 42%, #1b3a8c 78%, #2563b0 100%); position: relative; overflow: hidden; }
+.bia-band::before { content: ""; position: absolute; top: -30%; right: -10%; width: 60%; height: 130%; background: radial-gradient(circle, rgba(56,189,248,0.28), transparent 65%); pointer-events: none; }
+.bia-band::after { content: ""; position: absolute; left: -8%; bottom: -40%; width: 50%; height: 120%; background: radial-gradient(circle, rgba(139,92,246,0.26), transparent 65%); pointer-events: none; }
+.bia-grid { align-items: center; gap: 48px; position: relative; z-index: 1; }
+.bia-badge { display: inline-flex; align-items: center; gap: 9px; background: rgba(56,189,248,0.14); border: 1px solid rgba(56,189,248,0.4); color: #bae6fd; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.04em; padding: 8px 16px; border-radius: 999px; text-transform: uppercase; }
+.bia-badge svg { width: 16px; height: 16px; }
+.bia-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #38bdf8; box-shadow: 0 0 0 0 rgba(56,189,248,0.7); animation: biapulse 2s infinite; }
+@keyframes biapulse { 0% { box-shadow: 0 0 0 0 rgba(56,189,248,0.6); } 70% { box-shadow: 0 0 0 10px rgba(56,189,248,0); } 100% { box-shadow: 0 0 0 0 rgba(56,189,248,0); } }
+.bia-copy h2 { font-size: clamp(1.9rem, 4.6vw, 3.2rem); line-height: 1.04; margin: 18px 0 8px; color: #fff; overflow-wrap: break-word; }
+.bia-copy h2 .grad { background: linear-gradient(90deg, #67e8f9, #a78bfa); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.bia-copy .tagline { font-family: 'Fraunces', serif; font-style: italic; font-size: clamp(1.15rem, 2.4vw, 1.5rem); color: #bae6fd; margin: 0 0 18px; }
+.bia-copy .lead { font-size: 1.1rem; max-width: 560px; color: rgba(226,232,240,0.9); }
+.bia-when { display: inline-flex; align-items: center; gap: 12px; margin: 26px 0 24px; padding: 14px 22px; border-radius: 16px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.16); }
+.bia-when .cal { width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; background: linear-gradient(135deg, #38bdf8, #818cf8); color: #06122e; flex-shrink: 0; }
+.bia-when .cal svg { width: 24px; height: 24px; }
+.bia-when .lbl { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.14em; color: rgba(186,230,253,0.8); font-weight: 700; }
+.bia-when .val { font-family: 'Fraunces', serif; font-size: 1.35rem; color: #fff; line-height: 1.1; }
+.bia-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.btn-cyan { background: linear-gradient(135deg, #38bdf8, #818cf8); color: #06122e; font-weight: 700; box-shadow: 0 16px 34px -14px rgba(56,189,248,0.8); }
+.btn-cyan:hover { transform: translateY(-2px); box-shadow: 0 20px 40px -14px rgba(56,189,248,0.9); }
+
+/* AI icon grid visual */
+.bia-art { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.bia-tile { aspect-ratio: 1; border-radius: 20px; display: grid; place-items: center; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.14); position: relative; overflow: hidden; transition: transform 0.5s ease, background 0.5s ease; }
+.bia-tile:hover { transform: translateY(-6px); background: rgba(255,255,255,0.09); }
+.bia-tile svg { width: 46%; height: 46%; color: #bae6fd; stroke-width: 1.4; filter: drop-shadow(0 6px 16px rgba(56,189,248,0.4)); }
+.bia-tile--accent { background: linear-gradient(135deg, rgba(56,189,248,0.22), rgba(139,92,246,0.22)); }
+.bia-tile--accent svg { color: #fff; }
+
+@media (max-width: 880px) {
+  .uni-brand { margin-bottom: 12px; }
+  .uni-brand-tags { position: static; transform: none; margin-top: 18px; justify-content: center; flex-wrap: wrap; }
+  .bia-art { max-width: 360px; margin: 0 auto; }
+}

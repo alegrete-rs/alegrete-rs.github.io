@@ -102,6 +102,10 @@ Parceria**.
 - Ponte férrea sobre o Rio Ibirapuitã (`assets/img/ponte-ibirapuita.jpg`):
   foto de **olimpio_marcal**, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ponte_f%C3%A9rrea_dobre_o_rio_Ibirapuit%C3%A3_-_panoramio.jpg),
   licença [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- Bandeira da Unipampa (`assets/logos/unipampa-bandeira.svg`):
+  identidade visual oficial da **Universidade Federal do Pampa** (Manual de Identidade Visual, 2013),
+  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandeira_da_Unipampa_-_Universidade_Federal_do_Pampa.svg),
+  domínio público.
 
 ### Referências
 

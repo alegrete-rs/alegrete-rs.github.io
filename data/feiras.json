@@ -1,0 +1,110 @@
+[
+  {
+    "id": "agricultura-familiar",
+    "nome": "Feira da Agricultura Familiar",
+    "tipo": "semanal",
+    "local": {
+      "pt": "Espaço do Feirante, ao lado da UNIPAMPA · Zona Leste",
+      "es": "Espaço do Feirante, al lado de la UNIPAMPA · Zona Este",
+      "en": "Espaço do Feirante, next to UNIPAMPA · East Side"
+    },
+    "quando": {
+      "pt": "Sábados, das 8h às 12h",
+      "es": "Sábados, de 8h a 12h",
+      "en": "Saturdays, 8am–noon"
+    },
+    "descricao": {
+      "pt": "A tradicional feira dos produtores da agricultura familiar de Alegrete. Hortaliças fresquinhas, muitas cultivadas sem agrotóxicos, ao lado de pães, cucas, queijos coloniais e carne ovina, tudo direto de quem produz. Aceita Banricard e Cartão Feira.",
+      "es": "La tradicional feria de los productores de la agricultura familiar de Alegrete. Verduras frescas, muchas cultivadas sin agrotóxicos, junto a panes, cucas, quesos coloniales y carne ovina, todo directo de quien produce. Acepta Banricard y Cartão Feira.",
+      "en": "Alegrete's traditional family-farming producers' market. Fresh vegetables, many grown without pesticides, alongside breads, cucas, colonial cheeses and lamb, all straight from the people who grow it. Accepts Banricard and Cartão Feira."
+    },
+    "produtos": {
+      "pt": ["Hortaliças", "Frutas", "Pães & cucas", "Queijos coloniais", "Ovos", "Mel", "Carne ovina"],
+      "es": ["Verduras", "Frutas", "Panes & cucas", "Quesos coloniales", "Huevos", "Miel", "Carne ovina"],
+      "en": ["Vegetables", "Fruit", "Breads & cucas", "Colonial cheeses", "Eggs", "Honey", "Lamb"]
+    },
+    "rota": "Universidade Federal do Pampa, Alegrete RS",
+    "confirmado": true
+  },
+  {
+    "id": "brique-da-praca",
+    "nome": "Brique da Praça",
+    "tipo": "semanal",
+    "local": {
+      "pt": "Praça Getúlio Vargas · Centro",
+      "es": "Plaza Getúlio Vargas · Centro",
+      "en": "Getúlio Vargas Square · Downtown"
+    },
+    "quando": {
+      "pt": "Tradicionalmente aos sábados pela manhã",
+      "es": "Tradicionalmente los sábados por la mañana",
+      "en": "Traditionally on Saturday mornings"
+    },
+    "descricao": {
+      "pt": "No coração do Centro, o tradicional brique reúne dezenas de expositores: bancas de hortifrúti e produtos coloniais convivem com artesanato local, brechós, antiguidades e opções de comida. Um passeio de fim de semana que movimenta a economia local.",
+      "es": "En el corazón del Centro, el tradicional brique reúne decenas de expositores: puestos de hortifruti y productos coloniales conviven con artesanía local, ropa de segunda mano, antigüedades y opciones de comida. Un paseo de fin de semana que mueve la economía local.",
+      "en": "In the heart of downtown, the traditional flea-and-produce market gathers dozens of stalls: fresh produce and colonial products mix with local crafts, vintage clothing, antiques and food options. A weekend outing that powers the local economy."
+    },
+    "produtos": {
+      "pt": ["Hortifrúti", "Produtos coloniais", "Artesanato", "Brechó", "Antiguidades", "Gastronomia"],
+      "es": ["Hortifruti", "Productos coloniales", "Artesanía", "Ropa usada", "Antigüedades", "Gastronomía"],
+      "en": ["Fresh produce", "Colonial products", "Crafts", "Vintage", "Antiques", "Food"]
+    },
+    "rota": "Praça Getúlio Vargas, Alegrete RS",
+    "confirmado": false
+  },
+  {
+    "id": "feira-do-peixe",
+    "nome": "Feira do Peixe",
+    "tipo": "sazonal",
+    "local": {
+      "pt": "Espaço do Feirante, ao lado da UNIPAMPA · Zona Leste",
+      "es": "Espaço do Feirante, al lado de la UNIPAMPA · Zona Este",
+      "en": "Espaço do Feirante, next to UNIPAMPA · East Side"
+    },
+    "quando": {
+      "pt": "Edições especiais, com destaque para a Semana Santa",
+      "es": "Ediciones especiales, en especial la Semana Santa",
+      "en": "Special editions, notably during Holy Week"
+    },
+    "descricao": {
+      "pt": "Em datas especiais, os produtores familiares, em especial do assentamento Santa Maria do Ibicuí, levam à feira centenas de quilos de peixe fresco como carpa, piava, tilápia e traíra, ao lado de pães, cucas, doces e queijos.",
+      "es": "En fechas especiales, los productores familiares, en especial del asentamiento Santa Maria do Ibicuí, llevan a la feria cientos de kilos de pescado fresco como carpa, piava, tilapia y traíra, junto a panes, cucas, dulces y quesos.",
+      "en": "On special dates, family producers, notably from the Santa Maria do Ibicuí settlement, bring hundreds of kilos of fresh fish such as carp, piava, tilapia and traíra, alongside breads, cucas, sweets and cheeses."
+    },
+    "produtos": {
+      "pt": ["Peixe fresco", "Pães & cucas", "Doces", "Queijos coloniais"],
+      "es": ["Pescado fresco", "Panes & cucas", "Dulces", "Quesos coloniales"],
+      "en": ["Fresh fish", "Breads & cucas", "Sweets", "Colonial cheeses"]
+    },
+    "rota": "Universidade Federal do Pampa, Alegrete RS",
+    "confirmado": false
+  },
+  {
+    "id": "espaco-do-feirante",
+    "nome": "Espaço do Feirante",
+    "tipo": "permanente",
+    "local": {
+      "pt": "Ao lado da UNIPAMPA · Zona Leste",
+      "es": "Al lado de la UNIPAMPA · Zona Este",
+      "en": "Next to UNIPAMPA · East Side"
+    },
+    "quando": {
+      "pt": "Estrutura fixa da Prefeitura que sedia as feiras dos produtores",
+      "es": "Estructura fija del municipio que alberga las ferias de los productores",
+      "en": "Permanent municipal structure that hosts the producers' markets"
+    },
+    "descricao": {
+      "pt": "É o endereço fixo das feiras de Alegrete: uma estrutura coberta, organizada pela Secretaria de Agricultura e Pecuária, onde os produtores familiares têm ponto garantido para vender hortifrúti e produtos coloniais direto ao consumidor.",
+      "es": "Es la dirección fija de las ferias de Alegrete: una estructura cubierta, organizada por la Secretaría de Agricultura y Ganadería, donde los productores familiares tienen un punto garantizado para vender hortifruti y productos coloniales directo al consumidor.",
+      "en": "The permanent home of Alegrete's markets: a covered structure run by the Department of Agriculture and Livestock, where family producers have a guaranteed spot to sell fresh produce and colonial products straight to the public."
+    },
+    "produtos": {
+      "pt": ["Hortifrúti", "Produtos coloniais", "Produção familiar"],
+      "es": ["Hortifruti", "Productos coloniales", "Producción familiar"],
+      "en": ["Fresh produce", "Colonial products", "Family farming"]
+    },
+    "rota": "Universidade Federal do Pampa, Alegrete RS",
+    "confirmado": false
+  }
+]

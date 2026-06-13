@@ -68,6 +68,23 @@
     </div>
   </section>
 
+  <!-- Feiras de produtos frescos -->
+  <section class="section" id="feiras">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" style="color:var(--green)" data-i18n="feiras_pre">Direto do produtor</span>
+        <h2 data-i18n="feiras_h">Feiras de produtos frescos</h2>
+        <p data-i18n="feiras_p">Hortaliças, queijos, cucas e mel direto de quem produz. As feiras de Alegrete aproximam o consumidor da agricultura familiar, com preço justo, alimento fresco e a economia girando na cidade.</p>
+      </div>
+      <div class="grid grid-3" id="feirasList"></div>
+      <p class="muted reveal" style="margin-top:22px;font-size:0.9rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="feiras_note">Dias e horários podem mudar a cada edição, confirme nos canais oficiais da Prefeitura e da Secretaria de Agricultura.</span></p>
+      <div class="callout reveal" style="margin-top:26px;">
+        <h4><i data-lucide="sprout"></i> <span data-i18n="feiras_take_h">Compre de quem produz</span></h4>
+        <p data-i18n="feiras_take_p">Levar um queijo colonial, uma cuca ou um pote de mel da feira é apoiar diretamente as famílias do campo de Alegrete, e levar para casa o sabor verdadeiro do Pampa.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Linguiça agroindustries -->
   <section class="section section--paper2">
     <div class="wrap">
@@ -99,6 +116,53 @@
         categories: ['agroindustria']
       });
     });
+
+    /* Feiras de produtos frescos (schedule-driven, data/feiras.json) */
+    function renderFeiras() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const pick = (o) => (o && (o[lang] || o.pt)) || '';
+      const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g,
+        (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      const TIPO = {
+        semanal:    { chip: 'green', icon: 'calendar-days' },
+        mensal:     { chip: 'teal',  icon: 'calendar-clock' },
+        sazonal:    { chip: 'gold',  icon: 'calendar-heart' },
+        permanente: { chip: 'navy',  icon: 'store' }
+      };
+      fetch('data/feiras.json').then((r) => r.json()).then((list) => {
+        const el = document.getElementById('feirasList');
+        if (!el) return;
+        el.innerHTML = list.map((f, i) => {
+          const t = TIPO[f.tipo] || TIPO.semanal;
+          const tipoLabel = window.t('feira_tipo_' + f.tipo, f.tipo);
+          const produtos = (f.produtos && (f.produtos[lang] || f.produtos.pt)) || [];
+          const prodChips = produtos.map((p) => `<span>${esc(p)}</span>`).join('');
+          const rota = f.rota ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.rota)}` : '';
+          const unconf = f.confirmado === false
+            ? `<span class="badge-unconfirmed"><i data-lucide="alert-circle" style="width:12px;height:12px"></i>${window.t('to_confirm', 'A confirmar')}</span>`
+            : '';
+          return `
+            <article class="card reveal" data-delay="${(i % 3) * 70}">
+              <div class="card-body">
+                <span class="chip ${t.chip}"><i data-lucide="${t.icon}" style="width:13px;height:13px"></i>${esc(tipoLabel)}</span>
+                <h3>${esc(f.nome)}</h3>
+                <p>${esc(pick(f.descricao))}</p>
+                ${prodChips ? `<div class="feira-tags">${prodChips}</div>` : ''}
+                ${unconf ? `<div>${unconf}</div>` : ''}
+                <div class="meta">
+                  <span class="row"><i data-lucide="calendar"></i>${esc(pick(f.quando))}</span>
+                  <span class="row"><i data-lucide="map-pin"></i>${esc(pick(f.local))}</span>
+                  ${rota ? `<a class="row" href="${rota}" target="_blank" rel="noopener"><i data-lucide="navigation"></i>${window.t('see_route', 'Ver rota')}</a>` : ''}
+                </div>
+              </div>
+            </article>`;
+        }).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      }).catch((e) => console.error('Falha ao carregar feiras', e));
+    }
+    document.addEventListener('core-ready', renderFeiras);
+    document.addEventListener('langchange', renderFeiras);
   </script>
 </body>
 </html>

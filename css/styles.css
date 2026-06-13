@@ -293,6 +293,11 @@ a { color: inherit; text-decoration: none; }
 .chip.teal  { background: rgba(20,163,149,0.14); color: #0d7a6f; }
 .chip.navy  { background: rgba(20,37,74,0.1); color: var(--navy); }
 
+/* Product tags + "to confirm" badge (used on the feiras cards) */
+.feira-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.feira-tags span { font-size: 0.74rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: rgba(47,143,91,0.1); color: var(--green); border: 1px solid rgba(47,143,91,0.18); }
+.badge-unconfirmed { display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 3px 9px; border-radius: 999px; background: rgba(239,177,58,0.16); color: #a9760f; }
+
 .meta { display: flex; flex-direction: column; gap: 7px; margin-top: auto; padding-top: 13px; border-top: 1px dashed var(--line); font-size: 0.87rem; color: var(--ink-soft); }
 .meta a { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-soft); transition: color .2s; }
 .meta a:hover { color: var(--red); }

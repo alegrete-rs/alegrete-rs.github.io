@@ -102,7 +102,7 @@
       meta.push(`<a class="row" href="https://instagram.com/${esc(handle)}" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>${esc(p.instagram)}</a>`);
     }
     if (p.website) meta.push(`<a class="row" href="${esc(p.website)}" target="_blank" rel="noopener"><i data-lucide="globe"></i>${window.t('site_visit', 'Site oficial')}</a>`);
-    if (p.categoria === 'hotel' || p.categoria === 'pousada' || p.categoria === 'camping') meta.push(`<a class="row" href="${mapsLink(p)}" target="_blank" rel="noopener"><i data-lucide="star"></i>${window.t('see_reviews', 'Ver avaliações')}</a>`);
+    if (p.categoria === 'hotel' || p.categoria === 'pousada' || p.categoria === 'camping' || p.categoria === 'imobiliaria') meta.push(`<a class="row" href="${mapsLink(p)}" target="_blank" rel="noopener"><i data-lucide="star"></i>${window.t('see_reviews', 'Ver avaliações')}</a>`);
     meta.push(`<a class="row" href="${mapsLink(p)}" target="_blank" rel="noopener"><i data-lucide="navigation"></i>${window.t('see_route', 'Ver rota')}</a>`);
 
     const unconfirmed = p.confirmado === false

@@ -106,6 +106,19 @@ Parceria**.
   identidade visual oficial da **Universidade Federal do Pampa** (Manual de Identidade Visual, 2013),
   via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandeira_da_Unipampa_-_Universidade_Federal_do_Pampa.svg),
   domínio público.
+- Desfile de 20 de Setembro em Alegrete (`assets/img/desfile-farroupilha.jpg`):
+  foto de **Editorial J** (Porto Alegre), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Desfile_do_20_de_Setembro_de_Alegrete_(15359947891).jpg),
+  licença [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- Cavaleiros no desfile de 20 de Setembro em Alegrete (`assets/img/campereada-cavaleiros.jpg`):
+  foto de **Editorial J** (Porto Alegre), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Desfile_do_20_de_Setembro_de_Alegrete_(15340105716).jpg),
+  licença [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- Museu Oswaldo Aranha (`assets/img/museu-oswaldo-aranha.jpg`):
+  foto de **Marcio Poitevin**, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Museu_Oswaldo_Aranha_-_Pra%C3%A7a_Get%C3%BAlio_Vargas,_585.jpg),
+  licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- EICAPAMPA · Caiaques do Pampa no Rio Ibirapuitã (`assets/img/eicapampa.jpg`):
+  foto da cobertura do 3º EICAPAMPA por **[Em Questão](https://emquestao.com.br/2025/11/18/mais-de-50-caiqueiros-remam-em-evento-de-aventura-no-rio-ibirapuita/)**, usada a título de divulgação do evento.
+- UKiosk · Quiosque da Praça (`assets/img/ukiosk.jpg`):
+  foto via **[Alegrete Tudo](https://www.alegretetudo.com.br/)** (acervo Quiosqueiros do Alegrete), usada a título de divulgação.
 
 ### Referências
 

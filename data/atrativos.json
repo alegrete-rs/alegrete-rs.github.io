@@ -79,7 +79,7 @@
     "id": "museu-oswaldo-aranha",
     "nome": "Museu Oswaldo Aranha",
     "cat": "historia",
-    "img": "",
+    "img": "museu-oswaldo-aranha",
     "local": "Praça Getúlio Vargas, 123",
     "visita": {
       "pt": "Agendar no CAT · visita 8h–12h",
@@ -155,7 +155,7 @@
     "id": "ukiosk",
     "nome": "UKiosk · Quiosque da Praça",
     "cat": "lazer",
-    "img": "praca-getulio",
+    "img": "ukiosk",
     "local": "Praça Getúlio Vargas",
     "visita": {
       "pt": "Aberto ao público",
@@ -504,6 +504,110 @@
       "pt": "Tradicional fazenda gaúcha transformada em museu a céu aberto: arquitetura e acervo preservados segundo a tradição, trilha até uma cascata e almoço campeiro com comida regional. Já foi tema do programa Grandes Fazendas (Canal Rural) e tem trilha mapeada no Wikiloc.",
       "es": "Tradicional estancia gaucha convertida en museo a cielo abierto: arquitectura y acervo preservados según la tradición, sendero hasta una cascada y almuerzo campero con comida regional. Fue tema del programa Grandes Fazendas (Canal Rural) y tiene sendero mapeado en Wikiloc.",
       "en": "A traditional gaúcho farm turned open-air museum: architecture and collection preserved in keeping with tradition, a trail to a waterfall and a country lunch with regional food. Featured on the Grandes Fazendas show (Canal Rural), with a trail mapped on Wikiloc."
+    }
+  },
+  {
+    "id": "pia-de-estancia",
+    "nome": "Piá de Estância",
+    "cat": "historia",
+    "img": "",
+    "local": "Praça Nova (Praça da Juventude)",
+    "visita": {
+      "pt": "Visitação livre",
+      "es": "Visita libre",
+      "en": "Free visit"
+    },
+    "desc": {
+      "pt": "Monumento que homenageia o piá — a criança da estância — e a vida campeira que forjou Alegrete. Um dos cartões-postais da cidade, celebra a infância no Pampa e a herança gaúcha passada de geração em geração.",
+      "es": "Monumento que homenajea al piá — el niño de la estancia — y la vida campera que forjó Alegrete. Uno de los postales de la ciudad, celebra la infancia en la Pampa y la herencia gaucha.",
+      "en": "A monument honoring the piá — the ranch child — and the country life that shaped Alegrete. One of the city's postcards, it celebrates childhood in the Pampa and the gaúcho heritage passed down through generations."
+    },
+    "lat": -29.8009,
+    "lng": -55.7633
+  },
+  {
+    "id": "lagoa-parove",
+    "nome": "Lagoa do Parové",
+    "cat": "natureza",
+    "img": "",
+    "local": "Zona rural de Alegrete",
+    "visita": {
+      "pt": "Atrativo natural · acesso rural",
+      "es": "Atractivo natural · acceso rural",
+      "en": "Natural attraction · rural access"
+    },
+    "desc": {
+      "pt": "Lago natural de cerca de 1.100 m por 500 m, formado nas escavações naturais de um coxilhão. A lenda guarani conta que suas águas nasceram das lágrimas de Panaim, embalando histórias de amor e mistério do Pampa.",
+      "es": "Lago natural de unos 1.100 m por 500 m, formado en las excavaciones naturales de una colina. La leyenda guaraní cuenta que sus aguas nacieron de las lágrimas de Panaim, entre historias de amor y misterio de la Pampa.",
+      "en": "A natural lake roughly 1,100 m by 500 m, formed in the natural hollows of a rolling hill. Guarani legend says its waters were born from the tears of Panaim, carrying stories of love and mystery from the Pampa."
+    }
+  },
+  {
+    "id": "ilha-dos-milanos",
+    "nome": "Ilha dos Milanos",
+    "cat": "natureza",
+    "img": "",
+    "local": "Reserva ecológica · zona rural",
+    "visita": {
+      "pt": "Reserva ecológica · visitação restrita",
+      "es": "Reserva ecológica · visita restringida",
+      "en": "Ecological reserve · restricted access"
+    },
+    "desc": {
+      "pt": "Reserva ecológica de grande importância para o equilíbrio ambiental da região. Abriga diversas espécies de flora e fauna e é um dos últimos refúgios do bugio, do jacaré-de-papo-amarelo, da lontra, da ariranha, do veado e de muitas aves.",
+      "es": "Reserva ecológica de gran importancia para el equilibrio ambiental de la región. Alberga diversas especies de flora y fauna y es uno de los últimos refugios del mono aullador, el yacaré, la nutria, el lobo gargantilla, el venado y muchas aves.",
+      "en": "An ecological reserve of great importance to the region's environmental balance. It shelters diverse flora and fauna and is one of the last refuges of the howler monkey, broad-snouted caiman, otter, giant otter, deer and many birds."
+    }
+  },
+  {
+    "id": "balneario-cavera",
+    "nome": "Balneário Caverá",
+    "cat": "natureza",
+    "img": "",
+    "local": "Rio Caverá · ~7 km do centro",
+    "visita": {
+      "pt": "Banho · alta temporada de verão",
+      "es": "Baño · temporada de verano",
+      "en": "Swimming · summer season"
+    },
+    "desc": {
+      "pt": "Balneário às margens do Rio Caverá, a cerca de 7 km do centro, listado entre os pontos próprios para banho do Rio Grande do Sul. Ponto tradicional de lazer dos alegretenses no verão, em meio à paisagem natural do Pampa.",
+      "es": "Balneario a orillas del Río Caverá, a unos 7 km del centro, entre los puntos aptos para baño de Rio Grande do Sul. Punto tradicional de ocio de los alegretenses en verano, en medio del paisaje natural de la Pampa.",
+      "en": "A bathing spot on the banks of the Caverá River, about 7 km from downtown, listed among Rio Grande do Sul's waters suitable for swimming. A traditional summer leisure spot amid the natural Pampa landscape."
+    }
+  },
+  {
+    "id": "balneario-boiao",
+    "nome": "Balneário do Boião",
+    "cat": "natureza",
+    "img": "",
+    "local": "Zona rural de Alegrete",
+    "visita": {
+      "pt": "Banho e camping · estrutura simples",
+      "es": "Baño y camping · estructura simple",
+      "en": "Swimming and camping · basic facilities"
+    },
+    "desc": {
+      "pt": "Recanto natural de rara beleza, próprio para o verão e para acampar. Com infraestrutura simples, é procurado por quem busca banho, sossego e contato direto com a natureza do Pampa.",
+      "es": "Rincón natural de rara belleza, ideal para el verano y para acampar. Con infraestructura simple, es buscado por quienes desean baño, tranquilidad y contacto directo con la naturaleza de la Pampa.",
+      "en": "A natural spot of rare beauty, ideal for summer and camping. With basic facilities, it draws those seeking a swim, quiet and direct contact with the Pampa's nature."
+    }
+  },
+  {
+    "id": "ponte-de-pedra-tigre",
+    "nome": "Ponte de Pedra do Tigre",
+    "cat": "natureza",
+    "img": "",
+    "local": "Cerro do Tigre · 2º distrito",
+    "visita": {
+      "pt": "Marco histórico-natural · acesso difícil",
+      "es": "Hito histórico-natural · acceso difícil",
+      "en": "Historic natural landmark · hard access"
+    },
+    "desc": {
+      "pt": "Formação rochosa em forma de ponte natural, esculpida por milênios de erosão no Cerro do Tigre. Media cerca de 40 m de comprimento sobre uma cratera de 15 m de altura. Em maio de 2021 a ponte desabou por erosão natural; o local, porém, segue visitado pela beleza da paisagem e pela memória que carrega na cultura alegretense.",
+      "es": "Formación rocosa con forma de puente natural, esculpida por milenios de erosión en el Cerro do Tigre. Medía unos 40 m de longitud sobre un cráter de 15 m de altura. En mayo de 2021 el puente se derrumbó por erosión natural; el lugar, sin embargo, sigue siendo visitado por la belleza del paisaje y por la memoria que guarda en la cultura local.",
+      "en": "A rock formation shaped like a natural bridge, sculpted by millennia of erosion at Cerro do Tigre. It spanned about 40 m over a 15 m-high crater. In May 2021 the bridge collapsed through natural erosion; the site, however, is still visited for the beauty of its landscape and the place it holds in Alegrete's culture."
     }
   }
 ]

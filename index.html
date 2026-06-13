@@ -305,7 +305,7 @@
         const featured = ['festival-linguica', 'semana-farroupilha', 'campereada', 'efipan', 'eicapampa', 'feira-livro'];
         const order = id => { const i = featured.indexOf(id); return i === -1 ? 99 : i; };
         const items = list.filter(e => featured.includes(e.id)).sort((a,b)=>order(a.id)-order(b.id)).slice(0,6);
-        const img = { 'festival-linguica':'festival-linguica', 'semana-farroupilha':'campereada', 'campereada':'campereada', 'efipan':'estadio', 'eicapampa':'caminho-pampa', 'feira-livro':'danca-alegre' };
+        const img = { 'festival-linguica':'festival-linguica', 'semana-farroupilha':'desfile-farroupilha', 'campereada':'campereada-cavaleiros', 'efipan':'estadio', 'eicapampa':'eicapampa', 'feira-livro':'danca-alegre' };
         const el = document.getElementById('eventsPreview');
         if (!el) return;
         el.innerHTML = items.map((e, i) => `

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divulgações · Alegrete | Um baita destino</title>
+  <meta name="description" content="Divulgações de Alegrete: palestras, eventos e campanhas. Confira a palestra FitoPampa: Da Planta ao Bioinsumo, sobre os óleos essenciais do Bioma Pampa." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_divulgacoes">Divulgações</span></div>
+      <h1 data-i18n="divulg_h">Divulgações</h1>
+      <p class="lead" data-i18n="divulg_lead">Palestras, eventos e campanhas de Alegrete e região. Fique por dentro do que está acontecendo e participe.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:1000px;">
+      <div class="divulg-list" id="divulgList"></div>
+      <p class="muted reveal" id="divulgEmpty" style="display:none;text-align:center;margin-top:24px;">
+        <i data-lucide="megaphone" style="width:16px;height:16px;vertical-align:-3px"></i>
+        <span data-i18n="divulg_empty">Nenhuma divulgação no momento. Volte em breve!</span>
+      </p>
+      <p class="muted reveal" style="margin-top:28px;font-size:0.9rem;">
+        <i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i>
+        <span data-i18n="divulg_note">Datas e horários podem mudar, confirme sempre nos canais oficiais dos organizadores.</span>
+      </p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    function renderDivulgacoes() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const pick = (o) => (o == null ? '' : (typeof o === 'string' ? o : (o[lang] || o.pt || '')));
+      const list = document.getElementById('divulgList');
+      const empty = document.getElementById('divulgEmpty');
+      if (!list) return;
+
+      fetch('data/divulgacoes.json').then(r => r.json()).then(items => {
+        if (!Array.isArray(items) || items.length === 0) {
+          list.innerHTML = '';
+          if (empty) empty.style.display = '';
+          return;
+        }
+        if (empty) empty.style.display = 'none';
+
+        // Upcoming first (by date), then most recent past
+        const today = new Date(); today.setHours(0, 0, 0, 0);
+        items.sort((a, b) => new Date(a.dataISO || 0) - new Date(b.dataISO || 0));
+
+        list.innerHTML = items.map((d, i) => {
+          const isPast = d.dataISO && new Date(d.dataISO) < today;
+          const status = isPast
+            ? `<span class="divulg-status past"><i data-lucide="check-circle-2"></i>${window.t('divulg_past', 'Realizado')}</span>`
+            : `<span class="divulg-status soon"><i data-lucide="megaphone"></i>${window.t('divulg_soon', 'Em breve')}</span>`;
+          const tags = pick(d.tags);
+          const tagsHtml = Array.isArray(tags) && tags.length
+            ? `<div class="divulg-tags">${tags.map(t => `<span class="chip green">${t}</span>`).join('')}</div>`
+            : '';
+          const body = pick(d.corpo);
+          const bodyHtml = Array.isArray(body)
+            ? body.map(p => `<p>${p}</p>`).join('')
+            : (body ? `<p>${body}</p>` : '');
+
+          const meta = [];
+          if (d.quando) meta.push(['calendar-days', pick(d.quando)]);
+          if (d.horario) meta.push(['clock', pick(d.horario)]);
+          if (d.local) meta.push(['map-pin', pick(d.local)]);
+          if (d.palestrante) meta.push(['user-round', pick(d.palestrante)]);
+          const metaHtml = meta.map(([icon, val]) =>
+            `<li><i data-lucide="${icon}"></i><span>${val}</span></li>`).join('');
+
+          const subtitle = pick(d.subtitulo);
+          const theme = pick(d.tema);
+          const program = pick(d.programa);
+
+          return `
+          <article class="divulg-card reveal" id="${d.slug || ''}" data-delay="${(i % 3) * 80}">
+            <a class="divulg-poster" href="${d.imagem}" target="_blank" rel="noopener" aria-label="${pick(d.imagemAlt)}">
+              <img src="${d.imagem}" alt="${pick(d.imagemAlt)}" loading="lazy" />
+              <span class="divulg-zoom"><i data-lucide="maximize-2"></i></span>
+            </a>
+            <div class="divulg-body">
+              <div class="divulg-toprow">
+                <span class="eyebrow">${pick(d.tipo)}</span>
+                ${status}
+              </div>
+              ${program ? `<p class="divulg-program">${program}</p>` : ''}
+              <h2 class="divulg-title">${d.titulo}</h2>
+              ${subtitle ? `<p class="divulg-sub">${subtitle}</p>` : ''}
+              ${theme ? `<p class="divulg-theme"><i data-lucide="sprout"></i>${theme}</p>` : ''}
+              ${metaHtml ? `<ul class="divulg-meta">${metaHtml}</ul>` : ''}
+              <div class="divulg-text">${bodyHtml}</div>
+              ${tagsHtml}
+            </div>
+          </article>`;
+        }).join('');
+
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(list);
+      }).catch(err => {
+        console.error('Falha ao carregar divulgações', err);
+        if (empty) { empty.style.display = ''; }
+      });
+    }
+
+    document.addEventListener('core-ready', renderDivulgacoes);
+    document.addEventListener('langchange', renderDivulgacoes);
+  </script>
+</body>
+</html>

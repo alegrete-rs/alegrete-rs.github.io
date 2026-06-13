@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "palestra-fitopampa",
+    "destaque": true,
+    "tipo": { "pt": "Palestra", "es": "Charla", "en": "Talk" },
+    "programa": {
+      "pt": "Programa Municipal de Turismo Rural e Agroturismo de Alegrete-RS",
+      "es": "Programa Municipal de Turismo Rural y Agroturismo de Alegrete-RS",
+      "en": "Alegrete Municipal Rural Tourism & Agritourism Program"
+    },
+    "titulo": "FitoPampa: Da Planta ao Bioinsumo",
+    "subtitulo": {
+      "pt": "Inovação para Agricultores e Pecuaristas",
+      "es": "Innovación para Agricultores y Ganaderos",
+      "en": "Innovation for Farmers and Ranchers"
+    },
+    "tema": {
+      "pt": "Os óleos essenciais do Bioma Pampa",
+      "es": "Los aceites esenciales del Bioma Pampa",
+      "en": "Essential oils of the Pampa Biome"
+    },
+    "imagem": "assets/divulgacoes/fitopampa.jpg",
+    "imagemAlt": {
+      "pt": "Folder da palestra FitoPampa: Da Planta ao Bioinsumo, com a palestrante e plantas nativas do Pampa",
+      "es": "Folleto de la charla FitoPampa: De la Planta al Bioinsumo, con la disertante y plantas nativas del Pampa",
+      "en": "Flyer for the FitoPampa lecture: From Plant to Bioinput, featuring the speaker and native Pampa plants"
+    },
+    "dataISO": "2026-06-15",
+    "quando": {
+      "pt": "15 de junho de 2026 · segunda-feira",
+      "es": "15 de junio de 2026 · lunes",
+      "en": "June 15, 2026 · Monday"
+    },
+    "horario": {
+      "pt": "15h · integrada à pauta da reunião do COMTUR",
+      "es": "15h · integrada al orden del día de la reunión del COMTUR",
+      "en": "3 PM · part of the COMTUR meeting agenda"
+    },
+    "local": "CTG Farroupilha · Oficina de Pátria",
+    "palestrante": {
+      "pt": "Eng.ª Agr.ª Dr.ª Adriana Carla Dias Trevisan · Professora da Universidade Estadual do Rio Grande do Sul (UERGS), campus Santana do Livramento-RS",
+      "es": "Ing.ª Agr.ª Dra. Adriana Carla Dias Trevisan · Profesora de la Universidad Estatal de Rio Grande do Sul (UERGS), campus Santana do Livramento-RS",
+      "en": "Agr. Eng. Dr. Adriana Carla Dias Trevisan · Professor at the State University of Rio Grande do Sul (UERGS), Santana do Livramento-RS campus"
+    },
+    "corpo": {
+      "pt": [
+        "Uma oportunidade para conhecer o potencial das espécies nativas do Bioma Pampa e suas aplicações na produção de bioinsumos, agregando inovação, sustentabilidade e novas alternativas para agricultores e pecuaristas.",
+        "Artesãos, produtores e empreendedores que trabalham com plantas, óleos essenciais, essências, aromas e produtos naturais têm presença muito importante neste evento. Será abordado o potencial de extração de óleos essenciais de plantas do Bioma Pampa, bem como as possibilidades de transformação dessas matérias-primas em produtos agroindustrializados, agregando valor à produção local e abrindo novas oportunidades de negócios, inovação e desenvolvimento sustentável."
+      ],
+      "es": [
+        "Una oportunidad para conocer el potencial de las especies nativas del Bioma Pampa y sus aplicaciones en la producción de bioinsumos, sumando innovación, sostenibilidad y nuevas alternativas para agricultores y ganaderos.",
+        "Artesanos, productores y emprendedores que trabajan con plantas, aceites esenciales, esencias, aromas y productos naturales tienen una presencia muy importante en este evento. Se abordará el potencial de extracción de aceites esenciales de plantas del Bioma Pampa, así como las posibilidades de transformar esas materias primas en productos agroindustrializados, agregando valor a la producción local y abriendo nuevas oportunidades de negocio, innovación y desarrollo sostenible."
+      ],
+      "en": [
+        "A chance to discover the potential of the Pampa Biome's native species and their applications in producing bioinputs, bringing innovation, sustainability and new alternatives for farmers and ranchers.",
+        "Artisans, producers and entrepreneurs working with plants, essential oils, essences, aromas and natural products play an important role at this event. It will cover the potential for extracting essential oils from Pampa Biome plants, as well as the possibilities of transforming these raw materials into agro-industrial products, adding value to local production and opening new opportunities for business, innovation and sustainable development."
+      ]
+    },
+    "tags": {
+      "pt": ["Turismo Rural", "Bioinsumos", "Óleos essenciais", "Bioma Pampa", "Agroindústria"],
+      "es": ["Turismo Rural", "Bioinsumos", "Aceites esenciales", "Bioma Pampa", "Agroindustria"],
+      "en": ["Rural Tourism", "Bioinputs", "Essential oils", "Pampa Biome", "Agro-industry"]
+    }
+  }
+]

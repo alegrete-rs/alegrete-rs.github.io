@@ -377,5 +377,13 @@
   "getting_agencies_pre": "Planee con quien es de aquí",
   "getting_agencies_h": "Agencias de turismo",
   "getting_agencies_p": "Las agencias locales ayudan a armar itinerarios, reservar pasajes y organizar paseos por la Frontera Oeste y más allá.",
-  "exp_tradicoes_d": "Centros de Tradiciones Gauchas, piquetes y el alma farroupilha del Pampa."
+  "exp_tradicoes_d": "Centros de Tradiciones Gauchas, piquetes y el alma farroupilha del Pampa.",
+  "nav_divulgacoes": "Anuncios",
+  "exp_divulgacoes_d": "Charlas, eventos y campañas: lo que está pasando en Alegrete.",
+  "divulg_h": "Anuncios",
+  "divulg_lead": "Charlas, eventos y campañas de Alegrete y la región. Mantente al tanto de lo que ocurre y participa.",
+  "divulg_note": "Las fechas y los horarios pueden cambiar; confirma siempre en los canales oficiales de los organizadores.",
+  "divulg_empty": "No hay anuncios por ahora. ¡Vuelve pronto!",
+  "divulg_soon": "Próximamente",
+  "divulg_past": "Realizado"
 }

@@ -377,5 +377,13 @@
   "getting_agencies_pre": "Plan with the locals",
   "getting_agencies_h": "Travel agencies",
   "getting_agencies_p": "Local agencies help build itineraries, book tickets and organize tours across the Western Frontier and beyond.",
-  "exp_tradicoes_d": "Gaúcho Tradition Centers, piquetes and the Pampa's Farroupilha soul."
+  "exp_tradicoes_d": "Gaúcho Tradition Centers, piquetes and the Pampa's Farroupilha soul.",
+  "nav_divulgacoes": "Announcements",
+  "exp_divulgacoes_d": "Talks, events and campaigns: what's happening in Alegrete.",
+  "divulg_h": "Announcements",
+  "divulg_lead": "Talks, events and campaigns from Alegrete and the region. Stay up to date and take part.",
+  "divulg_note": "Dates and times may change; always confirm through the organizers' official channels.",
+  "divulg_empty": "No announcements right now. Check back soon!",
+  "divulg_soon": "Coming up",
+  "divulg_past": "Held"
 }

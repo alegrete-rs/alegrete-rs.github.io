@@ -61,5 +61,63 @@
       "es": ["Turismo Rural", "Bioinsumos", "Aceites esenciales", "Bioma Pampa", "Agroindustria"],
       "en": ["Rural Tourism", "Bioinputs", "Essential oils", "Pampa Biome", "Agro-industry"]
     }
+  },
+  {
+    "slug": "oficina-trabalho-em-equipe",
+    "destaque": false,
+    "tipo": { "pt": "Oficina", "es": "Taller", "en": "Workshop" },
+    "programa": {
+      "pt": "Programa Municipal de Turismo Rural e Agroturismo de Alegrete-RS",
+      "es": "Programa Municipal de Turismo Rural y Agroturismo de Alegrete-RS",
+      "en": "Alegrete Municipal Rural Tourism & Agritourism Program"
+    },
+    "titulo": "Trabalho em Equipe",
+    "subtitulo": {
+      "pt": "Entre relações, desafios e conexões",
+      "es": "Entre relaciones, desafíos y conexiones",
+      "en": "Among relationships, challenges and connections"
+    },
+    "imagem": "assets/divulgacoes/trabalho-em-equipe.jpg",
+    "imagemAlt": {
+      "pt": "Cartaz da oficina Trabalho em Equipe, com a instrutora psicóloga Bárbara Correia",
+      "es": "Cartel del taller Trabajo en Equipo, con la instructora psicóloga Bárbara Correia",
+      "en": "Poster for the Teamwork workshop, featuring instructor psychologist Bárbara Correia"
+    },
+    "dataISO": "2026-06-15",
+    "quando": {
+      "pt": "15 de junho de 2026 · segunda-feira",
+      "es": "15 de junio de 2026 · lunes",
+      "en": "June 15, 2026 · Monday"
+    },
+    "horario": {
+      "pt": "18h",
+      "es": "18h",
+      "en": "6 PM"
+    },
+    "local": "CTG Farroupilha · Oficina de Pátria",
+    "palestrante": {
+      "pt": "Instrutora: Psicóloga Bárbara Correia",
+      "es": "Instructora: Psicóloga Bárbara Correia",
+      "en": "Instructor: Psychologist Bárbara Correia"
+    },
+    "corpo": {
+      "pt": [
+        "Oficina voltada ao fortalecimento das relações interpessoais no ambiente de trabalho, abordando a importância da comunicação, da cooperação e da construção de conexões saudáveis para o desenvolvimento de equipes mais integradas, produtivas e eficientes. Público-alvo: participantes do Programa Municipal de Turismo Rural e Agroturismo.",
+        "Após a oficina, haverá jantar por adesão aos participantes, preparado pelo chefe de cozinha José Pedro Rosso Gomes, ao valor de R$ 15,00 por pessoa. Favor confirmar presença pelo WhatsApp (55) 99931-4771."
+      ],
+      "es": [
+        "Taller orientado al fortalecimiento de las relaciones interpersonales en el ambiente de trabajo, abordando la importancia de la comunicación, la cooperación y la construcción de conexiones saludables para el desarrollo de equipos más integrados, productivos y eficientes. Público destinatario: participantes del Programa Municipal de Turismo Rural y Agroturismo.",
+        "Tras el taller habrá una cena por adhesión para los participantes, preparada por el chef José Pedro Rosso Gomes, al valor de R$ 15,00 por persona. Por favor, confirme su asistencia por WhatsApp (55) 99931-4771."
+      ],
+      "en": [
+        "A workshop focused on strengthening interpersonal relationships in the workplace, addressing the importance of communication, cooperation and building healthy connections to develop more integrated, productive and efficient teams. Target audience: participants of the Municipal Rural Tourism & Agritourism Program.",
+        "After the workshop, participants can join an optional dinner prepared by chef José Pedro Rosso Gomes, priced at R$ 15.00 per person. Please confirm your attendance via WhatsApp (55) 99931-4771."
+      ]
+    },
+    "tags": {
+      "pt": ["Trabalho em equipe", "Comunicação", "Relações interpessoais", "Desenvolvimento de equipes"],
+      "es": ["Trabajo en equipo", "Comunicación", "Relaciones interpersonales", "Desarrollo de equipos"],
+      "en": ["Teamwork", "Communication", "Interpersonal skills", "Team development"]
+    }
   }
 ]

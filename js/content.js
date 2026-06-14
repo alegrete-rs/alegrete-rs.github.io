@@ -10,6 +10,7 @@
     restaurante: { icon: 'utensils-crossed', color: '#b5482b', label: 'cat_restaurante' },
     bar:         { icon: 'beer',             color: '#c98a2a', label: 'cat_bar' },
     cafe:        { icon: 'coffee',           color: '#8a5a2b', label: 'cat_cafe' },
+    padaria:     { icon: 'croissant',        color: '#c98a2a', label: 'cat_padaria' },
     hotel:       { icon: 'bed-double',       color: '#2f5a42', label: 'cat_hotel' },
     pousada:     { icon: 'home',             color: '#3f7355', label: 'cat_pousada' },
     camping:     { icon: 'tent',             color: '#3f7355', label: 'cat_camping' },
@@ -37,6 +38,7 @@
     imobiliaria: { icon: 'key-round',        color: '#5c6f8a', label: 'cat_imobiliaria' },
     // Tradição, sabores & serviços
     ctg:         { icon: 'flag',              color: '#2f5a42', label: 'cat_ctg' },
+    lojagaucha:  { icon: 'shirt',             color: '#7a4a2a', label: 'cat_lojagaucha' },
     agroindustria:{ icon: 'beef',             color: '#8a3b2b', label: 'cat_agroindustria' },
     agencia:     { icon: 'plane-takeoff',     color: '#2f6f8a', label: 'cat_agencia' },
   };

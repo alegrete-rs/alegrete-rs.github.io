@@ -51,6 +51,17 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="trad_lojas_pre">Pilchas e indumentária</span>
+        <h2 data-i18n="trad_lojas_h">Lojas de artigos gaúchos</h2>
+        <p data-i18n="trad_lojas_p">Onde encontrar pilchas, bombachas, chapéus, botas, arreios e tudo para se pilchar em Alegrete, das casas tradicionais às correarias de couro.</p>
+      </div>
+      <div class="grid grid-3" id="lojasList"></div>
+    </div>
+  </section>
+
   <div id="footer-slot"></div>
 
   <script>
@@ -58,6 +69,10 @@
       AlegreteContent.render({
         listId: 'ctgList',
         categories: ['ctg']
+      });
+      AlegreteContent.render({
+        listId: 'lojasList',
+        categories: ['lojagaucha']
       });
     });
   </script>

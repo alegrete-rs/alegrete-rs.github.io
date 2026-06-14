@@ -2045,6 +2045,203 @@
     "confirmado": true
   },
   {
+    "id": "loja-tradicao-do-gaucho",
+    "categoria": "lojagaucha",
+    "nome": "Loja Tradição do Gaúcho",
+    "descricao": {
+      "pt": "Loja tradicional de artigos gaúchos no centro de Alegrete: pilchas, bombachas, chapéus, botas, bombas, cuias e indumentária campeira.",
+      "es": "Tienda tradicional de artículos gauchos en el centro de Alegrete: pilchas, bombachas, sombreros, botas, bombillas, mates e indumentaria campera.",
+      "en": "Traditional gaúcho outfitter in downtown Alegrete: pilchas, bombachas, hats, boots, bombillas, mate gourds and country wear."
+    },
+    "endereco": "Avenida Assis Brasil, 180 - Centro",
+    "telefone": "+55 55 3422-1757",
+    "tags": [
+      "pilchas",
+      "artigos gauchos",
+      "tradicao"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "bolichao-do-gaucho",
+    "categoria": "lojagaucha",
+    "nome": "Bolichão do Gaúcho",
+    "descricao": {
+      "pt": "Casa de artigos campeiros com botas, bombachas, guaiacas, chapéus, laços, esporas, freios, cilhas, baixeiros e arreios completos.",
+      "es": "Casa de artículos camperos con botas, bombachas, guayacas, sombreros, lazos, espuelas, frenos, cinchas, bajeras y aperos completos.",
+      "en": "Country-gear shop with boots, bombachas, guaiacas, hats, lassos, spurs, bits, cinches, saddle pads and full horse tack."
+    },
+    "endereco": "Rua Venâncio Aires, 440",
+    "telefone": "+55 55 3422-1046",
+    "website": "https://bolichaodogaucho.blogspot.com/",
+    "tags": [
+      "artigos campeiros",
+      "arreios",
+      "pilchas"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "loja-baita-chao",
+    "categoria": "lojagaucha",
+    "nome": "Loja Baita Chão | Moda Gaúcha",
+    "descricao": {
+      "pt": "Moda gaúcha contemporânea: pilchas, bombachas, camisas, vestidos de prenda e acessórios para quem vive a tradição com estilo.",
+      "es": "Moda gaucha contemporánea: pilchas, bombachas, camisas, vestidos de prenda y accesorios para quien vive la tradición con estilo.",
+      "en": "Contemporary gaúcho fashion: pilchas, bombachas, shirts, prenda dresses and accessories for living the tradition in style."
+    },
+    "endereco": "Rua dos Andradas, 28 - Centro",
+    "telefone": "+55 55 99610-9912",
+    "instagram": "@lojabaitachao",
+    "tags": [
+      "moda gaucha",
+      "pilchas",
+      "prenda"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "correaria-bairros",
+    "categoria": "lojagaucha",
+    "nome": "Correaria Bairros",
+    "descricao": {
+      "pt": "Correaria tradicional de Alegrete: fabricação de botas, bastos, caronas, tiradores e arreios em couro, além de conserto de artigos campeiros.",
+      "es": "Correaría tradicional de Alegrete: fabricación de botas, bastos, caronas, tiradores y aperos en cuero, además de arreglo de artículos camperos.",
+      "en": "Traditional leather workshop in Alegrete: handmade boots, saddle trees, saddle pads, tiradores and leather tack, plus repairs of country gear."
+    },
+    "endereco": "Rua Professor Eduardo Faraco, 392 - Cidade Alta",
+    "telefone": "+55 55 99987-9369",
+    "tags": [
+      "correaria",
+      "couro",
+      "arreios"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "casa-do-gaucho-alegrete",
+    "categoria": "lojagaucha",
+    "nome": "Casa do Gaúcho",
+    "descricao": {
+      "pt": "Loja de artigos gaúchos e artesanato com pilchas, bombachas, chapéus, mates e presentes regionais; com filial na Rua dos Andradas.",
+      "es": "Tienda de artículos gauchos y artesanía con pilchas, bombachas, sombreros, mates y regalos regionales; con sucursal en la Rua dos Andradas.",
+      "en": "Gaúcho goods and handicraft store with pilchas, bombachas, hats, mate sets and regional gifts; branch on Rua dos Andradas."
+    },
+    "endereco": "Rua Duque de Caxias, 1895 - Centro",
+    "telefone": "+55 55 3412-5130",
+    "tags": [
+      "artigos gauchos",
+      "artesanato",
+      "pilchas"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "the-house-of-the-gaucho",
+    "categoria": "lojagaucha",
+    "nome": "The House of the Gaucho",
+    "descricao": {
+      "pt": "Loja de vestuário e artigos gaúchos em Alegrete, com pilchas e indumentária campeira para tradicionalistas e visitantes.",
+      "es": "Tienda de ropa y artículos gauchos en Alegrete, con pilchas e indumentaria campera para tradicionalistas y visitantes.",
+      "en": "Clothing and gaúcho-goods store in Alegrete, offering pilchas and country wear for traditionalists and visitors."
+    },
+    "endereco": "Alegrete - RS",
+    "tags": [
+      "artigos gauchos",
+      "vestuario",
+      "pilchas"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "padaria-do-nero",
+    "categoria": "padaria",
+    "nome": "Padaria do Nero",
+    "descricao": {
+      "pt": "Casa da lendária bolacha do Nero, a bolacha torrada que virou símbolo de Alegrete desde 1972. Tradição mantida por antigos padeiros, com pães, cucas e a receita campeira que conquistou a região.",
+      "es": "Hogar de la legendaria bolacha do Nero, la galleta tostada que es símbolo de Alegrete desde 1972. Tradición mantenida por antiguos panaderos, con panes, cucas y la receta campera que conquistó la región.",
+      "en": "Home of the legendary bolacha do Nero, the toasted biscuit that has been an Alegrete icon since 1972. The tradition is kept alive by former bakers, with breads, cucas and the country recipe that won over the region."
+    },
+    "endereco": "Rua dos Andradas, 217 - Centro",
+    "tags": [
+      "padaria",
+      "bolacha do nero",
+      "tradicao"
+    ],
+    "confirmado": false
+  },
+  {
+    "id": "padaria-rosariense",
+    "categoria": "padaria",
+    "nome": "Padaria Rosariense",
+    "descricao": {
+      "pt": "Uma das padarias mais queridas de Alegrete: pães fresquinhos, cucas, confeitaria, salgados e cafezinho, com unidades no Centro e na Cidade Alta.",
+      "es": "Una de las panaderías más queridas de Alegrete: panes fresquitos, cucas, repostería, salados y cafecito, con sucursales en el Centro y en la Cidade Alta.",
+      "en": "One of Alegrete's best-loved bakeries: fresh bread, cucas, pastries, savory snacks and coffee, with branches downtown and in Cidade Alta."
+    },
+    "endereco": "Avenida Assis Brasil, 810 - Centro",
+    "telefone": "+55 55 3422-3856",
+    "tags": [
+      "padaria",
+      "confeitaria",
+      "pao"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "padaria-alegretense",
+    "categoria": "padaria",
+    "nome": "Padaria Alegretense",
+    "descricao": {
+      "pt": "Padaria de bairro com pão quente todos os dias, cucas, doces e salgados para o café da manhã e da tarde do alegretense.",
+      "es": "Panadería de barrio con pan caliente todos los días, cucas, dulces y salados para el desayuno y la merienda del alegretense.",
+      "en": "Neighborhood bakery with fresh bread daily, cucas, sweets and savory snacks for breakfast and afternoon coffee in Alegrete."
+    },
+    "endereco": "Rua Ícaro Ferreira Costa, 296",
+    "telefone": "+55 55 3422-3895",
+    "tags": [
+      "padaria",
+      "pao",
+      "doces"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "padaria-canto-doce",
+    "categoria": "padaria",
+    "nome": "Padaria e Confeitaria Canto Doce",
+    "descricao": {
+      "pt": "Padaria e confeitaria no Centro com pães, bolos, tortas, doces finos e salgados feitos na hora para qualquer ocasião.",
+      "es": "Panadería y confitería en el Centro con panes, tortas, pasteles, dulces finos y salados hechos al momento para cualquier ocasión.",
+      "en": "Downtown bakery and confectionery with breads, cakes, pies, fine sweets and freshly made savory snacks for any occasion."
+    },
+    "endereco": "Rua General Sampaio, 131 - Centro",
+    "instagram": "@padariacantodoce",
+    "tags": [
+      "padaria",
+      "confeitaria",
+      "bolos"
+    ],
+    "confirmado": true
+  },
+  {
+    "id": "padaria-delicia-do-pao",
+    "categoria": "padaria",
+    "nome": "Padaria Delícia do Pão",
+    "descricao": {
+      "pt": "Padaria da Vila Nova com pão fresco, cucas, lanches e doces caseiros, atendendo a vizinhança com sabor de casa.",
+      "es": "Panadería de la Vila Nova con pan fresco, cucas, snacks y dulces caseros, atendiendo al barrio con sabor de casa.",
+      "en": "Vila Nova bakery with fresh bread, cucas, snacks and homemade sweets, serving the neighborhood with a homemade taste."
+    },
+    "endereco": "Rua Simplício Jaques, 690 - Vila Nova",
+    "tags": [
+      "padaria",
+      "pao",
+      "lanches"
+    ],
+    "confirmado": true
+  },
+  {
     "id": "quinta-aurora",
     "categoria": "cafe",
     "nome": "Quinta da Aurora",

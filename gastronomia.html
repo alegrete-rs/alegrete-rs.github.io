@@ -85,6 +85,22 @@
     </div>
   </section>
 
+  <!-- Padarias -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="food_pad_pre">Pão quente & bolacha torrada</span>
+        <h2 data-i18n="food_pad_h">Padarias de Alegrete</h2>
+        <p data-i18n="food_pad_p">Da lendária bolacha do Nero às cucas, pães e confeitarias de bairro: um roteiro pelas padarias que perfumam as manhãs alegretenses.</p>
+      </div>
+      <div class="grid grid-3" id="padariaList"></div>
+      <div class="callout reveal" style="margin-top:26px;">
+        <h4><i data-lucide="cookie"></i> <span data-i18n="food_pad_take_h">A famosa bolacha do Nero</span></h4>
+        <p data-i18n="food_pad_take_p">Símbolo de Alegrete desde 1972, a bolacha torrada do Nero atravessou gerações e virou lembrança afetiva da cidade. Provar uma é morder um pedaço da história alegretense.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Linguiça agroindustries -->
   <section class="section section--paper2">
     <div class="wrap">
@@ -110,6 +126,10 @@
         mapId: 'map',
         filterId: 'foodFilter',
         categories: ['restaurante', 'bar', 'cafe']
+      });
+      AlegreteContent.render({
+        listId: 'padariaList',
+        categories: ['padaria']
       });
       AlegreteContent.render({
         listId: 'agroList',

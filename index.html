@@ -80,19 +80,16 @@
         <p data-i18n="home_video_p">Um passeio pela alma de Alegrete: horizontes largos, tradição viva e a hospitalidade da Fronteira Oeste.</p>
       </div>
       <div class="video-frame reveal" data-delay="120">
-        <video
+        <iframe
           id="homeVideo"
-          controls
-          muted
-          loop
-          autoplay
-          playsinline
-          preload="metadata"
-          poster="assets/img/portico.jpg"
-          data-i18n-attr="aria-label:home_video_aria">
-          <source id="homeVideoSource" src="assets/videos/video_portal_alegrete_org.mp4" type="video/mp4" />
-          <span data-i18n="home_video_fallback">Seu navegador não suporta a reprodução de vídeo.</span>
-        </video>
+          src="https://www.youtube-nocookie.com/embed/nxxs41aQ4Ok?autoplay=1&mute=1&loop=1&playlist=nxxs41aQ4Ok&rel=0&modestbranding=1&playsinline=1"
+          title="Visit Alegrete"
+          data-i18n-attr="title:home_video_aria"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          loading="lazy"></iframe>
       </div>
     </div>
   </section>
@@ -350,26 +347,8 @@
         if (window.__reobserveReveal) window.__reobserveReveal(el);
       });
     }
-    function setHomeVideoLang() {
-      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
-      const video = document.getElementById('homeVideo');
-      const source = document.getElementById('homeVideoSource');
-      if (!video || !source) return;
-      const byLang = {
-        en: 'assets/videos/video_portal_alegrete_org_EN.mp4',
-        es: 'assets/videos/video_portal_alegrete_org_ES.mp4',
-      };
-      const src = byLang[lang] || 'assets/videos/video_portal_alegrete_org.mp4';
-      if (source.getAttribute('src') === src) return;
-      source.setAttribute('src', src);
-      // <source> changes only take effect after reloading the media element
-      video.load();
-    }
-
     document.addEventListener('core-ready', renderHomeDynamic);
     document.addEventListener('langchange', renderHomeDynamic);
-    document.addEventListener('core-ready', setHomeVideoLang);
-    document.addEventListener('langchange', setHomeVideoLang);
   </script>
 </body>
 </html>

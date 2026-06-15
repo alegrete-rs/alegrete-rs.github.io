@@ -62,3 +62,11 @@ dkms.conf
 Visit_Alegrete.pdf
 erros*
 sugestoes*
+
+# Videos are not committed (too large for the repo / GitHub upload limits)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+assets/videos/

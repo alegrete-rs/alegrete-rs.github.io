@@ -1,5 +1,57 @@
 [
   {
+    "slug": "english-meetup-junho",
+    "destaque": true,
+    "tipo": { "pt": "Encontro", "es": "Encuentro", "en": "Meetup" },
+    "titulo": "English Meetup Alegrete · Junho",
+    "subtitulo": {
+      "pt": "Inglês na prática, novas amizades e boas conversas",
+      "es": "Inglés en la práctica, nuevas amistades y buenas charlas",
+      "en": "English in practice, new friendships and great conversations"
+    },
+    "imagem": "assets/divulgacoes/english-meetup-junho.jpg",
+    "imagemAlt": {
+      "pt": "Card do English Meetup Alegrete de junho, com a bandeira do Reino Unido e os dois próximos encontros: 17/06 na La Boqueria e 24/06 noite de karaokê no Cocktails and Dreams",
+      "es": "Tarjeta del English Meetup Alegrete de junio, con la bandera del Reino Unido y los dos próximos encuentros: 17/06 en La Boqueria y 24/06 noche de karaoke en Cocktails and Dreams",
+      "en": "June English Meetup Alegrete card, featuring the United Kingdom flag and the two upcoming meetups: 06/17 at La Boqueria and 06/24 karaoke night at Cocktails and Dreams"
+    },
+    "dataISO": "2026-06-17",
+    "quando": {
+      "pt": "17 e 24 de junho de 2026 · quartas-feiras",
+      "es": "17 y 24 de junio de 2026 · miércoles",
+      "en": "June 17 and 24, 2026 · Wednesdays"
+    },
+    "horario": {
+      "pt": "19h30 às 21h30",
+      "es": "19h30 a 21h30",
+      "en": "7:30 PM to 9:30 PM"
+    },
+    "local": {
+      "pt": "17/06 La Boqueria · 24/06 Cocktails and Dreams",
+      "es": "17/06 La Boqueria · 24/06 Cocktails and Dreams",
+      "en": "Jun 17 La Boqueria · Jun 24 Cocktails and Dreams"
+    },
+    "corpo": {
+      "pt": [
+        "Quer praticar inglês, conhecer pessoas novas e participar de conversas descontraídas? Então vem pro Meetup Alegrete! Ambiente leve, acolhedor e cheio de boas conversas.",
+        "Próximos encontros: 17/06 na La Boqueria, das 19h30 às 21h30; e 24/06 com noite de karaokê no Cocktails and Dreams, também das 19h30 às 21h30. Inglês na prática, novas amizades e muita diversão. Chame os amigos e venha fazer parte da nossa comunidade!"
+      ],
+      "es": [
+        "¿Quieres practicar inglés, conocer gente nueva y participar de charlas distendidas? ¡Entonces ven al Meetup Alegrete! Un ambiente ligero, acogedor y lleno de buenas conversaciones.",
+        "Próximos encuentros: 17/06 en La Boqueria, de 19h30 a 21h30; y 24/06 con noche de karaoke en Cocktails and Dreams, también de 19h30 a 21h30. Inglés en la práctica, nuevas amistades y mucha diversión. ¡Invita a tus amigos y ven a formar parte de nuestra comunidad!"
+      ],
+      "en": [
+        "Want to practice English, meet new people and join relaxed conversations? Then come to Meetup Alegrete! A light, welcoming atmosphere full of great conversations.",
+        "Upcoming meetups: June 17 at La Boqueria, from 7:30 to 9:30 PM; and June 24 with a karaoke night at Cocktails and Dreams, also from 7:30 to 9:30 PM. English in practice, new friendships and lots of fun. Bring your friends and become part of our community!"
+      ]
+    },
+    "tags": {
+      "pt": ["Inglês", "Conversação", "English Club", "Comunidade", "Karaokê"],
+      "es": ["Inglés", "Conversación", "English Club", "Comunidad", "Karaoke"],
+      "en": ["English", "Conversation", "English Club", "Community", "Karaoke"]
+    }
+  },
+  {
     "slug": "palestra-fitopampa",
     "destaque": true,
     "tipo": { "pt": "Palestra", "es": "Charla", "en": "Talk" },

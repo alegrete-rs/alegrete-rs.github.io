@@ -71,6 +71,32 @@
     </div>
   </section>
 
+  <!-- ===== VIDEO HIGHLIGHT ===== -->
+  <section class="section section--navy video-showcase">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow center" data-i18n="home_video_pre">Alegrete em movimento</span>
+        <h2 data-i18n="home_video_h">Sinta o Pampa em imagens</h2>
+        <p data-i18n="home_video_p">Um passeio pela alma de Alegrete: horizontes largos, tradição viva e a hospitalidade da Fronteira Oeste.</p>
+      </div>
+      <div class="video-frame reveal" data-delay="120">
+        <video
+          id="homeVideo"
+          controls
+          muted
+          loop
+          autoplay
+          playsinline
+          preload="metadata"
+          poster="assets/img/portico.jpg"
+          data-i18n-attr="aria-label:home_video_aria">
+          <source id="homeVideoSource" src="assets/videos/video_portal_alegrete_org.mp4" type="video/mp4" />
+          <span data-i18n="home_video_fallback">Seu navegador não suporta a reprodução de vídeo.</span>
+        </video>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== FEATURED ATTRACTIONS ===== -->
   <section class="section section--paper2">
     <div class="wrap">
@@ -324,8 +350,26 @@
         if (window.__reobserveReveal) window.__reobserveReveal(el);
       });
     }
+    function setHomeVideoLang() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const video = document.getElementById('homeVideo');
+      const source = document.getElementById('homeVideoSource');
+      if (!video || !source) return;
+      const byLang = {
+        en: 'assets/videos/video_portal_alegrete_org_EN.mp4',
+        es: 'assets/videos/video_portal_alegrete_org_ES.mp4',
+      };
+      const src = byLang[lang] || 'assets/videos/video_portal_alegrete_org.mp4';
+      if (source.getAttribute('src') === src) return;
+      source.setAttribute('src', src);
+      // <source> changes only take effect after reloading the media element
+      video.load();
+    }
+
     document.addEventListener('core-ready', renderHomeDynamic);
     document.addEventListener('langchange', renderHomeDynamic);
+    document.addEventListener('core-ready', setHomeVideoLang);
+    document.addEventListener('langchange', setHomeVideoLang);
   </script>
 </body>
 </html>

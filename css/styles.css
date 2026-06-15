@@ -530,6 +530,27 @@ a { color: inherit; text-decoration: none; }
 .imgframe .ph { position: absolute; inset: 0; display: grid; place-items: center; color: rgba(255,255,255,0.8); font-style: italic; gap: 8px; flex-direction: column; }
 .imgframe--tall { aspect-ratio: 3/4; }
 
+/* ---- video highlight ---- */
+.video-showcase .section-head { margin-bottom: clamp(28px, 4vw, 44px); }
+.video-frame {
+  max-width: 940px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(246, 199, 99, 0.28);
+  background: var(--navy);
+  position: relative;
+  aspect-ratio: 16/9;
+}
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--navy);
+}
+
 /* Contact band */
 .contact-band { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
 @media (max-width: 720px) { .contact-band { grid-template-columns: 1fr; } }

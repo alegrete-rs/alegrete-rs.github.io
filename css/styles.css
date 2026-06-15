@@ -15,28 +15,30 @@
   --paper-3:    #ece4d2;
   --card:       #ffffff;
 
-  /* Brand navy (from the official guide) */
-  --navy:       #14254a;
-  --navy-2:     #1d3563;
-  --navy-3:     #2c4d86;
+  /* Azul Institucional — official brand base (#0B2D4F) */
+  --navy:       #0b2d4f;
+  --navy-2:     #123a64;
+  --navy-3:     #2a5286;
   --navy-soft:  #41608f;
 
   /* Ink */
-  --ink:        #18233c;
+  --ink:        #14233c;
   --ink-soft:   #45506a;
   --ink-faint:  #8a93a8;
 
-  /* Multicolor brand accents (Alegrete wordmark) */
-  --red:        #d8442f;
-  --red-2:      #ec6244;
-  --green:      #2f8f5b;
-  --green-2:    #43a972;
-  --gold:       #efb13a;
-  --gold-2:     #f6c763;
-  --blue:       #2f7dc4;
-  --blue-2:     #4f9bdc;
+  /* Brand mosaic accents (official manual hex) */
+  --red:        #a82921;  /* Vermelho — cultura e hospitalidade */
+  --red-2:      #c8453a;
+  --green:      #446830;  /* Verde Pampa — natureza e tradição */
+  --green-2:    #5d8649;
+  --gold:       #ed9b1a;  /* Amarelo — natureza e horizontes */
+  --gold-2:     #f4b94e;
+  --blue:       #699baa;  /* Azul Claro — liberdade e céu */
+  --blue-2:     #8bb6c2;
   --teal:       #14a395;
   --teal-2:     #2bc0b1;
+  --brown:      #8e5b30;  /* Marrom Terra — a terra histórica */
+  --brown-2:    #a8723f;
 
   /* Utility */
   --line:       rgba(20, 37, 74, 0.14);
@@ -156,6 +158,8 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Brand wordmark ---------- */
 .brand { display: inline-flex; align-items: center; gap: 12px; cursor: pointer; }
+.brand-logo { height: 46px; width: auto; display: block; }
+@media (max-width: 600px) { .brand-logo { height: 38px; } }
 .brand-mark {
   width: 42px; height: 42px; border-radius: 13px;
   background: linear-gradient(145deg, var(--navy-3), var(--navy));
@@ -470,6 +474,53 @@ a { color: inherit; text-decoration: none; }
 .tl-when small { display: block; font-family: 'Archivo', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.62rem; color: var(--ink-faint); margin-top: 4px; }
 .tl-body h3 { font-size: 1.35rem; margin-bottom: 6px; }
 @media (max-width: 560px) { .tl-item { grid-template-columns: 1fr; gap: 6px; } }
+
+/* ---------- Agenda (Próximos eventos) ---------- */
+.agenda-source {
+  display: flex; align-items: center; gap: 16px;
+  padding: 18px 22px; border-radius: var(--radius);
+  background: linear-gradient(120deg, var(--navy), var(--navy-2));
+  color: #fff; box-shadow: var(--shadow);
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.agenda-source:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.agenda-source-ic {
+  flex: none; width: 48px; height: 48px; border-radius: 13px;
+  display: grid; place-items: center;
+  background: rgba(255,255,255,0.12); color: var(--gold);
+}
+.agenda-source-ic svg { width: 24px; height: 24px; }
+.agenda-source-txt { display: flex; flex-direction: column; gap: 3px; }
+.agenda-source-txt strong { font-family: 'Fraunces', serif; font-size: 1.12rem; font-weight: 600; }
+.agenda-source-txt span { font-size: 0.9rem; color: rgba(225,233,248,0.82); }
+.agenda-source-go { margin-left: auto; flex: none; color: rgba(255,255,255,0.85); }
+.agenda-source-go svg { width: 22px; height: 22px; }
+@media (max-width: 560px) { .agenda-source-go { display: none; } }
+
+.agenda-list { display: flex; flex-direction: column; gap: 12px; }
+.ag-item {
+  display: grid; grid-template-columns: 84px 1fr; gap: 20px; align-items: center;
+  background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius-sm);
+  padding: 16px 20px; box-shadow: var(--shadow); transition: transform .2s ease, border-color .2s ease;
+}
+.ag-item:hover { transform: translateY(-2px); border-color: var(--line); }
+.ag-date {
+  flex: none; text-align: center; line-height: 1;
+  border-right: 2px solid var(--line-soft); padding-right: 18px;
+}
+.ag-day { display: block; font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.9rem; color: var(--red); }
+.ag-mon { display: block; font-family: 'Archivo', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.68rem; color: var(--navy); margin-top: 3px; }
+.ag-range { display: block; font-size: 0.66rem; color: var(--ink-faint); margin-top: 5px; font-weight: 600; }
+.ag-body h3 { font-size: 1.15rem; margin: 0 0 7px; line-height: 1.25; }
+.ag-metas { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.ag-meta { display: inline-flex; align-items: center; gap: 5px; font-size: 0.84rem; color: var(--ink-soft); }
+.ag-meta svg { width: 14px; height: 14px; color: var(--green); flex: none; }
+@media (max-width: 480px) {
+  .ag-item { grid-template-columns: 64px 1fr; gap: 14px; padding: 14px 16px; }
+  .ag-date { padding-right: 12px; }
+  .ag-day { font-size: 1.55rem; }
+}
 
 /* ---------- Table ---------- */
 .dist-table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }

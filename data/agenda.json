@@ -1,0 +1,57 @@
+[
+  {
+    "dia": "27/06/2026",
+    "hora": "19:30",
+    "titulo": "14ª Festa Italiana – Lions Clube A. Ibirapuitã",
+    "local": "Lions Clube Alegrete Ibirapuitã"
+  },
+  {
+    "dia": "08/08/2026",
+    "hora": "14:00",
+    "titulo": "Feira de Empreendedorismo Feminino – especial Dia dos Pais",
+    "local": "Centro Cultural"
+  },
+  {
+    "dia": "18/09/2026",
+    "fim": "25/09/2026",
+    "hora": "08:00",
+    "titulo": "Semana Nacional do Trânsito",
+    "local": {
+      "pt": "Blitze educativas, palestras, atividades comunitárias e mobilizações",
+      "es": "Operativos educativos, charlas, actividades comunitarias y movilizaciones",
+      "en": "Educational checkpoints, talks, community activities and mobilizations"
+    }
+  },
+  {
+    "dia": "20/09/2026",
+    "hora": "07:00",
+    "titulo": "Semana Farroupilha",
+    "local": "Alegrete - RS"
+  },
+  {
+    "dia": "02/11/2026",
+    "fim": "30/11/2026",
+    "hora": "08:00",
+    "titulo": "Mês do Empreendedorismo",
+    "local": "Alegrete - RS"
+  },
+  {
+    "dia": "05/11/2026",
+    "hora": "19:30",
+    "titulo": "Palestra sobre Empreendedorismo – Mês do Empreendedorismo",
+    "local": "Alegrete - RS"
+  },
+  {
+    "dia": "13/11/2026",
+    "fim": "15/11/2026",
+    "hora": "12:00",
+    "titulo": "Festival Alegretense da Canção",
+    "local": "Centro Cultural Adão Ortiz Houayek"
+  },
+  {
+    "dia": "05/12/2026",
+    "fim": "06/12/2026",
+    "titulo": "3º Encontro de Veículos Antigos",
+    "local": "Parque Dr. Lauro Dornelles"
+  }
+]

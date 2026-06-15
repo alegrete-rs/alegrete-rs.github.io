@@ -29,7 +29,24 @@
 
   <section class="section">
     <div class="wrap" style="max-width:880px;">
-      <div class="section-head reveal">
+      <a class="agenda-source reveal" href="https://eventos-alegrete.glide.page/dl/programacao" target="_blank" rel="noopener">
+        <span class="agenda-source-ic"><i data-lucide="calendar-days"></i></span>
+        <span class="agenda-source-txt">
+          <strong data-i18n="agenda_src_h">Agenda oficial da cidade</strong>
+          <span data-i18n="agenda_src_p">Veja a programação completa e atualizada de eventos em Alegrete, mantida pela SEDETUR.</span>
+        </span>
+        <span class="agenda-source-go" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+      </a>
+
+      <div class="section-head reveal" style="margin-top:36px;">
+        <span class="eyebrow" data-i18n="agenda_pre">Próximos eventos</span>
+        <h2 data-i18n="agenda_h">O que vem por aí</h2>
+        <p data-i18n="agenda_p">Os próximos eventos confirmados na agenda da cidade, conforme a programação oficial.</p>
+      </div>
+      <div class="agenda-list" id="agendaList"></div>
+      <p class="muted reveal" style="margin:16px 0 0;font-size:0.86rem;"><i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i> <span data-i18n="agenda_note">Lista parcial. A programação completa e sempre atualizada está na</span> <a href="https://eventos-alegrete.glide.page/dl/programacao" target="_blank" rel="noopener" data-i18n="agenda_note_link">agenda oficial</a>.</p>
+
+      <div class="section-head reveal" style="margin-top:64px;">
         <span class="eyebrow" data-i18n="events_pre">Agenda</span>
         <h2 data-i18n="events_h">Grandes eventos do ano</h2>
         <p data-i18n="events_p">As datas que reúnem moradores e visitantes em torno da cultura gaúcha.</p>
@@ -75,8 +92,41 @@
         if (window.__reobserveReveal) window.__reobserveReveal(el);
       });
     }
+    function renderAgenda() {
+      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
+      const pick = (o) => (o == null) ? '' : (typeof o === 'string' ? o : (o[lang] || o.pt || ''));
+      const months = {
+        pt: ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'],
+        es: ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],
+        en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+      };
+      const mlist = months[lang] || months.pt;
+      const parse = (d) => { const [dd, mm] = d.split('/'); return { d: dd, m: mlist[parseInt(mm, 10) - 1] }; };
+      fetch('data/agenda.json').then(r => r.json()).then(list => {
+        const el = document.getElementById('agendaList');
+        if (!el) return;
+        el.innerHTML = list.map((e, i) => {
+          const s = parse(e.dia);
+          const range = e.fim ? `<span class="ag-range">${window.t('agenda_until','até')} ${parse(e.fim).d}/${parse(e.fim).m}</span>` : '';
+          const time = e.hora ? `<span class="ag-meta"><i data-lucide="clock"></i>${e.hora}</span>` : '';
+          const local = pick(e.local) ? `<span class="ag-meta"><i data-lucide="map-pin"></i>${pick(e.local)}</span>` : '';
+          return `
+          <div class="ag-item reveal" data-delay="${(i % 4) * 50}">
+            <div class="ag-date"><span class="ag-day">${s.d}</span><span class="ag-mon">${s.m}</span>${range}</div>
+            <div class="ag-body">
+              <h3>${e.titulo}</h3>
+              <div class="ag-metas">${time}${local}</div>
+            </div>
+          </div>`;
+        }).join('');
+        if (window.lucide) lucide.createIcons();
+        if (window.__reobserveReveal) window.__reobserveReveal(el);
+      });
+    }
     document.addEventListener('core-ready', renderTimeline);
+    document.addEventListener('core-ready', renderAgenda);
     document.addEventListener('langchange', renderTimeline);
+    document.addEventListener('langchange', renderAgenda);
     document.addEventListener('core-ready', function () {
       if (window.AlegreteContent) {
         AlegreteContent.render({ listId: 'venuesList', mapId: 'map', categories: ['evento_local'] });

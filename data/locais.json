@@ -1665,6 +1665,25 @@
     "confirmado": true
   },
   {
+    "id": "agencia-rafael-pedroso-excursoes",
+    "categoria": "agencia",
+    "nome": "Rafael Pedroso Excursões",
+    "descricao": {
+      "pt": "Agência de turismo com guia credenciado no Cadastur (nº 21.406009.49-3), especializada em excursões para shows, viagens turísticas e concursos públicos, com segurança, conforto e organização em cada roteiro.",
+      "es": "Agencia de turismo con guía acreditado en Cadastur (nº 21.406009.49-3), especializada en excursiones para conciertos, viajes turísticos y concursos públicos, con seguridad, comodidad y organización en cada itinerario.",
+      "en": "Travel agency with a Cadastur-accredited guide (no. 21.406009.49-3), specializing in excursions to concerts, sightseeing trips and public-exam travel, with safety, comfort and organization on every route."
+    },
+    "endereco": "Rua João Pedro Nunes da Silveira, 317",
+    "telefone": "+55 55 99649-6647",
+    "instagram": "@rafaelpedrosoexcursoes",
+    "tags": [
+      "turismo",
+      "viagens",
+      "excursoes"
+    ],
+    "confirmado": true
+  },
+  {
     "id": "agro-boi-bom",
     "categoria": "agroindustria",
     "nome": "Boi Bom",

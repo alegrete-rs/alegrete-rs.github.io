@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="js/app.js" defer></script>
+  <script src="js/divulgacoes.js" defer></script>
 </head>
 <body>
   <div id="header-slot"></div>
@@ -31,6 +32,13 @@
         <i data-lucide="megaphone" style="width:16px;height:16px;vertical-align:-3px"></i>
         <span data-i18n="divulg_empty">Nenhuma divulgação no momento. Volte em breve!</span>
       </p>
+      <div class="divulg-realizados-cta reveal" id="divulgRealizadosCta" style="display:none;text-align:center;margin-top:36px;">
+        <a class="btn btn-ghost" href="divulgacoes-realizados.html">
+          <i data-lucide="history"></i>
+          <span data-i18n="divulg_realizados_link">Ver divulgações já realizadas</span>
+          <span id="divulgRealizadosCount"></span>
+        </a>
+      </div>
       <p class="muted reveal" style="margin-top:28px;font-size:0.9rem;">
         <i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i>
         <span data-i18n="divulg_note">Datas e horários podem mudar, confirme sempre nos canais oficiais dos organizadores.</span>
@@ -41,89 +49,27 @@
   <div id="footer-slot"></div>
 
   <script>
-    function renderDivulgacoes() {
-      const lang = (window.ALEGRETE && window.ALEGRETE.lang) || 'pt';
-      const pick = (o) => (o == null ? '' : (typeof o === 'string' ? o : (o[lang] || o.pt || '')));
-      const list = document.getElementById('divulgList');
-      const empty = document.getElementById('divulgEmpty');
-      if (!list) return;
-
-      fetch('data/divulgacoes.json').then(r => r.json()).then(items => {
-        if (!Array.isArray(items) || items.length === 0) {
-          list.innerHTML = '';
-          if (empty) empty.style.display = '';
-          return;
+    function renderDivulgacoesPage() {
+      renderDivulgacoes({
+        filter: 'upcoming',
+        listId: 'divulgList',
+        emptyId: 'divulgEmpty',
+        onCounts: ({ past }) => {
+          const cta = document.getElementById('divulgRealizadosCta');
+          const count = document.getElementById('divulgRealizadosCount');
+          if (!cta) return;
+          if (past > 0) {
+            cta.style.display = '';
+            if (count) count.textContent = ` (${past})`;
+          } else {
+            cta.style.display = 'none';
+          }
         }
-        if (empty) empty.style.display = 'none';
-
-        // Upcoming first (by date), then most recent past
-        const today = new Date(); today.setHours(0, 0, 0, 0);
-        items.sort((a, b) => new Date(a.dataISO || 0) - new Date(b.dataISO || 0));
-
-        list.innerHTML = items.map((d, i) => {
-          const isPast = d.dataISO && new Date(d.dataISO) < today;
-          const status = isPast
-            ? `<span class="divulg-status past"><i data-lucide="check-circle-2"></i>${window.t('divulg_past', 'Realizado')}</span>`
-            : `<span class="divulg-status soon"><i data-lucide="megaphone"></i>${window.t('divulg_soon', 'Em breve')}</span>`;
-          const tags = pick(d.tags);
-          const tagsHtml = Array.isArray(tags) && tags.length
-            ? `<div class="divulg-tags">${tags.map(t => `<span class="chip green">${t}</span>`).join('')}</div>`
-            : '';
-          const body = pick(d.corpo);
-          const bodyHtml = Array.isArray(body)
-            ? body.map(p => `<p>${p}</p>`).join('')
-            : (body ? `<p>${body}</p>` : '');
-
-          const meta = [];
-          if (d.quando) meta.push(['calendar-days', pick(d.quando)]);
-          if (d.horario) meta.push(['clock', pick(d.horario)]);
-          if (d.local) meta.push(['map-pin', pick(d.local)]);
-          if (d.palestrante) meta.push(['user-round', pick(d.palestrante)]);
-          const metaHtml = meta.map(([icon, val]) =>
-            `<li><i data-lucide="${icon}"></i><span>${val}</span></li>`).join('');
-
-          const subtitle = pick(d.subtitulo);
-          const theme = pick(d.tema);
-          const program = pick(d.programa);
-
-          const ctaLabel = (d.link && pick(d.link.label)) || window.t('divulg_signup', 'Inscreva-se');
-          const ctaHtml = (d.link && d.link.url)
-            ? `<a class="btn btn-primary divulg-cta" href="${d.link.url}" target="_blank" rel="noopener"><i data-lucide="clipboard-pen-line"></i>${ctaLabel}</a>`
-            : '';
-
-          return `
-          <article class="divulg-card reveal" id="${d.slug || ''}" data-delay="${(i % 3) * 80}">
-            <a class="divulg-poster" href="${d.imagem}" target="_blank" rel="noopener" aria-label="${pick(d.imagemAlt)}">
-              <img src="${d.imagem}" alt="${pick(d.imagemAlt)}" loading="lazy" />
-              <span class="divulg-zoom"><i data-lucide="maximize-2"></i></span>
-            </a>
-            <div class="divulg-body">
-              <div class="divulg-toprow">
-                <span class="eyebrow">${pick(d.tipo)}</span>
-                ${status}
-              </div>
-              ${program ? `<p class="divulg-program">${program}</p>` : ''}
-              <h2 class="divulg-title">${d.titulo}</h2>
-              ${subtitle ? `<p class="divulg-sub">${subtitle}</p>` : ''}
-              ${theme ? `<p class="divulg-theme"><i data-lucide="sprout"></i>${theme}</p>` : ''}
-              ${metaHtml ? `<ul class="divulg-meta">${metaHtml}</ul>` : ''}
-              <div class="divulg-text">${bodyHtml}</div>
-              ${tagsHtml}
-              ${ctaHtml}
-            </div>
-          </article>`;
-        }).join('');
-
-        if (window.lucide) lucide.createIcons();
-        if (window.__reobserveReveal) window.__reobserveReveal(list);
-      }).catch(err => {
-        console.error('Falha ao carregar divulgações', err);
-        if (empty) { empty.style.display = ''; }
       });
     }
 
-    document.addEventListener('core-ready', renderDivulgacoes);
-    document.addEventListener('langchange', renderDivulgacoes);
+    document.addEventListener('core-ready', renderDivulgacoesPage);
+    document.addEventListener('langchange', renderDivulgacoesPage);
   </script>
 </body>
 </html>

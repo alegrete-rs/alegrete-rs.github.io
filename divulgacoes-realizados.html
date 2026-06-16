@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divulgações já realizadas · Alegrete | Um baita destino</title>
+  <meta name="description" content="Arquivo de divulgações já realizadas em Alegrete/RS: palestras, eventos, oficinas e campanhas que já aconteceram." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/divulgacoes.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav_home">Início</a> ·
+        <a href="divulgacoes.html" data-i18n="nav_divulgacoes">Divulgações</a> ·
+        <span data-i18n="divulg_realizados_h">Já realizadas</span>
+      </div>
+      <h1 data-i18n="divulg_realizados_h">Divulgações já realizadas</h1>
+      <p class="lead" data-i18n="divulg_realizados_lead">Arquivo das palestras, eventos, oficinas e campanhas que já aconteceram em Alegrete e região.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:1000px;">
+      <div class="divulg-realizados-cta reveal" style="margin-bottom:32px;">
+        <a class="btn btn-ghost" href="divulgacoes.html">
+          <i data-lucide="arrow-left"></i>
+          <span data-i18n="divulg_realizados_back">Voltar para divulgações</span>
+        </a>
+      </div>
+      <div class="divulg-list" id="divulgList"></div>
+      <p class="muted reveal" id="divulgEmpty" style="display:none;text-align:center;margin-top:24px;">
+        <i data-lucide="history" style="width:16px;height:16px;vertical-align:-3px"></i>
+        <span data-i18n="divulg_realizados_empty">Ainda não há divulgações realizadas no arquivo.</span>
+      </p>
+      <p class="muted reveal" style="margin-top:28px;font-size:0.9rem;">
+        <i data-lucide="info" style="width:15px;height:15px;vertical-align:-2px"></i>
+        <span data-i18n="divulg_note">Datas e horários podem mudar, confirme sempre nos canais oficiais dos organizadores.</span>
+      </p>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    function renderRealizadosPage() {
+      renderDivulgacoes({
+        filter: 'past',
+        listId: 'divulgList',
+        emptyId: 'divulgEmpty'
+      });
+    }
+
+    document.addEventListener('core-ready', renderRealizadosPage);
+    document.addEventListener('langchange', renderRealizadosPage);
+  </script>
+</body>
+</html>

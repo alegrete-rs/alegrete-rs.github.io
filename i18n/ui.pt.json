@@ -420,5 +420,10 @@
   "divulg_empty": "Nenhuma divulgação no momento. Volte em breve!",
   "divulg_soon": "Em breve",
   "divulg_past": "Realizado",
-  "divulg_signup": "Inscreva-se"
+  "divulg_signup": "Inscreva-se",
+  "divulg_realizados_link": "Ver divulgações já realizadas",
+  "divulg_realizados_h": "Divulgações já realizadas",
+  "divulg_realizados_lead": "Arquivo das palestras, eventos, oficinas e campanhas que já aconteceram em Alegrete e região.",
+  "divulg_realizados_back": "Voltar para divulgações",
+  "divulg_realizados_empty": "Ainda não há divulgações realizadas no arquivo."
 }

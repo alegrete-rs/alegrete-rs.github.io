@@ -420,5 +420,10 @@
   "divulg_empty": "No announcements right now. Check back soon!",
   "divulg_soon": "Coming up",
   "divulg_past": "Held",
-  "divulg_signup": "Sign up"
+  "divulg_signup": "Sign up",
+  "divulg_realizados_link": "View past announcements",
+  "divulg_realizados_h": "Past announcements",
+  "divulg_realizados_lead": "Archive of talks, events, workshops and campaigns that have already taken place in Alegrete and the region.",
+  "divulg_realizados_back": "Back to announcements",
+  "divulg_realizados_empty": "There are no past announcements in the archive yet."
 }

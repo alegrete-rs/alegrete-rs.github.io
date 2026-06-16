@@ -62,6 +62,7 @@ dkms.conf
 Visit_Alegrete.pdf
 erros*
 sugestoes*
+pampatec/
 
 # Videos are not committed (too large for the repo / GitHub upload limits)
 *.mp4

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Divulgações · Alegrete | Um baita destino</title>
-  <meta name="description" content="Divulgações de Alegrete: palestras, eventos e campanhas. Confira a palestra FitoPampa: Da Planta ao Bioinsumo, sobre os óleos essenciais do Bioma Pampa." />
+  <meta name="description" content="Divulgações de Alegrete: palestras, eventos e campanhas. Confira o Festival Mesa Gaúcha e a Missão Técnica Turismo em Movimento 2026, dia 23 de junho em Alegrete/RS." />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -86,6 +86,11 @@
           const theme = pick(d.tema);
           const program = pick(d.programa);
 
+          const ctaLabel = (d.link && pick(d.link.label)) || window.t('divulg_signup', 'Inscreva-se');
+          const ctaHtml = (d.link && d.link.url)
+            ? `<a class="btn btn-primary divulg-cta" href="${d.link.url}" target="_blank" rel="noopener"><i data-lucide="clipboard-pen-line"></i>${ctaLabel}</a>`
+            : '';
+
           return `
           <article class="divulg-card reveal" id="${d.slug || ''}" data-delay="${(i % 3) * 80}">
             <a class="divulg-poster" href="${d.imagem}" target="_blank" rel="noopener" aria-label="${pick(d.imagemAlt)}">
@@ -104,6 +109,7 @@
               ${metaHtml ? `<ul class="divulg-meta">${metaHtml}</ul>` : ''}
               <div class="divulg-text">${bodyHtml}</div>
               ${tagsHtml}
+              ${ctaHtml}
             </div>
           </article>`;
         }).join('');

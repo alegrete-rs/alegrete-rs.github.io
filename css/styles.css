@@ -766,6 +766,7 @@ a { color: inherit; text-decoration: none; }
 .divulg-text p:last-child { margin-bottom: 0; }
 
 .divulg-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.divulg-cta { align-self: flex-start; margin-top: 18px; }
 
 @media (max-width: 760px) {
   .divulg-card { grid-template-columns: 1fr; gap: 20px; padding: 16px; }

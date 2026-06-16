@@ -1,5 +1,70 @@
 [
   {
+    "slug": "festival-mesa-gaucha",
+    "destaque": true,
+    "tipo": { "pt": "Festival", "es": "Festival", "en": "Festival" },
+    "programa": {
+      "pt": "Secretaria de Turismo do Estado do Rio Grande do Sul",
+      "es": "Secretaría de Turismo del Estado de Rio Grande do Sul",
+      "en": "Rio Grande do Sul State Department of Tourism"
+    },
+    "titulo": "Festival Mesa Gaúcha",
+    "subtitulo": {
+      "pt": "Missão Técnica Turismo em Movimento 2026",
+      "es": "Misión Técnica Turismo en Movimiento 2026",
+      "en": "Tourism in Motion 2026 Technical Mission"
+    },
+    "imagem": "assets/divulgacoes/festival-mesa-gaucha.jpg",
+    "imagemAlt": {
+      "pt": "Folder do Festival Mesa Gaúcha e da Missão Técnica Turismo em Movimento 2026, em Alegrete/RS",
+      "es": "Folleto del Festival Mesa Gaúcha y de la Misión Técnica Turismo en Movimiento 2026, en Alegrete/RS",
+      "en": "Flyer for the Festival Mesa Gaúcha and the Tourism in Motion 2026 Technical Mission, in Alegrete/RS"
+    },
+    "dataISO": "2026-06-23",
+    "quando": {
+      "pt": "23 de junho de 2026 · terça-feira",
+      "es": "23 de junio de 2026 · martes",
+      "en": "June 23, 2026 · Tuesday"
+    },
+    "horario": {
+      "pt": "13h30",
+      "es": "13h30",
+      "en": "1:30 PM"
+    },
+    "local": {
+      "pt": "Restaurante do Parque Dr. Lauro Dornelles · Av. Tiarajú, 1685 · Alegrete/RS",
+      "es": "Restaurante do Parque Dr. Lauro Dornelles · Av. Tiarajú, 1685 · Alegrete/RS",
+      "en": "Restaurante do Parque Dr. Lauro Dornelles · Av. Tiarajú, 1685 · Alegrete/RS"
+    },
+    "corpo": {
+      "pt": [
+        "A Secretaria de Turismo do Estado do Rio Grande do Sul convida para o Festival Mesa Gaúcha e a Missão Técnica Turismo em Movimento 2026, em Alegrete.",
+        "Uma oportunidade para valorizar a gastronomia, a cultura e o turismo do estado, reunindo gestores, empreendedores e a comunidade em torno da mesa gaúcha. Inscreva-se pelo formulário oficial e participe."
+      ],
+      "es": [
+        "La Secretaría de Turismo del Estado de Rio Grande do Sul invita al Festival Mesa Gaúcha y a la Misión Técnica Turismo en Movimiento 2026, en Alegrete.",
+        "Una oportunidad para valorizar la gastronomía, la cultura y el turismo del estado, reuniendo a gestores, emprendedores y la comunidad alrededor de la mesa gaúcha. Inscríbete mediante el formulario oficial y participa."
+      ],
+      "en": [
+        "The Rio Grande do Sul State Department of Tourism invites you to the Festival Mesa Gaúcha and the Tourism in Motion 2026 Technical Mission, in Alegrete.",
+        "A chance to celebrate the state's cuisine, culture and tourism, bringing together managers, entrepreneurs and the community around the gaúcho table. Sign up through the official form and take part."
+      ]
+    },
+    "link": {
+      "url": "https://forms.gle/7e9soJjXH8yfB6zBA",
+      "label": {
+        "pt": "Inscreva-se",
+        "es": "Inscríbete",
+        "en": "Sign up"
+      }
+    },
+    "tags": {
+      "pt": ["Gastronomia", "Mesa Gaúcha", "Turismo", "Secretaria de Turismo RS"],
+      "es": ["Gastronomía", "Mesa Gaúcha", "Turismo", "Secretaría de Turismo RS"],
+      "en": ["Gastronomy", "Gaúcho Table", "Tourism", "RS Tourism Department"]
+    }
+  },
+  {
     "slug": "english-meetup-junho",
     "destaque": true,
     "tipo": { "pt": "Encontro", "es": "Encuentro", "en": "Meetup" },

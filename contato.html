@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato &amp; Sugestões · Alegrete | Um baita destino</title>
+  <meta name="description" content="Sugira correções ou inclusões no portal de Alegrete. Ajude a manter o conteúdo certo e completo: envie sua sugestão pela página de contato." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_contact">Contato</span></div>
+      <h1 data-i18n="contact_h">Ajude a melhorar o portal</h1>
+      <p class="lead" data-i18n="contact_lead">Encontrou um erro ou conhece um lugar que merece estar aqui? Envie sua sugestão de correção ou inclusão — toda contribuição ajuda a deixar o conteúdo certo e completo.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-grid">
+        <!-- Intro / what helps -->
+        <div class="contact-aside reveal">
+          <span class="eyebrow" data-i18n="contact_pre">Sua contribuição</span>
+          <h2 data-i18n="contact_aside_h">O que você pode enviar</h2>
+          <p data-i18n="contact_aside_p">Quanto mais detalhes, melhor. Você pode sugerir:</p>
+          <ul class="contact-list">
+            <li><span class="ico"><i data-lucide="pencil"></i></span><span data-i18n="contact_help1">Correções de informações desatualizadas (horários, endereços, telefones).</span></li>
+            <li><span class="ico"><i data-lucide="map-pin-plus"></i></span><span data-i18n="contact_help2">Inclusão de atrativos, eventos, restaurantes ou serviços que faltam.</span></li>
+            <li><span class="ico"><i data-lucide="image"></i></span><span data-i18n="contact_help3">Links ou fotos (com direito de uso) que enriqueçam o conteúdo.</span></li>
+          </ul>
+          <p class="contact-note" data-i18n="contact_aside_note">Responderemos pelo e-mail que você informar. Seus dados são usados apenas para retornar o contato.</p>
+        </div>
+
+        <!-- Form -->
+        <div class="form-card reveal" data-delay="80">
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="cfName" data-i18n="contact_f_name">Nome</label>
+              <input type="text" id="cfName" name="name" required autocomplete="name" data-i18n-attr="placeholder:contact_f_name_ph" placeholder="Seu nome" />
+            </div>
+
+            <div class="field">
+              <label for="cfEmail" data-i18n="contact_f_email">E-mail</label>
+              <input type="email" id="cfEmail" name="email" required autocomplete="email" data-i18n-attr="placeholder:contact_f_email_ph" placeholder="voce@exemplo.com" />
+            </div>
+
+            <div class="field">
+              <label for="cfType" data-i18n="contact_f_type">Tipo de sugestão</label>
+              <select id="cfType" name="tipo" required>
+                <option value="" disabled selected data-i18n="contact_f_type_ph">Selecione…</option>
+                <option value="correcao" data-i18n="contact_f_type_fix">Correção</option>
+                <option value="inclusao" data-i18n="contact_f_type_add">Inclusão</option>
+                <option value="outro" data-i18n="contact_f_type_other">Outro</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="cfAssunto" data-i18n="contact_f_subject">Assunto</label>
+              <input type="text" id="cfAssunto" name="assunto" required maxlength="120" data-i18n-attr="placeholder:contact_f_subject_ph" placeholder="Resumo em poucas palavras" />
+            </div>
+
+            <div class="field">
+              <label for="cfMsg" data-i18n="contact_f_message">Mensagem</label>
+              <textarea id="cfMsg" name="message" rows="6" required data-i18n-attr="placeholder:contact_f_message_ph" placeholder="Descreva sua sugestão. Inclua links ou referências, se houver."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="cfSubmit">
+                <i data-lucide="mail"></i><span data-i18n="contact_f_send">Enviar por e-mail</span>
+              </button>
+              <button type="button" class="btn btn-wa" id="cfWhats">
+                <i data-lucide="message-circle"></i><span data-i18n="contact_f_send_wa">Enviar pelo WhatsApp</span>
+              </button>
+            </div>
+            <p class="form-hint" data-i18n="contact_mailto_hint">Escolha enviar por e-mail ou WhatsApp — abrimos o app já preenchido. Basta confirmar o envio para concluir.</p>
+
+            <p class="form-status" id="cfStatus" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script>
+    document.addEventListener('core-ready', function () {
+      var form = document.getElementById('contactForm');
+      if (!form) return;
+      var statusEl = document.getElementById('cfStatus');
+      var whatsBtn = document.getElementById('cfWhats');
+      var nameF = document.getElementById('cfName');
+      var emailF = document.getElementById('cfEmail');
+      var typeF = document.getElementById('cfType');
+      var assuntoF = document.getElementById('cfAssunto');
+      var msgF = document.getElementById('cfMsg');
+      var RECIPIENT = 'alegrete.org@gmail.com';
+      var WHATSAPP = '5555981019396'; // +55 55 98101-9396
+
+      function valid() {
+        if (form.checkValidity()) return true;
+        form.reportValidity();
+        return false;
+      }
+      function subjectLine() {
+        return '[Alegrete.Org] ' + (assuntoF.value || '').trim();
+      }
+      function typeLabel() {
+        var o = typeF.options[typeF.selectedIndex];
+        return o ? o.textContent : typeF.value;
+      }
+      function bodyLines() {
+        return [
+          window.t('contact_f_name', 'Nome') + ': ' + nameF.value.trim(),
+          window.t('contact_f_email', 'E-mail') + ': ' + emailF.value.trim(),
+          window.t('contact_f_type', 'Tipo de sugestão') + ': ' + typeLabel(),
+          '',
+          msgF.value.trim()
+        ];
+      }
+      function showStatus(key, fallback) {
+        statusEl.hidden = false;
+        statusEl.classList.add('is-ok');
+        statusEl.classList.remove('is-err');
+        statusEl.textContent = window.t(key, fallback);
+      }
+
+      // E-mail channel
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!valid()) return;
+        var mailto = 'mailto:' + RECIPIENT +
+          '?subject=' + encodeURIComponent(subjectLine()) +
+          '&body=' + encodeURIComponent(bodyLines().join('\r\n'));
+        window.location.href = mailto;
+        showStatus('contact_mailto_ok',
+          'Abrimos seu aplicativo de e-mail com a mensagem pronta — é só revisar e clicar em enviar para concluir.');
+      });
+
+      // WhatsApp channel
+      whatsBtn.addEventListener('click', function () {
+        if (!valid()) return;
+        var text = subjectLine() + '\n\n' + bodyLines().join('\n');
+        var url = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(text);
+        window.open(url, '_blank', 'noopener');
+        showStatus('contact_whats_ok',
+          'Abrimos o WhatsApp com a mensagem pronta — é só enviar para concluir.');
+      });
+    });
+  </script>
+</body>
+</html>

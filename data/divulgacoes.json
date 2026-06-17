@@ -1,5 +1,67 @@
 [
   {
+    "slug": "palestra-reforma-tributaria",
+    "destaque": true,
+    "tipo": { "pt": "Palestra", "es": "Charla", "en": "Talk" },
+    "programa": {
+      "pt": "Sindicato Rural de Alegrete · SENAR Rio Grande do Sul",
+      "es": "Sindicato Rural de Alegrete · SENAR Rio Grande do Sul",
+      "en": "Alegrete Rural Union · SENAR Rio Grande do Sul"
+    },
+    "titulo": "Reforma Tributária no Agronegócio e seus Impactos",
+    "subtitulo": {
+      "pt": "Palestra imperdível para o agronegócio",
+      "es": "Charla imperdible para el agronegocio",
+      "en": "A must-see talk for agribusiness"
+    },
+    "imagem": "assets/divulgacoes/reforma-tributaria.jpg",
+    "imagemAlt": {
+      "pt": "Cartaz da palestra Reforma Tributária no Agronegócio e seus Impactos, com o palestrante Márcio Zimmermann, na Sede do Sindicato Rural de Alegrete",
+      "es": "Cartel de la charla Reforma Tributaria en el Agronegocio y sus Impactos, con el disertante Márcio Zimmermann, en la Sede del Sindicato Rural de Alegrete",
+      "en": "Poster for the talk Tax Reform in Agribusiness and its Impacts, featuring speaker Márcio Zimmermann, at the Alegrete Rural Union headquarters"
+    },
+    "dataISO": "2026-07-13",
+    "quando": {
+      "pt": "13 de julho de 2026 · segunda-feira",
+      "es": "13 de julio de 2026 · lunes",
+      "en": "July 13, 2026 · Monday"
+    },
+    "horario": {
+      "pt": "8h",
+      "es": "8h",
+      "en": "8 AM"
+    },
+    "local": {
+      "pt": "Sede do Sindicato Rural de Alegrete",
+      "es": "Sede del Sindicato Rural de Alegrete",
+      "en": "Alegrete Rural Union headquarters"
+    },
+    "palestrante": {
+      "pt": "Palestrante: Márcio Zimmermann",
+      "es": "Disertante: Márcio Zimmermann",
+      "en": "Speaker: Márcio Zimmermann"
+    },
+    "corpo": {
+      "pt": [
+        "A Reforma Tributária está chegando e trará mudanças importantes para produtores rurais, empresas e toda a cadeia do agro. Venha entender os impactos, esclarecer dúvidas e se preparar para esse novo cenário.",
+        "Garanta sua participação e fique por dentro das principais mudanças que afetam o setor agropecuário. Inscrições pelo WhatsApp (55) 9 9631-0916."
+      ],
+      "es": [
+        "La Reforma Tributaria está llegando y traerá cambios importantes para productores rurales, empresas y toda la cadena del agro. Ven a entender los impactos, aclarar dudas y prepararte para este nuevo escenario.",
+        "Garantiza tu participación y mantente al día con los principales cambios que afectan al sector agropecuario. Inscripciones por WhatsApp (55) 9 9631-0916."
+      ],
+      "en": [
+        "Tax Reform is on its way and will bring important changes for rural producers, companies and the entire agribusiness chain. Come understand the impacts, clear up your questions and get ready for this new scenario.",
+        "Secure your spot and stay on top of the main changes affecting the agricultural sector. Sign up via WhatsApp (55) 9 9631-0916."
+      ]
+    },
+    "tags": {
+      "pt": ["Reforma Tributária", "Agronegócio", "Sindicato Rural", "SENAR", "Produtores rurais"],
+      "es": ["Reforma Tributaria", "Agronegocio", "Sindicato Rural", "SENAR", "Productores rurales"],
+      "en": ["Tax Reform", "Agribusiness", "Rural Union", "SENAR", "Rural producers"]
+    }
+  },
+  {
     "slug": "festival-mesa-gaucha",
     "destaque": true,
     "tipo": { "pt": "Festival", "es": "Festival", "en": "Festival" },

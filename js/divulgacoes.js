@@ -7,12 +7,16 @@
     return (o) => (o == null ? '' : (typeof o === 'string' ? o : (o[lang] || o.pt || '')));
   }
 
+  // An event moves to "Realizado" only on the day AFTER it happens.
+  // Comparison is done on Brasília (America/Sao_Paulo) calendar dates as
+  // "YYYY-MM-DD" strings, so it never depends on the visitor's timezone and
+  // the event stays "Em breve" throughout its own day.
   function isPast(d, today) {
-    return d.dataISO && new Date(d.dataISO) < today;
+    return d.dataISO && d.dataISO < today;
   }
 
   function cardHtml(d, i, pick) {
-    const past = isPast(d, startOfToday());
+    const past = isPast(d, todayBrasilia());
     const status = past
       ? `<span class="divulg-status past"><i data-lucide="check-circle-2"></i>${window.t('divulg_past', 'Realizado')}</span>`
       : `<span class="divulg-status soon"><i data-lucide="megaphone"></i>${window.t('divulg_soon', 'Em breve')}</span>`;
@@ -65,10 +69,9 @@
     </article>`;
   }
 
-  function startOfToday() {
-    const t = new Date();
-    t.setHours(0, 0, 0, 0);
-    return t;
+  // Current calendar date in Brasília as "YYYY-MM-DD" ('en-CA' yields ISO order).
+  function todayBrasilia() {
+    return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Sao_Paulo' });
   }
 
   // opts: { filter: 'upcoming' | 'past', listId, emptyId, onCounts(counts) }
@@ -84,7 +87,7 @@
 
     fetch('data/divulgacoes.json').then(r => r.json()).then(items => {
       if (!Array.isArray(items)) items = [];
-      const today = startOfToday();
+      const today = todayBrasilia();
 
       const upcoming = items.filter(d => !isPast(d, today));
       const past = items.filter(d => isPast(d, today));

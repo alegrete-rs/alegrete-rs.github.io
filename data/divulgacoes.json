@@ -1,5 +1,73 @@
 [
   {
+    "slug": "oficina-sabores-saberes-pampa",
+    "destaque": true,
+    "tipo": { "pt": "Oficina", "es": "Taller", "en": "Workshop" },
+    "programa": {
+      "pt": "Caminhos do Pampa · Programa Pró-Pampa",
+      "es": "Caminhos do Pampa · Programa Pró-Pampa",
+      "en": "Caminhos do Pampa · Pró-Pampa Program"
+    },
+    "titulo": "Sabores e Saberes do Pampa",
+    "subtitulo": {
+      "pt": "2ª edição · Caminhos para valorizar, produzir e comercializar produtos locais",
+      "es": "2ª edición · Caminos para valorizar, producir y comercializar productos locales",
+      "en": "2nd edition · Paths to value, produce and sell local products"
+    },
+    "imagem": "assets/divulgacoes/sabores-saberes-pampa.jpg",
+    "imagemAlt": {
+      "pt": "Cartaz da 2ª edição da Oficina Sabores e Saberes do Pampa, no Quilombo Rincão da Chirca em Rosário do Sul, dia 20/06 das 9h às 17h, com foto de pessoas em uma mesa com conservas e geleias",
+      "es": "Cartel de la 2ª edición del Taller Sabores e Saberes do Pampa, en el Quilombo Rincão da Chirca en Rosário do Sul, el 20/06 de 9h a 17h, con foto de personas en una mesa con conservas y mermeladas",
+      "en": "Poster for the 2nd edition of the Sabores e Saberes do Pampa workshop, at Quilombo Rincão da Chirca in Rosário do Sul, on June 20 from 9 AM to 5 PM, with a photo of people at a table with preserves and jams"
+    },
+    "dataISO": "2026-06-20",
+    "quando": {
+      "pt": "20 de junho de 2026 · sábado",
+      "es": "20 de junio de 2026 · sábado",
+      "en": "June 20, 2026 · Saturday"
+    },
+    "horario": {
+      "pt": "Das 9h às 17h",
+      "es": "De 9h a 17h",
+      "en": "9 AM to 5 PM"
+    },
+    "local": {
+      "pt": "Quilombo Rincão da Chirca · Rosário do Sul/RS",
+      "es": "Quilombo Rincão da Chirca · Rosário do Sul/RS",
+      "en": "Quilombo Rincão da Chirca · Rosário do Sul/RS"
+    },
+    "corpo": {
+      "pt": [
+        "Neste sábado, 20/06, acontece a segunda edição da Oficina Sabores e Saberes do Pampa, no Quilombo Rincão da Chirca, em Rosário do Sul. O encontro vai falar sobre formas de gerar renda a partir da alimentação, dos produtos locais e dos saberes do campo.",
+        "Serão abordadas boas práticas na preparação de alimentos, rotulagem de produtos, como valorizar os ingredientes e receitas da região, oportunidades para a venda de produtos locais e a alimentação para visitantes e caminhantes da Trilha Caminhos do Pampa.",
+        "A atividade é voltada para produtores rurais, empreendedores locais e todas as pessoas interessadas em transformar seus conhecimentos e produtos em novas oportunidades de renda. Participação gratuita — venha trocar experiências, aprender e conhecer novas possibilidades para sua propriedade e sua comunidade."
+      ],
+      "es": [
+        "Este sábado, 20/06, se realiza la segunda edición del Taller Sabores e Saberes do Pampa, en el Quilombo Rincão da Chirca, en Rosário do Sul. El encuentro hablará sobre formas de generar ingresos a partir de la alimentación, de los productos locales y de los saberes del campo.",
+        "Se abordarán buenas prácticas en la preparación de alimentos, el etiquetado de productos, cómo valorizar los ingredientes y recetas de la región, oportunidades para la venta de productos locales y la alimentación para visitantes y caminantes del Sendero Caminhos do Pampa.",
+        "La actividad está dirigida a productores rurales, emprendedores locales y todas las personas interesadas en transformar sus conocimientos y productos en nuevas oportunidades de ingresos. Participación gratuita — ven a intercambiar experiencias, aprender y conocer nuevas posibilidades para tu propiedad y tu comunidad."
+      ],
+      "en": [
+        "This Saturday, June 20, the second edition of the Sabores e Saberes do Pampa workshop takes place at Quilombo Rincão da Chirca, in Rosário do Sul. The gathering will explore ways to generate income from food, local products and rural knowledge.",
+        "It will cover good food-preparation practices, product labeling, how to add value to the region's ingredients and recipes, opportunities for selling local products, and catering for visitors and hikers of the Caminhos do Pampa Trail.",
+        "The activity is aimed at rural producers, local entrepreneurs and anyone interested in turning their knowledge and products into new income opportunities. Free participation — come to share experiences, learn and discover new possibilities for your property and your community."
+      ]
+    },
+    "link": {
+      "url": "https://forms.gle/QdsJ7JwgeegqpcrC7",
+      "label": {
+        "pt": "Inscreva-se",
+        "es": "Inscríbete",
+        "en": "Sign up"
+      }
+    },
+    "tags": {
+      "pt": ["Gastronomia", "Produtos locais", "Geração de renda", "Caminhos do Pampa", "Participação gratuita"],
+      "es": ["Gastronomía", "Productos locales", "Generación de ingresos", "Caminhos do Pampa", "Participación gratuita"],
+      "en": ["Gastronomy", "Local products", "Income generation", "Caminhos do Pampa", "Free participation"]
+    }
+  },
+  {
     "slug": "palestra-reforma-tributaria",
     "destaque": true,
     "tipo": { "pt": "Palestra", "es": "Charla", "en": "Talk" },

@@ -1,5 +1,122 @@
 [
   {
+    "slug": "talentos-do-baita-chao",
+    "destaque": true,
+    "tipo": { "pt": "Exposição", "es": "Exposición", "en": "Exhibition" },
+    "programa": {
+      "pt": "Turismo Receptivo e de Acolhimento · Secretaria de Desenvolvimento Econômico e Turismo",
+      "es": "Turismo Receptivo y de Acogida · Secretaría de Desarrollo Económico y Turismo",
+      "en": "Welcoming Tourism · Department of Economic Development & Tourism"
+    },
+    "titulo": "Talentos do Baita Chão",
+    "subtitulo": {
+      "pt": "Cultura que nasce da nossa terra e acolhe quem chega",
+      "es": "Cultura que nace de nuestra tierra y acoge a quien llega",
+      "en": "Culture born of our land that welcomes all who arrive"
+    },
+    "imagem": "assets/divulgacoes/talentos-do-baita-chao.jpg",
+    "imagemAlt": {
+      "pt": "Cartaz da exposição Talentos do Baita Chão, de 22 a 26 de junho de 2026 das 9h às 18h no CAT - Centro de Atendimento ao Turista, na Praça Getúlio Vargas, com quadros de paisagens do Pampa, um cão, um gato e livros do projeto",
+      "es": "Cartel de la exposición Talentos do Baita Chão, del 22 al 26 de junio de 2026 de 9h a 18h en el CAT - Centro de Atención al Turista, en la Praça Getúlio Vargas, con cuadros de paisajes del Pampa, un perro, un gato y libros del proyecto",
+      "en": "Poster for the Talentos do Baita Chão exhibition, from June 22 to 26, 2026, 9 AM to 6 PM at the CAT Tourist Information Center, on Praça Getúlio Vargas, with paintings of Pampa landscapes, a dog, a cat and project books"
+    },
+    "dataISO": "2026-06-26",
+    "quando": {
+      "pt": "22 a 26 de junho de 2026",
+      "es": "22 al 26 de junio de 2026",
+      "en": "June 22 to 26, 2026"
+    },
+    "horario": {
+      "pt": "Das 9h às 18h",
+      "es": "De 9h a 18h",
+      "en": "9 AM to 6 PM"
+    },
+    "local": {
+      "pt": "CAT - Centro de Atendimento ao Turista · Praça Getúlio Vargas",
+      "es": "CAT - Centro de Atención al Turista · Praça Getúlio Vargas",
+      "en": "CAT - Tourist Information Center · Praça Getúlio Vargas"
+    },
+    "corpo": {
+      "pt": [
+        "O Centro de Atendimento ao Turista abre as portas para mais uma edição do Projeto Talentos do Baita Chão, com uma encantadora exposição de livros e obras de arte que valorizam a criatividade, a cultura e a identidade alegretense.",
+        "A iniciativa destaca histórias, saberes e tradições da nossa comunidade, fortalecendo os talentos da terra e promovendo a cultura local como elemento de acolhimento, pertencimento e desenvolvimento turístico. A arte, a literatura e o artesanato expressam a essência do nosso povo e recebem moradores e visitantes com autenticidade e hospitalidade.",
+        "Expositores: Bárbara Mossellim da Costa (Artista Visual) e Paulino Dorneles Fernandes Neto (Escritor). Venha conhecer, prestigiar os talentos da nossa terra e levar consigo um pedacinho do nosso Baita Chão."
+      ],
+      "es": [
+        "El Centro de Atención al Turista abre sus puertas para una nueva edición del Proyecto Talentos do Baita Chão, con una encantadora exposición de libros y obras de arte que valorizan la creatividad, la cultura y la identidad alegretense.",
+        "La iniciativa destaca historias, saberes y tradiciones de nuestra comunidad, fortaleciendo los talentos de la tierra y promoviendo la cultura local como elemento de acogida, pertenencia y desarrollo turístico. El arte, la literatura y la artesanía expresan la esencia de nuestro pueblo y reciben a vecinos y visitantes con autenticidad y hospitalidad.",
+        "Expositores: Bárbara Mossellim da Costa (Artista Visual) y Paulino Dorneles Fernandes Neto (Escritor). Ven a conocer, prestigiar los talentos de nuestra tierra y llévate un pedacito de nuestro Baita Chão."
+      ],
+      "en": [
+        "The Tourist Information Center opens its doors for another edition of the Talentos do Baita Chão project, with a charming exhibition of books and works of art that celebrate Alegrete's creativity, culture and identity.",
+        "The initiative highlights the stories, knowledge and traditions of our community, strengthening local talents and promoting local culture as a source of welcome, belonging and tourism development. Art, literature and crafts express the essence of our people and welcome residents and visitors with authenticity and hospitality.",
+        "Exhibitors: Bárbara Mossellim da Costa (Visual Artist) and Paulino Dorneles Fernandes Neto (Writer). Come discover and celebrate the talents of our land and take a little piece of our Baita Chão home with you."
+      ]
+    },
+    "tags": {
+      "pt": ["Exposição", "Arte", "Literatura", "Cultura local", "Turismo de acolhimento"],
+      "es": ["Exposición", "Arte", "Literatura", "Cultura local", "Turismo de acogida"],
+      "en": ["Exhibition", "Art", "Literature", "Local culture", "Welcoming tourism"]
+    }
+  },
+  {
+    "slug": "fazenda-da-cascata",
+    "destaque": true,
+    "tipo": { "pt": "Turismo Rural", "es": "Turismo Rural", "en": "Rural Tourism" },
+    "programa": {
+      "pt": "Destino · Turismo rural mediante agendamento",
+      "es": "Destino · Turismo rural mediante agendamiento",
+      "en": "Destination · Rural tourism by appointment"
+    },
+    "titulo": "Fazenda da Cascata",
+    "subtitulo": {
+      "pt": "Turismo rural no coração do Pampa alegretense",
+      "es": "Turismo rural en el corazón del Pampa alegretense",
+      "en": "Rural tourism in the heart of the Alegrete Pampa"
+    },
+    "imagem": "assets/divulgacoes/fazenda-da-cascata.jpg",
+    "imagemAlt": {
+      "pt": "Família de capivaras à beira de um açude da Fazenda da Cascata, em Alegrete, sob a luz dourada do fim de tarde",
+      "es": "Familia de carpinchos a la orilla de un estanque de la Fazenda da Cascata, en Alegrete, bajo la luz dorada del atardecer",
+      "en": "A family of capybaras at the edge of a pond at Fazenda da Cascata, in Alegrete, under golden late-afternoon light"
+    },
+    "local": {
+      "pt": "Zona rural de Alegrete/RS · Sesmaria do Parové",
+      "es": "Zona rural de Alegrete/RS · Sesmaria do Parové",
+      "en": "Rural Alegrete/RS · Sesmaria do Parové"
+    },
+    "corpo": {
+      "pt": [
+        "A Fazenda da Cascata abre as porteiras para o turismo rural no coração do Pampa alegretense. A propriedade guarda a história da Sesmaria do Parové, com sede construída em 1903, e convida moradores e visitantes a viver o campo de perto.",
+        "Entre os destaques estão a queda d'água de cerca de 10 metros, a maior da região, as capivaras que pastam livremente à beira d'água, as emas e as aves nativas, o museu rural com arados de madeira e baús do século 19, e a colheita das nozes pecã. O turismo é feito mediante agendamento.",
+        "Veja as galerias de fotos das paisagens, da fauna e da sede histórica no site da fazenda e programe a sua visita."
+      ],
+      "es": [
+        "La Fazenda da Cascata abre sus tranqueras al turismo rural en el corazón del Pampa alegretense. La propiedad guarda la historia de la Sesmaria do Parové, con sede construida en 1903, e invita a vecinos y visitantes a vivir el campo de cerca.",
+        "Entre los destaques están la caída de agua de cerca de 10 metros, la mayor de la región, los carpinchos que pastan libremente a la orilla del agua, los ñandúes y las aves nativas, el museo rural con arados de madera y baúles del siglo 19, y la cosecha de las nueces pecán. El turismo es mediante agendamiento.",
+        "Mira las galerías de fotos de los paisajes, la fauna y la sede histórica en el sitio de la fazenda y programa tu visita."
+      ],
+      "en": [
+        "Fazenda da Cascata opens its gates to rural tourism in the heart of the Alegrete Pampa. The property keeps the history of the Sesmaria do Parové, with a main house built in 1903, and invites residents and visitors to experience the countryside up close.",
+        "Highlights include the roughly 10-meter waterfall, the largest in the region, the capybaras grazing freely at the water's edge, the rheas and native birds, the rural museum with wooden plows and 19th-century trunks, and the pecan harvest. Visits are by appointment.",
+        "Browse the photo galleries of landscapes, wildlife and the historic homestead on the farm's website and plan your visit."
+      ]
+    },
+    "link": {
+      "url": "https://fazenda-da-cascata.github.io",
+      "label": {
+        "pt": "Conheça a fazenda",
+        "es": "Conoce la fazenda",
+        "en": "Visit the farm"
+      }
+    },
+    "tags": {
+      "pt": ["Turismo rural", "Cascata", "Capivaras", "Bioma Pampa", "Agendamento"],
+      "es": ["Turismo rural", "Cascada", "Carpinchos", "Bioma Pampa", "Agendamiento"],
+      "en": ["Rural tourism", "Waterfall", "Capybaras", "Pampa Biome", "By appointment"]
+    }
+  },
+  {
     "slug": "reuniao-ovinos-alegrete",
     "destaque": true,
     "tipo": { "pt": "Reunião", "es": "Reunión", "en": "Meeting" },

@@ -1,0 +1,145 @@
+{
+  "produtores": [
+    {
+      "id": "olivas-da-querencia",
+      "home": true,
+      "nome": "Olivas da Querência",
+      "produtor": "Rafaela Giacomoni · Estância Posto Branco",
+      "local": "Alegrete",
+      "lat": -30.0400,
+      "lng": -55.3200,
+      "nota": {
+        "pt": "Azeite extravirgem da Estância Posto Branco: 1.600 oliveiras, blend de três variedades e acidez de apenas 0,18%, fresco e muito aromático.",
+        "es": "Aceite extra virgen de la Estância Posto Branco: 1.600 olivos, blend de tres variedades y acidez de apenas 0,18%, fresco y muy aromático.",
+        "en": "Extra virgin olive oil from Estância Posto Branco: 1,600 olive trees, a three-variety blend and an acidity of just 0.18%, fresh and very aromatic."
+      }
+    },
+    {
+      "id": "dona-felicia",
+      "home": true,
+      "nome": "Doña Felícia",
+      "produtor": "João Przyczynski · Rincão de São Miguel",
+      "local": "Alegrete",
+      "lat": -29.8600,
+      "lng": -55.6400,
+      "nota": {
+        "pt": "Azeite agroecológico premiado: medalhas de prata e bronze no Brazil IOOC 2023, nas versões Koroneiki e Blend.",
+        "es": "Aceite agroecológico premiado: medallas de plata y bronce en el Brazil IOOC 2023, en las versiones Koroneiki y Blend.",
+        "en": "Award-winning agroecological olive oil: silver and bronze medals at the 2023 Brazil IOOC, in its Koroneiki and Blend versions."
+      }
+    },
+    {
+      "id": "azeite-fonseca",
+      "home": true,
+      "nome": "Azeite Fonseca",
+      "produtor": "Joelber Fonseca e família",
+      "local": "Alegrete",
+      "lat": -29.7700,
+      "lng": -55.7600,
+      "nota": {
+        "pt": "Azeite extravirgem da variedade Koroneiki, de produção familiar em Alegrete.",
+        "es": "Aceite extra virgen de la variedad Koroneiki, de producción familiar en Alegrete.",
+        "en": "Extra virgin olive oil of the Koroneiki variety, family-produced in Alegrete."
+      }
+    },
+    {
+      "id": "azeite-monte-santo",
+      "home": true,
+      "nome": "Azeite Monte Santo",
+      "produtor": "Márcio Vaucher e família",
+      "local": "Alegrete",
+      "lat": -29.7000,
+      "lng": -55.8200,
+      "nota": {
+        "pt": "Azeite extravirgem de produção familiar nos campos de Alegrete.",
+        "es": "Aceite extra virgen de producción familiar en los campos de Alegrete.",
+        "en": "Extra virgin olive oil, family-produced in the fields of Alegrete."
+      }
+    },
+    {
+      "id": "azeite-don-augusto",
+      "home": true,
+      "nome": "Azeite Don Augusto",
+      "produtor": "Edgar Sleifer e família",
+      "local": "Alegrete",
+      "lat": -29.7400,
+      "lng": -55.9000,
+      "nota": {
+        "pt": "Azeite extravirgem de Alegrete, entre os pioneiros da olivicultura no município.",
+        "es": "Aceite extra virgen de Alegrete, entre los pioneros de la olivicultura en el municipio.",
+        "en": "Extra virgin olive oil from Alegrete, among the pioneers of olive growing in the municipality."
+      }
+    },
+    {
+      "id": "serra-do-cavera",
+      "home": false,
+      "nome": "Serra do Caverá",
+      "produtor": "Luis Henrique Mota",
+      "local": "Rosário do Sul",
+      "lat": -30.2000,
+      "lng": -55.0500,
+      "nota": {
+        "pt": "Olivais na Serra do Caverá, em Rosário do Sul, município vizinho de Alegrete, com 15 hectares de oliveiras.",
+        "es": "Olivares en la Serra do Caverá, en Rosário do Sul, municipio vecino de Alegrete, con 15 hectáreas de olivos.",
+        "en": "Olive groves in the Serra do Caverá, in Rosário do Sul, a town neighboring Alegrete, with 15 hectares of olive trees."
+      }
+    },
+    {
+      "id": "olivas-do-pampa",
+      "home": false,
+      "nome": "Olivas do Pampa",
+      "produtor": "Lagar · Sant'Ana do Livramento",
+      "local": "Sant'Ana do Livramento",
+      "lat": -30.8950,
+      "lng": -55.5300,
+      "nota": {
+        "pt": "Lagar que prensa o azeite de produtores da Fronteira Oeste, em Sant'Ana do Livramento.",
+        "es": "Lagar que prensa el aceite de productores de la Frontera Oeste, en Sant'Ana do Livramento.",
+        "en": "Mill that presses olive oil for producers across the Fronteira Oeste, in Sant'Ana do Livramento."
+      }
+    }
+  ],
+  "materias": [
+    {
+      "titulo": "Azeite do Rincão de São Miguel recebe reconhecimento internacional",
+      "fonte": "AlegreteTudo · 2023",
+      "premio": "Prata + Bronze",
+      "url": "https://www.alegretetudo.com.br/azeite-de-oliva-produzido-no-rincao-de-sao-miguel-recebe-reconhecimento-internacional/",
+      "resumo": {
+        "pt": "O Doña Felícia, produzido em Alegrete, conquistou medalhas de prata e bronze no Brazil IOOC, competição internacional que avaliou mais de 100 azeites de vários países.",
+        "es": "El Doña Felícia, producido en Alegrete, conquistó medallas de plata y bronce en el Brazil IOOC, competencia internacional que evaluó más de 100 aceites de varios países.",
+        "en": "Doña Felícia, produced in Alegrete, won silver and bronze medals at the Brazil IOOC, an international competition that judged over 100 olive oils from several countries."
+      }
+    },
+    {
+      "titulo": "1ª Mostra de Azeites em Alegrete",
+      "fonte": "Azeites e Olivais · abr. 2023",
+      "url": "https://www.azeiteseolivais.com.br/post/1-mostra-de-azeites-em-alegrete",
+      "resumo": {
+        "pt": "A primeira mostra de azeites do município reuniu cinco produtores locais e apresentou ao público os azeites extravirgens feitos em Alegrete.",
+        "es": "La primera muestra de aceites del municipio reunió a cinco productores locales y presentó al público los aceites extra virgen hechos en Alegrete.",
+        "en": "The town's first olive oil showcase brought together five local producers and introduced the extra virgin oils made in Alegrete to the public."
+      }
+    },
+    {
+      "titulo": "Conheça as Olivas da Querência",
+      "fonte": "Agrofloresta",
+      "url": "https://agroflorestamazonia.com/noticias-recentes/a-producao-de-olivas-e-do-azeite-de-oliva-cresceram-muito-no-rio-grande-do-sul-e-o-municipio-de-alegrete-esta-se-destacando-nessa-producao-vamos-conhecer-as-olivas-da-querencia-d/",
+      "resumo": {
+        "pt": "A produção de olivas e azeite cresce no Rio Grande do Sul, e Alegrete se destaca: a reportagem visita as Olivas da Querência e seu azeite extravirgem.",
+        "es": "La producción de olivas y aceite crece en Rio Grande do Sul, y Alegrete se destaca: el reportaje visita las Olivas da Querência y su aceite extra virgen.",
+        "en": "Olive and olive oil production is growing in Rio Grande do Sul, with Alegrete standing out: the report visits Olivas da Querência and its extra virgin oil."
+      }
+    },
+    {
+      "titulo": "Alegrete e Rosário já produzem azeite de oliva",
+      "fonte": "AlegreteTudo",
+      "url": "https://www.alegretetudo.com.br/alegrete-e-rosario-ja-produzem-azeite-de-oliva/",
+      "resumo": {
+        "pt": "A olivicultura ganha força na Fronteira Oeste: produtores de Alegrete e Rosário do Sul colhem azeitonas e lançam seus primeiros azeites de oliva.",
+        "es": "La olivicultura gana fuerza en la Frontera Oeste: productores de Alegrete y Rosário do Sul cosechan aceitunas y lanzan sus primeros aceites de oliva.",
+        "en": "Olive growing gains ground in the Fronteira Oeste: producers from Alegrete and Rosário do Sul harvest olives and launch their first olive oils."
+      }
+    }
+  ]
+}

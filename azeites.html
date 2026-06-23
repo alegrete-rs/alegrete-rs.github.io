@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azeites & Olivais · Alegrete | Um baita destino</title>
+  <meta name="description" content="Azeites de oliva extravirgem de Alegrete e da Fronteira Oeste: produtores, olivais, a 1ª Mostra de Azeites e o reconhecimento internacional do azeite alegretense." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/azeites.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_azeites">Azeites</span></div>
+      <h1 data-i18n="az_h">Azeites & olivais de Alegrete</h1>
+      <p class="lead" data-i18n="az_lead">Alegrete é uma das estrelas da olivicultura gaúcha. Conheça os azeites de oliva extravirgem feitos na fronteira do Pampa e o reconhecimento que já cruzou o oceano.</p>
+    </div>
+  </section>
+
+  <!-- Destaque: reconhecimento internacional -->
+  <section class="section">
+    <div class="wrap">
+      <div class="callout reveal" style="border-left:5px solid var(--terra);">
+        <span class="eyebrow" data-i18n="az_hl_pre">Reconhecimento internacional</span>
+        <h2 data-i18n="az_hl_h">Azeite de Alegrete premiado no mundo</h2>
+        <p data-i18n="az_hl_p">O azeite Doña Felícia, produzido no Rincão de São Miguel, em Alegrete, conquistou medalhas de prata e bronze no Brazil IOOC 2023, competição internacional que avaliou mais de 100 azeites de diversos países. Um marco para a olivicultura da Fronteira Oeste.</p>
+        <div class="tag-row" style="margin:10px 0 16px;">
+          <span class="chip gold"><i data-lucide="award"></i> <span data-i18n="az_hl_silver">Prata · Doña Felícia Koroneiki</span></span>
+          <span class="chip"><i data-lucide="award"></i> <span data-i18n="az_hl_bronze">Bronze · Doña Felícia Blend</span></span>
+        </div>
+        <a class="btn btn-primary" href="https://www.alegretetudo.com.br/azeite-de-oliva-produzido-no-rincao-de-sao-miguel-recebe-reconhecimento-internacional/" target="_blank" rel="noopener"><i data-lucide="newspaper"></i> <span data-i18n="az_hl_cta">Ler a matéria completa</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Olivicultura em Alegrete -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="az_about_pre">Olivicultura no Pampa</span>
+        <h2 data-i18n="az_about_h">O azeite nasce na fronteira</h2>
+        <p data-i18n="az_about_p1">A olivicultura chegou a Alegrete por volta de 2014 e hoje o município é uma das referências da produção de azeite no Rio Grande do Sul. São pequenos produtores familiares que cultivam oliveiras nos campos da fronteira e prensam azeites extravirgens de excelente qualidade.</p>
+        <p data-i18n="az_about_p2">O clima de dias quentes e noites frescas, o sol abundante e os solos bem drenados da Campanha favorecem azeitonas saudáveis e azeites aromáticos e equilibrados. Variedades como a Koroneiki, além de blends autorais, ganham caráter próprio no terroir alegretense.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico"><i data-lucide="sprout"></i></span><div><h4 data-i18n="az_stat1_h">Desde 2014</h4><p data-i18n="az_stat1_p">As primeiras oliveiras foram plantadas em Alegrete há cerca de uma década.</p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="users"></i></span><div><h4 data-i18n="az_stat2_h">Produtores familiares</h4><p data-i18n="az_stat2_p">Pequenas propriedades produzindo azeite extravirgem de alta qualidade.</p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico"><i data-lucide="globe-2"></i></span><div><h4 data-i18n="az_stat3_h">Substituindo importação</h4><p data-i18n="az_stat3_p">Cerca de 70% do azeite consumido no Brasil é importado: a produção local é uma alternativa promissora.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtores & olivais -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="az_prod_pre">Quem produz</span>
+        <h2 data-i18n="az_prod_h">Produtores & olivais</h2>
+        <p data-i18n="az_prod_p">Os azeites de Alegrete e da Fronteira Oeste, com os produtores da terra e os olivais vizinhos da região.</p>
+      </div>
+      <div class="grid grid-3" id="azProdList"></div>
+    </div>
+  </section>
+
+  <!-- Reconhecimento & na mídia -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="az_media_pre">Reconhecimento & na mídia</span>
+        <h2 data-i18n="az_media_h">O azeite de Alegrete na imprensa</h2>
+        <p data-i18n="az_media_p">Reportagens e prêmios que mostram a força crescente do azeite alegretense, da primeira mostra ao reconhecimento internacional.</p>
+      </div>
+      <div class="grid grid-3" id="azMateriasList"></div>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="az_map_pre">No mapa</span>
+        <h2 data-i18n="az_map_h">Olivais no mapa da fronteira</h2>
+        <p data-i18n="az_map_note">Localizações aproximadas por município e localidade, para dar uma ideia de onde estão os olivais. Confirme endereços e a venda diretamente com cada produtor.</p>
+      </div>
+      <div class="map-shell reveal"><div id="azMap" class="leaflet-map" style="height:480px"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+</body>
+</html>

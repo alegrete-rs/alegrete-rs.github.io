@@ -1,0 +1,133 @@
+[
+  {
+    "id": "vinhas-do-alegrete",
+    "home": true,
+    "nome": "Vinhas do Alegrete",
+    "cidade": "Alegrete",
+    "lat": -29.8312,
+    "lng": -56.0190,
+    "nota": {
+      "pt": "Nova vinícola da fronteira: 4,6 ha de vinhedo com Chardonnay, Cabernet Sauvignon, Merlot e Tannat.",
+      "es": "Nueva bodega de la frontera: 4,6 ha de viñedo con Chardonnay, Cabernet Sauvignon, Merlot y Tannat.",
+      "en": "A new frontier winery: 4.6 ha of vineyard with Chardonnay, Cabernet Sauvignon, Merlot and Tannat."
+    },
+    "link": { "url": "https://www.instagram.com/vinhasdoalegrete/", "type": "instagram" }
+  },
+  {
+    "id": "guatambu",
+    "nome": "Guatambu Estância do Vinho",
+    "cidade": "Sant'Ana do Livramento",
+    "lat": -30.7850,
+    "lng": -55.4200,
+    "nota": {
+      "pt": "Estância do vinho com enoturismo, vinhos e azeites no coração da Campanha.",
+      "es": "Estancia del vino con enoturismo, vinos y aceites en el corazón de la Campaña.",
+      "en": "Wine estate with wine tourism, wines and olive oils in the heart of the Campanha."
+    },
+    "link": { "url": "https://guatambuvinhos.com.br", "type": "site" }
+  },
+  {
+    "id": "almaden-miolo",
+    "nome": "Almadén · Miolo",
+    "cidade": "Sant'Ana do Livramento",
+    "lat": -30.9550,
+    "lng": -55.3000,
+    "nota": {
+      "pt": "Um dos maiores vinhedos contínuos da América Latina, do grupo Miolo.",
+      "es": "Uno de los mayores viñedos continuos de América Latina, del grupo Miolo.",
+      "en": "One of the largest single vineyards in Latin America, from the Miolo group."
+    },
+    "link": { "url": "https://www.miolo.com.br", "type": "site" }
+  },
+  {
+    "id": "cordilheira-de-santana",
+    "nome": "Cordilheira de Santana",
+    "cidade": "Sant'Ana do Livramento",
+    "lat": -30.8200,
+    "lng": -55.4800,
+    "nota": {
+      "pt": "Vinhedos de altitude e vinhos premiados na fronteira com o Uruguai.",
+      "es": "Viñedos de altitud y vinos premiados en la frontera con Uruguay.",
+      "en": "Altitude vineyards and award-winning wines on the Uruguay border."
+    },
+    "link": { "url": "https://cordilheiradesantana.com.br", "type": "site" }
+  },
+  {
+    "id": "bueno-wines",
+    "nome": "Bueno Wines",
+    "cidade": "Sant'Ana do Livramento",
+    "lat": -30.8950,
+    "lng": -55.5600,
+    "nota": {
+      "pt": "Espumantes e vinhos do projeto de Galvão Bueno na Campanha Gaúcha.",
+      "es": "Espumantes y vinos del proyecto de Galvão Bueno en la Campaña Gaúcha.",
+      "en": "Sparkling and still wines from Galvão Bueno's project in the Campanha Gaúcha."
+    },
+    "link": { "url": "https://buenowines.com.br", "type": "site" }
+  },
+  {
+    "id": "dunamis",
+    "nome": "Dunamis Vinhos",
+    "cidade": "Sant'Ana do Livramento",
+    "lat": -30.9700,
+    "lng": -55.5100,
+    "nota": {
+      "pt": "Vinhos autorais de terroir na região de Palomas.",
+      "es": "Vinos de autor de terroir en la región de Palomas.",
+      "en": "Signature terroir wines in the Palomas area."
+    },
+    "link": { "url": "https://dunamisvinhos.com.br", "type": "site" }
+  },
+  {
+    "id": "batalha",
+    "nome": "Vinhos Batalha",
+    "cidade": "Dom Pedrito",
+    "lat": -31.0050,
+    "lng": -54.7050,
+    "nota": {
+      "pt": "Vinhos de família e enoturismo nos campos de Dom Pedrito.",
+      "es": "Vinos de familia y enoturismo en los campos de Dom Pedrito.",
+      "en": "Family wines and wine tourism in the fields of Dom Pedrito."
+    },
+    "link": { "url": "https://vinhosbatalha.com.br", "type": "site" }
+  },
+  {
+    "id": "bodega-sossego",
+    "nome": "Bodega Sossego",
+    "cidade": "Dom Pedrito",
+    "lat": -30.9450,
+    "lng": -54.6200,
+    "nota": {
+      "pt": "Vinhos artesanais e visitação no campo de Dom Pedrito.",
+      "es": "Vinos artesanales y visitas en el campo de Dom Pedrito.",
+      "en": "Craft wines and farm visits in Dom Pedrito."
+    },
+    "link": { "url": "https://bodegasossego.com.br", "type": "site" }
+  },
+  {
+    "id": "peruzzo",
+    "nome": "Vinícola Peruzzo",
+    "cidade": "Bagé",
+    "lat": -31.3050,
+    "lng": -54.0600,
+    "nota": {
+      "pt": "Tradição familiar em vinhos e espumantes de Bagé.",
+      "es": "Tradición familiar en vinos y espumantes de Bagé.",
+      "en": "Family tradition in wines and sparkling wines from Bagé."
+    },
+    "link": { "url": "https://vinicolaperuzzo.com.br", "type": "site" }
+  },
+  {
+    "id": "estancia-paraizo",
+    "nome": "Estância Paraízo",
+    "cidade": "Bagé",
+    "lat": -31.4000,
+    "lng": -54.1300,
+    "nota": {
+      "pt": "Vinhedos e enoturismo nos campos de Bagé.",
+      "es": "Viñedos y enoturismo en los campos de Bagé.",
+      "en": "Vineyards and wine tourism in the fields of Bagé."
+    },
+    "link": { "url": "https://estanciaparaizo.com", "type": "site" }
+  }
+]

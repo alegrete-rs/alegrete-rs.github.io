@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinhos & Vinícolas · Alegrete e Campanha Gaúcha | Um baita destino</title>
+  <meta name="description" content="Vinhos e vinícolas de Alegrete e da Campanha Gaúcha, na Fronteira Oeste do Pampa: a Vinhas do Alegrete e as vinícolas de Sant'Ana do Livramento, Dom Pedrito e Bagé, com mapa do enoturismo." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/vinicolas.js" defer></script>
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html" data-i18n="nav_home">Início</a> · <span data-i18n="nav_vinicolas">Vinhos</span></div>
+      <h1 data-i18n="vin_h">Vinhos & vinícolas da Campanha</h1>
+      <p class="lead" data-i18n="vin_lead">Alegrete e a Fronteira Oeste fazem parte da Campanha Gaúcha, a segunda maior região vitivinícola do Brasil. Conheça a Vinhas do Alegrete e as vinícolas do Pampa.</p>
+    </div>
+  </section>
+
+  <!-- Destaque: Vinhas do Alegrete -->
+  <section class="section">
+    <div class="wrap split" style="align-items:center;">
+      <div class="reveal">
+        <a class="divulg-poster" href="assets/divulgacoes/vinhas-do-alegrete.jpg" target="_blank" rel="noopener" aria-label="Folder da Vinhas do Alegrete">
+          <img src="assets/divulgacoes/vinhas-do-alegrete.jpg" alt="Folder da Vinhas do Alegrete, com o logotipo de um cervo, fotos do vinhedo e o endereço na BR-290 km 562, em Alegrete/RS" loading="lazy" style="width:100%;border-radius:18px;display:block;" />
+        </a>
+      </div>
+      <div class="reveal" data-delay="120">
+        <span class="eyebrow" data-i18n="vin_hl_pre">Aqui em Alegrete</span>
+        <h2 data-i18n="vin_hl_h">Vinhas do Alegrete</h2>
+        <p class="lead" data-i18n="vin_hl_sub">Estamos começando um sonho: uma vinícola no Alegrete.</p>
+        <p data-i18n="vin_hl_p1">A Vinhas do Alegrete está plantando um sonho na fronteira do Pampa: uma vinícola na zona rural de Alegrete. A região, entre os paralelos 30 e 40 sul, tem terra boa e ampla amplitude térmica, condições próprias para bons vinhedos e vinhos.</p>
+        <p data-i18n="vin_hl_p2">O projeto começou com 4,6 hectares de vinhedo e cerca de 20 mil mudas das variedades Chardonnay, Cabernet Sauvignon, Merlot e Tannat, com irrigação por gotejamento e sistema anti-geadas. Em breve teremos grandes vinhos e espumantes alegretenses para celebrar a vida e seus bons momentos.</p>
+        <p class="row" style="color:var(--terra)"><i data-lucide="map-pin"></i> <span data-i18n="vin_hl_local">BR-290, km 562 · Sanga Grande, Corredor da Trama (Durasnal) · Zona rural de Alegrete/RS</span></p>
+        <a class="btn btn-primary" href="https://www.instagram.com/vinhasdoalegrete/" target="_blank" rel="noopener" style="margin-top:8px;"><i data-lucide="instagram"></i> <span data-i18n="vin_hl_cta">Siga no Instagram</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- A Campanha Gaúcha -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="vin_reg_pre">Região vitivinícola</span>
+        <h2 data-i18n="vin_reg_h">A Campanha Gaúcha</h2>
+        <p data-i18n="vin_reg_p1">A Campanha Gaúcha é a região de vinhos da metade sul do Rio Grande do Sul e a segunda maior produtora de vinhos finos do Brasil, atrás apenas da Serra Gaúcha. Tem Indicação de Procedência própria e reúne municípios como Alegrete, Sant'Ana do Livramento, Dom Pedrito, Bagé e Candiota.</p>
+        <p data-i18n="vin_reg_p2">O clima da fronteira, com dias quentes, noites frescas, sol abundante e solos bem drenados, favorece uvas maduras e equilibradas. Daqui saem tintos encorpados, brancos elegantes e espumantes premiados, de variedades como Tannat, Cabernet Sauvignon, Merlot e Chardonnay.</p>
+        <p data-i18n="vin_reg_p3">O enoturismo da Campanha cresce a cada ano, com roteiros como a Ferradura dos Vinhedos e a Rota dos Vinhos da Campanha, que aproximam visitantes dos vinhedos, das degustações e da hospitalidade do Pampa.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="feature reveal"><span class="ico"><i data-lucide="award"></i></span><div><h4 data-i18n="vin_stat1_h">Indicação de Procedência</h4><p data-i18n="vin_stat1_p">Campanha Gaúcha é uma região com identidade e origem reconhecidas.</p></div></div>
+        <div class="feature reveal" data-delay="80"><span class="ico"><i data-lucide="trophy"></i></span><div><h4 data-i18n="vin_stat2_h">2ª maior do Brasil</h4><p data-i18n="vin_stat2_p">Segunda maior região produtora de vinhos finos do país.</p></div></div>
+        <div class="feature reveal" data-delay="160"><span class="ico"><i data-lucide="grape"></i></span><div><h4 data-i18n="vin_stat3_h">Terroir da fronteira</h4><p data-i18n="vin_stat3_p">Sol, amplitude térmica e solos próprios para Tannat, Cabernet e Chardonnay.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vinícolas da região -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="vin_cards_pre">Pelo Pampa</span>
+        <h2 data-i18n="vin_cards_h">Vinícolas da região</h2>
+        <p data-i18n="vin_cards_p">Algumas das vinícolas da Campanha Gaúcha, na Fronteira Oeste e arredores. Visite os canais oficiais de cada uma para conhecer vinhos, visitas e degustações.</p>
+      </div>
+      <div class="grid grid-3" id="vinList"></div>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="section section--paper2">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="vin_map_pre">No mapa</span>
+        <h2 data-i18n="vin_map_h">Vinícolas no mapa do Pampa</h2>
+        <p data-i18n="vin_map_note">Localizações aproximadas por município, para dar uma ideia da distribuição das vinícolas pela Campanha. Confirme endereços e horários diretamente com cada vinícola.</p>
+      </div>
+      <div class="map-shell reveal"><div id="vinMap" class="leaflet-map" style="height:480px"></div></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+</body>
+</html>

@@ -117,6 +117,63 @@
     }
   },
   {
+    "slug": "vinhas-do-alegrete",
+    "destaque": true,
+    "tipo": { "pt": "Vinícola", "es": "Bodega", "en": "Winery" },
+    "programa": {
+      "pt": "Iniciativa · Nova vinícola na fronteira do Pampa",
+      "es": "Iniciativa · Nueva bodega en la frontera del Pampa",
+      "en": "Initiative · A new winery on the Pampa frontier"
+    },
+    "titulo": "Vinhas do Alegrete",
+    "subtitulo": {
+      "pt": "Estamos começando um sonho: uma vinícola no Alegrete",
+      "es": "Estamos comenzando un sueño: una bodega en Alegrete",
+      "en": "We are beginning a dream: a winery in Alegrete"
+    },
+    "imagem": "assets/divulgacoes/vinhas-do-alegrete.jpg",
+    "imagemAlt": {
+      "pt": "Folder da Vinhas do Alegrete, com o logotipo de um cervo, fotos do vinhedo e do trator e o endereço BR-290 km 562, Sanga Grande, Corredor da Trama (Durasnal), em Alegrete/RS",
+      "es": "Folleto de Vinhas do Alegrete, con el logotipo de un ciervo, fotos del viñedo y del tractor y la dirección BR-290 km 562, Sanga Grande, Corredor da Trama (Durasnal), en Alegrete/RS",
+      "en": "Vinhas do Alegrete brochure, featuring a deer logo, photos of the vineyard and tractor, and the address BR-290 km 562, Sanga Grande, Corredor da Trama (Durasnal), in Alegrete/RS"
+    },
+    "local": {
+      "pt": "BR-290, km 562 · Sanga Grande, Corredor da Trama (Durasnal) · Zona rural de Alegrete/RS",
+      "es": "BR-290, km 562 · Sanga Grande, Corredor da Trama (Durasnal) · Zona rural de Alegrete/RS",
+      "en": "BR-290, km 562 · Sanga Grande, Corredor da Trama (Durasnal) · Rural Alegrete/RS"
+    },
+    "corpo": {
+      "pt": [
+        "A Vinhas do Alegrete está plantando um sonho na fronteira do Pampa: uma vinícola na zona rural de Alegrete. A região, entre os paralelos 30 e 40 sul, tem terra boa e ampla amplitude térmica, condições próprias para bons vinhedos e vinhos.",
+        "O projeto começou com 4,6 hectares de vinhedo e cerca de 20 mil mudas das variedades Chardonnay, Cabernet Sauvignon, Merlot e Tannat. Um moderno sistema de irrigação por gotejamento garante a hidratação e a fertilização na medida certa, e um sistema anti-geadas protege as videiras dos extremos do clima. O cuidado diário é feito por mão de obra especializada, promovendo trabalho, renda e desenvolvimento social no campo.",
+        "Depois da implantação do vinhedo vem a construção do complexo agrícola, com a cave e o espaço de fabricação e comercialização dos vinhos. Em breve teremos grandes vinhos e espumantes alegretenses para celebrar a vida e seus bons momentos. Acompanhe a evolução do vinhedo pelo Instagram."
+      ],
+      "es": [
+        "Vinhas do Alegrete está plantando un sueño en la frontera del Pampa: una bodega en la zona rural de Alegrete. La región, entre los paralelos 30 y 40 sur, tiene buena tierra y amplia amplitud térmica, condiciones propias para buenos viñedos y vinos.",
+        "El proyecto comenzó con 4,6 hectáreas de viñedo y cerca de 20 mil plantas de las variedades Chardonnay, Cabernet Sauvignon, Merlot y Tannat. Un moderno sistema de riego por goteo garantiza la hidratación y la fertilización en la medida justa, y un sistema antiheladas protege las vides de los extremos del clima. El cuidado diario lo realiza mano de obra especializada, promoviendo trabajo, ingresos y desarrollo social en el campo.",
+        "Tras la implantación del viñedo viene la construcción del complejo agrícola, con la cava y el espacio de elaboración y comercialización de los vinos. Pronto tendremos grandes vinos y espumantes alegretenses para celebrar la vida y sus buenos momentos. Sigue la evolución del viñedo por Instagram."
+      ],
+      "en": [
+        "Vinhas do Alegrete is planting a dream on the Pampa frontier: a winery in rural Alegrete. The region, between the 30th and 40th parallels south, has good soil and a wide temperature range, the right conditions for fine vineyards and wines.",
+        "The project began with 4.6 hectares of vineyard and around 20,000 vines of the Chardonnay, Cabernet Sauvignon, Merlot and Tannat varieties. A modern drip irrigation system delivers just the right amount of water and fertilizer, and an anti-frost system protects the vines from weather extremes. Daily care is carried out by skilled workers, fostering jobs, income and social development in the countryside.",
+        "Once the vineyard is established, the agricultural complex will follow, with the cellar and the space for producing and selling the wines. Soon there will be great Alegrete wines and sparkling wines to celebrate life and its good moments. Follow the vineyard's progress on Instagram."
+      ]
+    },
+    "link": {
+      "url": "https://www.instagram.com/vinhasdoalegrete/",
+      "label": {
+        "pt": "Siga no Instagram",
+        "es": "Síguenos en Instagram",
+        "en": "Follow on Instagram"
+      }
+    },
+    "tags": {
+      "pt": ["Vinícola", "Vinhedo", "Vinhos e espumantes", "Bioma Pampa", "Turismo rural"],
+      "es": ["Bodega", "Viñedo", "Vinos y espumantes", "Bioma Pampa", "Turismo rural"],
+      "en": ["Winery", "Vineyard", "Wines & sparkling", "Pampa Biome", "Rural tourism"]
+    }
+  },
+  {
     "slug": "reuniao-ovinos-alegrete",
     "destaque": true,
     "tipo": { "pt": "Reunião", "es": "Reunión", "en": "Meeting" },

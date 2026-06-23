@@ -1,5 +1,74 @@
 [
   {
+    "slug": "reuniao-ovinos-alegrete",
+    "destaque": true,
+    "tipo": { "pt": "Reunião", "es": "Reunión", "en": "Meeting" },
+    "programa": {
+      "pt": "Ovinos do Alegrete · Sindicato Rural de Alegrete",
+      "es": "Ovinos do Alegrete · Sindicato Rural de Alegrete",
+      "en": "Ovinos do Alegrete · Alegrete Rural Union"
+    },
+    "titulo": "Reunião do Ovinos do Alegrete",
+    "subtitulo": {
+      "pt": "Juntos pelo fortalecimento da ovinocultura em Alegrete",
+      "es": "Juntos por el fortalecimiento de la ovinocultura en Alegrete",
+      "en": "Together to strengthen sheep farming in Alegrete"
+    },
+    "imagem": "assets/divulgacoes/reuniao-ovinos-alegrete.jpg",
+    "imagemAlt": {
+      "pt": "Cartaz da Reunião do Ovinos do Alegrete, dia 23/06 às 18h, no stand do Sindicato Rural de Alegrete no Parque de Exposições Dr. Lauro Dornelles, com o logotipo Ovinos do Alegrete sobre um campo com ovelhas",
+      "es": "Cartel de la Reunión de Ovinos do Alegrete, el 23/06 a las 18h, en el stand del Sindicato Rural de Alegrete en el Parque de Exposiciones Dr. Lauro Dornelles, con el logotipo Ovinos do Alegrete sobre un campo con ovejas",
+      "en": "Poster for the Ovinos do Alegrete meeting, on June 23 at 6 PM, at the Alegrete Rural Union stand in the Dr. Lauro Dornelles Exhibition Park, featuring the Ovinos do Alegrete logo over a field with sheep"
+    },
+    "dataISO": "2026-06-23",
+    "quando": {
+      "pt": "23 de junho de 2026 · terça-feira",
+      "es": "23 de junio de 2026 · martes",
+      "en": "June 23, 2026 · Tuesday"
+    },
+    "horario": {
+      "pt": "18h",
+      "es": "18h",
+      "en": "6 PM"
+    },
+    "local": {
+      "pt": "Stand do Sindicato Rural de Alegrete · Parque de Exposições Dr. Lauro Dornelles",
+      "es": "Stand del Sindicato Rural de Alegrete · Parque de Exposiciones Dr. Lauro Dornelles",
+      "en": "Alegrete Rural Union stand · Dr. Lauro Dornelles Exhibition Park"
+    },
+    "corpo": {
+      "pt": [
+        "Estão todos convidados! A sua participação é muito importante para o fortalecimento da ovinocultura em Alegrete. Esperamos por você. Confira abaixo a pauta da reunião de terça-feira, 23/06:",
+        "a) Levantamento do número de cordeiros (magros e gordos) para comercialização na primavera (outubro a dezembro);",
+        "b) Relato sobre a venda coletiva e a possibilidade de comercializações futuras, com Juliana e Roberto;",
+        "c) Apresentação de preços (frigoríficos e invernadores);",
+        "d) Apresentação e depoimentos sobre a participação nos eventos de Santa Margarida e Uruguaiana;",
+        "e) Calendário de reuniões de 2026."
+      ],
+      "es": [
+        "¡Están todos invitados! Tu participación es muy importante para el fortalecimiento de la ovinocultura en Alegrete. Te esperamos. Mira a continuación el orden del día de la reunión del martes, 23/06:",
+        "a) Relevamiento del número de corderos (magros y gordos) para la comercialización en primavera (octubre a diciembre);",
+        "b) Informe sobre la venta colectiva y la posibilidad de comercializaciones futuras, con Juliana y Roberto;",
+        "c) Presentación de precios (frigoríficos e invernadores);",
+        "d) Presentación y testimonios sobre la participación en los eventos de Santa Margarida y Uruguaiana;",
+        "e) Calendario de reuniones de 2026."
+      ],
+      "en": [
+        "Everyone is invited! Your participation is very important to strengthen sheep farming in Alegrete. We hope to see you there. Check out the agenda for Tuesday's meeting, June 23:",
+        "a) Survey of the number of lambs (lean and fat) for sale in the spring (October to December);",
+        "b) Report on the collective sale and the possibility of future sales, with Juliana and Roberto;",
+        "c) Presentation of prices (slaughterhouses and finishers);",
+        "d) Presentation and testimonials about participation in the Santa Margarida and Uruguaiana events;",
+        "e) 2026 meeting calendar."
+      ]
+    },
+    "tags": {
+      "pt": ["Ovinocultura", "Cordeiros", "Comercialização", "Sindicato Rural", "Pecuária"],
+      "es": ["Ovinocultura", "Corderos", "Comercialización", "Sindicato Rural", "Ganadería"],
+      "en": ["Sheep farming", "Lambs", "Marketing", "Rural Union", "Livestock"]
+    }
+  },
+  {
     "slug": "oficina-sabores-saberes-pampa",
     "destaque": true,
     "tipo": { "pt": "Oficina", "es": "Taller", "en": "Workshop" },
